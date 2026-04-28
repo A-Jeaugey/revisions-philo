@@ -3,19 +3,22 @@
 // =========================================================
 
 App.routes.home = function() {
-  const seqCards = window.SEQUENCES.map(s => `
+  const seqCards = window.SEQUENCES.map(s => {
+    const t = App.timeTracker.format(App.timeTracker.total(s.id));
+    return `
     <a href="#/sequence/${s.id}" class="seq-card" style="--card-tint:${s.tint}">
       <div class="seq-num">${s.number}</div>
       <h3>${s.title}</h3>
       <div class="seq-tags">
         ${s.notions.slice(0,4).map(n => `<span class="seq-tag">${n.toLowerCase()}</span>`).join('')}
       </div>
+      ${t ? `<div class="seq-time">⏱ ${t} étudiées</div>` : ''}
       <div class="seq-foot">
-        <span>${s.inProgress ? '⏳ en cours' : 'Étudier'}</span>
+        <span>${s.inProgress ? '⏳ en cours' : (t ? 'Reprendre' : 'Étudier')}</span>
         <span class="arrow">→</span>
       </div>
-    </a>
-  `).join('');
+    </a>`;
+  }).join('');
 
   const stats = [
     { num: '6', lbl: 'séquences' },
@@ -115,7 +118,7 @@ App.routes.home = function() {
 
 App.routes.sequences = function() {
   const cards = window.SEQUENCES.map(s => {
-    const planList = s.plan.map(p => `<li>${p.t}</li>`).join('');
+    const t = App.timeTracker.format(App.timeTracker.total(s.id));
     return `
     <a href="#/sequence/${s.id}" class="seq-card" style="--card-tint:${s.tint}">
       <div class="seq-num">${s.number}</div>
@@ -126,8 +129,9 @@ App.routes.sequences = function() {
       <div style="margin-top:14px;font-size:13px;color:var(--text-dim);line-height:1.5;">
         ${s.plan.length} parties · ${s.plan.reduce((a,p)=>a+(p.sub?p.sub.length:0),0)} sous-parties
       </div>
+      ${t ? `<div class="seq-time">⏱ ${t} étudiées</div>` : ''}
       <div class="seq-foot">
-        <span>${s.inProgress ? '⏳ en cours' : 'Lire'}</span>
+        <span>${s.inProgress ? '⏳ en cours' : (t ? 'Reprendre' : 'Lire')}</span>
         <span class="arrow">→</span>
       </div>
     </a>`;

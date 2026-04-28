@@ -7,6 +7,9 @@ App.routes.sequence = function(parts) {
   const s = window.SEQUENCES.find(x => x.id === id);
   if (!s) return App.routes.sequences();
 
+  // Démarre le compteur de temps pour cette séquence
+  App.timeTracker.start(s.id);
+
   const prev = window.SEQUENCES.find(x => x.id === s.id - 1);
   const next = window.SEQUENCES.find(x => x.id === s.id + 1);
 
@@ -107,6 +110,7 @@ App.routes.sequence = function(parts) {
           <div class="ac-title">Ta progression</div>
           <div style="font-size:13px;color:var(--text-dim);">Lecture de la fiche</div>
           <div class="progress-bar"><i id="ar-progress" style="width:0%"></i></div>
+          <div class="ac-time" id="ar-time" style="margin-top:14px;font-family:var(--font-mono);font-size:12px;letter-spacing:0.06em;color:var(--text-dim);"></div>
         </div>
 
         <div class="aside-card">
@@ -174,6 +178,22 @@ App.routes.sequence = function(parts) {
     };
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
+
+    // Affiche le temps cumulé sur cette séquence et le rafraîchit
+    const arTime = document.getElementById('ar-time');
+    const refreshTime = () => {
+      if (!arTime) return;
+      // total persisté + temps de la session courante
+      let total = App.timeTracker.total(s.id);
+      if (App.timeTracker.active && App.timeTracker.active.id === s.id && App.timeTracker._resume) {
+        total += Date.now() - App.timeTracker._resume;
+      }
+      const fmt = App.timeTracker.format(total);
+      arTime.textContent = fmt ? '⏱ Temps passé · ' + fmt : '⏱ Temps passé · démarrage…';
+    };
+    refreshTime();
+    if (App._timeRefresh) clearInterval(App._timeRefresh);
+    App._timeRefresh = setInterval(refreshTime, 30 * 1000);
 
     // Iceberg interactivity (séquence 1) — toggle inline tooltip
     const iceberg = document.getElementById('iceberg-widget');

@@ -20,10 +20,18 @@ window.App = {
     }, 300);
   },
 
+  _lastHash: null,
   render(html) {
     const app = document.getElementById('app');
     app.innerHTML = html;
-    window.scrollTo({ top: 0 });
+    // Ne remonter en haut que si on change réellement de page.
+    // Sinon (re-render interne d'une même vue : flashcard suivante,
+    // question de quiz, etc.), on garde la position de scroll.
+    const cur = window.location.hash || '#/';
+    if (this._lastHash !== cur) {
+      window.scrollTo({ top: 0 });
+      this._lastHash = cur;
+    }
   },
 
   // -------- DATA INDEX --------

@@ -62,7 +62,7 @@ App.routes.sequence = function(parts) {
           <ol>${planHtml}</ol>
         </div>
 
-        <div id="md-content">${s.content}</div>
+        ${s.content}
 
         <div class="seq-nav">
           ${prev ? `
@@ -107,11 +107,8 @@ App.routes.sequence = function(parts) {
     </div>
   `);
 
-  const finalize = () => {
-    // Sequence 1: replace the iceberg schema placeholder with the live widget,
-    // before the rest of finalize wires up the tag tooltips.
-    if (s.id === 1) injectIcebergWidget();
-
+  // Generate TOC from headings
+  setTimeout(() => {
     const content = document.getElementById('read-content');
     const headings = content.querySelectorAll('h2, h3, h4');
     const toc = document.getElementById('toc-list');
@@ -176,39 +173,5 @@ App.routes.sequence = function(parts) {
         tags.forEach(x => x.classList.remove('open'));
       });
     }
-  };
-
-  setTimeout(finalize, 50);
+  }, 50);
 };
-
-function injectIcebergWidget() {
-  const slot = document.getElementById('md-content');
-  if (!slot) return;
-  const figs = slot.querySelectorAll('.md-fig.md-schema');
-  for (const fig of figs) {
-    if (!fig.textContent.toLowerCase().includes('iceberg')) continue;
-    const wrap = document.createElement('div');
-    wrap.className = 'iceberg';
-    wrap.id = 'iceberg-widget';
-    wrap.innerHTML = `
-      <div class="water-line"></div>
-      <div class="water-label">SURFACE DE L'EAU</div>
-      <div class="ib-zone conscience">
-        <div class="lvl">Conscience</div>
-        <div class="desc">Ce dont je me rends compte ici et maintenant</div>
-      </div>
-      <div class="ib-zone preconscient">
-        <div class="lvl">Préconscient</div>
-        <div class="desc">Souvenirs, automatismes accessibles</div>
-      </div>
-      <div class="ib-zone inconscient">
-        <div class="lvl">Inconscient</div>
-        <div class="desc">Désirs refoulés, pulsions, traumatismes</div>
-      </div>
-      <div class="tag-right moi" data-tip="Partie consciente ou préconsciente de l'esprit">MOI</div>
-      <div class="tag-right surmoi" data-tip="Instance morale, refoulement">SURMOI</div>
-      <div class="tag-right ca" data-tip="Pôle pulsionnel : Éros + Thanatos">ÇA</div>`;
-    fig.replaceWith(wrap);
-    break;
-  }
-}

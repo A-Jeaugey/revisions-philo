@@ -6,44 +6,120 @@ window.SEQUENCE_6 = {
   title: "A-t-on le devoir d'être heureux ?",
   short: "De Calliclès à Spinoza : qu'est-ce qu'une vie réussie ?",
   perspectives: [],
-  notions: ["devoir","bonheur","liberté","raison","nature","temps"],
+  notions: ["Devoir","Bonheur","Liberté","Raison","Nature","Temps"],
   reperes: ["absolu / relatif"],
   work: null,
-  mdFile: "sequences/sequence_6_devoir_bonheur.md",
   tint: "#d4a85a",
   inProgress: true,
   plan: [
-    { t: "Une morale qui vise le bonheur est possible", sub: ["Le bonheur ne peut pas consister dans le hédonisme radical","Ainsi le bonheur est indissociable du bien moral"] }
+    { t: "Une morale qui vise le bonheur est possible", sub: ["Le bonheur ne consiste pas dans l'hédonisme radical (Calliclès)","Bonheur indissociable du bien moral","L'épicurisme : l'hédonisme modéré","Le stoïcisme : la vertu fait le bonheur"] }
   ],
   content: `
-<blockquote><p>⚠️ <strong>Fiche en cours</strong> — séquence non terminée en classe, transcription jusqu'au point d'arrêt actuel.</p></blockquote>
-<hr>
-<h2 id="intro-mettre-en-lumiere-les-problemes">Intro : mettre en lumière les problèmes</h2>
-<p><strong>Obligation / contrainte</strong></p>
-<table><thead><tr><th>Obligation</th><th>Contrainte</th></tr></thead><tbody><tr><td>↓ exigence / norme de conduite qu'on s'impose à nous-même librement.</td><td>↳ S'impose à nous de l'extérieur, contre notre volonté</td></tr><tr><td>↳ elle relève de la morale, càd du devoir.</td><td>↳ être contraint = être forcé</td></tr><tr><td></td><td>↳ une contrainte est respectée pour éviter des conséquences désagréables.</td></tr></tbody></table>
-<h3 id="problemes">Problèmes :</h3>
-<p><strong>1.</strong> Le devoir renvoie à l'idée d'obligation morale, il représente une exigence qu'on s'impose à nous-même <u>librement</u> grâce à notre conscience morale qui nous permet d'avoir une idée de la manière dont on devrait agir. Alors, n'est-il pas contradictoire de parler d'un devoir d'être heureux ? En effet, le devoir est par définition désintéressé et implique souvent un sacrifice de son intérêt immédiat ce qui, à long terme, semble mettre en danger notre bonheur (qui lui représente un état de satisfaction durable, d'absence de souffrance physique ou psychologique).</p>
-<p><strong>2. Bonheur :</strong> étymologie → bon + heur                                     → chance</p>
-<p>Comment parler d'un devoir d'être heureux si le bonheur semble être une affaire de chance ? Autrement dit, est-il possible de trouver une recette du bonheur ?</p>
-<hr>
-<h2 id="i-une-morale-qui-vise-le-bonheur-est-possible">I. Une morale qui vise le bonheur est possible</h2>
-<h3 id="1-le-bonheur-ne-peut-pas-consister-dans-le-hedonisme-radical">1. Le bonheur ne peut pas consister dans le hédonisme radical</h3>
-<h4 id="a-la-these-hedoniste">a) La thèse hédoniste</h4>
-<p>Cette thèse est soutenue par <strong>Calliclès</strong> (personnage dans le dialogue de Platon) et consiste à affirmer que le bonheur représente la satisfaction compulsive de tous nos désirs. (<em>hédonè</em> en grec = plaisir).</p>
-<p>Selon le hédonisme le devoir moral consiste à « vivre selon la nature », qui, chez Calliclès, représente le fait de chercher à éprouver des plaisirs à l'outrance (gourmandise, débauche, ivrognerie, etc.).</p>
-<p>Pour Calliclès, toutes nos valeurs morales (fidélité, modération, générosité, etc.) ne sont que des conventions contre-nature inventées par la masse de gens incapables de se procurer une vie de plaisirs. (Les valeurs morales sociétales sont le fruit de la jalousie).</p>
-<h4 id="b-problemes-du-hedonisme-radical">b) Problèmes du hédonisme radical</h4>
-<ul><li>Trop de plaisir engendre l'ennui, la lassitude. ↳ Pour profiter d'un plaisir, il faut une certaine modération.</li><li>Le plaisir est éphémère et les désirs se renouvellent sans cesse. → manque sans cesse → frustration constante.</li></ul>
-<p>C'est pour cela que Socrate compare la vie immodérée vantée par Calliclès au sort des Danaïdes, personnages mythologiques condamnés par Zeus à remplir des tonneaux sans fond.</p>
-<h3 id="2-ainsi-le-bonheur-est-indissociable-du-bien-moral">2. Ainsi le bonheur est indissociable du bien moral</h3>
-<p>On peut surmonter les problèmes de l'hédonisme radical en faisant dépendre notre bonheur de la <strong>vertu</strong> (ensemble de dispositions volontaires et réfléchies comme le courage, la prudence, la modération, la justice, etc.). L'homme vertueux agit non pas selon ses inclinations corporelles (paresse, recherche du plaisir, fuite du déplaisir), mais selon la <strong>raison</strong>, dont l'usage fait l'essence de l'homme et l'élève au-dessus du reste du règne animal.</p>
-<h4 id="a-l-epicurisme-l-hedonisme-modere">a) L'épicurisme : l'hédonisme modéré</h4>
-<p>Le désir peut augmenter le bonheur à condition d'être maîtrisé par la raison, c'est pour cela qu'<strong>Épicure</strong> recommande de chercher à satisfaire seulement nos désirs naturels et nécessaires (manger quand on a faim, se reposer quand on est fatigué). Pour Épicure, le bonheur réside dans l'<strong>ataraxie</strong>, càd dans l'absence de souffrance physique et psychologique. Mais il convient de fuir les désirs irraisonnables qui sont bien difficiles à satisfaire (gloire, richesse, amour romantique, etc.) et qui nous apportent plus de souffrance que de sérénité. La vie heureuse est la vie tranquille, parsemée de petits plaisirs accessibles.</p>
-<p>Si le bien moral est l'ataraxie, force est de constater que la maîtrise du désir peut être insuffisante, car d'autres facteurs comme les aléas de la vie nous éloignent nécessairement de l'ataraxie.</p>
-<h4 id="b-le-stoicisme-la-vertu-fait-le-bonheur">b) Le stoïcisme : la vertu fait le bonheur</h4>
-<p>On peut résoudre ce problème en adoptant une morale stoïcienne qui consiste à agir plutôt sur soi-même que sur le monde afin d'atteindre un bonheur qui soit absolu, c'est-à-dire pas relatif aux circonstances extérieures à nous (<strong>absolu / relatif</strong>).</p>
-<p>Le bonheur est possible grâce à une connaissance rationnelle de nous-mêmes et du monde qui permet d'anticiper et éviter la souffrance, qui permet de changer nos désirs et nous détacher de ce qui n'est pas en notre pouvoir (la réussite professionnelle, l'amour romantique, une vie longue et saine). La seule chose qui est en notre pouvoir c'est notre façon de penser et d'agir.</p>
-<hr>
-<blockquote><p>⏸ <strong>Arrêt de la transcription ici</strong> — séquence à compléter.</p></blockquote>
+<div class="callout warn">
+  <div class="callout-title">Fiche en cours</div>
+  <p>Séquence non terminée en classe — transcription jusqu'au point d'arrêt actuel.</p>
+</div>
+
+<h2 id="intro">Introduction : mettre en lumière les problèmes</h2>
+
+<table>
+  <thead><tr><th>Obligation</th><th>Contrainte</th></tr></thead>
+  <tbody>
+    <tr><td>Exigence / norme de conduite qu'on s'impose à nous-mêmes <strong>librement</strong>.</td><td>S'impose à nous de l'<strong>extérieur</strong>, contre notre volonté.</td></tr>
+    <tr><td>Relève de la <strong>morale</strong>, c-à-d du devoir.</td><td>Être contraint = être <strong>forcé</strong>.</td></tr>
+    <tr><td></td><td>Respectée pour éviter des conséquences désagréables.</td></tr>
+  </tbody>
+</table>
+
+<h3>Problèmes</h3>
+
+<p><strong>1.</strong> Le devoir renvoie à l'idée d'<strong>obligation morale</strong> qu'on s'impose librement grâce à notre conscience morale. N'est-il pas <strong>contradictoire</strong> de parler d'un <em>devoir d'être heureux</em> ? Le devoir est par définition <strong>désintéressé</strong> et implique souvent un <em>sacrifice</em> de son intérêt immédiat — ce qui à long terme semble mettre en danger notre bonheur (état de satisfaction durable, absence de souffrance).</p>
+
+<p><strong>2.</strong> Étymologie de <strong>bonheur</strong> : bon + <em>heur</em> → <em>chance</em>. Comment parler d'un devoir d'être heureux si le bonheur semble être une affaire de chance ? Est-il possible de trouver une <strong>recette</strong> du bonheur ?</p>
+
+<h2 id="part-1">I. Une morale qui vise le bonheur est possible</h2>
+
+<h3 id="callicles">1. Le bonheur ne consiste pas dans l'hédonisme radical</h3>
+
+<h4>a) La thèse hédoniste (Calliclès)</h4>
+
+<p><strong>Calliclès</strong> (personnage du dialogue de Platon) affirme que le bonheur représente la <strong>satisfaction compulsive</strong> de tous nos désirs (<em>hédonè</em> en grec = plaisir).</p>
+
+<p>Selon le hédonisme, le devoir moral consiste à « <strong>vivre selon la nature</strong> » : chercher des plaisirs à l'outrance (gourmandise, débauche, ivrognerie).</p>
+
+<p>Pour Calliclès, toutes nos valeurs morales (fidélité, modération, générosité) ne sont que des <strong>conventions contre-nature</strong> inventées par la masse incapable de se procurer une vie de plaisirs. Les valeurs morales sociétales sont le fruit de la <strong>jalousie</strong>.</p>
+
+<h4>b) Problèmes du hédonisme radical</h4>
+
+<ul>
+  <li><strong>Trop de plaisir engendre l'ennui, la lassitude.</strong> Pour profiter d'un plaisir, il faut une certaine <em>modération</em>.</li>
+  <li><strong>Le plaisir est éphémère</strong> et les désirs se renouvellent sans cesse → <em>manque sans cesse</em> → frustration constante.</li>
+</ul>
+
+<div class="callout note">
+  <div class="callout-title">Le tonneau des Danaïdes</div>
+  <p>Socrate compare la vie immodérée vantée par Calliclès au sort des Danaïdes, personnages mythologiques condamnés par Zeus à remplir des <strong>tonneaux sans fond</strong>.</p>
+</div>
+
+<h3 id="vertu">2. Le bonheur est indissociable du bien moral</h3>
+
+<p>On peut surmonter les problèmes du hédonisme radical en faisant dépendre notre bonheur de la <strong>vertu</strong>.</p>
+
+<div class="callout def">
+  <div class="callout-title">Vertu</div>
+  <p>Ensemble de dispositions volontaires et réfléchies : <em>courage, prudence, modération, justice</em>.</p>
+</div>
+
+<p>L'homme vertueux agit non selon ses inclinations corporelles (paresse, recherche du plaisir, fuite du déplaisir), mais selon la <strong>raison</strong>, dont l'usage fait l'<em>essence de l'homme</em> et l'élève au-dessus du règne animal.</p>
+
+<h4 id="epicure">a) L'épicurisme : l'hédonisme modéré</h4>
+
+<div class="author-card">
+  <div class="ac-avatar">É</div>
+  <div>
+    <div class="ac-name">Épicure</div>
+    <div class="ac-meta">341 – 270 av. J.-C. · Grèce</div>
+  </div>
+</div>
+
+<p>Le désir peut augmenter le bonheur à condition d'être <strong>maîtrisé par la raison</strong>. Épicure recommande de chercher seulement les <strong>désirs naturels et nécessaires</strong> (manger quand on a faim, se reposer quand on est fatigué).</p>
+
+<div class="callout def">
+  <div class="callout-title">Ataraxie</div>
+  <p>Pour Épicure, le bonheur réside dans l'ataraxie : <strong>absence de souffrance physique et psychologique</strong>.</p>
+</div>
+
+<p>Il convient de <strong>fuir les désirs irraisonnables</strong> (gloire, richesse, amour romantique) qui apportent plus de souffrance que de sérénité. La vie heureuse est la vie <em>tranquille</em>, parsemée de petits plaisirs accessibles.</p>
+
+<p>Mais : la maîtrise du désir peut être <strong>insuffisante</strong>, car les <em>aléas de la vie</em> nous éloignent nécessairement de l'ataraxie.</p>
+
+<h4 id="stoicisme">b) Le stoïcisme : la vertu fait le bonheur</h4>
+
+<p>On peut résoudre ce problème en adoptant une morale <strong>stoïcienne</strong> qui consiste à agir <strong>plutôt sur soi-même que sur le monde</strong>, afin d'atteindre un bonheur <strong>absolu</strong> — c'est-à-dire pas relatif aux circonstances extérieures à nous.</p>
+
+<div class="encadre">
+  <div class="encadre-block">
+    <div class="label">Absolu</div>
+    <div class="vals">Indépendant de tout contexte, qui ne dépend de rien d'autre.</div>
+  </div>
+  <div class="encadre-block">
+    <div class="label">Relatif</div>
+    <div class="vals">Qui dépend des circonstances, du contexte, du sujet.</div>
+  </div>
+</div>
+
+<p>Le bonheur est possible grâce à une <strong>connaissance rationnelle</strong> de nous-mêmes et du monde qui permet de :</p>
+<ul>
+  <li><em>Anticiper et éviter</em> la souffrance ;</li>
+  <li><em>Changer nos désirs</em> ;</li>
+  <li><em>Nous détacher</em> de ce qui n'est pas en notre pouvoir (réussite professionnelle, amour, santé, vie longue).</li>
+</ul>
+
+<p>La seule chose qui est en notre pouvoir, c'est <strong>notre façon de penser et d'agir</strong>.</p>
+
+<div class="callout warn">
+  <div class="callout-title">Arrêt de la transcription</div>
+  <p>La séquence sera complétée pour le bac final avec les notions et auteurs supplémentaires (Kant, etc.).</p>
+</div>
 `
 };

@@ -19,8 +19,8 @@ App.routes.home = function() {
 
   const stats = [
     { num: '6', lbl: 'séquences' },
-    { num: window.PHILOSOPHERS.length+'', lbl: 'philosophes' },
-    { num: window.NOTIONS.length+'', lbl: 'notions' },
+    { num: App.data.philosophers.length+'', lbl: 'philosophes' },
+    { num: App.data.notions.length+'', lbl: 'notions' },
     { num: window.QUIZZES.reduce((a,q)=>a+q.questions.length,0)+'', lbl: 'questions de quiz' }
   ];
 
@@ -175,7 +175,7 @@ App.routes.philosophes = function(parts) {
       </div>
     `);
   }
-  const cards = window.PHILOSOPHERS.map(p => `
+  const cards = App.data.philosophers.map(p => `
     <a class="philo-card" href="#/philosophes/${p.id}" style="text-decoration:none;color:inherit;">
       <div class="philo-avatar">${p.initials}</div>
       <h3>${p.name}</h3>
@@ -200,7 +200,8 @@ App.routes.notions = function(parts) {
   if (parts && parts[0]) {
     const n = window.NOTIONS.find(x => x.id === parts[0]);
     if (!n) return App.routes.notions([]);
-    const auths = (n.keyAuthors||[]).map(id => {
+    const visibleIds = new Set(App.data.philosophers.map(p => p.id));
+    const auths = (n.keyAuthors||[]).filter(id => visibleIds.has(id)).map(id => {
       const p = window.PHILOSOPHERS.find(x => x.id === id);
       return p ? `<a href="#/philosophes/${p.id}" class="seq-tag" style="text-decoration:none;">${p.name}</a>` : '';
     }).join(' ');
@@ -223,7 +224,7 @@ App.routes.notions = function(parts) {
       </div>
     `);
   }
-  const cards = window.NOTIONS.map(n => `
+  const cards = App.data.notions.map(n => `
     <a class="notion-card" href="#/notions/${n.id}" data-glyph="${n.glyph}" style="text-decoration:none;color:inherit;">
       <h3>${n.name}</h3>
       <p class="notion-def">${n.short}</p>
@@ -241,9 +242,10 @@ App.routes.notions = function(parts) {
 };
 
 App.routes.glossaire = function() {
-  const letters = [...new Set(window.GLOSSARY.map(g => g.term[0].toUpperCase()))].sort();
+  const source = App.data.glossary;
+  const letters = [...new Set(source.map(g => g.term[0].toUpperCase()))].sort();
   const allLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  const list = window.GLOSSARY.slice().sort((a,b) => a.term.localeCompare(b.term));
+  const list = source.slice().sort((a,b) => a.term.localeCompare(b.term));
 
   App.render(`
     <div class="page-head">

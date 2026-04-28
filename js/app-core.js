@@ -6,6 +6,7 @@ window.App = {
   currentRoute: null,
 
   init() {
+    this.data.build();
     this.theme.init();
     this.search.init();
     this.menu.init();
@@ -23,6 +24,39 @@ window.App = {
     const app = document.getElementById('app');
     app.innerHTML = html;
     window.scrollTo({ top: 0 });
+  },
+
+  // -------- DATA INDEX --------
+  // Construit les listes filtrées : on ne garde que les entrées
+  // qui apparaissent réellement dans le contenu des séquences.
+  data: {
+    philosophers: [],
+    notions: [],
+    glossary: [],
+    _corpus: '',
+    has(needle) {
+      const q = (needle || '').toLowerCase().trim();
+      if (!q) return false;
+      return this._corpus.includes(q);
+    },
+    build() {
+      // Concatène le contenu brut des séquences, dépouillé du HTML.
+      const raw = (window.SEQUENCES || []).map(s => (s.content || '')).join(' ');
+      this._corpus = ' ' + raw.replace(/<[^>]+>/g, ' ').toLowerCase() + ' ';
+
+      // Philosophes : on garde celui dont le nom complet, le nom de
+      // famille ou l'id apparaît dans le corpus.
+      this.philosophers = (window.PHILOSOPHERS || []).filter(p => {
+        const last = (p.name || '').split(/[\s.]+/).filter(Boolean).slice(-1)[0] || '';
+        return this.has(p.name) || this.has(last) || this.has(p.id);
+      });
+
+      // Notions : nom direct.
+      this.notions = (window.NOTIONS || []).filter(n => this.has(n.name));
+
+      // Glossaire : terme direct.
+      this.glossary = (window.GLOSSARY || []).filter(g => this.has(g.term));
+    }
   },
 
   // -------- THEME --------
@@ -137,17 +171,17 @@ window.App = {
           items.push({ kind: 'Séquence ' + s.number, title: s.title, snippet: s.short, href: '/sequence/' + s.id });
         }
       });
-      window.PHILOSOPHERS.forEach(p => {
+      App.data.philosophers.forEach(p => {
         if (!Q || p.name.toLowerCase().includes(Q) || (p.thesis||'').toLowerCase().includes(Q)) {
           items.push({ kind: 'Philosophe', title: p.name, snippet: p.thesis, href: '/philosophes/' + p.id });
         }
       });
-      window.NOTIONS.forEach(n => {
+      App.data.notions.forEach(n => {
         if (!Q || n.name.toLowerCase().includes(Q) || n.short.toLowerCase().includes(Q)) {
           items.push({ kind: 'Notion', title: n.name, snippet: n.short, href: '/notions/' + n.id });
         }
       });
-      window.GLOSSARY.forEach(g => {
+      App.data.glossary.forEach(g => {
         if (Q && (g.term.toLowerCase().includes(Q) || g.def.toLowerCase().includes(Q))) {
           items.push({ kind: 'Glossaire', title: g.term, snippet: g.def, href: '/glossaire' });
         }

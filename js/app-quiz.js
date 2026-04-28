@@ -120,13 +120,13 @@ App.quizPlay = function(qid) {
 // =========================================================
 App.routes.flashcards = function() {
   const decks = [
-    { id: 'philos', label: 'Philosophes', build: () => window.PHILOSOPHERS.map(p => ({
+    { id: 'philos', label: 'Philosophes', build: () => App.data.philosophers.map(p => ({
       kind: p.country || '', q: p.name, a: `<b>${p.dates}</b><br/><br/>${p.thesis}<br/><br/><span style="font-size:13px;color:var(--text-dim);">${(p.keyIdeas||[]).join(' · ')}</span>`
     })) },
-    { id: 'notions', label: 'Notions', build: () => window.NOTIONS.map(n => ({
+    { id: 'notions', label: 'Notions', build: () => App.data.notions.map(n => ({
       kind: 'Notion', q: n.name, a: n.long
     })) },
-    { id: 'gloss', label: 'Définitions', build: () => window.GLOSSARY.map(g => ({
+    { id: 'gloss', label: 'Définitions', build: () => App.data.glossary.map(g => ({
       kind: g.etym ? g.etym : 'Définition', q: g.term, a: g.def
     })) },
     { id: 'theses', label: 'Thèses-clés', build: () => [
@@ -222,7 +222,7 @@ App.routes.flashcards = function() {
 // Timeline
 // =========================================================
 App.routes.timeline = function() {
-  const sorted = window.PHILOSOPHERS.slice().sort((a,b) => {
+  const sorted = App.data.philosophers.slice().sort((a,b) => {
     const yearA = parseInt((a.dates.match(/-?\d{3,4}/) || [0])[0]) * (a.dates.includes('av.') ? -1 : 1);
     const yearB = parseInt((b.dates.match(/-?\d{3,4}/) || [0])[0]) * (b.dates.includes('av.') ? -1 : 1);
     return yearA - yearB;

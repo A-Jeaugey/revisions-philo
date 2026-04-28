@@ -411,6 +411,54 @@
   color: var(--text-mute);
 }
 
+/* Document imprimé (polycopié distribué en classe) */
+.doc-printed {
+  position: relative;
+  margin: 28px 0; padding: 28px 32px 24px;
+  background: #f4ecd8;
+  color: #1a1408;
+  border-radius: 6px;
+  border: 1px solid #d8c89c;
+  box-shadow: 0 2px 0 #d8c89c, 0 12px 28px rgba(0,0,0,0.35);
+  font-family: var(--font-serif, Georgia, 'Times New Roman', serif);
+  font-size: 16px; line-height: 1.7;
+}
+.doc-printed::before {
+  content: 'Polycopié';
+  position: absolute; top: -10px; left: 24px;
+  background: var(--accent); color: #1a1a26;
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 3px 10px; border-radius: 3px;
+  font-weight: 700;
+}
+.doc-printed p { margin: 0 0 12px; }
+.doc-printed p:last-child { margin-bottom: 0; }
+.doc-printed strong { color: #5a3a08; }
+.doc-printed em { color: #3a2810; }
+.doc-printed h4 { color: #2a1f08; margin: 18px 0 10px; }
+.doc-printed ul, .doc-printed ol { margin: 8px 0 12px 20px; }
+.doc-printed blockquote {
+  border-left: 3px solid #b89855;
+  margin: 12px 0; padding: 4px 14px;
+  color: #2a1f08; font-style: italic;
+}
+.doc-printed a { color: #6a4408; text-decoration: underline; }
+
+/* Annotation manuscrite (note en marge) */
+.doc-annot {
+  display: block; margin: 8px 0 12px;
+  padding: 6px 10px 6px 14px;
+  border-left: 2px dashed var(--accent);
+  font-family: 'Caveat', 'Comic Sans MS', cursive;
+  font-size: 17px; color: var(--accent);
+  font-style: italic;
+}
+.doc-printed .doc-annot {
+  background: rgba(212,168,90,0.10);
+  color: #6a4408; border-left-color: #b89855;
+}
+
 /* Encadré (notions/perspectives) */
 .encadre {
   display: grid; grid-template-columns: repeat(2,1fr); gap: 16px 24px;

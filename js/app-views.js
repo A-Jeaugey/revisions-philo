@@ -28,9 +28,9 @@ App.routes.home = function() {
     <section class="hero">
       <div class="hero-bg"></div>
       <div class="hero-inner">
-        <div class="hero-eyebrow">Bac blanc · révisions interactives</div>
-        <h1>Penser, c'est dire <em>non</em>.<br/>Réviser, c'est <em>comprendre</em>.</h1>
-        <p class="hero-sub">L'intégralité du programme étudié en cours, transformé en cartes, quiz, frises et fiches interactives. Tu vas tout retenir.</p>
+        <div class="hero-eyebrow">Cogito · le bac de philosophie</div>
+        <h1>D'abord <em>douter</em>.<br/>Ensuite <em>comprendre</em>.</h1>
+        <p class="hero-sub">L'intégralité du programme, séquence par séquence — fiches complètes, citations, frise, quiz et flashcards. Pour comprendre, pas seulement réviser.</p>
         <div class="hero-cta">
           <a href="#/sequences" class="btn btn-primary">Commencer à réviser <span class="btn-arrow">→</span></a>
           <a href="#/quiz" class="btn">Tester mes connaissances</a>

@@ -16,179 +16,203 @@ window.SEQUENCE_5 = {
     { t: "La justice est aussi morale et relève de la conscience", sub: ["Conflit loi politique / loi morale (Antigone)","Désobéissance civile (Rawls)"] }
   ],
   content: `
-<h2 id="intro">Introduction</h2>
+<h2 id="intro">Introduction → problématisation</h2>
 
-<p>La justice est <strong>polysémique</strong> : à la fois ce qui est <strong>légal</strong> (conforme aux lois) et ce qui est <strong>moral</strong>, légitime, justifié.</p>
+<p>Question morale (juste = bon), politique (juste = légal = conformément aux lois) et sociale (l'État réglemente la vie sociale).</p>
 
-<p>Les hommes voudraient des lois qui reflètent ce qu'ils tiennent pour moral. Mais l'expérience montre que nous sommes <em>incapables</em> de parvenir à une conception commune de ce qui est moral. On délègue donc à l'<strong>État</strong> la tâche de décider de ce qui est juste.</p>
+<p>La justice est une notion polysémique car elle fait référence à la fois à ce qui est légal (conforme aux lois) et à ce qui est moral, légitime, justifié.</p>
 
-<p>Cette solution est problématique : elle réduit la <strong>justice à la légalité</strong>. Cela revient à considérer comme justes des situations ressenties comme injustes (inégalités sexuelles, ségrégation raciale, travail des enfants).</p>
+<p>Les Hommes souhaitent avoir des lois qui reflètent ce qu'ils tiennent pour moral. Mais l'expérience nous montre à travers les débats politiques interminables que nous sommes incapables de parvenir à une conception commune de ce qui est moral ou légitime. Étant donné que le consensus n'est possible que sur un nombre limité de sujets, on ne peut que déléguer à l'État la tâche de décider de ce qui est juste.</p>
 
-<p>Comment régler ce conflit entre la <strong>légalité</strong> et les <strong>valeurs morales individuelles</strong> sans mettre en danger l'État (institutions législatives, judiciaires, exécutives, administratives, militaires) ?</p>
+<p>Cependant, cette solution est hautement problématique car elle réduit la justice à la légalité : est juste ce qui est conforme à la loi. Cela revient donc à considérer comme juste des situations ressenties comme injustes : les inégalités sexuelles, la ségrégation raciale, le travail des enfants dans certains pays, etc. Alors comment régler ce conflit entre la légalité (la loi pour tous) et les valeurs morales individuelles sans mettre en danger l'État dont on a besoin car il est l'ensemble d'institutions législatives, judiciaire, exécutive, administrative, militaire, parfois religieuse, etc., qui visent à assurer le bon fonctionnement d'une société sur un territoire donné.</p>
 
-<h2 id="part-1">I. Justice et morale ne sont pas des notions naturelles</h2>
+<h2 id="part-1">I. La justice et la Morale ne sont pas des notions naturelles que les Hommes pourraient concevoir avant leur existence politique</h2>
 
-<p>Malgré l'ancienneté de l'<em>Homo sapiens</em>, les sociétés civiles n'existent que depuis quelques milliers d'années. Il existe encore des sociétés « sauvages » sans autorité politique. À quoi ressemble l'homme à l'<strong>état de nature</strong>, en dehors de son existence culturelle ?</p>
+<p>Malgré le fait que l'<em>Homo sapiens</em> existe depuis quelques centaines de milliers d'années, les sociétés civiles (politiques) n'existent que depuis quelques milliers d'années. Même aujourd'hui, il existe des sociétés dites "sauvages" qui ne connaissent pas l'autorité politique (des tribus en Amazonie, nomades du Sahara). Ce constat nous mène à nous demander à quoi ressemble l'Homme à l'état de nature, c'est-à-dire l'Homme en dehors de son existence culturelle, faite de progrès, de techniques, de langage verbal, de propriété privée, de religions, de codes sociaux, d'institutions politiques, d'arts, de sciences, etc.</p>
 
-<div class="callout">
-  <div class="callout-title">Distinction</div>
-  <p>nature ≠ culture / état de nature ≠ état civil</p>
-</div>
+<aside class="ann-manu">nature ≠ culture / état de nature ≠ état civil</aside>
 
-<h3 id="rousseau5">1. Justice et droit n'existent pas à l'état de nature (Rousseau)</h3>
+<h3>1. Les notions de justice et de droit n'existent pas à l'état de nature</h3>
 
 <h4>a) L'état de nature : une notion problématique</h4>
-<p>Difficile de « démêler ce qu'il y a de naturel et d'artificiel dans la nature actuelle de l'homme ». L'état de nature est « un état qui n'existe plus, qui n'a peut-être point existé, qui probablement n'existera jamais ». Grâce à la <strong>perfectibilité</strong>, l'homme est davantage un être de culture que de nature.</p>
 
+<p>Il est difficile d'étudier la nature humaine, ce que l'Homme est à l'état de nature, car les Hommes auxquels nous avons affaire (y compris ceux des sociétés sauvages) ont tous une existence culturelle. En effet, même les tribus sauvages ont des mœurs, des formes de sociabilisation, de savoir-faire acquis (≠ innés) qui sont tous des productions culturelles. Alors, on comprend pourquoi Rousseau dit qu'il est difficile de « <em>démêler ce qu'il y a de naturel et d'artificiel dans la nature actuelle de l'Homme</em> ».</p>
+
+<p>La difficulté est d'autant plus grande dans la mesure où l'état de nature est un « <em>état qui n'existe plus, qui n'a peut-être point existé, qui probablement n'existera jamais</em> ». En effet, l'Homme est davantage un être de culture qu'un être de nature, grâce à sa <strong>perfectibilité</strong> (capacité à se transformer continuellement en bien ou en pire en s'éloignant de la nature). L'état de nature n'est rien que le point de départ de la construction culturelle de l'Homme.</p>
+`
+};
+
+window.SEQUENCE_5.content += `
 <h4>b) L'homme naturel n'a ni les lumières ni les vices de l'homme civil</h4>
-<p>L'homme naturel est un animal. Pas de valeurs morales (sincérité, respect, fidélité). Pas non plus les vices (jalousie, hypocrisie, avarice, domination). Le comportement vise la satisfaction des besoins primaires.</p>
+
+<p>L'homme naturel n'est rien d'autre qu'un animal (être biologique). Les valeurs morales (sincérité, respect, bienveillance, fidélité, etc.) sont absentes de même que les inégalités autres que celles biologiques (intelligence, la différence d'âge, etc.). L'homme naturel n'a pas les lumières de l'homme civil : savoir-faire techniques, sciences, sens moral ; mais il n'a pas non plus les vices de l'homme civil (jalousie, hypocrisie, avarice, rapport de domination). Le comportement naturel de l'Homme ne vise que la satisfaction des besoins primaires (alimentation, confort, reproduction).</p>
 
 <h4>c) L'homme naturel est asocial et amoral</h4>
-<p>« Les seuls biens qu'il connaisse dans l'univers sont la nourriture, une femelle et le repos ; les seuls maux qu'il craigne sont la douleur et la faim. » Pas d'interdépendance entre les hommes. Il n'est ni bon ni méchant : juste un « animal borné ».</p>
+
+<p>En ce qui concerne l'homme naturel « <em>les seuls biens qu'il connaisse dans l'univers sont la nourriture, une femelle et le repos ; les seuls maux qu'il craigne sont la douleur et la faim</em> ». Comme chaque individu peut satisfaire tout seul ses besoins, il n'y a aucune relation d'interdépendance entre les hommes : l'homme naturel est solitaire et incapable de développer des besoins secondaires, des savoir-faire transmissibles, des langues ou des notions morales. Pour Rousseau, l'homme naturel n'a ni les lumières ni les vices de l'homme civil, il n'est ni bon ni méchant, il est juste un « <em>animal borné</em> » (stupide), dont on n'a rien à craindre et rien à espérer. L'Homme s'humanise car il développe les capacités qui sont présentes chez lui en puissance (la parole, la technique, la conscience réfléchie, la pensée rationnelle, etc.) uniquement à l'état civil ; mais l'état civil engendre également les vices de l'Homme.</p>
 
 <h4>d) L'homme naturel ne dispose que d'un sentiment naturel de pitié</h4>
-<p>L'homme naturel ne connaît ni devoir ni justice. Il n'éprouve que l'<strong>amour de soi</strong> (souci de sa conservation), ce qui rend possible « la répugnance innée à voir souffrir son semblable ». La <strong>pitié</strong> est un sentiment naturel qui précède la moralité : « c'est elle qui, dans l'état de nature, tient lieu de lois, de mœurs et de vertu ».</p>
 
-<h4>e) Avantages et désavantages</h4>
-<p>L'état de nature semble idéal (paix, liberté, indépendance, innocence), mais ne peut pas durer. La perfectibilité éloigne l'homme de la nature ; vices et affaiblissement de la pitié rendent nécessaire la création d'un <strong>État</strong>.</p>
+<p>L'homme naturel ne connaît pas les notions de devoir et de justice. Il n'éprouve que <strong>l'amour de soi</strong>, qui est le souci de sa propre conservation dans des conditions agréables, ce qui rend possible « <em>la répugnance innée à voir souffrir son semblable</em> ». La <strong>pitié</strong> est un sentiment naturel qui précède la moralité : « <em>c'est elle qui, dans l'état de nature, tient lieu de lois, de mœurs et de vertu</em> ». Même si la pitié s'enracine d'un autre désir naturel de ne pas souffrir, elle permet tout de même d'assurer une relation paisible entre les hommes.</p>
 
-<h3 id="clastres5">2. Les sociétés sauvages n'ont ni État ni appareil judiciaire (Clastres)</h3>
+<h4>e) Avantages et désavantages de l'état de nature</h4>
+
+<p>Même si l'état de nature semble être la condition idéale de l'homme (paix, liberté, indépendance, innocence), cet état ne peut pas durer car l'homme est inclus à une existence culturelle qui l'éloigne d'une génération à l'autre de l'état de nature. Alors, lorsque des vices se développent et la pitié naturelle s'affaiblit, les hommes ont besoin de créer un État qui permet leur coexistence.</p>
+`;
+
+window.SEQUENCE_5.content += `
+<h3>2. Les sociétés « sauvages » n'ont ni ÉTAT ni appareil JUDICIAIRE</h3>
+
+<p>« Sans foi, sans loi, sans roi », telle était au XVI<sup>e</sup> siècle l'appréciation des premiers Européens devant les sociétés amérindiennes. En réalité, ces civilisations possèdent des règles ; elles ont pour fonction d'empêcher, selon l'ethnologue et anthropologue Pierre <strong>CLASTRES</strong>, la société égalitaire de se transformer en société inégalitaire, par le développement des richesses et des pouvoirs. D'où le statut paradoxal des chefs, à la fois privilégiés et prisonniers du groupe :</p>
 
 <blockquote>
-  Il n'y a pas de roi dans la tribu, mais un chef qui n'est pas un chef d'État. […] Le chef ne dispose d'aucune autorité, d'aucun pouvoir de coercition, d'aucun moyen de donner un ordre. […] L'espace de la chefferie n'est pas le lieu du pouvoir.
+  Il n'y a donc pas de roi dans la tribu, mais un chef qui n'est pas un chef d'État. Qu'est-ce que cela signifie ? Simplement que le chef ne dispose d'aucune autorité, d'aucun pouvoir de coercition, d'aucun moyen de donner un ordre. Le chef n'est pas un commandant, les gens de la tribu n'ont aucun devoir d'obéissance. L'espace de la chefferie n'est pas le lieu du pouvoir, et la figure (bien mal nommée) du "chef" sauvage ne préfigure en rien celle d'un futur despote. Ce n'est certainement pas de la chefferie primitive que peut se déduire l'appareil étatique en général.
   <cite>Pierre Clastres</cite>
 </blockquote>
 
-<p>Le pouvoir du chef indien est un « pouvoir impuissant », « une chefferie sans autorité », « une fonction qui fonctionne à vide ». Il doit être :</p>
-<ul>
-  <li>Excellent <strong>orateur</strong> (apaiser les querelles « par la force du verbe »)</li>
-  <li><strong>Généreux</strong> (donner ses richesses au peuple)</li>
-  <li><strong>Faiseur de paix</strong> et chef de guerre</li>
-</ul>
-
-<p>En temps de paix, pas de force policière, pas de pouvoir judiciaire, exécutif ou législatif. Aucune sanction. Si le chef ne tient pas ses devoirs, le village l'<em>abandonne</em>.</p>
-
-<p><strong>Problème :</strong> ces sociétés sont fragilisées par les sociétés politiques « civilisées ». L'autorité politique paraît importante pour <em>survivre</em>, mais pas <em>nécessaire</em>.</p>
-
-<h3 id="kant5">3. L'homme est un animal ambivalent qui a besoin d'un maître (Kant)</h3>
-
-<p>L'homme est un mixte entre raison et déraison, sagesse et démesure. Il n'est fait ni pour vivre seul, ni pour vivre avec ses semblables. <strong>Kant</strong> parle d'<strong>insociable sociabilité</strong>.</p>
+<p>Pierre <strong>CLASTRES</strong> explique que le pouvoir du chef indien est un « <em>pouvoir impuissant</em> », une « <em>chefferie sans autorité</em> », « <em>une fonction qui fonctionne à vide</em> ». Le chef indien doit être à la fois chef de guerre et « <em>faiseur de paix</em> », donc avoir les pleins pouvoirs, mais il doit aussi être généreux de ses biens. Il doit aussi se présenter comme un excellent orateur :</p>
 
 <blockquote>
-  Tant qu'il vit parmi des individus de son espèce, l'homme a besoin d'un maître ; sinon, il abuse à coup sûr de sa liberté à l'égard de ses semblables.
-  <cite>Kant</cite>
+  Pendant l'expédition guerrière, le chef dispose d'un pouvoir considérable, parfois même absolu sur l'ensemble des guerriers. Mais, la paix revenue, le chef de guerre perd sa toute puissance. Le modèle du pouvoir coercitif (un pouvoir qui s'impose par la <strong>CONTRAINTE</strong> et par la force policière) n'est accepté qu'en des occasions exceptionnelles, lorsque le groupe est confronté à une menace extérieure.
+  <cite>Pierre Clastres</cite>
 </blockquote>
+`;
 
-<p>L'homme « souhaite une loi qui limite la liberté de tous », mais « son penchant animal à l'égoïsme l'incite à se réserver un régime d'exception pour lui-même ». Difficulté : ce maître aura, à son tour, le même penchant animal.</p>
+window.SEQUENCE_5.content += `
+<p>En temps de paix, le pouvoir est fondé sur l'accord de tous, et non sur la <strong>CONTRAINTE</strong> (distinction <strong>OBLIGATION / CONTRAINTE</strong>) il est ainsi profondément pacifique. Il n'existe aucune force policière, aucun pouvoir judiciaire, exécutif ni même législatif. Aucune sanction si les individus transgressent les règles. Le chef a seulement la charge de maintenir la paix et l'harmonie dans son groupe. Il doit apaiser les querelles, les différends, non en usant de la force, mais par la force du verbe. C'est pourquoi il doit être un excellent orateur. Il doit aussi donner ses richesses à son peuple à chaque fois qu'on lui demande. Il se dépouille de ses biens pour l'équilibre du groupe. Il évite ainsi toute forme de convoitise et donc de conflits. Le pouvoir est ainsi sous dépendance. « <em>En tant que débiteur de richesse et de messages, le chef ne traduit pas autre chose que sa dépendance par rapport au groupe</em> ». Le groupe exerce même une forme de chantage sur le chef : « <em>si ce dernier ne fait pas ce qu'on attend de lui, son village ou sa bande tout simplement l'abandonne pour rejoindre un leader plus fidèle à ses devoirs</em> ».</p>
 
+<p><strong>PROBLÈME :</strong> De nos jours, ces sociétés « sauvages » sont très fragilisées par nos propres sociétés politiques dites « civilisées ». L'autorité politique paraît donc être un élément important pour survivre mais pas pour autant <strong>NÉCESSAIRE</strong>. Faute d'un pouvoir coercitif et d'une réelle force militaire, ces sociétés sont en voie de disparition (exemple : les sociétés aborigènes d'Amérique du Sud, du Brésil entre autres, menacées par ceux qui veulent défricher la forêt amazonienne !).</p>
+`;
+
+window.SEQUENCE_5.content += `
+<h3>3. L'homme est un animal ambivalent qui a besoin d'un maître (Emmanuel KANT)</h3>
+
+<p>L'homme est un mixte entre raison et déraison, sagesse et démesure, il ne veut finalement qu'assouvir ses intérêts personnels. L'homme ne ressemble à aucun autre animal. Aucun instinct ne le règle véritablement, ou bien, s'il obéit à des instincts, ces derniers entrent en conflit : il n'est pas fait pour vivre en solitaire, donc naturellement il va se rapprocher de ses semblables, il va créer une communauté, mais il n'est pas fait non plus pour vivre avec ses semblables. Pour bien comprendre cette ambivalence fondamentale de l'homme, Emmanuel <strong>KANT</strong> (1724-1804) utilise l'expression d'« <strong><em>insociable sociabilité</em></strong> ».</p>
+
+<p>L'insociable sociabilité révèle l'antagonisme qui est au cœur des hommes, « <em>c'est-à-dire leur inclination à entrer en société, inclination qui est cependant doublée d'une répulsion générale à le faire, menaçant constamment de désagréger cette société</em> ». L'homme est pris entre deux penchants : s'associer et rechercher, en même temps, son intérêt privé. L'homme a un penchant à s'associer mais en même temps il veut tout diriger dans son sens.</p>
+
+<p>L'« <em>insociable sociabilité</em> » fait que, tant qu'il vit parmi des individus de son espèce, l'homme « <em>a besoin d'un maître</em> », sinon, « <em>il abuse à coup sûr de sa liberté à l'égard de ses semblables</em> ». En tant qu'être raisonnable, l'homme « <em>souhaite une loi qui limite la liberté de tous</em> », mais, en même temps, « <em>son penchant animal à l'égoïsme l'incite toutefois à se réserver dans toute la mesure du possible un régime d'exception pour lui-même</em> ». Toute la difficulté consiste à trouver ce maître qui bride la « <em>volonté particulière</em> » de l'homme et « <em>le force à obéir à une volonté universellement valable, grâce à laquelle chacun puisse être libre</em> ». Mais, où trouver ce maître ? Qu'il s'agisse d'une personne unique ou d'une élite politique, le problème est toujours là : le maître aura, à son tour, un penchant animal à l'égoïsme, donc abusera de sa liberté et cherchera un régime d'exception pour lui-même.</p>
+
+<p>La disparition progressive des sociétés sauvages montre qu'une communauté humaine n'est pas viable dans une organisation étatique qui peut imposer unilatéralement une notion commune de la justice. Alors, s'il revient à l'État de décider de ce qui est juste, qu'est-ce qui rend légitime ce pouvoir ?</p>
+`;
+
+window.SEQUENCE_5.content += `
 <h2 id="part-2">II. Il revient donc à l'État de décider de ce qui est juste</h2>
 
 <p>Le politique (du grec <em>polis</em>, « cité ») est l'art de gouverner la cité dans l'intérêt général.</p>
 
-<h3>1. La légitimité du pouvoir étatique : le contrat social</h3>
+<h3>1) La légitimité du pouvoir étatique : le contrat social</h3>
 
-<p>Naturellement, les hommes naissent <strong>libres et égaux</strong>. L'état de nature se transforme progressivement en situation de conflit. Pour en sortir, les hommes concluent un <strong>contrat social</strong> : ils renoncent ensemble à une partie de leurs libertés naturelles, transférées à une autorité politique. Cette force commune représente l'État, qui :</p>
-<ul>
-  <li>assure la paix sociale</li>
-  <li>protège les libertés individuelles</li>
-  <li>réglemente les interactions humaines</li>
-  <li>sanctionne les actions contraires à l'intérêt général</li>
-</ul>
+<p>L'État est une entité artificielle qui s'oppose à l'état de nature. Naturellement, les hommes naissent libres et égaux ; les quelques inégalités naturelles (taille, force, etc.) sont trop insignifiantes pour créer des rapports de domination durables entre les hommes. Peu importe la vision que nous avons de l'homme à l'état de nature (l'homme est asocial et amoral chez Rousseau, l'homme est un loup pour l'homme chez Hobbes, l'homme est moral et rationnel chez Locke), cet état de nature se transforme progressivement dans une situation de conflit permanent (Hobbes, Rousseau) ou épisodique (Locke) entre les hommes. L'égalité naturelle entre les hommes conduit également à une égalité dans la capacité à nuire aux autres, ce qui crée une situation d'insécurité permanente, dans laquelle les hommes sont tous libres mais ne peuvent pas exercer leurs libertés naturelles à cause des autres. Pour sortir de cette situation d'hostilité entre les hommes, ceci ne peut que conclure entre eux un <strong>contrat social</strong> qui consiste à renoncer ensemble à une partie de leurs libertés naturelles en les transférant à une autorité politique créée par ce contrat. Le contrat social, qu'il soit explicite ou implicite, vise à créer une force commune à laquelle les individus consentent de se soumettre. Cette force commune représente l'État et a pour objectif d'assurer la paix sociale, de protéger les libertés individuelles telles qu'elles découlent des lois, de réglementer les interactions entre les hommes, de sanctionner les actions qui mettent en danger l'intérêt général de la communauté.</p>
 
 <h4>a) Perspective pessimiste (Hobbes)</h4>
 
-<p>L'état de nature est un état de <strong>guerre permanente de tous contre tous</strong>. Pour Hobbes : « chacun jouit d'une liberté très entière, mais qui est infructueuse ». La vie y est <strong>brève, solitaire, misérable</strong>, menacée d'une mort violente.</p>
+<p>Ce sont les grandes crises humanitaires (guerres civiles, famines, pandémies, etc.) qui fragilisent l'ordre politique établi qui permettent de voir ce qu'est l'homme en dehors de la société civile : un être biologique qui cherche à satisfaire ses désirs, y compris en portant préjudice aux autres (vol, meurtre, viol). C'est pour cela que <strong>Hobbes</strong> dit que l'état de nature est un état de <strong>guerre permanente de tous contre tous</strong>, dans lequel : <em>chacun jouit d'une liberté très entière, mais qui est infructueuse, parce que, comme elle donne le privilège de faire tout ce que bon nous semble, aussi elle laisse aux autres la puissance de nous faire souffrir tout ce qui leur plait</em>. Autrement dit, dans l'absence de l'État, tout le monde est libre de faire ce qu'il veut, mais personne ne peut exercer cette liberté tant que les interactions inter-humaines ne sont pas régies par des lois.</p>
 
-<p>Le seul moyen d'en sortir : un <strong>contrat social</strong> par lequel les hommes transfèrent leurs libertés à un <strong>souverain</strong> (roi, assemblée). Hobbes préfère la <strong>monarchie absolue</strong> : un pouvoir illimité capable de tenir les hommes en respect par la <strong>contrainte</strong>.</p>
+<p>Pour Hobbes, dans cet état de nature la vie de l'homme est <strong>brève, solitaire, misérable et menacée d'une mort violente</strong>. La propriété privée est impossible, de même que le progrès technique et scientifique. En effet, ce n'est que l'État qui permet l'existence (reconnaissance) de la propriété privée et par conséquent l'agriculture.</p>
 
-<p>L'État est comparé à un <strong>Léviathan</strong> (monstre mythologique). Mais c'est un moindre mal. Le souverain est <em>au-dessus des lois</em> et il n'est pas possible de lui désobéir.</p>
+<p>Le seul moyen de sortir de cette situation d'insécurité générale représente le <strong>contrat social</strong> qui est un pacte que les hommes passent les uns avec les autres par lequel ils transfèrent tous leurs libertés naturelles à un souverain (un roi, une assemblée aristocratique ou une assemblée démocratique). Ce souverain possède ainsi un pouvoir illimité qui lui permet de forcer tout le monde à respecter le contrat social. Ce pacte social est donc un accord par lequel les individus se promettent mutuellement de renoncer à leurs libertés de se nuire ; le souverain représente l'autorité commune qui oblige les individus à respecter cette promesse.</p>
+
+<p>Hobbes, qui préfère la monarchie absolue, insiste sur la nécessité d'un pouvoir politique absolu (illimité) qui serait le seul capable de tenir les hommes en respect par la <strong>contrainte</strong> (policière, militaire, judiciaire etc.). Il revient au souverain de décider artificiellement de ce qui est juste en instaurant des lois afin d'assurer la paix sociale.</p>
+
+<p>La liberté devient possible dans le cadre des lois. Si à l'état de nature la liberté était entière mais infructueuse ; à l'état civil, la liberté est bien limitée, mais réelle.</p>
+
+<p>Hobbes est conscient des abus possibles d'un pouvoir politique illimité. Il compare même l'État à un <strong>Léviathan</strong> (un monstre mythologique). Mais, il considère le pouvoir illimité du souverain comme un moindre mal que l'absence d'un tel pouvoir.</p>
+
+<p>Chez Hobbes, le souverain ne peut pas commettre d'injustice (il est au-dessus des lois) et il n'est pas possible de désobéir au pouvoir du souverain. En effet, l'État ne naît pas d'un contrat entre le souverain et les individus mais d'un contrat entre les individus par lequel ils transfèrent leurs pouvoirs individuels au souverain. Le souverain ne fait donc pas partie du contrat social ; il est l'autorité suprême créée par le contrat social afin de contraindre tous les individus, par la force, à respecter le contrat.</p>
 
 <h4>b) Perspective optimiste (Locke)</h4>
 
-<p>La pensée libérale propose une vision plus optimiste : le pouvoir politique est :</p>
-<ul>
-  <li><strong>Constitutionnel</strong> (encadré par des lois)</li>
-  <li><strong>Divisé</strong> (séparation des pouvoirs)</li>
-  <li><strong>Limité</strong> (protection des droits individuels)</li>
-  <li><strong>Responsable devant les citoyens</strong></li>
-</ul>
+<p>La pensée politique libérale propose une vision plus optimiste de l'État : le pouvoir politique est également le résultat d'un contrat social, mais il est : <strong>constitutionnel</strong> (encadré par des lois), <strong>divisé</strong> (grâce à la séparation des pouvoirs), <strong>limité</strong> (il n'a pour objectif que la protection des droits individuels), <strong>responsable devant les citoyens</strong>.</p>
 
-<p>Pour Locke, l'homme à l'état de nature est <strong>moral et rationnel</strong>, reconnaissant les droits naturels de l'autre (vie, propriété, liberté de poursuivre son bonheur). Mais sa façon de venger les innocents devient source de conflits. L'État est un <strong>arbitre impartial</strong> qui protège les droits naturels.</p>
+<p>Mais, pour qu'une telle conception politique soit possible, il faut partir, comme John <strong>Locke</strong>, du postulat que, à l'état de nature, l'homme n'est pas un être égoïste (Hobbes) ou amoral (Rousseau), mais <strong>moral et rationnel</strong>.</p>
 
-<h3 id="pascal5">3. La justice repose sur la force de l'État</h3>
+<p>Dans la pensée libérale de John Locke, l'homme cherche naturellement à satisfaire son intérêt privé tout en reconnaissant par la raison les droits naturels de l'autre : la vie, la propriété privée (comme fruit du travail personnel), la liberté de poursuivre son bonheur.</p>
 
-<blockquote>
-  La justice sans la force est impuissante ; la force sans la justice est tyrannique.
-  <cite>Blaise Pascal</cite>
-</blockquote>
+<p>De plus, l'homme posséderait un sentiment moral de la justice, qui le pousserait à punir tous ceux qui portent atteinte aux droits naturels des autres. Ainsi, à l'état de nature, c-à-d dans l'absence d'un pouvoir politique tout le monde se sent obligé de venger les innocents et infliger une peine, y compris mortelle, aux malfaiteurs. Or, cela peut devenir une source de conflits : cette manière naturelle de rendre la justice est souvent disproportionnée par rapport aux crimes commis, partiale et subjective. Cela ne peut qu'engendrer une spirale de violence. C'est dans ce contexte que l'État apparaît comme le résultat d'un contrat social : un accord entre les individus par lequel ils transfèrent à un pouvoir politique établi leur droit naturel de se venger. L'État n'est alors qu'un arbitre impartial qui protège les droits naturels des individus.</p>
+`;
 
-<p>Beaucoup respectent les lois par <strong>contrainte</strong>, non par obligation (limitations de vitesse). L'État détient « le <strong>monopole de la violence légitime</strong> » (Max Weber).</p>
+window.SEQUENCE_5.content += `
+<h3>3. La JUSTICE repose sur la force de l'ÉTAT</h3>
+
+<p>Toute loi n'existe que s'il y a une force pour la faire respecter : « <em>La justice sans la force est impuissante ; la force sans la justice est tyrannique</em> » (Blaise <strong>PASCAL</strong>). En effet, beaucoup d'individus respectent les lois non pas par <strong>OBLIGATION</strong>, mais par <strong>CONTRAINTE</strong> (exemple : les limitations de vitesse), d'où le fait que l'<strong>ÉTAT</strong> détient « <em>le monopole de la violence légitime</em> » (Max <strong>WEBER</strong>) à travers la police. Or, obéir à la loi par <strong>CONTRAINTE</strong> revient finalement à obéir au plus fort (au pouvoir de l'<strong>ÉTAT</strong>).</p>
 
 <div class="encadre">
   <div class="encadre-block">
-    <div class="label">Contrainte</div>
-    <div class="vals">Force <strong>extérieure</strong> qui s'exerce sur soi pour obtenir un effet indépendant — souvent contraire — de la volonté.</div>
+    <div class="label">CONTRAINTE</div>
+    <div class="vals">La <strong>contrainte</strong> renvoie à une force extérieure à soi, qui s'exerce sur soi pour obtenir un effet indépendant de la volonté et le plus souvent contraire à elle.</div>
   </div>
   <div class="encadre-block">
-    <div class="label">Obligation</div>
-    <div class="vals">Action <strong>libre</strong>, consentement de la part de celui qui est obligé.</div>
+    <div class="label">OBLIGATION</div>
+    <div class="vals">L'<strong>obligation</strong> implique une action libre, un consentement de la part de celui qui est obligé.</div>
   </div>
 </div>
 
-<h4>a) Le problème de la majorité (Tocqueville)</h4>
-<p>La démocratie peut se transformer en <strong>tyrannie de la majorité</strong>, qui impose ses intérêts et préférences. Exemples : pays où l'homosexualité, l'athéisme, le féminisme, l'IVG sont pénalisés (parfois par la peine capitale).</p>
+<p>Mais est-ce que le pouvoir de l'État profite de manière égale à tous les citoyens ?</p>
 
-<h4>b) La force des plus forts économiquement (Marx)</h4>
-<p>Pour Marx, la loi tire sa force d'un rapport de domination économique : ce sont les puissants qui exercent le pouvoir. Pas de justice sans <strong>justice sociale</strong>.</p>
+<h4>a) Le problème de la majorité</h4>
+
+<p>La démocratie est la forme d'État la plus légitime, car les lois sont l'expression des volontés politiques de la majorité des électeurs : les citoyens obéissent aux lois qu'ils se donnent eux-mêmes à travers les représentants qu'ils élisent. Mais, comme <strong>TOCQUEVILLE</strong> le remarque, la démocratie peut facilement se transformer en <strong>UNE TYRANNIE DE LA MAJORITÉ</strong> qui impose ses intérêts, ses préférences et ses valeurs à l'ensemble de la société. À titre d'exemple, il y a encore de nombreux pays où l'homosexualité, l'athéisme, les revendications féministes, le recours à l'IVG, l'aide à mourir pour les personnes extrêmement malades, etc. sont lourdement pénalisés (y compris par la peine capitale). Dans ces pays, ces lois discriminatoires reflètent les opinions de la majorité et pourtant....</p>
+
+<h4>b) La force des plus forts économiquement</h4>
+
+<p>En dehors de l'<strong>ÉTAT</strong> et des <strong>LOIS</strong> établies, les relations entre les individus sont l'expression d'un rapport de force entre eux. Mais l'on peut dire que même l'organisation politique et juridique d'une société apparaît souvent comme l'expression d'un rapport de force.</p>
+
+<p>Pour Karl <strong>MARX</strong>, la <strong>LOI</strong> tire sa force d'un rapport de domination économique : ce sont les individus les plus puissants économiquement qui exercent directement ou indirectement le pouvoir politique. Alors, le <strong>DROIT</strong> établi ne peut pas atteindre l'idéal de <strong>JUSTICE</strong> tant qu'il subsiste un rapport de force entre les individus. Autrement dit, il n'y a pas de <strong>JUSTICE</strong> indépendamment de la <strong>JUSTICE</strong> sociale. De la même façon, la <strong>LIBERTÉ</strong> et l'<strong>ÉGALITÉ</strong> sont infructueuses en dehors d'une égalité sociale.</p>
+
+<p>Les différentes déclarations des droits de l'homme affirment que la <strong>LIBERTÉ</strong> individuelle (de disposer de soi-même et de ses biens) est inaliénable (on ne peut pas y renoncer). Cependant, cette <strong>LIBERTÉ</strong> en droit n'est pas synonyme de <strong>LIBERTÉ</strong> en fait. Pour MARX, la notion de droits de l'homme telle qu'elle apparaît aux alentours de la Révolution Française ne protège que la <strong>LIBERTÉ</strong> de la classe sociale la plus aisée (la bourgeoisie).</p>
+
+<p>En effet, la <strong>LIBERTÉ</strong> de l'individu, même celle de disposer de son corps, est infructueuse, si elle est susceptible d'être aliénée par la <strong>CONTRAINTE</strong> (celle de subvenir à ses besoins). C'est le cas de la prostitution ou de la vente désavantageuse de sa force de travail (accepter d'être exploité par son patron).</p>
 
 <div class="encadre">
   <div class="encadre-block">
-    <div class="label">En fait</div>
-    <div class="vals">Ce qui est <em>effectif</em> actuellement.</div>
+    <div class="label">EN FAIT</div>
+    <div class="vals"><em>En fait</em> : ce qui est effectif actuellement.</div>
   </div>
   <div class="encadre-block">
-    <div class="label">En droit</div>
-    <div class="vals">Ce qui <em>doit être</em>, mais qui n'est pas nécessairement ou ne sera peut-être jamais.</div>
+    <div class="label">EN DROIT</div>
+    <div class="vals"><em>En droit</em> : ce qui doit être, mais qui n'est pas nécessairement ou ne sera peut-être jamais.</div>
   </div>
 </div>
 
-<p>Pour Marx, la solution suppose la suppression de la propriété privée (<strong>communisme</strong>) — solution problématique.</p>
+<p>Pour que la <strong>LIBERTÉ</strong> existe non seulement EN DROIT, mais aussi EN FAIT, il faut que les hommes soient égaux non seulement EN DROIT, mais aussi EN FAIT. Or, pour MARX, ce n'est que l'égalité sociale qui rend possible l'existence réelle de la <strong>LIBERTÉ</strong> et de l'<strong>ÉGALITÉ</strong>. Cependant, la solution de Marx est problématique, car elle suppose tout simplement la suppression de la propriété privée (communisme).</p>
 
-<h4>c) Égalité politique en droit / impuissance en fait (Rawls)</h4>
-<p>En Europe occidentale, on ne peut plus dire que les lois protègent uniquement les intérêts capitalistes. Mais : <strong>en droit</strong> nous avons les mêmes droits politiques ; <strong>en fait</strong>, les inégalités sociales conduisent à des différences d'information, d'instruction, de capacité à proposer des idées. Le débat est monopolisé par les citoyens aisés (campagnes, presse, télévision, réseaux sociaux). Solution de Rawls : <strong>renforcement économique de la classe moyenne</strong>.</p>
+<h4>c) Égalité politique EN DROIT / impuissance politique EN FAIT</h4>
 
-<h2 id="part-3">III. La justice relève aussi de la conscience individuelle</h2>
+<p>De nos jours, le problème soulevé par MARX ne concerne que très peu les sociétés européennes occidentales (mais il persiste dans d'autres pays du monde) : on ne peut pas dire qu'aujourd'hui, en Europe, les lois protègent principalement les intérêts capitalistes. Les mesures sociales et environnementales, le code du travail, le système de retraite, etc. prouvent le contraire.</p>
 
-<h3 id="antigone">1. Le conflit entre loi politique et loi morale (Antigone)</h3>
+<p>Mais, comme John <strong>RAWLS</strong> remarque, nous nous confrontons aujourd'hui à un problème nouveau : les inégalités sociales frappantes mettent en danger notre système politique démocratique. En effet, <strong>EN DROIT</strong>, nous avons tous les mêmes droits politiques ; mais, <strong>EN FAIT</strong>, les différences sociales conduisent à des différences dans la capacité : à être bien informé, à être suffisamment instruit pour comprendre les enjeux de l'actualité politique, à proposer des idées nouvelles dans le débat politique. RAWLS attire l'attention sur le fait que le débat politique est déjà monopolisé par les citoyens les plus aisés qui peuvent financer des campagnes électorales, des organes de presse, des chaînes de télévision, des réseaux sociaux. Pour surmonter ce problème, RAWLS propose comme solution le renforcement économique de la classe moyenne par des mesures gouvernementales.</p>
 
-<p>Dans la pièce de <strong>Sophocle</strong>, le frère d'Antigone meurt en combattant sa propre cité. Le roi <strong>Créon</strong> interdit qu'on l'enterre. Antigone, éprise de justice, enfreint la loi et tente de l'enterrer. Elle est condamnée à mort, emmurée vivante.</p>
-
-<div class="encadre">
-  <div class="encadre-block">
-    <div class="label">Antigone</div>
-    <div class="vals">Le <strong>devoir moral</strong> (justice morale). <strong>Légitimité</strong>. Vertu intérieure.</div>
-  </div>
-  <div class="encadre-block">
-    <div class="label">Créon</div>
-    <div class="vals">La <strong>justice étatique</strong>. <strong>Légalité</strong>. Rétablir l'ordre, l'équilibre, l'harmonie de la cité.</div>
-  </div>
+<div class="callout warn">
+  <div class="callout-title">TRANSITION</div>
+  <p>S'il revient à l'État d'imposer des lois pour assurer le bien-être de la société, cela signifie-t-il que nous devons une obéissance sans faille au pouvoir étatique ? Que faire lorsqu'une loi nous semble immorale ?</p>
 </div>
+`;
 
-<p>L'idéal serait de concilier les deux. Travail extrêmement difficile pour le législateur : un véritable travail d'<em>équilibriste</em>.</p>
+window.SEQUENCE_5.content += `
+<h2 id="part-3">III. La justice est également une notion morale qui relève de la conscience individuelle des citoyens</h2>
 
-<h3 id="rawls">2. La désobéissance civile (Rawls)</h3>
+<h3>1. Le conflit entre la loi politique la loi morale (Antigone)</h3>
 
-<blockquote>
-  La désobéissance civile peut être définie comme un acte public, non-violent, décidé en conscience, mais politique, contraire à la loi et accompli le plus souvent pour amener un changement dans la loi ou bien dans la politique du gouvernement.
-  <cite>John Rawls</cite>
-</blockquote>
+<p>Il arrive parfois qu'un citoyen se trouve dans l'<strong>OBLIGATION</strong> morale de désobéir à une loi de l'<strong>ÉTAT</strong>. C'est le cas d'<strong>ANTIGONE</strong> dans la pièce de théâtre homonyme de <strong>SOPHOCLE</strong>. Le frère d'Antigone a mené une guerre contre sa propre cité avec l'aide d'une armée étrangère dans le but de prendre le pouvoir ; mais il meurt dans les combats. Pour punir cet acte de haute trahison, le roi de la cité, <strong>CRÉON</strong>, interdit par la loi qu'on enterre le frère d'Antigone (c'est la pire condamnation d'un défunt : sans sépulture, il ne peut pas rejoindre la terre des morts). Mais ANTIGONE, éprise de justice, enfreint la loi et tente de recouvrir de terre le cadavre de son frère. Elle sera condamnée à mort, emmurée vivante.</p>
 
-<p>Délicate dans le cas d'un État démocratique : opposition entre le <em>contenu</em> de la loi (qu'on rejette) et son <em>mode de production démocratique</em> (qu'on accepte). Que faire ? Il revient à chaque citoyen d'agir <strong>en son âme et conscience</strong>.</p>
+<p>Antigone incarne ainsi le <strong>DEVOIR</strong> moral (la justice morale) contre la justice étatique. La loi morale relève de la <strong>légitimité</strong> tandis que la loi politique relève de la <strong>légalité</strong>.</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<p>La <strong>JUSTICE</strong> incarnée par ANTIGONE est une vertu intérieure (une vertu morale). Antigone obéit à sa conscience morale, qui va bien au-delà de l'organisation générale de la cité dans laquelle elle vit.</p>
 
-<p>Pour la vie en communauté, il revient principalement à l'<strong>État</strong> de décider de ce qui est juste — <em>à condition</em> que cette décision incite les citoyens à la <strong>vigilance</strong>, par la publicité des actions politiques.</p>
+<p>La <strong>JUSTICE</strong> incarnée par CRÉON est complètement différente. Même s'il semble injuste envers Antigone, il est juste au regard de la cité. Il doit rétablir l'ordre, l'équilibre et l'harmonie, dans la cité, mise à feu et à sang par le frère d'Antigone.</p>
 
-<p>En revanche, dans la sphère privée (fidélité, bienveillance, aider un voisin), il n'appartient pas à l'État de légiférer. L'<strong>action morale</strong> a lieu par <strong>obligation</strong> et non par <strong>contrainte</strong>.</p>
-`
-};
+<p>L'idéal serait de pouvoir concilier les deux sens du terme, la <strong>JUSTICE</strong> comme vertu intérieure et la <strong>JUSTICE</strong> comme organisation générale de la cité (ou comme norme du droit). C'est pour le législateur un travail extrêmement difficile, un véritable travail d'équilibriste.</p>
+
+<h3>2. La désobéissance civile (RAWLS)</h3>
+
+<p>Le seul moyen de désobéir à la loi sans mettre en danger le fonctionnement de l'État est la <strong>désobéissance civile</strong>, qu'il faut distinguer de la simple infraction à la loi à des fins personnelles. En effet, la désobéissance civile doit viser explicitement à modifier la loi et agir au nom d'un groupe entier et non d'un seul individu. Selon John RAWLS : « <em>La désobéissance civile peut être définie comme un acte public, non-violent, décidé en conscience, mais politique, contraire à la loi et accompli le plus souvent pour amener un changement dans la loi ou bien dans la politique du gouvernement.</em> »</p>
+
+<p>La question de la désobéissance civile est particulièrement délicate dans le cas d'un État démocratique, puisque alors deux principes s'opposent : d'une part le refus de telle ou telle loi, d'autre part le principe démocratique. Il y a une opposition entre le contenu de la loi (qui incite à la rejeter) et son mode de production par un pouvoir démocratiquement investi (qui incite à l'accepter). Que faire dans une telle situation ? Il revient à chaque citoyen d'agir en son âme et conscience.</p>
+
+<h3>3. L'action juste relève aussi du domaine du devoir (voir la séquence suivante)</h3>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>Lorsqu'il s'agit de notre vie en communauté, il revient principalement à l'<strong>ÉTAT</strong> de décider de ce qui est juste <strong>À CONDITION QUE</strong> cette décision étatique doit inciter les citoyens à la vigilance, notamment dans un gouvernement démocratique dans lequel les décisions politiques sont rendues publiques (à travers des moyens d'information officiels : Moniteur Officiel, sites internet officiels, etc.) afin que les citoyens puissent prendre connaissance des actions de leurs représentants. En revanche, lorsqu'il s'agit des questions relevant de la sphère privée (fidélité envers ses proches, bienveillance au travail, aider un voisin en difficulté, etc.), il n'appartient pas à l'<strong>ÉTAT</strong> de légiférer en matière de morale. En effet, l'action morale a lieu par <strong>OBLIGATION</strong> et non pas par <strong>CONTRAINTE</strong>.</p>
+`;

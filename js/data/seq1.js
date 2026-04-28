@@ -11,15 +11,15 @@ window.SEQUENCE_1 = {
   work: "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
   tint: "#d4a85a",
   essentiel: {
-    question: "Avoir conscience de soi, est-ce vraiment se connaître ? La sensation immédiate d'« être moi » est-elle un savoir, ou seulement une évidence confortable ?",
-    enjeu: "Toute notre culture suppose qu'on est maître de soi-même : qu'on choisit librement, qu'on sait ce qu'on veut, qu'on est responsable. Si la conscience est trompeuse — si l'inconscient pèse plus que le moi, si le libre arbitre est une fiction — alors la morale, la justice et la vie intime changent de visage.",
-    tension: "Trois moments. <b>Descartes</b> : la conscience est la seule certitude indubitable (le <em>cogito</em>). <b>Kant et Hegel</b> approfondissent : se connaître, c'est se penser soi-même comme objet, ce qui demande un travail. <b>Freud</b> renverse la table : la conscience n'est que la surface, l'essentiel — désirs, refoulements — se joue dans l'inconscient.",
+    question: "Tu sens bien que tu existes, que c'est toi qui penses et qui choisis. Mais est-ce que ça suffit pour vraiment te connaître ?",
+    enjeu: "On vit en se disant qu'on est maître de soi : on choisit librement, on sait ce qu'on veut, on est responsable. Mais si une grande partie de toi t'échappe — désirs cachés, automatismes, inconscient — alors « être soi » devient beaucoup moins évident. Et c'est toute notre idée de la morale, de la liberté et de la justice qui vacille.",
+    tension: "Trois moments-clés. <b>Descartes</b> : la seule chose dont je peux être totalement sûr, c'est que je pense ; donc j'existe (le <em>cogito</em>). <b>Hegel</b> précise : on devient vraiment soi en se regardant agir, en se prenant pour objet. Puis <b>Freud</b> casse tout : la conscience, c'est juste la pointe de l'iceberg. L'essentiel — désirs refoulés, pulsions — se passe ailleurs, sans qu'on le voie.",
     pieges: [
-      "<b>Conscience</b> ≠ <b>être conscient</b> au sens médical. La perte de connaissance n'a rien à voir avec l'inconscient freudien, qui est une <em>instance active</em> du psychisme.",
-      "<b>Libre arbitre</b> ≠ <b>liberté</b>. Pour Spinoza, le libre arbitre est une illusion ; pour Sartre, on est <em>condamnés</em> à être libres.",
-      "Avoir <b>conscience de soi</b> ≠ <b>se connaître</b>. La conscience est immédiate, la connaissance demande détour, doute et méthode."
+      "Être <b>conscient</b> (au sens « pas dans les pommes ») ≠ <b>l'inconscient</b> de Freud. L'inconscient, ce n'est pas un évanouissement — c'est tout ce qui agit en toi sans que tu en saches rien.",
+      "<b>Libre arbitre</b> ≠ <b>liberté</b>. Pour Spinoza, le libre arbitre est une illusion. Pour Sartre, on est <em>condamnés</em> à être libres : on n'a même pas le choix de ne pas choisir.",
+      "Avoir <b>conscience de soi</b> ≠ <b>se connaître</b>. La conscience, c'est gratuit, immédiat. La connaissance, elle se travaille — il faut douter, réfléchir, accepter qu'on soit un peu un mystère pour soi-même."
     ],
-    retenir: "On a <b>conscience</b> de soi sans pour autant se <b>connaître</b>. Entre les deux, c'est tout le travail de la philosophie : douter de l'évidence, suspendre le jugement, accepter qu'on soit en partie étranger à soi-même."
+    retenir: "Tu as conscience de toi, mais tu ne te connais pas vraiment — et c'est normal. Comprendre ça, c'est déjà commencer la philosophie."
   },
   plan: [
     { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (DESCARTES)","La conscience de soi fonde l'unité de la personne (KANT)","L'homme est un « être pour soi » (HEGEL)"] },

@@ -1,7 +1,7 @@
 // =========================================================
 // Philo·Révisions — Core (router, theme, utils, search)
 // =========================================================
-const App = {
+window.App = {
   routes: {},
   currentRoute: null,
 

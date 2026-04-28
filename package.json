@@ -1,0 +1,13 @@
+{
+  "name": "cogito",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cogito — Bac de philosophie. Site statique + générateur de PDF.",
+  "scripts": {
+    "build:pdfs": "node scripts/build-pdfs.js",
+    "build:pdf": "node scripts/build-pdfs.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}

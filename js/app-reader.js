@@ -135,8 +135,8 @@ App.routes.sequence = function(parts) {
         <div class="aside-card">
           <div class="ac-title">Télécharger</div>
           <ul>
-            <li><a href="#/print/cours/${s.id}" target="_blank" style="color:var(--accent);">📄 Cours complet · PDF</a></li>
-            <li><a href="#/print/fiche/${s.id}" target="_blank" style="color:var(--accent);">📑 Fiche de révision · PDF</a></li>
+            <li><a href="./pdfs/seq-${s.id}-cours.pdf" download style="color:var(--accent);">📄 Cours complet · PDF</a></li>
+            <li><a href="./pdfs/seq-${s.id}-fiche.pdf" download style="color:var(--accent);">📑 Fiche de révision · PDF</a></li>
           </ul>
         </div>
       </aside>

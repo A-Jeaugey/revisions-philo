@@ -2,63 +2,56 @@
 window.SEQUENCE_3.content += `
 <h2 id="part-3">III. Les discontinuités entre le langage et la pensée</h2>
 
-<p>Les signes du langage sont des <strong>ressources communes</strong> que les hommes ont inventées pour s'entendre. Le sens <em>général</em> devient une première barrière à la communication du <em>personnel</em>.</p>
+<p>Le langage verbal consiste à utiliser des signes (à savoir des sons, des mots, des gestes conventionnels, des symboles) pour communiquer nos pensées. Mais ces signes sont des ressources <strong>communes</strong> que les hommes ont inventées et mises à leur disposition pour s'entendre. Alors le sens <strong>général</strong> de nos signes devient une première barrière à la communication, lorsqu'il s'agit d'exprimer quelque chose de <strong>personnel</strong>.</p>
 
-<h3 id="bergson3">1. Le langage voile l'individualité (Bergson)</h3>
+<h3 id="bergson3">1. Le langage verbal voile l'individualité des choses et de notre vie intérieure</h3>
 
-<div class="author-card">
-  <div class="ac-avatar">B</div>
-  <div>
-    <div class="ac-name">Henri Bergson</div>
-    <div class="ac-meta">1859 – 1941 · France</div>
-  </div>
-</div>
+<p>Dans la mesure où notre langage verbal et notre pensée sont déterminés par notre perception, ils ne sont pas un moyen d'accéder à la <strong>VÉRITÉ</strong>. <strong>On peut définir la vérité comme l'adéquation entre ce qu'on pense ou ce qu'on affirme et le réel.</strong></p>
 
-<p>Notre <strong>perception</strong>, conditionnée par le besoin du vivant d'agir pour survivre, est par nature <strong>globale et générale</strong>.</p>
+<p>Or, la perception animale, y compris la nôtre, est conditionnée par le <strong>besoin</strong> du vivant d'agir pour survivre dans son milieu naturel. Ayant une fonction éminemment utilitaire, la perception est toujours <strong>globale, générale</strong>. Comme Henri <strong>BERGSON</strong> (1859-1941, FR) le rappelle :</p>
 
 <blockquote>
-  Il est peu probable que l'œil du loup fasse une différence entre le chevreau et l'agneau ; ce sont là pour le loup deux proies identiques. Nous faisons une différence entre la chèvre et le mouton ; mais distinguons-nous une chèvre d'une chèvre, un mouton d'un mouton ? L'individualité des choses et des êtres nous échappe toutes les fois qu'il ne nous est pas matériellement utile de l'apercevoir.
-  <cite>Bergson</cite>
+  « Il est peu probable que l'œil du loup fasse une différence entre le chevreau et l'agneau ; ce sont là, pour le loup, deux proies identiques, étant également faciles à saisir, également bonnes à dévorer. Nous faisons, nous, une différence entre la chèvre et le mouton ; mais distinguons-nous une chèvre d'une chèvre, un mouton d'un mouton ? L'individualité des choses et des êtres nous échappe toutes les fois qu'il ne nous est pas matériellement utile de l'apercevoir. Et là même où nous la remarquons (comme lorsque nous distinguons un homme d'un autre homme), ce n'est pas l'individualité même que notre œil saisit, c'est-à-dire une certaine harmonie tout à fait originale de formes et de couleurs, mais seulement un ou deux traits qui faciliteront la reconnaissance pratique. »
+  <cite>Henri BERGSON (1859-1941, FR)</cite>
 </blockquote>
 
-<p>« Nous ne voyons pas les choses mêmes. » Le langage, déterminé par cette perception utilitaire, <strong>épaissit le voile</strong> : les mots ne désignent que des catégories générales (HOMME, POULE, JOIE, TRISTESSE).</p>
+<p>N'étant pas une exception dans le règne animal, l'homme perçoit aussi le réel d'une manière générale : on ne voit que <strong>des</strong> hommes, <strong>des</strong> moutons, <strong>des</strong> pierres, <strong>des</strong> poules, etc. et nous ratons la <strong>singularité</strong> de chaque chose. Lorsque je vois <strong>des</strong> hommes sur le marché, ma perception manque naturellement l'<strong>individualité</strong> de chacun de ces hommes. Déterminé par la perception, le langage verbal ne fait qu'accentuer cette tendance de la perception de « <em>n'accepter des objets que l'impression utile pour y répondre par des réactions appropriées</em> ». Comme <strong>BERGSON</strong> l'affirme « <em>nous ne voyons pas les choses mêmes</em> », qu'il s'agisse des choses extérieures ou de nos propres états d'âme. Si la perception impose un voile entre nous et le monde, voire entre nous et nous-mêmes, le langage verbal ne fait que contribuer à épaissir ce voile, car les mots ne désignent que des catégories générales : HOMME, POULE, MOUTON, TRISTESSE, JOIE, etc. Dire que moi et Paul sommes <strong>des</strong> hommes revient à effacer les différences entre moi et Paul. De même, dire que moi et Paul sommes tristes pour avoir échoué au même examen revient à ignorer le fait que moi et Paul vivons ce qu'on appelle <em>communément</em> « tristesse » d'une façon différente parce que nous sommes différents. Ma tristesse n'est donc pas la tristesse de Paul.</p>
+
+<p>Quand nous prenons <strong>CONSCIENCE</strong> de nos vécus, nous les apercevons à travers les outils de la langue et on parle d'amour, de haine, de joie ou de tristesse, comme s'il s'agissait toujours des mêmes sentiments, comme si ces sentiments ne s'inscrivaient pas dans le <strong>TEMPS</strong>, qui fait que la joie que j'éprouve maintenant n'est pas la joie que j'éprouvais il y a 10 minutes. C'est pour cela que <strong>BERGSON</strong> affirme :</p>
 
 <blockquote>
-  Et ce ne sont pas seulement les objets extérieurs, ce sont aussi nos propres états d'âme qui se dérobent à nous dans ce qu'ils ont d'intime, de personnel, d'originalement vécu. […] Nous n'apercevons de notre état d'âme que son déploiement extérieur. […] Nous nous mouvons parmi des généralités et des symboles.
-  <cite>Bergson</cite>
+  « Et ce ne sont pas seulement les objets extérieurs, ce sont aussi nos propres états d'âme qui se dérobent à nous dans ce qu'ils ont d'intime, de personnel, d'originalement vécu. Quand nous éprouvons de l'amour ou de la haine, quand nous nous sentons joyeux ou tristes, est-ce bien notre sentiment lui-même qui arrive à notre <strong>CONSCIENCE</strong> avec les mille nuances fugitives et les mille résonances profondes qui en font quelque chose d'absolument nôtre ? Nous serions alors tous romanciers, tous poètes, tous musiciens. Mais le plus souvent, nous n'apercevons de notre état d'âme que son <strong>déploiement extérieur</strong> [c'est-à-dire la manière dont on prend <strong>CONSCIENCE</strong> à travers les mots]. Nous ne saisissons de nos sentiments que leur aspect impersonnel, celui que le langage a pu noter une fois pour toutes parce qu'il est à peu près le même, dans les mêmes conditions, pour tous les hommes. Ainsi, jusque dans notre propre individu, l'individualité nous échappe. <em>Nous nous mouvons parmi des généralités et des symboles</em> [...]. »
+  <cite>Henri BERGSON (1859-1941, FR)</cite>
 </blockquote>
 
-<p>Seuls les <strong>artistes</strong> (romanciers, poètes, musiciens) peuvent dépasser cet impératif utilitaire. L'<strong>art</strong> est le moyen exceptionnel de prendre conscience de ce que la perception et le langage nous cachent : l'<strong>unicité absolue</strong> de chaque chose.</p>
+<p>Les seuls capables à dépasser l'impératif utilitaire de la perception et du langage humains sont les artistes, comme les romanciers, les poètes et les musiciens que <strong>BERGSON</strong> cite. L'<strong>ART</strong> est le moyen exceptionnel de prendre compte de ce que notre perception et notre langage verbal nous cachent du réel, à savoir l'unicité absolue de chaque chose. <strong>BERGSON</strong> pense que les artistes sont des hommes dont l'un des sens (comme la vue, l'ouïe, le toucher) est moins ancré dans l'utilité. Autrement dit, l'artiste est capable de voir, d'entendre, de sentir par le toucher ce que nous ignorons du réel. Alors, il transpose sa perception exceptionnelle des choses extérieures et de ses états d'âme dans la peinture, dans la musique, dans la sculpture, etc.</p>
 
-<h3 id="nietzsche3">2. Le langage ne peut exprimer que la pensée consciente (Nietzsche)</h3>
+<h3 id="nietzsche3">2. Le langage ne peut exprimer que les pensées conscientes</h3>
 
-<blockquote>
-  Le monde dont nous pouvons avoir conscience n'est qu'un monde de surfaces et de signes, un monde généralisé, vulgarisé. […] Tout ce qui devient conscient devient par là même plat, inconsistant, stupide à force de relativisation, générique.
-  <cite>Nietzsche</cite>
-</blockquote>
+<p>Quelques années avant <strong>BERGSON</strong>, Friedrich <strong>NIETZSCHE</strong> (1844-1900, DE) faisait le même constat : « <em>le monde dont nous pouvons avoir <strong>CONSCIENCE</strong> n'est qu'un monde de surfaces et de signes, un monde généralisé, vulgarisé</em> » ; « <em>tout ce qui devient conscient devient par là même plat, inconsistant, stupide à force de relativisation, générique</em> » ; « <em>toute prise de <strong>CONSCIENCE</strong> est liée à une grande et radicale corruption, falsification, superficialisation et généralisation</em> ». C'est pour cela que <strong>NIETZSCHE</strong> ne considère pas la <strong>CONSCIENCE</strong> comme ce qui fait la supériorité de l'homme par rapport aux animaux, mais comme une <strong>maladie</strong>. <strong>NIETZSCHE</strong> remarque qu'il y a un rapport entre le <strong>LANGAGE</strong> verbal et la <strong>CONSCIENCE</strong>, ce qui fait que nos représentations conscientes sont dépendantes des concepts existants dans notre langue. Or ces concepts sont trop généraux et approximatifs et ne rendent pas compte de l'individualité de notre vie intérieure. Dès qu'une idée, un désir, une émotion etc. devient consciente, elle perd quelque chose de sa vitalité, de son individualité.</p>
 
-<p>Pour Nietzsche, la <strong>conscience</strong> n'est pas la supériorité de l'homme, mais une <strong>maladie</strong>. Le langage et la conscience se sont développés ensemble pour permettre la vie en communauté : il fallait pouvoir partager besoins, souffrances, désirs avec d'autres hommes.</p>
+<p><strong>NIETZSCHE</strong> va encore plus loin en proposant une explication historique du développement de la <strong>CONSCIENCE</strong> chez l'homme. Pour <strong>NIETZSCHE</strong>, tout être animal pense, mais sans le savoir, c'est-à-dire sans en avoir <strong>CONSCIENCE</strong>. Tant qu'il vivait seul dans les temps les plus reculés de la préhistoire, l'homme ne disposait pas de cette capacité de prendre connaissance de lui-même et de ses vécus. Il n'en avait pas besoin. Cependant la fragilité de l'homme exigea qu'il vive avec d'autres hommes, qu'il s'allie à d'autres hommes pour survivre en partageant ses besoins, ses souffrances, ses désirs, ses pensées. Or, pour faire cela, c'est-à-dire pour parler avec les autres, il a fallu d'abord que l'homme commence à prendre <strong>CONSCIENCE</strong> de lui-même, que sa pensée se tourne vers son intériorité. L'hypothèse de <strong>NIETZSCHE</strong> est que la <strong>CONSCIENCE</strong> de soi et le <strong>LANGAGE</strong> se sont développés en même temps dans le but d'assurer la vie en communauté.</p>
 
 <h3 id="inconscient3">3. Le langage et l'inconscient</h3>
 
-<p>L'hypothèse de l'<strong>inconscient</strong> (Freud) court-circuite la relation langage / pensée : comment exprimer des pensées qu'on ignore soi-même ? La psychanalyse <em>déchiffre</em> les manifestations de l'inconscient (corps, lapsus, rêves, art) à travers la <strong>cure de la parole</strong>.</p>
+<p>L'hypothèse psychanalytique de l'existence d'un <strong>INCONSCIENT</strong> psychique, c'est-à-dire d'une partie <strong>occulte</strong> de notre vie psychique, court-circuite la relation entre le langage et la pensée. Comment exprimer des pensées (<strong>certes obscures, confuses, informes</strong>), qu'on ignore nous-mêmes ? Cependant, la psychanalyse vise à rendre visible, connaissable, la partie inconsciente de notre esprit. Pour ce faire, elle analyse et interprète les manifestations visibles de notre vie psychique inconsciente. L'<strong>INCONSCIENT</strong> laisse des traces dans notre corps (dans notre langage corporel), dans nos lapsus (les blocages au niveau de la parole), dans nos rêves, dans nos productions (notamment dans l'<strong>ART</strong>), dans notre histoire personnelle faite de leitmotivs (des éléments qui reviennent souvent). Selon la psychanalyse, l'<strong>INCONSCIENT</strong> se manifeste de façon symbolique et chiffrée en créant son propre langage, incompréhensible pour le patient lui-même. Alors, le travail du psychanalyste consiste à <strong>déchiffrer</strong> ce langage. Dans cette entreprise le recours à la parole, à travers la cure psychanalytique (la <em>talking cure</em>, « cure de la parole »), peut s'avérer profitable. Durant les séances de psychanalyse, le psychanalyste et le patient discutent longtemps afin de découvrir les éléments cachés de la vie psychique du patient qui sont responsables de ses troubles (angoisses, phobies, épisodes paranoïaques, procrastination, etc.).</p>
 
 <h3 id="rhetorique3">4. Le pouvoir du langage dans la sphère politique</h3>
+
+<p>En dehors du cas du mensonge, le langage peut être volontairement en inadéquation avec la pensée du locuteur dans la rhétorique (l'art de la parole utilisée notamment dans le discours politique) qui vise à obtenir l'adhésion du public de manière malhonnête intellectuellement. En effet, dans la rhétorique, la finalité du langage n'est pas de <strong>CONVAINCRE</strong> (obtenir l'assentiment de l'auditoire par des arguments rationnels), mais de <strong>PERSUADER</strong> (obtenir l'assentiment de l'auditoire en faisant appel à la sensibilité, aux préjugés, aux angoisses, etc. de l'auditoire).</p>
 
 <div class="encadre">
   <div class="encadre-block">
     <div class="label">Convaincre</div>
-    <div class="vals">Obtenir l'assentiment par des <strong>arguments rationnels</strong>.</div>
+    <div class="vals">Obtenir l'assentiment de l'auditoire par des <strong>arguments rationnels</strong>.</div>
   </div>
   <div class="encadre-block">
     <div class="label">Persuader</div>
-    <div class="vals">Obtenir l'assentiment par appel à la sensibilité, aux préjugés, aux angoisses (rhétorique politique).</div>
+    <div class="vals">Obtenir l'assentiment de l'auditoire en faisant appel à la sensibilité, aux préjugés, aux angoisses, etc. de l'auditoire (rhétorique politique).</div>
   </div>
 </div>
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Le langage verbal et la pensée se conditionnent réciproquement. Il n'y a pas de langage sans pensée ; pas de pensée claire sans les outils du langage. Tous deux se développent ensemble, dans une démarche d'<strong>abstraction</strong>.</p>
-
-<p>Mais cette adéquation est <strong>limitée</strong> : la singularité des choses extérieures et des vécus échappe au langage <em>généralisant</em>. Verbaliser permet de mieux penser, mais à quel prix ? On <strong>met un voile</strong> entre nous et nous-mêmes en pensant selon des catégories communes.</p>
+<p>Le langage verbal et la pensée se conditionnent réciproquement. Il n'y a pas de langage verbal sans la pensée, il n'y a pas de pensées claires et distinctes en dehors des outils du langage verbal. La pensée conceptuelle et le langage verbal sont des capacités présentes <strong>EN PUISSANCE</strong> chez tout homme. De ce fait, ils se développent ensemble dès l'enfance et deviennent <strong>EN ACTE</strong>. Dans la mesure où les deux s'inscrivent dans une démarche d'abstraction consistant à créer des idées générales et des mots (qui généralement désignent des idées générales), on peut parler d'une réelle adéquation entre le langage et la pensée. Mais cette adéquation est limitée à la fois par la singularité des choses extérieures et des vécus psychologiques. Il n'y a pas deux arbres identiques dans la nature, comme il n'y a pas d'identité entre les vécus des individus ou nos propres vécus (ma joie d'hier n'est pas identique à celle d'aujourd'hui). Cependant, le langage verbal, qui naît et se développe suite aux interactions humaines, ne peut être que généralisant. Verbaliser permet certes de rendre clairs nos vécus, de mieux les penser, mais à quel prix ? Car finalement, en les verbalisant on leur enlève ce qu'ils ont de personnel, nous les pensons selon des catégories communes au point où nous mettons un voile entre nous et nous-mêmes.</p>
 `;

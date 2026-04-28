@@ -445,6 +445,42 @@
 }
 .doc-printed a { color: #6a4408; text-decoration: underline; }
 
+/* MD-derived helpers */
+.md-loading {
+  padding: 40px 0; text-align: center;
+  color: var(--text-dim); font-style: italic;
+}
+.md-fig {
+  margin: 18px 0; padding: 14px 18px;
+  background: var(--surface);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--r);
+  color: var(--text-dim);
+}
+.md-fig figcaption { font-size: 13px; line-height: 1.6; }
+.md-fig.md-schema { border-style: solid; }
+.md-encadre {
+  margin: 24px 0; padding: 18px 22px;
+  border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.md-encadre p:first-child { margin-top: 0; }
+.md-encadre p:last-child { margin-bottom: 0; }
+p.hl-red {
+  border-left: 3px solid #e08aa8; padding-left: 14px;
+  background: rgba(224,138,168,0.06);
+}
+p.hl-green {
+  border-left: 3px solid #7ed4a8; padding-left: 14px;
+  background: rgba(126,212,168,0.06);
+}
+.read-content mark {
+  background: var(--accent-soft); color: var(--text);
+  padding: 0 4px; border-radius: 3px;
+}
+
 /* Annotation manuscrite (note en marge) */
 .doc-annot {
   display: block; margin: 8px 0 12px;

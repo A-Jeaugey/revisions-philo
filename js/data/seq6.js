@@ -9,6 +9,7 @@ window.SEQUENCE_6 = {
   notions: ["devoir","bonheur","liberté","raison","nature","temps"],
   reperes: ["absolu / relatif"],
   work: null,
+  mdFile: "sequences/sequence_6_devoir_bonheur.md",
   tint: "#d4a85a",
   inProgress: true,
   plan: [

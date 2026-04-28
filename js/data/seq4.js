@@ -9,6 +9,7 @@ window.SEQUENCE_4 = {
   notions: ["Art","Travail","Technique","Nature","Vérité","Liberté","Science"],
   reperes: [],
   work: null,
+  mdFile: "sequences/sequence_4_definir_art.md",
   tint: "#e08aa8",
   plan: [
     { t: "L'art = travail + technique mis au service d'œuvres gratuites et originales", sub: ["Travail et technique","Gratuité et liberté créatrice","Originalité et génie (Kant)"] },

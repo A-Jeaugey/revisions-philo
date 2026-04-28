@@ -9,6 +9,7 @@ window.SEQUENCE_1 = {
   notions: ["CONSCIENCE","INCONSCIENT","LIBERTÉ","TEMPS","Vérité","Science"],
   reperes: ["médiat / immédiat","subjectif / objectif","intuitif / discursif","essentiel / accidentel"],
   work: "Extrait de Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+  mdFile: "sequences/sequence_1_conscience_connaissance_de_soi.md",
   tint: "#d4a85a",
   plan: [
     { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (Descartes)","La conscience de soi fonde l'unité de la personne (Kant)","L'homme est un être pour soi (Hegel)"] },

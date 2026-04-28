@@ -62,7 +62,7 @@ App.routes.sequence = function(parts) {
           <ol>${planHtml}</ol>
         </div>
 
-        ${s.content}
+        <div id="md-content">${s.mdFile ? '<div class="md-loading">Chargement…</div>' : s.content}</div>
 
         <div class="seq-nav">
           ${prev ? `
@@ -107,8 +107,7 @@ App.routes.sequence = function(parts) {
     </div>
   `);
 
-  // Generate TOC from headings
-  setTimeout(() => {
+  const finalize = () => {
     const content = document.getElementById('read-content');
     const headings = content.querySelectorAll('h2, h3, h4');
     const toc = document.getElementById('toc-list');
@@ -173,5 +172,61 @@ App.routes.sequence = function(parts) {
         tags.forEach(x => x.classList.remove('open'));
       });
     }
-  }, 50);
+  };
+
+  if (s.mdFile && window.App && App.md) {
+    fetch(s.mdFile)
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+      .then(text => {
+        const html = App.md.parse(text);
+        const slot = document.getElementById('md-content');
+        if (slot) slot.innerHTML = html;
+        // sequence-specific widget injections (the iceberg lives in seq 1)
+        if (s.id === 1) injectIcebergWidget();
+        finalize();
+      })
+      .catch(err => {
+        const slot = document.getElementById('md-content');
+        if (slot) slot.innerHTML = '<div class="callout warn"><div class="callout-title">Impossible de charger la fiche</div><p>' + (err.message || err) + '</p><p style="font-size:13px;color:var(--text-dim)">Vérifie que le site est servi en HTTP (par ex. <code>python3 -m http.server</code>) — les <code>fetch()</code> ne fonctionnent pas via <code>file://</code>.</p></div>';
+        finalize();
+      });
+  } else {
+    setTimeout(finalize, 50);
+  }
 };
+
+// Inject the interactive iceberg widget right after the schema placeholder
+// in sequence 1 (Freud topiques).
+function injectIcebergWidget() {
+  const slot = document.getElementById('md-content');
+  if (!slot) return;
+  const figs = slot.querySelectorAll('.md-fig.md-schema');
+  for (const fig of figs) {
+    const cap = fig.textContent.toLowerCase();
+    if (cap.includes('iceberg')) {
+      const wrap = document.createElement('div');
+      wrap.className = 'iceberg';
+      wrap.id = 'iceberg-widget';
+      wrap.innerHTML = `
+        <div class="water-line"></div>
+        <div class="water-label">SURFACE DE L'EAU</div>
+        <div class="ib-zone conscience">
+          <div class="lvl">Conscience</div>
+          <div class="desc">Ce dont je me rends compte ici et maintenant</div>
+        </div>
+        <div class="ib-zone preconscient">
+          <div class="lvl">Préconscient</div>
+          <div class="desc">Souvenirs, automatismes accessibles</div>
+        </div>
+        <div class="ib-zone inconscient">
+          <div class="lvl">Inconscient</div>
+          <div class="desc">Désirs refoulés, pulsions, traumatismes</div>
+        </div>
+        <div class="tag-right moi" data-tip="Partie consciente ou préconsciente de l'esprit">MOI</div>
+        <div class="tag-right surmoi" data-tip="Instance morale, refoulement">SURMOI</div>
+        <div class="tag-right ca" data-tip="Pôle pulsionnel : Éros + Thanatos">ÇA</div>`;
+      fig.replaceWith(wrap);
+      break;
+    }
+  }
+}

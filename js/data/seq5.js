@@ -9,6 +9,7 @@ window.SEQUENCE_5 = {
   notions: ["Justice","État","Liberté","Devoir","Bonheur"],
   reperes: ["en fait / en droit","contrainte / obligation"],
   work: null,
+  mdFile: "sequences/sequence_5_etat_justice.md",
   tint: "#7eb6d4",
   plan: [
     { t: "La justice et la morale ne sont pas des notions naturelles", sub: ["Pas de justice ni droit à l'état de nature (Rousseau)","Sociétés sauvages sans État (Clastres)","L'homme a besoin d'un maître (Kant)"] },

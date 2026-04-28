@@ -9,6 +9,7 @@ window.SEQUENCE_2 = {
   notions: ["Vérité","Raison","Science","Religion"],
   reperes: ["subjectif / objectif / intersubjectif","intuitif / discursif","persuader / convaincre","vrai / probable / certain","médiat / immédiat"],
   work: null,
+  mdFile: "sequences/sequence_2_verite_raison_science.md",
   tint: "#7ed4c5",
   plan: [
     { t: "La raison seule peut nous conduire à la vérité", sub: ["La raison face aux obstacles à la vérité (Galilée)","L'exigence d'une méthode rationnelle (Descartes)","La maîtrise rationnelle de l'expérience (Torricelli)"] },

@@ -9,6 +9,7 @@ window.SEQUENCE_3 = {
   notions: ["Langage","Conscience","Inconscient","Liberté","Art"],
   reperes: [],
   work: null,
+  mdFile: "sequences/sequence_3_langage_pensee.md",
   tint: "#9b7ed4",
   plan: [
     { t: "Le langage verbal : témoignage de la pensée ?", sub: ["Communication animale vs langage linguistique","Le langage est l'extériorisation de la pensée (Descartes)","Le langage traduit l'activité créatrice (Chomsky)"] },

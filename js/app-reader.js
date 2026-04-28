@@ -35,6 +35,30 @@ App.routes.sequence = function(parts) {
           </div>
         </div>
 
+        ${s.essentiel ? `
+        <section class="essentiel">
+          <div class="ess-eyebrow">§ En clair</div>
+          <p class="ess-question">${s.essentiel.question}</p>
+          <div class="ess-grid">
+            <div class="ess-block">
+              <div class="ess-label">Pourquoi ça compte</div>
+              <p>${s.essentiel.enjeu}</p>
+            </div>
+            <div class="ess-block">
+              <div class="ess-label">Le débat</div>
+              <p>${s.essentiel.tension}</p>
+            </div>
+          </div>
+          <div class="ess-warn">
+            <div class="ess-label">À ne pas confondre</div>
+            <ul>
+              ${(s.essentiel.pieges||[]).map(p => `<li>${p}</li>`).join('')}
+            </ul>
+          </div>
+          <p class="ess-retenir"><b>À retenir.</b> ${s.essentiel.retenir}</p>
+        </section>
+        ` : ''}
+
         <div class="encadre" style="margin-bottom: 32px;">
           ${s.perspectives && s.perspectives.length ? `
           <div class="encadre-block">

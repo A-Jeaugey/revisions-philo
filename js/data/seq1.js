@@ -10,6 +10,17 @@ window.SEQUENCE_1 = {
   reperes: ["médiat / immédiat","subjectif / objectif","intuitif / discursif","essentiel / accidentel"],
   work: "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
   tint: "#d4a85a",
+  essentiel: {
+    question: "Avoir conscience de soi, est-ce vraiment se connaître ? La sensation immédiate d'« être moi » est-elle un savoir, ou seulement une évidence confortable ?",
+    enjeu: "Toute notre culture suppose qu'on est maître de soi-même : qu'on choisit librement, qu'on sait ce qu'on veut, qu'on est responsable. Si la conscience est trompeuse — si l'inconscient pèse plus que le moi, si le libre arbitre est une fiction — alors la morale, la justice et la vie intime changent de visage.",
+    tension: "Trois moments. <b>Descartes</b> : la conscience est la seule certitude indubitable (le <em>cogito</em>). <b>Kant et Hegel</b> approfondissent : se connaître, c'est se penser soi-même comme objet, ce qui demande un travail. <b>Freud</b> renverse la table : la conscience n'est que la surface, l'essentiel — désirs, refoulements — se joue dans l'inconscient.",
+    pieges: [
+      "<b>Conscience</b> ≠ <b>être conscient</b> au sens médical. La perte de connaissance n'a rien à voir avec l'inconscient freudien, qui est une <em>instance active</em> du psychisme.",
+      "<b>Libre arbitre</b> ≠ <b>liberté</b>. Pour Spinoza, le libre arbitre est une illusion ; pour Sartre, on est <em>condamnés</em> à être libres.",
+      "Avoir <b>conscience de soi</b> ≠ <b>se connaître</b>. La conscience est immédiate, la connaissance demande détour, doute et méthode."
+    ],
+    retenir: "On a <b>conscience</b> de soi sans pour autant se <b>connaître</b>. Entre les deux, c'est tout le travail de la philosophie : douter de l'évidence, suspendre le jugement, accepter qu'on soit en partie étranger à soi-même."
+  },
   plan: [
     { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (DESCARTES)","La conscience de soi fonde l'unité de la personne (KANT)","L'homme est un « être pour soi » (HEGEL)"] },
     { t: "Le moi occulte", sub: ["Les « petites perceptions » inconscientes (LEIBNIZ)","L'illusion de libre arbitre (SPINOZA)","L'inconscient psychique (FREUD)"] },

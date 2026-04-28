@@ -1284,3 +1284,150 @@
 }
 .read-content .hl-red::before { content: '✕ Objection'; color: var(--terra); }
 .read-content .hl-green::before { content: '✓ Commentaire'; color: var(--sage); }
+
+/* -----------------------------------------------------------
+   FICHE « EN CLAIR » — pédagogique, posée en tête de séquence
+   ----------------------------------------------------------- */
+.essentiel {
+  position: relative;
+  margin: 0 0 36px;
+  padding: 32px 36px 28px;
+  background: linear-gradient(160deg, var(--paper), var(--paper-2));
+  border: 1.5px solid var(--ink);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.essentiel::before {
+  content: '';
+  position: absolute; inset: 6px;
+  border: 1px solid var(--rule);
+  border-radius: calc(var(--r-lg) - 6px);
+  pointer-events: none;
+}
+.essentiel::after {
+  content: '✻';
+  position: absolute;
+  top: 18px; right: 24px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 28px;
+  color: var(--accent);
+  opacity: 0.45;
+  pointer-events: none;
+}
+.essentiel > * { position: relative; z-index: 1; }
+
+.essentiel .ess-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+
+.essentiel .ess-question {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0 0 26px;
+  font-feature-settings: "ss01", "salt";
+  max-width: 720px;
+}
+
+.essentiel .ess-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px 32px;
+  margin-bottom: 22px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 640px) {
+  .essentiel { padding: 24px 24px 22px; }
+  .essentiel .ess-grid { grid-template-columns: 1fr; gap: 18px; }
+}
+
+.essentiel .ess-block { position: relative; }
+.essentiel .ess-block p,
+.essentiel .ess-warn p,
+.essentiel .ess-warn li {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.essentiel .ess-block p b,
+.essentiel .ess-warn li b { color: var(--ink); font-weight: 600; }
+.essentiel .ess-block p em,
+.essentiel .ess-warn li em { font-style: italic; color: var(--accent); }
+
+.essentiel .ess-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.essentiel .ess-label::before {
+  content: ''; width: 14px; height: 1px; background: var(--accent);
+}
+
+.essentiel .ess-warn {
+  margin-top: 0;
+  padding: 18px 22px;
+  background: var(--terra-soft);
+  border-left: 3px solid var(--terra);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+.essentiel .ess-warn .ess-label { color: var(--terra); }
+.essentiel .ess-warn .ess-label::before { background: var(--terra); }
+.essentiel .ess-warn ul {
+  list-style: none; padding: 0; margin: 0;
+}
+.essentiel .ess-warn li {
+  position: relative;
+  padding: 6px 0 6px 20px;
+  border-bottom: 1px dashed color-mix(in srgb, var(--terra) 30%, transparent);
+}
+.essentiel .ess-warn li:last-child { border-bottom: 0; }
+.essentiel .ess-warn li::before {
+  content: '✕';
+  position: absolute; left: 0; top: 6px;
+  color: var(--terra);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.essentiel .ess-retenir {
+  margin-top: 22px;
+  padding: 14px 20px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink);
+  font-style: italic;
+  font-weight: 400;
+}
+.essentiel .ess-retenir b {
+  font-style: normal;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 8px;
+}

@@ -131,6 +131,14 @@ App.routes.sequence = function(parts) {
             <li><a href="#/notions" style="color:var(--accent);">⊕ Notions liées</a></li>
           </ul>
         </div>
+
+        <div class="aside-card">
+          <div class="ac-title">Télécharger</div>
+          <ul>
+            <li><a href="#/print/cours/${s.id}" target="_blank" style="color:var(--accent);">📄 Cours complet · PDF</a></li>
+            <li><a href="#/print/fiche/${s.id}" target="_blank" style="color:var(--accent);">📑 Fiche de révision · PDF</a></li>
+          </ul>
+        </div>
       </aside>
     </div>
   `);

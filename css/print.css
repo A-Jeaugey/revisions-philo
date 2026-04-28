@@ -1,0 +1,334 @@
+/* =========================================================
+   Print views — vue PDF en mode dark
+   ========================================================= */
+
+/* Quand body.printing est appliqué, on bascule la page en
+   mode "feuille" même à l'écran (preview avant impression). */
+
+body.printing {
+  background: #0d0c0a;
+}
+body.printing .topbar,
+body.printing .footer,
+body.printing .pomo,
+body.printing .to-top,
+body.printing #search-modal { display: none !important; }
+body.printing main#app { min-height: 100vh; }
+
+.print-shell {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 24px 80px;
+}
+
+/* Barre de contrôle (cachée à l'impression) */
+.print-bar {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding: 14px 18px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  position: sticky; top: 16px; z-index: 5;
+}
+.print-bar .btn { padding: 10px 18px; font-size: 13px; }
+
+/* La feuille A4 simulée à l'écran */
+.print-page {
+  background: var(--paper);
+  color: var(--text);
+  border-radius: var(--r-lg);
+  padding: 28mm 22mm 24mm;
+  max-width: 210mm;
+  margin: 0 auto;
+  box-shadow: var(--shadow-lg);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  position: relative;
+  border: 1px solid var(--rule);
+}
+
+/* Header & footer de la feuille */
+.print-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding-bottom: 16px;
+  margin-bottom: 28px;
+  border-bottom: 1.5px solid var(--ink);
+}
+.print-brand {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.print-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.print-title {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 12px;
+  font-feature-settings: "ss01", "salt";
+}
+.print-lead {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--text-dim);
+  margin-bottom: 28px;
+}
+
+.print-foot {
+  margin-top: 36px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--text-mute);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Variante : cours complet → utilise read-content existant
+   (déjà stylé). On surcharge juste un peu pour la densité. */
+.print-page.read-content h2 {
+  font-size: 28px;
+  margin: 36px 0 14px;
+  page-break-before: auto;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+.print-page.read-content h3 {
+  font-size: 21px;
+  margin: 24px 0 10px;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+.print-page.read-content h4 { margin: 18px 0 8px; }
+.print-page.read-content p { font-size: 14px; line-height: 1.6; margin: 10px 0; }
+.print-page.read-content blockquote {
+  font-size: 16px; padding: 16px 22px; margin: 18px 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.print-page.read-content .callout {
+  padding: 14px 18px; margin: 18px 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.print-page .author-card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin: 16px 0;
+}
+.print-page table { font-size: 13px; }
+.print-page .hl-red,
+.print-page .hl-green { padding: 12px 16px; margin: 14px 0; }
+.print-page .ann-manu { font-size: 13px; padding: 8px 14px; }
+
+/* Variante : fiche de révision (compacte) */
+.fiche-page { padding: 18mm 16mm 16mm; }
+.fiche-page h2 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  margin: 18px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+.fiche-page .print-essentiel { margin: 0 0 18px; padding: 18px 22px; }
+.fiche-page .print-essentiel .ess-question { font-size: 16px; margin-bottom: 14px; }
+.fiche-page .print-essentiel .ess-grid { gap: 14px 22px; padding-top: 14px; margin-bottom: 14px; }
+.fiche-page .print-essentiel p,
+.fiche-page .print-essentiel li { font-size: 12.5px; line-height: 1.5; }
+
+/* Méta encadrée */
+.fiche-meta {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 14px 18px;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-sm);
+  margin-bottom: 18px;
+  font-size: 12.5px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.fiche-meta .meta-k {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-right: 10px;
+  display: inline-block;
+  min-width: 100px;
+}
+
+/* Plan condensé */
+.fiche-plan-list { list-style: none; padding: 0; margin: 0; counter-reset: fp; }
+.fiche-plan-list > li {
+  counter-increment: fp;
+  padding: 6px 0 6px 38px;
+  position: relative;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.fiche-plan-list > li::before {
+  content: counter(fp, upper-roman) '.';
+  position: absolute; left: 0; top: 6px;
+  color: var(--accent);
+  font-style: italic;
+  font-weight: 500;
+  width: 28px; text-align: right;
+}
+.fiche-plan-list ol {
+  list-style: decimal;
+  margin: 4px 0 8px 18px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-dim);
+}
+.fiche-plan-list ol li { padding: 2px 0; }
+
+/* Auteurs en grille 2 cols */
+.fiche-auteurs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 18px;
+}
+.fiche-auteur {
+  padding: 10px 12px;
+  border-left: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-radius: 0 var(--r-xs) var(--r-xs) 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.fiche-auteur .fa-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.fiche-auteur .fa-dates {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+.fiche-auteur .fa-thesis {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+/* Mini-glossaire */
+.fiche-notions dl {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 4px 18px;
+  font-size: 12.5px;
+  margin-top: 4px;
+}
+.fiche-notions dt {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 14px;
+}
+.fiche-notions dd {
+  color: var(--text);
+  line-height: 1.5;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* =========================================================
+   @media print — règles à l'impression
+   ========================================================= */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  /* Force les couleurs (sinon Chrome strippe le dark) */
+  html, body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  body.printing {
+    background: #0d0c0a !important;
+  }
+  body.printing::before,
+  body.printing::after { display: none !important; }
+
+  .print-bar { display: none !important; }
+  .print-shell { padding: 0; max-width: none; }
+  .print-page {
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* page breaks */
+  h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+  blockquote, .callout, .author-card, .encadre, .plan-box,
+  .fiche-meta, .fiche-auteur, .print-essentiel,
+  table { break-inside: avoid; page-break-inside: avoid; }
+
+  /* Cours : densité un peu plus élevée à l'impression */
+  .print-page.read-content { padding: 18mm 16mm 16mm; }
+  .print-page.read-content p { font-size: 12px; }
+
+  /* Fiche : viser 2 pages recto-verso (4 pages A4) */
+  .fiche-page { padding: 14mm 12mm 12mm; }
+  .fiche-page .print-essentiel { padding: 12px 16px; margin-bottom: 12px; }
+  .fiche-page .print-essentiel p,
+  .fiche-page .print-essentiel li { font-size: 11px; line-height: 1.4; }
+  .fiche-page h2 { font-size: 15px; margin: 12px 0 6px; }
+  .fiche-page .fiche-meta { font-size: 11px; padding: 10px 14px; }
+  .fiche-auteurs-grid { gap: 8px 14px; }
+  .fiche-auteur { padding: 7px 10px; }
+  .fiche-auteur .fa-name { font-size: 13px; }
+  .fiche-auteur .fa-thesis { font-size: 10.5px; line-height: 1.4; }
+  .fiche-notions dl { font-size: 11px; }
+
+  /* Liens en noir, sans soulignement bizarre */
+  .print-page a { color: var(--accent) !important; }
+}
+
+/* Pomodoro & to-top jamais à l'impression */
+@media print {
+  .pomo, .to-top, .topbar, .footer, .modal { display: none !important; }
+}

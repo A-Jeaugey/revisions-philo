@@ -8,128 +8,151 @@ window.SEQUENCE_1 = {
   perspectives: ["La connaissance", "La morale et la politique"],
   notions: ["CONSCIENCE","INCONSCIENT","LIBERTÉ","TEMPS","Vérité","Science"],
   reperes: ["médiat / immédiat","subjectif / objectif","intuitif / discursif","essentiel / accidentel"],
-  work: "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+  work: "Extrait de Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
   tint: "#d4a85a",
   plan: [
-    { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (DESCARTES)","La conscience de soi fonde l'unité de la personne (KANT)","L'homme est un « être pour soi » (HEGEL)"] },
-    { t: "Le moi occulte", sub: ["Les « petites perceptions » inconscientes (LEIBNIZ)","L'illusion de libre arbitre (SPINOZA)","L'inconscient psychique (FREUD)"] },
-    { t: "L'existence humaine, la liberté et le temps", sub: ["Qu'est-ce que le moi ? (PASCAL)","La perfectibilité (ROUSSEAU)","Le moi est un projet (SARTRE)"] }
+    { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (Descartes)","La conscience de soi fonde l'unité de la personne (Kant)","L'homme est un être pour soi (Hegel)"] },
+    { t: "Le moi occulte", sub: ["Les « petites perceptions » inconscientes (Leibniz)","L'illusion du libre arbitre (Spinoza)","L'inconscient psychique (Freud)"] },
+    { t: "L'existence humaine, la liberté et le temps", sub: ["Qu'est-ce que le moi ? (Pascal)","La perfectibilité (Rousseau)","Le moi est un projet (Sartre)"] }
   ],
   content: `
-<h2 id="intro">Introduction</h2>
-
 <div class="callout def">
   <div class="callout-title">Conscience</div>
-  <p>Du latin <em>cum + scientia</em> = <strong>« accompagné de savoir »</strong>. Mais quel type de savoir ?</p>
+  <p>Du latin <em>cum + scientia</em> = « accompagné de savoir » → savoir. Mais quel type de savoir ?</p>
+  <p><strong>Conscience :</strong></p>
   <ul>
-    <li><strong>Conscience immédiate</strong> (spontanée) : tournée vers le monde extérieur. Faculté de se représenter parmi les choses. Ex. : « Je sais que Samuel est à côté de moi ».</li>
-    <li><strong>Conscience réfléchie</strong> : tournée vers soi-même — vers ses pensées, actes, émotions. Elle implique un dédoublement entre un sujet (le moi qui pense) et un objet (le moi pensé). Elle fait de nous les <em>spectateurs de nous-mêmes</em>.</li>
+    <li><strong>Conscience immédiate</strong> (spontanée) → tournée vers le monde extérieur
+      <ul>
+        <li>Ex : Je sais que Samuel est à côté de moi.</li>
+        <li><em>médiat / immédiat</em> (par l'entremise de / direct)</li>
+        <li>La conscience immédiate est la faculté de se représenter parmi les choses qui nous entourent.</li>
+      </ul>
+    </li>
+    <li><strong>Conscience réfléchie</strong> → tournée vers soi-même, c'est-à-dire vers ses propres pensées (sentiments, décisions, idées, souvenirs), ses propres actes (→ conscience morale), son apparence, émotions, envies.</li>
   </ul>
+  <p>La conscience réfléchie représente la faculté de se penser soi-même. Elle implique un dédoublement de soi entre un sujet (le moi qui pense) et un objet (le moi pensé : mes pensées, désirs, sentiments...).</p>
+  <p>La conscience réfléchie nous permet de devenir spectateurs de nous-même.</p>
 </div>
 
-<h3>Ouverture vers la problématisation</h3>
-<p>Il est évident que la conscience de soi (réfléchie) est la condition <strong>nécessaire</strong> pour se connaître soi-même. Mais peut-on affirmer qu'elle <strong>englobe</strong> tout ce que je suis ? Nous sommes souvent surpris par nos propres pensées, actes, désirs. Cela nous amène à l'hypothèse d'une partie occulte : <strong>l'inconscient</strong>.</p>
+<h2 id="intro">Intro</h2>
 
-<p>Une connaissance véritable de soi doit aussi être <strong>objective</strong>. Or notre représentation de nous-mêmes est influencée par la mauvaise foi et la subjectivité. De surcroît, notre identité n'est pas figée : elle se construit dans le <strong>temps</strong>.</p>
+<p>(Analyse du sujet — partie précédente)</p>
 
-<div class="callout">
-  <div class="callout-title">Vérité</div>
-  <p>= la concordance entre ce qu'on pense ou dit et la réalité.</p>
-</div>
+<h3 id="ouverture">Ouverture vers la problématisation (mise en relief des problèmes engendrés par la question)</h3>
+
+<p>Il est donc évident que la conscience de soi, plus précisément la conscience réfléchie, est la condition nécessaire pour se connaître soi-même, car cette faculté de se représenter soi-même nous permet de construire une représentation de soi.</p>
+
+<p>Cependant, peut-on réellement affirmer que la conscience de soi englobe tout ce que je suis réellement ? Autrement dit peut-on vraiment affirmer que nous avons conscience de tous les recoins de notre personnalité ? En effet, il nous arrive souvent d'avoir conscience de quantité de choses nous concernant (désirs, phobies, peurs, etc.) sans être capable de les comprendre et de nous les expliquer. Très souvent, nous sommes nous-mêmes surpris par nos propres pensées, actes, désirs, etc. Cela nous amène à nous interroger sur l'étendue de la conscience de soi et à prendre en considération l'hypothèse de l'existence d'une partie occulte (cachée) de nous-même qu'on appelle l'inconscient.</p>
+
+<h3 id="problematisation">Retour à l'analyse du sujet → problématisation</h3>
+
+<p>De même, une connaissance véritable de soi doit être objective et impartiale. Or, nous pouvons nous questionner sur notre capacité d'avoir une représentation véridique de nous-même, càd une représentation qui ne soit pas influencée par la mauvaise foi ou par notre propre subjectivité (nos points de vue, nos expériences de vie, etc.). On peut donc se demander à quel point est-il possible d'avoir un regard neutre sur nous-même.</p>
+
+<p>De surcroît, on pourrait se demander s'il est vraiment possible de parvenir à la connaissance de nous-même, c'est-à-dire de ce qui fait notre identité, dans la mesure où cette identité n'est pas figée à jamais, mais se construit à travers nos choix dans le <strong>TEMPS</strong>.</p>
+
+<blockquote><strong>Vérité</strong> = la concordance entre ce qu'on pense ou dit et la réalité.</blockquote>
+
+<h3 id="annonce-plan">Annonce du plan ⇒ annonce des perspectives selon lesquelles la question sera abordée.</h3>
 
 <h2 id="part-1">I. La connaissance de soi nécessite la conscience de soi</h2>
 
-<p>Contrairement aux animaux, l'homme a la capacité de se connaître lui-même parce qu'il est doué de <strong>conscience réfléchie</strong>, qui représente <em>le pouvoir de se penser soi-même</em>, d'avoir une connaissance <strong>immédiate</strong> de ses pensées, sentiments, émotions, perceptions, souvenirs, etc.</p>
-
-<h3 id="descartes">1. « Je pense, je suis » : première certitude (Descartes)</h3>
-
-<div class="author-card">
-  <div class="ac-avatar">D</div>
-  <div>
-    <div class="ac-name">René Descartes</div>
-    <div class="ac-meta">1596 – 1650 · France · <em>Méditations métaphysiques</em></div>
-  </div>
+<div class="doc-printed">
+  <p>Contrairement aux animaux, l'homme a la capacité de se connaître lui-même parce qu'il est doué de <strong>CONSCIENCE RÉFLÉCHIE</strong>, qui représente <em>le pouvoir de se penser soi-même</em>, d'avoir une connaissance <strong>IMMÉDIATE</strong> de ses pensées, ses sentiments, ses émotions, ses perceptions, ses souvenirs, etc.</p>
+  <aside class="doc-annot">mini intro de partie</aside>
 </div>
 
-<p>Paradoxalement, il est <strong>plus aisé de se connaître soi-même</strong> que le monde extérieur. Telle est la conclusion de Descartes après une entreprise de <strong>doute méthodique et hyperbolique</strong> envers tout ce qu'on pense savoir. Objectif : surmonter le scepticisme afin de fonder une nouvelle science sur des bases certaines.</p>
+<h3 id="descartes">1. « Je pense, je suis » : première certitude</h3>
 
-<h4>a) Le scepticisme</h4>
-
-<div class="callout def">
-  <div class="callout-title">Scepticisme</div>
-  <p>Position philosophique selon laquelle la <strong>vérité</strong> est <em>inatteignable</em>.</p>
+<div class="doc-printed">
+  <p>Paradoxalement, il est plus aisé de se connaître soi-même que le monde extérieur (matériel) qui nous entoure. Telle est la conclusion à laquelle René DESCARTES (1596-1650, FR) aboutit dans ses <em>Méditations métaphysiques</em> suite à une entreprise de doute méthodique et hyperbolique envers tout ce qu'on pense savoir.</p>
+  <p>Dans ce texte, DESCARTES a pour objectif de surmonter le scepticisme afin de fonder une nouvelle science sur des bases certaines.</p>
 </div>
 
-<p><strong>Arguments du scepticisme :</strong></p>
-<ul>
-  <li><strong>Les sens sont trompeurs.</strong> La finalité biologique de la perception n'est pas de percevoir le monde tel qu'il est, mais tel qu'il est utile à la survie. Exemples : couleurs, mouvement du soleil, immobilité de la Terre.</li>
-  <li><strong>La raison n'est pas infaillible.</strong> Le géocentrisme était un système astronomique cohérent et efficace, mais fondé sur un jugement faux.</li>
-</ul>
+<h4 id="scepticisme">a) Le scepticisme</h4>
 
-<p><strong>Solution sceptique :</strong> Douter de tout et ne rien tenir pour vrai.</p>
-
-<h4>b) Le doute méthodique et hyperbolique</h4>
-
-<div class="callout note">
-  <div class="callout-title">Méthodique / Hyperbolique</div>
-  <p><strong>Méthodique</strong> : qui sert de méthode. <strong>Hyperbolique</strong> : volontairement exagéré.</p>
+<div class="doc-printed">
+  <p><strong>Scepticisme</strong> : position philosophique selon laquelle la <strong>VÉRITÉ</strong> (= l'adéquation entre la pensée / le langage et la réalité) est inatteignable.</p>
+  <aside class="doc-annot">la vérité concerne ce qu'on pense ou dit !</aside>
+  <p><strong>ARGUMENTS DU SCEPTICISME :</strong></p>
+  <ul>
+    <li><strong>Les sens sont trompeurs</strong></li>
+  </ul>
+  <p>En effet, chez tout être animal, la finalité biologique des organes de la perception (vue, toucher, odorat, etc.) n'est pas de percevoir le monde tel qu'il est, mais de le percevoir tel qu'il est utile à la survie de son corps → la perception est par nature subjective.</p>
+  <p>[Distinction objectif/subjectif]</p>
+  <p>Exemples d'illusion sensible : les couleurs, le mouvement du soleil, l'immobilité de la Terre, etc.</p>
+  <blockquote><strong>Sensibilité</strong> : faculté du corps animal d'éprouver des sensations visuelles, acoustiques, tactiles, etc. (Adjectif : sensible).</blockquote>
+  <ul>
+    <li><strong>La raison n'est pas non plus infaillible</strong></li>
+  </ul>
+  <blockquote><strong>La RAISON est la faculté de l'esprit humain lui permettant de penser de manière logique, méthodique et cohérente afin de distinguer le vrai du faux, le bien du mal</strong>, etc.</blockquote>
+  <p>C'est par la raison qu'on peut prendre du recul par rapport à <em>l'expérience sensible</em> (la manière dont on fait l'expérience des choses à travers les <strong>sens</strong>) afin de construire un savoir objectif du monde.</p>
+  <p>Mais, la raison a connu des échecs. Exemple : le géocentrisme était un système astronomique très cohérent et efficace (pour prédire les mouvements des astres, se repérer la nuit ou en haute mer, etc.), mais il était fondé sur un jugement faux : la Terre est immobile au centre d'un univers fini.</p>
+  <p>Qu'est-ce qui garantit la fiabilité de la raison ? Rien pour les sceptiques.</p>
+  <p><strong>SOLUTION SCEPTIQUE</strong> : Douter de tout et ne rien tenir pour vrai.</p>
 </div>
 
-<p>Pour surmonter le scepticisme, Descartes met en place le doute méthodique. Le but : <strong>la remise en question</strong> de tout afin de découvrir des <strong>certitudes indubitables</strong> sur lesquelles bâtir le système du savoir.</p>
+<h4 id="doute">b) La méthode cartésienne : le doute méthodique et hyperbolique</h4>
 
-<p><strong>Étapes du doute :</strong></p>
-<ol>
-  <li><strong>Le problème des sens</strong> : les sens sont parfois trompeurs.</li>
-  <li><strong>L'hypothèse du rêve</strong> : on ne peut pas distinguer le rêve de la réalité.</li>
-  <li><strong>L'hypothèse du Dieu trompeur</strong> : les vérités mathématiques elles-mêmes peuvent être truquées.</li>
-  <li><strong>L'hypothèse du malin génie</strong> : un esprit puissant et trompeur me fait croire à l'existence des choses qui n'existent pas.</li>
-</ol>
-
-<h4>c) Le cogito : la certitude indubitable</h4>
-
-<blockquote>
-  Mais je me suis persuadé qu'il n'y avait rien du tout dans le monde […] ne me suis-je donc pas aussi persuadé que je n'étais point ? Non certes, j'étais sans doute, si je me suis persuadé […]. Il faut conclure et tenir pour constant que cette proposition : <em>Je suis, j'existe</em> est nécessairement vraie, toutes les fois que je la prononce ou que je la conçois en mon esprit.
-  <cite>Descartes, Méditations métaphysiques</cite>
-</blockquote>
-
-<p>Descartes montre qu'on peut douter de tout, sauf de notre existence en tant que <strong>chose pensante</strong>. La conscience réfléchie nous conduit à <strong>notre première certitude</strong> : nous existons en tant qu'entités qui pensent.</p>
-
-<p>Cette certitude est une <strong>connaissance immédiate</strong>, c'est ce qu'on appelle une <strong>intuition</strong> : une vérité qui s'impose à l'esprit sans démonstration.</p>
-
-<p>Mais qu'est-ce qui m'<strong>individualise</strong> en tant qu'être pensant ? Ce qui fait mon individualité : <strong>mes</strong> idées, mes vécus, mes désirs, mes souvenirs.</p>
-
-<h3 id="kant">2. La conscience de soi fonde l'unité de la personne (Kant)</h3>
-
-<div class="author-card">
-  <div class="ac-avatar">K</div>
-  <div>
-    <div class="ac-name">Emmanuel Kant</div>
-    <div class="ac-meta">1724 – 1804 · Allemagne · <em>Anthropologie du point de vue pragmatique</em>, 1798</div>
-  </div>
+<div class="doc-printed">
+  <p>[Manuel, p. 143-145, Textes 9 à 11]</p>
+  <blockquote><strong>Méthodique</strong> : qui sert de méthode ❖ <strong>Hyperbolique</strong> : qui est volontairement exagéré</blockquote>
+  <p>Pour surmonter le scepticisme, Descartes met en place l'expérience mentale du <strong>doute méthodique et hyperbolique</strong>. Le but de cette démarche est <strong>la remise en question</strong> de tout ce qu'il pense savoir afin de découvrir s'il n'y a pas des <strong>certitudes indubitables</strong> (dont on ne peut pas douter) sur lesquelles il serait possible de <strong>bâtir le système du savoir</strong>.</p>
+  <p>Contrairement aux philosophes sceptiques, Descartes ne vise pas à s'enfermer dans le doute, mais d'utiliser le doute comme moyen de découvrir des certitudes qui résisteraient au doute le plus radical.</p>
+  <p><strong>Étapes du doute :</strong></p>
+  <aside class="doc-annot">arguments des sceptiques pour (1) et (2) ; doute hyperbolique / volontairement exagéré pour (3) et (4)</aside>
+  <p>(1) <strong>Le problème des sens</strong> : Descartes constate d'abord que <strong>les sens sont parfois trompeurs</strong>. Alors, par prudence, il décide de ne plus faire confiance aux données de la perception.</p>
+  <p>(2) <strong>L'hypothèse du rêve</strong> : Toujours dans cette idée que nos sens sont trompeurs, DESCARTES évoque l'impossibilité de distinguer le rêve de la réalité. En effet, combien de fois il nous était arrivé d'être sûr que ce que nous vivions était réel, alors qu'en fait on rêvait ? Pouvons-nous être certains que nous ne rêvons pas en ce moment ?</p>
+  <p>(3) <strong>L'hypothèse du Dieu trompeur</strong> : Néanmoins, même ainsi, on ne peut pas douter des vérités qui ne viennent pas des sens, comme les vérités mathématiques : peu importe si nous rêvons ou si nous sommes réveillés, 2 + 3 = 5. Sauf que le scepticisme conteste aussi les vérités de la raison (ce sont les vérités mathématiques ou logiques). Alors, DESCARTES radicalise son doute en introduisant, troisièmement, l'hypothèse du <strong>Dieu trompeur</strong> : Dieu nous a créés de telle façon que nous nous trompons à chaque fois quand nous additionnons 2 et 3.</p>
+  <p>(4) <strong>L'hypothèse du malin génie</strong> : En dernière étape, DESCARTES rend son doute complètement hyperbolique, c'est-à-dire exagéré, par la <strong>fiction du malin génie</strong> : DESCARTES imagine un esprit très puissant et très trompeur qui l'abuse continuellement <strong>en lui faisant croire</strong> qu'il a un corps et qu'il perçoit des arbres, des pierres, des animaux, des hommes, alors que rien n'existe. Dans l'expérience <em>imaginaire</em> de DESCARTES, le malin génie crée continuellement l'illusion de l'existence des choses, alors que rien n'existe.</p>
 </div>
 
-<blockquote>
-  Posséder le Je dans sa représentation : ce pouvoir élève l'homme infiniment au-dessus de tous les autres êtres vivants sur la terre. Par-là, il est une personne ; et grâce à l'unité de la conscience dans tous les changements qui peuvent lui survenir, il est une seule et même personne […]. L'enfant qui sait déjà parler ne commence qu'assez tard à dire <em>Je</em> ; avant, il parle de soi à la troisième personne. Auparavant il ne faisait que se sentir ; maintenant il se pense.
-  <cite>Kant</cite>
-</blockquote>
+<h4 id="cogito">c) Le <em>cogito</em> (« je pense ») : la certitude indubitable [Manuel, p. 145, Texte 12]</h4>
 
-<p>« Posséder le Je dans sa représentation » = la <strong>conscience réfléchie</strong>. Cette faculté consiste à se faire une image de soi en tant qu'être distinct. Elle n'admet pas de degrés : on la possède ou non.</p>
-
-<p>Cette faculté donne à l'homme une <strong>supériorité infinie</strong> sur les animaux. Pour Kant, elle fonde la <strong>dignité humaine</strong> : on n'a pas le droit d'instrumentaliser les hommes (pas d'esclavage, pas de prostitution, pas de conditions de travail indignes).</p>
-
-<div class="callout tip">
-  <div class="callout-title">Passerelle</div>
-  <p>Notion de <strong>devoir</strong> moral fondé sur la dignité humaine.</p>
+<div class="doc-printed">
+  <p>Alors, peut-on réellement douter de tout ? Les sceptiques ont-ils finalement raison d'affirmer qu'il n'y a rien d'indubitable ? Voyons le résultat de l'expérience mentale de DESCARTES :</p>
+  <blockquote>« Mais je me suis persuadé qu'il n'y avait rien du tout dans le monde, qu'il n'y avait aucun ciel, aucune terre, aucuns esprits, ni aucuns corps ; ne me suis-je donc pas aussi persuadé que je n'étais point ? Non certes, j'étais sans doute, si je me suis persuadé ou seulement si j'ai pensé quelque chose. Mais il y a un je ne sais quel trompeur très puissant et très rusé [le malin génie], qui emploie toute son industrie [c'est-à-dire habilité] à me tromper toujours. Il n'y a donc point de doute que je suis, s'il me trompe ; et qu'il me trompe tant qu'il voudra, il ne saura jamais faire que je ne sois rien, tant que je penserai être quelque chose. De sorte qu'après y avoir bien pensé, et avoir soigneusement examiné toutes choses, enfin il faut conclure et tenir pour constant que cette proposition : <em>Je suis, j'existe</em> est nécessairement vraie, toutes les fois que je la prononce ou que je la conçois en mon esprit. »</blockquote>
+  <p>DESCARTES montre qu'on peut douter de tout, sauf de notre existence en tant que <strong>chose pensante</strong>. La conscience de nous-mêmes, plus précisément la conscience réfléchie qui nous permet de <strong>penser à nos propres pensées</strong> nous conduit à <strong>notre première certitude</strong> : nous existons en tant qu'entités qui pensent.</p>
+  <p>Chez DESCARTES, la fiction du malin génie (l'hypothèse que tout ce qu'on voit, entend, sent n'est qu'une illusion provoquée par un esprit rusé et trompeur) conduit à la certitude de <strong>mon existence</strong> en tant qu'<strong>esprit, âme</strong>, c'est-à-dire comme <strong>chose pensante</strong>. Cette certitude est la première dans l'ordre des découvertes des vérités. C'est à partir de cette certitude que Descartes peut, par la suite, démontrer l'existence de Dieu et, finalement, l'existence du monde extérieur à la conscience.</p>
+  <p>Pour Descartes, la certitude « <strong>je suis, j'existe</strong> » est une <strong>connaissance IMMÉDIATE, c'est-à-dire une connaissance que nous avons directement, sans l'intermédiaire de quoi que ce soit</strong>. C'est ce qu'on appelle une <strong>INTUITION</strong>. Une intuition est une vérité qui s'impose à l'esprit sans avoir besoin de démonstration. En effet, je sais <strong>IMMÉDIATEMENT</strong> que j'existe <strong>tant que je me rends compte (donc tant que j'ai la conscience) de mes représentations mentales</strong> : moi en train de voir des arbres ou des loups-garous, moi en train de douter, moi en train de désirer, d'avoir peur, etc. En effet, peu importe si ce que je vois est réel ou illusoire, il n'empêche que je le vois au sens où j'en ai une représentation mentale. Et, <strong>avant même d'avoir la certitude que j'ai également un corps fait de chair</strong>, je sais que <strong>je suis une chose pensante</strong>, car j'existe en tant que <strong>support mental</strong> de toutes mes représentations.</p>
+  <p>Je suis donc une <strong>chose qui pense</strong>, mais qu'est-ce qui m'<strong>individualise</strong> en tant qu'<strong>être pensant</strong> ? En effet, la démarche cartésienne montre que la pensée fait l'<strong>ESSENCE</strong> de l'homme, mais, par définition, cette <strong>ESSENCE</strong> se retrouve dans tous les hommes. Ce n'est pas en tant qu'être pensant que je me différencie de mon voisin. Pour répondre à cette question, l'on peut dire que ce qui fait mon individualité en tant qu'esprit sont : <strong>mes</strong> idées, mes <strong>vécus</strong>, mes <strong>désirs</strong>, mes <strong>souvenirs</strong>, etc.</p>
 </div>
 
-<p>La conscience de soi est aussi le fondement de l'<strong>identité personnelle</strong> : il y a une « unité de la conscience » à travers tous les changements. Je suis « une seule et même personne » à travers le temps. Même l'enfant que j'étais à 6 ans, c'était moi.</p>
+<h3 id="kant">2. La conscience de soi fonde l'unité de la personne</h3>
+
+<div class="doc-printed">
+  <p><strong>Emmanuel KANT</strong> (1724-1804, DE), <em>Anthropologie du point de vue pragmatique</em> (1798), §1 :</p>
+  <blockquote>« Posséder le Je dans sa représentation : ce pouvoir élève l'homme infiniment au-dessus de tous les autres êtres vivants sur la terre. Par-là, il est une personne ; et grâce à l'unité de la conscience dans tous les changements qui peuvent lui survenir, il est une seule et même personne, c'est-à-dire un être entièrement différent, par le rang et la dignité, de choses comme le sont les animaux sans raison, dont on peut disposer à sa guise ; et ceci, même lorsqu'il ne peut pas dire Je, car il l'a dans sa pensée; ainsi toutes les langues, lorsqu'elles parlent à la première personne, doivent penser ce Je, même si elles ne l'expriment pas par un mot particulier. Car cette faculté (de penser) est l'entendement. Il faut remarquer que l'enfant qui sait déjà parler assez correctement ne commence qu'assez tard (peut-être un an après) à dire Je ; avant, il parle de soi à la troisième personne (Charles veut manger, marcher, etc.) ; et il semble que pour lui une lumière vienne de se lever quand il commence à dire Je ; à partir de ce jour, il ne revient jamais à l'autre manière de parler. Auparavant il ne faisait que se sentir ; maintenant il se pense. »</blockquote>
+  <p><em>[portrait d'Emmanuel Kant]</em></p>
+  <p><strong>Questions :</strong></p>
+  <ol>
+    <li>Que signifie « posséder le Je dans sa représentation » ?</li>
+    <li>Pourquoi la conscience de soi est le fondement d'identité personnelle ?</li>
+    <li>Peut-on fonder une <strong>MORALE</strong> (un devoir) et une <strong>JUSTICE</strong> à partir de ce fragment ?</li>
+    <li>Quelle est la différence entre « se sentir » et « se penser » ?</li>
+    <li>Comment employer cet extrait pour répondre à la question de la séquence ?</li>
+  </ol>
+</div>
+
+<p>« Posséder le Je dans sa représentation », représente un « pouvoir », c'est-à-dire une capacité qu'on pourrait appeler la conscience réfléchie. Cette faculté consiste en la capacité de se représenter soi-même, c'est-à-dire à se faire une image de soi-même en tant qu'être entièrement distinct de tous les autres. Il s'agit tout simplement du pouvoir de ramener toutes nos pensées, désirs, souvenirs, etc à un « Je », autrement dit il s'agit de la capacité que l'homme a de s'approprier son propre être à travers le fait de se penser soi-même. Par cette faculté, l'homme est supérieur aux autres êtres vivants comme les animaux et les végétaux. Cette supériorité peut être considérée comme infinie dans la mesure où la conscience réfléchie n'admet pas de degrés : on ne peut pas la posséder plus ou moins ; soit on la possède, soit on ne la possède pas. Sans cette capacité de se représenter comme un « Je », l'homme serait un simple être vivant, càd un corps organique. Mais comme l'homme possède la capacité de se représenter comme un « Je », il est « un être entièrement différent » des animaux et des végétaux, d'où le fait que Kant parle d'une supériorité infinie.</p>
+
+<p style="color:#e36b6b;">[passage en rouge :] Certes, la capacité de se représenter comme un « je » différent de tous les autres êtres vivants ou autres personnes, est manifestement une caractéristique éminemment et exclusivement humaine. En effet nous n'avons pas assez de preuves pour penser que les animaux se font une représentation de leur propre intériorité. Par contre Kant se sert de ce constat pour justifier son anthropocentrisme, c'est-à-dire une vision du monde dans laquelle l'homme apparaît comme l'être le plus important.</p>
+
+<p style="color:#7cc47c;">[passage en vert :] Or, il ne va pas de soi que la conscience réfléchie soit une faculté qui assure une supériorité infinie à l'être qui la possède. Kant fait de la conscience réfléchie une faculté tellement annoblissante qu'il affirme qu'elle nous donne une telle supériorité que nous pouvons disposer à notre guise des animaux : on peut les manger, on peut les utiliser pour des expériences, on peut les disséquer vivants, on peut les enfermer dans les cirques.</p>
+
+<p>Pour Kant, le fait qu'on peut disposer des animaux comme on le souhaite est le signe / conséquence du fait que nous n'avons aucun devoir moral envers les animaux ; en revanche, l'existence d'un rang et dignité humaine, qui vient du fait que l'homme est capable de se penser lui-même, conduit nécessairement à affirmer l'idée que nous avons des devoirs moraux envers les hommes : contrairement aux animaux, les hommes ne peuvent pas être instrumentalisés, càd les utiliser comme des moyens pour parvenir à nos fins. Par exemple, la dignité humaine fait qu'on n'a pas le droit d'instrumentaliser les hommes à travers l'esclavage, la prostitution, conditions de travail indignes.</p>
+
+<p><strong>Passerelle : Devoir.</strong></p>
+
+<p>La conscience de soi est le fondement de l'identité personnelle, car il y a une « unité de la conscience dans tous les changements qui peuvent lui survenir ». C'est-à-dire que peu importe sur quoi la conscience de soi se porte (un désir quelconque, une pensée...) et peu importe à quel moment de ma vie j'exerce cette faculté de me représenter moi-même, cette faculté est toujours la <strong>mienne</strong> et m'<strong>accompagne</strong> durant toute ma vie. C'est grâce à elle, que je demeure toujours « une seule et même personne », malgré tous les changements que je peux subir. Par exemple, même si j'ai du mal à me reconnaître dans l'enfant que j'étais lorsque j'avais 6 ans, je sais que cet enfant là, c'était moi. Autrement dit la conscience de soi nous donne la possibilité de ramener tous mes désirs, idées, sentiments, etc. présents ou <strong>passés</strong> à un même Je.</p>
+
+<p>La conscience de soi permet de me représenter comme un être <strong>permanent</strong> à travers le temps, c'est-à-dire à travers tous les moments passés et présents de ma vie.</p>
 
 <h3 id="hegel">3. L'homme est un être pour soi (Hegel)</h3>
-<p>Voir DS n°2 et 3.</p>
 
-<div class="callout warn">
-  <div class="callout-title">Transition</div>
-  <p>Cette première partie nous a permis de comprendre que la conscience est <strong>nécessaire</strong> pour la connaissance de soi. Cependant, elle n'est pas <strong>suffisante</strong> : il y a beaucoup de choses qui définissent notre identité et dont on ne se rend même pas compte.</p>
-</div>
+<p>Voir D.S. n°2 et 3.</p>
+
+<h3 id="transition-1">Transition (conclusion + objection)</h3>
+
+<p>Cette première partie nous a permis de comprendre que nous possédons la possibilité de nous connaître nous-même dans la mesure où nous sommes des êtres doués de conscience. Cependant, cela ne veut pas dire que la conscience de soi représente également une condition suffisante pour la connaissance de soi car il y a beaucoup de choses qui définissent notre identité et dont on ne se rend même pas compte.</p>
 `
 };

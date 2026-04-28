@@ -534,3 +534,48 @@
 .seq-nav .title {
   font-family: var(--font-display); font-size: 18px; line-height: 1.2;
 }
+
+/* Annotation manuscrite : petit aparté style post-it */
+.read-content .ann-manu {
+  display: block;
+  margin: 16px 0 16px auto;
+  max-width: 80%;
+  padding: 10px 14px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--text-dim);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+.read-content .ann-manu::before {
+  content: '✎ '; color: var(--accent); font-style: normal;
+}
+
+/* Passages surlignés (notes du prof : rouge = critique/objection, vert = commentaire) */
+.read-content .hl-red,
+.read-content .hl-green {
+  display: block;
+  margin: 20px 0;
+  padding: 14px 18px;
+  border-left: 3px solid;
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+.read-content .hl-red {
+  border-color: var(--rose, #e07a8a);
+  background: color-mix(in srgb, var(--rose, #e07a8a) 8%, transparent);
+}
+.read-content .hl-green {
+  border-color: var(--teal, #6fc3a8);
+  background: color-mix(in srgb, var(--teal, #6fc3a8) 8%, transparent);
+}
+.read-content .hl-red::before,
+.read-content .hl-green::before {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+  margin-bottom: 6px; opacity: 0.7;
+}
+.read-content .hl-red::before { content: 'Objection'; color: var(--rose, #e07a8a); }
+.read-content .hl-green::before { content: 'Commentaire'; color: var(--teal, #6fc3a8); }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Réviser le bac de philosophie de manière interactive : les 6 séquences complètes, fiches, citations, philosophes, quiz, flashcards." />
+  <title>Philo·Révisions — Bac blanc</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/views.css" />
+  <link rel="stylesheet" href="./css/widgets.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%92%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">Penser · c'est dire non</div>
+  </div>
+
+  <!-- TOP NAV -->
+  <header class="topbar">
+    <a href="#/" class="brand" data-route="/">
+      <span class="brand-mark">Φ</span>
+      <span class="brand-text">Philo<span class="brand-dot">·</span>Révisions</span>
+    </a>
+
+    <nav class="topnav">
+      <a href="#/" data-route="/" class="nav-link">Accueil</a>
+      <a href="#/sequences" data-route="/sequences" class="nav-link">Séquences</a>
+      <a href="#/philosophes" data-route="/philosophes" class="nav-link">Philosophes</a>
+      <a href="#/notions" data-route="/notions" class="nav-link">Notions</a>
+      <a href="#/glossaire" data-route="/glossaire" class="nav-link">Glossaire</a>
+      <a href="#/flashcards" data-route="/flashcards" class="nav-link">Flashcards</a>
+      <a href="#/quiz" data-route="/quiz" class="nav-link">Quiz</a>
+      <a href="#/timeline" data-route="/timeline" class="nav-link">Frise</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <button id="search-btn" class="icon-btn" title="Rechercher (Ctrl+K)" aria-label="Rechercher">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </button>
+      <button id="theme-btn" class="icon-btn" title="Changer de thème" aria-label="Thème">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+      </button>
+      <button id="menu-btn" class="icon-btn menu-btn" aria-label="Menu">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- SEARCH MODAL -->
+  <div id="search-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card search-card">
+      <div class="search-header">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        <input id="search-input" type="text" placeholder="Cherche une notion, un philosophe, une citation…" autocomplete="off" />
+        <kbd>Esc</kbd>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main id="app"></main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Philo·Révisions</div>
+        <p class="footer-quote">« Une vie sans examen ne mérite pas d'être vécue » — Socrate</p>
+      </div>
+      <div>
+        <div class="footer-title">Séquences</div>
+        <a href="#/sequence/1">1 · Conscience</a>
+        <a href="#/sequence/2">2 · Vérité &amp; Raison</a>
+        <a href="#/sequence/3">3 · Langage</a>
+        <a href="#/sequence/4">4 · Art</a>
+        <a href="#/sequence/5">5 · État &amp; Justice</a>
+        <a href="#/sequence/6">6 · Devoir &amp; Bonheur</a>
+      </div>
+      <div>
+        <div class="footer-title">Outils</div>
+        <a href="#/quiz">Quiz</a>
+        <a href="#/flashcards">Flashcards</a>
+        <a href="#/timeline">Frise</a>
+        <a href="#/glossaire">Glossaire</a>
+      </div>
+      <div>
+        <div class="footer-title">Raccourcis</div>
+        <p><kbd>Ctrl</kbd>+<kbd>K</kbd> · rechercher</p>
+        <p><kbd>?</kbd> · aide</p>
+        <p><kbd>T</kbd> · thème</p>
+      </div>
+    </div>
+    <div class="footer-bottom">Pour le bac · construit avec amour de la sagesse</div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="./js/data/glossary.js"></script>
+  <script src="./js/data/philosophers.js"></script>
+  <script src="./js/data/notions.js"></script>
+  <script src="./js/data/quiz.js"></script>
+  <script src="./js/data/seq1.js"></script>
+  <script src="./js/data/seq1b.js"></script>
+  <script src="./js/data/seq2.js"></script>
+  <script src="./js/data/seq2b.js"></script>
+  <script src="./js/data/seq3.js"></script>
+  <script src="./js/data/seq3b.js"></script>
+  <script src="./js/data/seq4.js"></script>
+  <script src="./js/data/seq5.js"></script>
+  <script src="./js/data/seq6.js"></script>
+  <script src="./js/data/sequences.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

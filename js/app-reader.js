@@ -18,7 +18,6 @@ App.routes.sequence = function(parts) {
   `).join('');
 
   App.render(`
-    <div class="read-progress" id="read-progress"></div>
     <div class="read-layout">
       <aside class="read-toc">
         <div class="toc-title">Sommaire</div>
@@ -142,26 +141,36 @@ App.routes.sequence = function(parts) {
     }, { rootMargin: '-30% 0px -65% 0px' });
     headings.forEach(h => obs.observe(h));
 
-    // Reading progress
-    const progressBar = document.getElementById('read-progress');
+    // Reading progress (aside card only)
     const arProgress = document.getElementById('ar-progress');
     const updateProgress = () => {
       const total = document.body.scrollHeight - window.innerHeight;
       const pct = total > 0 ? Math.min(100, Math.max(0, window.scrollY / total * 100)) : 0;
-      if (progressBar) progressBar.style.width = pct + '%';
       if (arProgress) arProgress.style.width = pct + '%';
     };
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
 
-    // Iceberg interactivity (séquence 1)
+    // Iceberg interactivity (séquence 1) — toggle inline tooltip
     const iceberg = document.getElementById('iceberg-widget');
     if (iceberg) {
-      iceberg.querySelectorAll('.tag-right').forEach(t => {
-        t.addEventListener('click', () => {
-          const tip = t.dataset.tip;
-          if (tip) alert(t.textContent + ' — ' + tip);
+      const tags = iceberg.querySelectorAll('.tag-right');
+      tags.forEach(t => {
+        if (t.dataset.tip && !t.querySelector('.tag-tip')) {
+          const tip = document.createElement('span');
+          tip.className = 'tag-tip';
+          tip.textContent = t.dataset.tip;
+          t.appendChild(tip);
+        }
+        t.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const wasOpen = t.classList.contains('open');
+          tags.forEach(x => x.classList.remove('open'));
+          if (!wasOpen) t.classList.add('open');
         });
+      });
+      document.addEventListener('click', () => {
+        tags.forEach(x => x.classList.remove('open'));
       });
     }
   }, 50);

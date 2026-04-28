@@ -391,11 +391,36 @@
   border-radius: 999px; font-size: 12px;
   border: 1px solid rgba(255,255,255,0.15);
   color: #fff; cursor: pointer;
+  transition: background .15s, border-color .15s;
 }
-.iceberg .tag-right:hover { background: rgba(0,0,0,0.6); }
+.iceberg .tag-right:hover { background: rgba(0,0,0,0.6); border-color: var(--accent); }
 .iceberg .tag-right.moi { top: 12%; }
 .iceberg .tag-right.surmoi { top: 40%; }
 .iceberg .tag-right.ca { top: 70%; }
+.iceberg .tag-right .tag-tip {
+  position: absolute; right: calc(100% + 10px); top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  background: #1a1a26; color: #fff;
+  border: 1px solid var(--accent);
+  padding: 8px 12px; border-radius: 8px;
+  font-size: 12px; line-height: 1.45;
+  white-space: normal; width: max-content; max-width: 240px;
+  opacity: 0; pointer-events: none;
+  transition: opacity .15s, transform .15s;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  z-index: 5;
+}
+.iceberg .tag-right .tag-tip::after {
+  content: ''; position: absolute;
+  left: 100%; top: 50%; transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left-color: var(--accent);
+}
+.iceberg .tag-right:hover .tag-tip,
+.iceberg .tag-right.open .tag-tip {
+  opacity: 1; transform: translateY(-50%) translateX(0);
+}
+.iceberg .tag-right.open { background: rgba(0,0,0,0.7); border-color: var(--accent); }
 
 /* =========================================================
    MIND MAP

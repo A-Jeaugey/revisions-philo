@@ -55,26 +55,26 @@ App.routes.home = function() {
       <div class="seq-grid">${seqCards}</div>
 
       <div class="features">
-        <div class="feature">
+        <a class="feature" href="#/sequences">
           <div class="feature-icon">📜</div>
           <h4>Fiches complètes</h4>
           <p>Toutes les notions, citations, auteurs et arguments — fidèlement transcrits.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="#/flashcards">
           <div class="feature-icon">🃏</div>
           <h4>Flashcards</h4>
           <p>Mémorise les définitions et thèses essentielles par retournement.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="#/quiz">
           <div class="feature-icon">⚡</div>
           <h4>Quiz par séquence</h4>
           <p>QCM avec correction immédiate, score et explication détaillée.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="#/timeline">
           <div class="feature-icon">📅</div>
           <h4>Frise des philosophes</h4>
           <p>Situe chaque auteur dans le temps, d'Héraclite à Rawls.</p>
-        </div>
+        </a>
       </div>
     </section>
 

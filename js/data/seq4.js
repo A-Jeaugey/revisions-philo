@@ -18,152 +18,167 @@ window.SEQUENCE_4 = {
   content: `
 <h2 id="intro">Introduction</h2>
 
-<p><strong>Problème 1.</strong> Saisir des caractéristiques universelles de l'art alors qu'il y a une diversité déroutante de formes qui évoluent et font l'objet d'une réception subjective.</p>
+<p><strong>PROBLÈME 1 :</strong> Le sujet pose problème dans la mesure où il est question de saisir les caractéristiques universelles de l'art, alors qu'il y a une diversité déroutante de formes d'art qui évoluent et qui font l'objet d'une réception subjective.</p>
 
-<p><strong>Problème 2.</strong> Si l'art a une visée esthétique, qu'est-ce qui différencie la beauté artistique de la beauté d'un objet d'usage ?</p>
+<p><strong>PROBLÈME 2 :</strong> Si l'art semble avoir une visée esthétique, alors qu'est-ce qui différencie la beauté artistique de la beauté d'un objet d'usage.</p>
 
-<p><strong>Problème 3.</strong> Si l'art est porteur de message, qu'est-ce qui le différencie d'autres moyens de communication ?</p>
+<p><strong>PROBLÈME 3 :</strong> Si l'art est porteur de message, alors qu'est-ce qui le différencie d'autres moyens de communication (les journaux, les textes, les livres, etc...)</p>
 
-<p><strong>Problème 4.</strong> Le mot art vient du latin <em>ars</em> (équivalent grec <em>technè</em>) = savoir-faire. Si le mot continue de désigner une habileté (art culinaire, art de la guerre, arts martiaux…), qu'est-ce qui le différencie de la simple activité technique ?</p>
+<p><strong>PROBLÈME 4 :</strong> Le mot art vient du latin <em>ars</em> (équivalent grec <em>technè</em>), qui désigne le savoir faire (habilité), qui permet à l'Homme de créer des choses artificielles (non naturel) comme : les produits artisanaux, les champs cultivés, l'organisation politique et sociale, etc... Si, même de nos jours, le mot art continue de renvoyer à une habilité manuelle ou corporelle (art culinaire, etc...) ou à un savoir faire quelconque (art de vivre, art de la guerre, art-notoire), alors qu'est-ce qui différencie ce savoir faire de la simple activité artisanale ou technique.</p>
 
 <div class="callout def">
   <div class="callout-title">Arts</div>
-  <p>Ensemble de connaissances et de règles d'action dans un domaine particulier : art vétérinaire, arts martiaux, art médical, art politique.</p>
+  <p>Ensemble de connaissances et de règles d'actions, dans un domaine particulier : art vétérinaire, arts martiaux, art, art médical, art politique.</p>
 </div>
 
-<h2 id="part-1">I. L'art : travail et technique au service d'œuvres gratuites et originales</h2>
+<h2 id="part-1">I. L'art se définit par le travail et la technique mis d'une manière originale au service de la création d'œuvres gratuites et originales</h2>
 
-<h3 id="nietzsche4">1. Travail et technique</h3>
+<h3 id="s1-1">1. L'art se définit par le travail et la technique</h3>
 
-<p>L'exceptionnalité de la création artistique a souvent été attribuée à une <strong>inspiration divine</strong> ou à un <strong>génie</strong>. Mais le culte du génie pose problème : si l'œuvre est juste sa production naturelle, il n'y a pas de raison d'admirer l'artiste.</p>
+<p>L'exceptionnalité de la création artistique est un sujet d'étonnement, d'où le fait qu'elle a souvent été considérée comme le résultat d'une inspiration voire possession divine (dans la culture antique), ou comme le produit d'un génie (= personne ayant un talent inné).</p>
+
+<p>Cependant, le culte du génie pose un sérieux problème : si l'œuvre artistique est sa production, il n'y a pas de raisons d'admirer un artiste, car il ne créer pas ses œuvres uniquement grâce à son travail, sa détermination et ses compétences techniques. C'est ce que remarque <strong>Nietzsche</strong> en dénonçant le culte du génie et en insistant sur le fait qu'il n'y a rien de mystérieux dans la création artistique ; elle est comme toute forme de création matérielle, le résultat d'un travail acharné, de privations, de fatigue, de l'acquisition longue et laborieuse d'un savoir-faire : « <em>Toute activité de l'Homme est compliquée à miracle, non pas seulement celle de génie, mais aucune n'est un "miracle"</em> ».</p>
+
+<p>Si on a tendance à croire à l'existence de génies artistiques, c'est parce qu'on n'a affaire à l'œuvre d'art que lorsqu'elle est achevée : « <em>tout ce qui est fini, parfait, excite l'étonnement, tout ce qui est en train de se faire est déprécié. Or, personne ne peut voir dans l'œuvre de l'artiste, comme elle s'est faite, c'est son avantage, car partout où l'on peut assister à sa formation, on est un peu refroidi [...]</em> ». De plus, le culte du génie est une excuse pour notre propre médiocrité : « <em>Nommer quelqu'un "divin", càd "ici nous n'avons pas à rivaliser"</em> ».</p>
+
+<div class="callout warn">
+  <div class="callout-title">PROBLÈME</div>
+  <p>Si l'œuvre d'art est le résultat du travail et de la maîtrise technique, alors comment différencier l'art de la production agricole, artisanale, technique ou industrielle ?</p>
+</div>
+
+<h3 id="s1-2">2. La gratuité de l'art rend possible la liberté créatrice de l'artiste</h3>
+
+<p>L'art se distingue du travail et de la technique par sa <strong>gratuité</strong>, c'est-à-dire son manque de finalité <strong>utilitaire</strong> (pratique, social, politique, vital, etc.). Cette caractéristique de l'art à particulièrement été théorisée par <strong>Hannah Arendt</strong> qui explique que les œuvres d'arts « <em>ne sont pas consommées comme des biens de consommation ni usées comme des objets d'usage, [...] elles sont les seules choses à n'avoir aucune fonction dans le processus vital de la société</em> ». N'étant pas destinées à la consommation ou à l'usage (comme c'est le cas des aliments, des vêtements, des voitures, etc.), les œuvres d'arts sont supérieures aux biens de consommation et aux objets d'usage par leur <strong>durée</strong>, raison pour laquelle Arendt rajoute que les œuvres d'arts « <em>ne sont pas fabriquées pour les Hommes mais pour le monde qui est destiné à survivre à la vie limitée des mortels, au va-et-vient des générations.</em> ».</p>
+
+<p>La gratuité de l'œuvre d'art <strong>libère l'imagination de l'artiste</strong>, qui n'a pas besoin de suivre des règles d'exécutions prédéfinies. C'est très exactement ce qu'écrit <strong>Alain</strong> : « <em>il reste à dire maintenant en quoi l'artiste diffère de l'artisan. Toutes les fois que l'idée précède et règle l'exécution, c'est l'industrie.</em> », c'est-à-dire la production artisanale ou technique. Au contraire, dans le cas d'un artiste comme le peintre : « <em>il est clair qu'il ne peut avoir le projet de toutes les couleurs qu'il emploiera à l'œuvre qu'il commence ; l'idée lui vient à mesure qu'il fait [...] comme au spectateur ; [...] il est spectateur aussi de son œuvre en train de naître.</em> ».</p>
+
+<p>Contrairement à l'artiste, l'artisan ou l'ingénieur ne possède pas la même liberté créatrice, car ils doivent d'abord produire un objet capable de remplir une fonction précise.</p>
+`
+};
+
+window.SEQUENCE_4.content += `
+<h3 id="s1-3">3. L'originalité de la création artistique</h3>
+
+<p>Si le travail et la maîtrise d'un savoir-faire technique est la condition de réalisation d'une œuvre artistique exceptionnelle, force est de constater que cette condition n'est pas suffisante pour la production d'un chef d'œuvre artistique. Il est vrai qu'un artiste d'exception se forme, comme le disait <strong>NIETZSCHE</strong>, à travers l'acquisition laborieuse d'un savoir-faire artistique ; mais ce qui le singularise par rapport aux nombreux apprentis fréquentant les grands maîtres et les écoles d'art est la <strong>manière singulière de parvenir à la possession d'un « tour de main » singulier</strong>, qui semble <strong>impossible à définir et à transmettre</strong>. Ce « tour de main » représente l'apogée de la formation d'un artiste et lui permet de <strong>travailler la matière de manière personnelle, originale, exceptionnelle</strong>. En d'autres mots, <strong>la qualité d'une œuvre d'art n'est pas liée à l'utilisation d'une technique bien déterminée, mais à la manière originale d'en faire usage</strong>. L'histoire de l'art abonde en exemples d'artistes dont le tour de main est impossible à reproduire, comme le procédé du clair-obscur ou du <em>sfumato</em> présent dans les œuvres de Léonard de Vinci.</p>
+
+<p>Cette <strong>originalité</strong> d'un chef-d'œuvre artistique alimente notre <strong>incompréhension</strong> par rapport au travail de l'artiste. Comment comprendre la manière dont il parvient à créer des chefs-d'œuvre alors que lui-même semble <strong>incapable de définir, d'expliquer et de transmettre</strong> à ses disciples son « tour de main » personnel. Alors, la création artistique exceptionnelle paraît enveloppée dans un nuage de mystère. On a souvent associé l'art à des éléments <strong>irrationnels</strong>, comme l'<strong>inspiration divine</strong> à travers les figures mythologiques des Muses. Dans les temps plus récents, l'<strong>originalité incompressible et inégalable</strong> des chefs-d'œuvre de l'histoire de l'art a nourri l'imaginaire du <strong>génie artistique</strong> (contre lequel NIETZSCHE se dressait en voulant réduire l'art au travail et à la technique).</p>
+
+<div class="author-card">
+  <div class="ac-avatar">K</div>
+  <div>
+    <div class="ac-name">Emmanuel Kant</div>
+    <div class="ac-meta">1724 – 1804 · Allemagne</div>
+  </div>
+</div>
+
+<p>Face à l'impossibilité d'expliquer l'<strong>originalité</strong> des chefs-d'œuvres artistiques, Emmanuel <strong>KANT</strong> (1724-1804, DE) soutient que « <em>les beaux-arts ne sont possibles qu'en tant que production de génie</em> ». Le génie est une personne que la nature a douée d'un <strong>talent</strong>, c'est-à-dire d'une aptitude créatrice <strong>innée</strong>, autrement dit <strong>qui n'est pas acquise</strong> et, par conséquent, <strong>qui ne peut pas faire l'objet d'un apprentissage, d'une formation</strong>. On comprend alors pourquoi le génie produit « <em>ce pour quoi on ne saurait donner de règle déterminée</em> ».</p>
+
+<p>Les œuvres du génie sont <strong>originales</strong>. Elles ne sont pas le résultat de l'imitation (de la nature, de la réalité ou d'œuvres d'art précédentes). Bien au contraire, elles « <em>doivent être [...] des <strong>modèles</strong>, c'est-à-dire, être exemplaires : sans être elles-mêmes créées par imitation, elles doivent être proposées à l'imitation des autres, c'est-à-dire, servir de règle ou de critère</em> ». Par ces mots, Kant introduit une distinction entre les beaux-arts en tant que productions du génie et l'imitation de ces productions par des peintres, sculpteurs, etc. qui créent <strong>à la manière</strong> d'un Botticelli, d'un Michel-Ange sans être eux-mêmes des génies. Cette distinction a pour conséquence de différencier les <strong>génies</strong> (disposant à la fois du <em>talent</em> et d'un savoir-faire) et les <strong>imitateurs</strong> (ne disposant que d'un savoir-faire).</p>
+
+<p>Pour KANT, la production du génie est <strong>inexplicable et incompréhensible</strong> : « <em>le génie n'est pas lui-même en mesure de décrire ou de montrer scientifiquement comment il crée ses productions</em> » ; « <em>par conséquent, le créateur d'un produit qu'il doit à son génie ignore lui-même comment et d'où lui viennent les idées de ses créations</em> ». Plus important encore, <strong>le génie n'est pas maître de son travail</strong> ou du moins pas entièrement : « <em>il n'a pas non plus le pouvoir de créer ses idées à volonté ou d'après un plan</em> ». De ce fait, le génie ne peut pas faire l'objet de notre admiration : ce n'est pas vraiment lui qui crée librement, mais la <strong>NATURE</strong> qui s'exprime à travers lui (« <em>à travers le génie la nature prescrit ses règles [...] à l'art, et dans le cas seulement où il s'agit des beaux-arts</em> »).</p>
+
+<div class="callout warn">
+  <div class="callout-title">Transition-Objection</div>
+  <p>S'il n'y a pas d'art en dehors du travail et de la technique, force est de constater qu'il ne suffit pas de travail et de technique pour créer de l'art. La gratuité, la liberté, l'originalité, l'absence de règles prédéfinies sont également des traits qui définissent l'art. Et même ainsi notre entreprise de définition n'est pas finie. En effet, pourquoi admirons-nous des œuvres d'art sinon pour leur beauté ou pour ce qu'elles nous transmettent ?</p>
+</div>
+`;
+
+window.SEQUENCE_4.content += `
+<h2 id="part-2">II. L'art se définit également par la création de belles œuvres ayant une ouverture sur le monde</h2>
+
+<p>L'une des finalités principales de l'art est la création de belles œuvres. Cette caractéristique distinctive peut paraître insuffisante lorsqu'on compare les œuvres d'art avec les produits issus de l'artisanat ou de la production industrielle. En effet, le désir de produire de belles choses est une constante de l'activité créatrice humaine. Par exemple, la valeur d'un meuble produit par un ébéniste ou d'une voiture dépend à la fois de ses vertus fonctionnelles et de son aspect esthétique. Mais, dans la production artisanale ou industrielle, la recherche esthétique est subordonnée aux finalités fonctionnelles des objets produits. Ainsi, le design d'une voiture, aussi élaboré et beau soit-il, doit être en accord avec les impératifs fonctionnels de la voiture : assurer la sécurité des passager, une parfaite pénétration dans l'air, une bonne adhérence au sol, etc. En revanche, <strong>du côté de l'art, la recherche de la beauté apparaît comme une fin en soi</strong>.</p>
+
+<p>Cependant une question fait particulièrement débat ? Comment définir la beauté artistique ? Est-elle <strong>OBJECTIVE</strong>, c'est-à-dire <strong>présente dans l'objet</strong> qu'on considère ? Ou, au contraire, est-elle <strong>SUBJECTIVE</strong>, c'est-à-dire <strong>présente dans la perception</strong> que les hommes ont de l'objet ? Ou, finalement, il n'y a pas de beauté <strong>ABSOLUE</strong> (indépendante de tout contexte), mais uniquement une beauté <strong>RELATIVE</strong> à une certaine culture, société, religion, couche sociale ?</p>
+
+<h3 id="s2-1">1. La beauté objective</h3>
+
+<p>La beauté objective, c'est-à-dire présente dans les objets et non pas dans le regard du spectateur, ne peut exister que comme une harmonie entre les formes et la finalité des choses observées. Dans la culture antique et renaissante, dire que qqc est beau c'est affirmer qu'il est bien fait par rapport à sa finalité. Par exemple, un corps humain est beau si il peut accomplir toutes ses fonctions biologiques (force, agilité, etc...).</p>
+
+<p>Dans la culture antique, le beau est synonyme de ce qui est ordonné. C'est pourquoi Aristote affirme que à travers l'art, « <em>nous prenons plaisir à contempler les images les plus exactes de choses dont la vue nous est pénible dans la réalité comme les formes d'animaux les plus méprisables et des cadavres</em> ». Nous pouvons comparer le plaisir esthétique de l'Homme antique à la contemplation d'un zoologue ou d'un médecin légiste devant l'ordre de la nature présent dans les animaux les + répugnants et même dans le processus de putréfaction.</p>
+
+<p>L'art vise ainsi une imitation de la nature qui permet une prise de distance par rapport aux objets représentés. Par exemple, à travers la peinture, une araignée n'apparaît plus comme répugnante et effrayante, mais comme un animal excellemment constitué pour survivre en tant qu'individu et espèce.</p>
+`;
+
+window.SEQUENCE_4.content += `
+<h3 id="s2-2">2. L'art se définit par la belle représentation des choses</h3>
+
+<p>Si on ne peut pas envisager le beau comme <strong>objectif</strong> (c'est-à-dire comme <strong>propriété</strong> des objets) autrement qu'à la manière des Grecs anciens, nous ne pouvons pas non plus nous enfermer dans un <em>relativisme absolu</em> en invoquant des <em>lieux communs</em> qui empêchent tout dialogue à propos de la beauté artistique : si <strong>le beau est ce qui plaît à chacun</strong>, si <strong>l'art est subjectif</strong> (comme on le lit souvent), alors autant qu'on arrête d'en discuter !</p>
+
+<p>Pour nous sortir de cet embarras, <strong>KANT</strong> propose de distinguer <strong>le beau de l'agréable</strong>. Ce qu'on appelle à tort « beau » en disant que cela dépend des goûts de chacun relève en réalité de <strong>l'agréable</strong>.</p>
+
+<p>L'<strong>agréable</strong> est ce qui plaît à une personne SINGULIÈRE (ex. : Thomas) ou à quelques personnes en PARTICULIER (ex. : les fans de Taylor Swift). L'<strong>agréable</strong> est <strong>subjectif</strong> (il n'est pas dans l'objet, mais dans <strong>la perception</strong> de l'objet) et suscite un <strong>plaisir au niveau des sens</strong>, qu'il s'agisse du « <em>goût de la langue, du palais et du gosier</em> » (quand je dis que ce vin ou ce fromage me plaît) ou « <em>de ce qui peut être agréable aux yeux et aux oreilles de chacun</em> » (quand je dis que j'aime l'esthétique des films de Tim Burton, certains instruments de musique, etc.) :</p>
 
 <blockquote>
-  Toute activité de l'homme est compliquée à miracle, non pas seulement celle de génie, mais aucune n'est un « miracle ».
-  <cite>Nietzsche</cite>
-</blockquote>
-
-<p>Si on croit aux génies, c'est qu'on n'a affaire à l'œuvre que <em>finie</em> : « tout ce qui est fini, parfait, excite l'étonnement ». Le culte du génie est aussi une <em>excuse</em> pour notre médiocrité (« il est divin, donc inutile de rivaliser »).</p>
-
-<p><strong>Problème :</strong> si l'œuvre est résultat du travail et de la technique, comment la différencier de la production agricole, artisanale ou industrielle ?</p>
-
-<h3 id="arendt4">2. La gratuité de l'art (Arendt) et la liberté créatrice (Alain)</h3>
-
-<p>L'art se distingue par sa <strong>gratuité</strong> : son manque de finalité utilitaire.</p>
-
-<blockquote>
-  [Les œuvres d'art] ne sont pas consommées comme des biens de consommation ni usées comme des objets d'usage […] elles sont les seules choses à n'avoir aucune fonction dans le processus vital de la société. […] Elles ne sont pas fabriquées pour les hommes mais pour le monde qui est destiné à survivre à la vie limitée des mortels.
-  <cite>Hannah Arendt</cite>
-</blockquote>
-
-<p>La gratuité libère l'imagination. Pour <strong>Alain</strong> :</p>
-
-<blockquote>
-  Toutes les fois que l'idée précède et règle l'exécution, c'est l'industrie. […] Le peintre […] ne peut avoir le projet de toutes les couleurs qu'il emploiera. L'idée lui vient à mesure qu'il fait […] il est spectateur aussi de son œuvre en train de naître.
-  <cite>Alain</cite>
-</blockquote>
-
-<p>Contrairement à l'artiste, l'artisan ou l'ingénieur doit produire un objet capable de remplir une fonction.</p>
-
-<h3 id="kant4">3. L'originalité et le génie (Kant)</h3>
-
-<p>Le travail technique est la condition de réalisation, mais ne suffit pas. Ce qui singularise un grand artiste, c'est la <strong>manière originale</strong> de parvenir à un « tour de main » singulier — impossible à définir et à transmettre. Exemple : le <em>sfumato</em> de Léonard de Vinci.</p>
-
-<blockquote>
-  Les beaux-arts ne sont possibles qu'en tant que production de génie.
+  « Pour celui-ci la couleur violette est douce et aimable, pour celui-là elle est terne et morte. Tel aime le son des instruments à vent, tel autre celui des instruments à corde. Ce serait folie de prétendre contester ici et accuser d'erreur le jugement d'autrui lorsqu'il diffère du nôtre, comme s'ils étaient opposés logiquement l'un à l'autre ; en fait d'agréable, il faut donc reconnaître ce principe que <strong>chacun a son goût particulier</strong> (le goût de ses sens). »
   <cite>Kant</cite>
 </blockquote>
 
-<p>Le <strong>génie</strong> est doué d'un <strong>talent inné</strong>, qui ne s'apprend pas. Il produit « ce pour quoi on ne saurait donner de règle déterminée ». Ses œuvres sont :</p>
-<ul>
-  <li><strong>Originales</strong> : non issues d'imitation</li>
-  <li><strong>Exemplaires</strong> : modèles pour les imitateurs</li>
-</ul>
+<p>Quant à lui, le <strong>beau</strong> est également subjectif. Comme l'agréable, le beau n'est pas une propriété des objets. Autrement dit, ce n'est pas l'objet qui est beau, mais notre regard qui le rend beau.</p>
 
-<p>Pour Kant, la production du génie est <strong>inexplicable</strong> : « le génie n'est pas lui-même en mesure de décrire […] comment il crée ». Le génie n'est pas <em>maître</em> de son travail : « à travers le génie la nature prescrit ses règles à l'art ».
+<p><strong>En revanche</strong>, contrairement à l'agréable, <strong>le beau ne procure pas un plaisir sensoriel</strong> comme le plaisir de boire un certain vin, de goûter un certain plat, d'écouter un certain genre de musique, de regarder un certain genre de film qu'on ne partage qu'avec certaines personnes. Le plaisir esthétique engendré par le <em>beau</em> est <em>désintéressé</em> et purement <em>intellectuel</em>.</p>
 
-<h2 id="part-2">II. L'art : création de belles œuvres ayant une ouverture sur le monde</h2>
-
-<p>Dans la production artisanale ou industrielle, la recherche esthétique est subordonnée à la fonction. Du côté de l'art, <strong>la recherche de la beauté apparaît comme une fin en soi</strong>.</p>
-
-<p><strong>Question :</strong> la beauté artistique est-elle objective, subjective, absolue ou relative ?</p>
-
-<h3 id="aristote4">1. La beauté objective</h3>
-
-<p>Dans la culture antique et renaissante, le beau est <strong>présent dans l'objet</strong> comme harmonie entre formes et finalité. Un corps est beau s'il accomplit ses fonctions biologiques (force, agilité). Le beau est synonyme d'<strong>ordre</strong>.</p>
+<p>De surcroît, même s'il est subjectif, le beau est <strong>universel</strong> : il est susceptible de provoquer le même plaisir esthétique chez tous les autres hommes. Pour KANT, il y a quelque chose de surprenant lorsque je fais l'expérience <strong>subjective</strong> du beau : « <em>lorsque je donne une chose pour belle, <strong>j'attribue aux autres [hommes] la même satisfaction</strong> ; je ne juge pas seulement pour moi, <strong>mais pour tout le monde</strong>, et je parle de la beauté <strong>comme si c'était</strong> une qualité des choses</em> ». Certes, la beauté n'est pas une qualité des choses, elle n'est pas objective. Mais, je m'attends à ce que tout le monde répète mon expérience <strong>subjective</strong> du beau.</p>
 
 <blockquote>
-  À travers l'art, nous prenons plaisir à contempler les images les plus exactes de choses dont la vue nous est pénible dans la réalité, comme les formes d'animaux les plus méprisables et des cadavres.
-  <cite>Aristote</cite>
+  « Aussi dis-je que la chose est belle, et si je m'attends à trouver les autres d'accord avec moi dans ce jugement de satisfaction, ce n'est pas que j'ai plusieurs fois reconnu cet accord, mais c'est <strong>que je crois pouvoir l'exiger d'eux</strong>. Jugent-ils autrement que moi, je les blâme, je leur refuse le goût, tout en exigeant pourtant d'eux qu'ils le possèdent. On ne peut donc pas dire ici que chacun a son goût particulier. Cela reviendrait à dire qu'il n'y a point de goût, c'est-à-dire qu'il n'y a point de jugement esthétique qui puisse légitimement réclamer l'assentiment universel. »
+  <cite>Kant</cite>
 </blockquote>
 
-<p>L'art vise une <strong>imitation de la nature</strong> qui permet une prise de distance.</p>
+<p>Étonnement, le beau est à la fois <strong>SUBJECTIF</strong> et <strong>UNIVERSEL</strong>. Mais comment est-il possible de soutenir une thèse si surprenante ? KANT lui-même s'avoue incapable de définir le beau : « <em>le beau est ce qui plaît <strong>universellement SANS CONCEPT</strong></em> », c'est-à-dire sans qu'on puisse en faire une notion définissable. Le beau se reconnaît tout simplement dans l'expérience subjective qu'on en fait et qui nous fait comprendre que <em>tout autre homme</em> pourrait faire la même expérience. Mais <strong>comment faire pour produire</strong> quelque chose qui pourrait provoquer le même plaisir esthétique chez tous les hommes ? Pour KANT, la question est sans réponse, dans la mesure où « <em>les beaux-arts ne sont possibles qu'en tant que production de génie</em> ».</p>
 
-<h3 id="kant42">2. La belle représentation des choses (Kant)</h3>
-
-<p>Sortir du relativisme absolu (« le beau est ce qui plaît à chacun »). <strong>Kant</strong> distingue le <strong>beau</strong> de l'<strong>agréable</strong> :</p>
-
+<p><strong>KANT : agréable / beau</strong></p>
 <table>
-  <thead><tr><th>Agréable</th><th>Beau</th></tr></thead>
+  <thead>
+    <tr><th>Agréable</th><th>Beau</th></tr>
+  </thead>
   <tbody>
-    <tr><td>Subjectif <em>individuel</em></td><td>Subjectif mais <em>universel</em> (réitérable par tout individu)</td></tr>
-    <tr><td>Plaisir <strong>sensoriel</strong> (goût, odorat, toucher, vue, ouïe)</td><td>Plaisir <strong>désintéressé et intellectuel</strong></td></tr>
-    <tr><td>« Chacun a son goût particulier »</td><td>« Le beau est ce qui plaît universellement <em>sans concept</em> »</td></tr>
+    <tr>
+      <td>subjectif ↳ individuel</td>
+      <td>expérience subjective (visuelle) mais réitérable par n'importe quel individu.</td>
+    </tr>
+    <tr>
+      <td>suscite un plaisir au niveau des sens (goût, odorat, toucher, vue, ouïe)</td>
+      <td>→ Sa satisfaction n'est pas sensorielle, mais intellectuelle / mentale.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>« Le beau est ce qui plaît universellement et sans concept. » ↳ Il est impossible de définir le beau, de le comprendre. On peut juste le reconnaître quand on en fait l'expérience.</td>
+    </tr>
   </tbody>
 </table>
 
-<blockquote>
-  Pour celui-ci la couleur violette est douce et aimable, pour celui-là elle est terne et morte. […] En fait d'agréable, il faut donc reconnaître ce principe que chacun a son goût particulier.
-  <cite>Kant</cite>
-</blockquote>
+<div class="callout warn">
+  <div class="callout-title">Transition-Objection</div>
+  <p>Notre entreprise de définition de l'art nous a conduits à identifier toutes les caractéristiques de l'art qui nous paraissent, <strong>pour l'instant</strong>, essentielles (donc non accidentelles). Dire que l'art se définit essentiellement par le travail, la technique, la beauté, l'excellence de l'exécution, l'originalité, le fait qu'il est porteur d'un sens, etc. revient à dire qu'il n'y a pas d'art en dehors de ces éléments. Pourtant l'histoire de l'art abonde en exemples d'œuvres artistiques qui ne sont ni belles, ni exceptionnelles, ni faites de travail, ni originales. Que penser face à ces œuvres ? Ne devons-nous pas chercher une autre définition de l'art, qui soit suffisamment générale pour englober également les œuvres dépourvues de beauté, d'exceptionnalité, etc. ?</p>
+</div>
 
-<blockquote>
-  Lorsque je donne une chose pour belle, j'attribue aux autres la même satisfaction ; je ne juge pas seulement pour moi, mais pour tout le monde, et je parle de la beauté comme si c'était une qualité des choses.
-  <cite>Kant</cite>
-</blockquote>
+<h2 id="part-3">III. L'art se définit constamment par la création d'œuvres qui défamiliarisent notre regard sur les choses</h2>
 
-<p>Le beau est à la fois <strong>subjectif et universel</strong>. Mais Kant lui-même s'avoue incapable de le définir : « le beau est ce qui plaît universellement <em>sans concept</em> ». On le reconnaît dans l'expérience subjective.</p>
+<p>Jusqu'à la fin du XIX<sup>e</sup> siècle, les tentatives de définitions ci-dessus auraient pu suffire pour donner une définition de l'art. Mais, l'histoire de art contemporaine remet en question toutes nos représentations traditionnelles de l'art.</p>
 
-<h2 id="part-3">III. Œuvres qui défamiliarisent notre regard sur les choses</h2>
+<h3 id="s3-1">1. L'art remet en question ses caractéristiques dominantes</h3>
 
-<h3 id="duchamp4">1. La remise en question des caractéristiques dominantes</h3>
+<p>En vertu de quels critères la <em>Fontaine</em> (1917) de <strong>Marcel DUCHAMP</strong> est une œuvre d'art ? Finalement, ce n'est qu'un urinoir, que Marcel Duchamp a acheté dans un magasin. Cet objet a été conçu en tant qu'<strong>objet d'usage</strong>. Il n'est pas original (c'est un objet produit en série) ; même s'il contient une recherche esthétique (même un urinoir présente un design), celle-ci est subordonnée à sa finalité fonctionnelle : servir dans les toilettes publiques ; il n'est pas le résultat d'un « tour de main » exceptionnel ; il ne s'inscrit pas dans la durée et n'est pas censé survivre au va-et-vient des générations. Néanmoins lorsque Marcel Duchamp achète l'objet, le retourne, le signe et l'expose, il le retire du circuit des objets d'usage. Il enlève à l'urinoir sa finalité fonctionnelle et en fait un objet qu'on regarde comme une œuvre d'art. Finalement, qu'y a-t-il encore d'artistique dans la <em>Fontaine</em> de Marcel Duchamp ?</p>
 
-<p>En vertu de quels critères la <em>Fontaine</em> (1917) de <strong>Marcel Duchamp</strong> est-elle une œuvre d'art ? Ce n'est qu'un urinoir acheté en magasin. Conçu en objet d'usage, produit en série, il n'est pas original. Mais en l'<em>achetant</em>, le <em>retournant</em>, le <em>signant</em> et l'<em>exposant</em>, Duchamp le retire du circuit utilitaire.</p>
+<p>De même, que penser de la <em>Merda d'artista</em> (1961) de <strong>Piero MANZONI</strong>, qui n'est rien d'autre que les selles de Manzoni exposées dans des boîtes de conserve ? Cet exemple d'œuvre d'art est encore plus déroutant que celui de la <em>Fontaine</em> de Duchamp. Du moins, dans la <em>Fontaine</em>, on pouvait encore constater un savoir-faire technique, une transformation de la matière, même si ces éléments relèvent davantage de la technique que de l'art.</p>
 
-<p>De même, la <em>Merda d'artista</em> (1961) de <strong>Piero Manzoni</strong> : ses propres selles exposées en boîtes de conserve.</p>
+<p>L'art contemporain abonde en œuvres similaires à celles de Duchamp et Manzoni qui nous obligent de reconsidérer les <em>caractéristiques dominantes</em> et les limites (ou plutôt l'absence de limites) de l'art.</p>
 
-<h3>2. La défamiliarisation : seule caractéristique universelle</h3>
+<h3 id="s3-2">2. L'art vise la défamiliarisation de la perception du spectateur</h3>
 
-<p>Ces œuvres conservent encore deux caractéristiques essentielles :</p>
-<ul>
-  <li>La <strong>gratuité</strong> (l'urinoir perd sa fonction)</li>
-  <li>L'art comme <strong>moyen de transmettre un message</strong></li>
-</ul>
+<p>On peut dire que ces œuvres de Duchamp et Manzoni sont néanmoins des œuvres d'art, dans la mesure où les deux artistes dénoncent, par leur esprit de moquerie, la critique d'art et les spectateurs prêts à élargir indéfiniment les frontières de l'art, au point où tout objet (même un urinoir ou des matières fécales) deviennent des œuvres d'art. Avec de telles œuvres, des artistes comme Duchamp et Manzoni <em>semblent</em> remettre en question les caractéristiques essentielles de l'art que nous avons dégagées précédemment.</p>
 
-<p>Mais ce n'est pas le message en tant que tel qui importe : c'est la manière dont l'<strong>art court-circuite notre regard familier</strong> et suscite une <strong>prise de conscience</strong> de ce que l'habitude a occulté.</p>
+<p>En dehors de la <strong>gratuité</strong> et l'<strong>absence de règles prédéfinies</strong>, les œuvres de Duchamp et Manzoni conservent encore une caractéristique que nous avons déjà évoquée : <strong>l'art est moyen de transmettre un message</strong>. Le fait que l'art transmet un message est un lieu commun qui, comme tous les lieux communs, n'est pas suffisamment interrogé. Si l'art transmet un message, comment le distinguer alors de la parole, de l'écriture, du langage corporel ? <em>Pourquoi l'art doit-il emprunter la finalité du langage ?</em></p>
 
-<p>Exemples :</p>
-<ul>
-  <li><strong>Christo</strong> emballant le Reichstag ou l'Arc-de-Triomphe : la disparition puis réapparition fait redécouvrir des monuments familiers.</li>
-  <li>L'art rend les thèmes (guerre, faim, violence, discrimination) <strong>étranges</strong> pour qu'on y porte attention.</li>
-</ul>
+<p>Nous remarquons que l'art conserve toujours sa <strong>gratuité</strong> : lorsqu'un objet d'usage (comme l'urinoir de <em>Fontaine</em>) devient un objet artistique, il perd sa finalité fonctionnelle. La même chose arrive aux anciennes productions artisanales de haute qualité. Les objets d'usage du passé (comme les meubles) deviennent des objets artistiques par le simple fait qu'on les expose et qu'on leur enlevant leur finalité fonctionnelle : ils <strong>ne sont plus utilisés</strong> afin d'<strong>assurer leur durabilité</strong> (on retrouve donc ici les caractéristiques de l'art évoquées par Arendt) et les admirer pour la <strong>qualité de leur exécution</strong>, leur <strong>rareté</strong> et leur <strong>beauté</strong>.</p>
 
-<p>Cette <strong>défamiliarisation</strong> apparaît :</p>
-<ul>
-  <li>Chez Aristote (peinture d'un cadavre)</li>
-  <li>Dans le « tour de main » singulier</li>
-  <li>Dans la beauté qui interpelle</li>
-  <li>Dans le langage poétique</li>
-  <li>Dans l'œuvre originale</li>
-</ul>
-
-<p>C'est elle qui fait de l'art un <strong>moyen de connaissance et d'accès à la vérité</strong>.</p>
+<p>Finalement, ce n'est pas tellement le message en tant que tel qui importe dans l'art, mais la manière dont l'<strong>art court-circuite notre regard familier sur les choses</strong> et suscite une <strong>prise de conscience</strong> de ce que la force de l'habitude a occulté. À titre d'exemple, on peut penser à l'emballage du Reichstag ou de l'Arc-de-Triomphe par <strong>CHRISTO</strong>. La disparition durant des mois, sous un drap, et la réapparition des deux moments architecturaux a permis aux Berlinois et aux Parisiens de porter <strong>à nouveau</strong> leur regard sur ce qu'ils ne voyaient plus à force de l'habitude. Il en est de même pour d'autres sujets. La guerre, la faim, la violence conjugale, la discrimination, etc. sont des thèmes tellement familiers que nous ne savons plus qu'est-ce que c'est de subir la guerre, la faim, etc. Par conséquent, ce que l'art procure est la <strong>défamiliarisation</strong> par rapport aux choses qu'on ne voit plus à force d'en être entouré et d'en entendre parler. Cette <strong>défamiliarisation</strong> consiste à rendre les choses <strong>étranges</strong>, afin que notre attention se porte sur elles. <strong>Cette défamiliarisation nous paraît être la seule caractéristique universelle de l'art</strong> : elle apparaît chez <strong>ARISTOTE</strong> (l'exemple de la peinture d'un cadavre), elle apparaît dans la reconnaissance d'un « tour de main » singulier, dans la recherche d'une beauté qui <strong>interpelle</strong> le spectateur, dans la recherche d'un langage poétique, dans la création d'une œuvre originale. Finalement, c'est cette défamiliarisation qui est à l'origine de l'émotion que l'art peut susciter. C'est elle qui fait de l'art un <strong>moyen de connaissance et d'accès à la VÉRITÉ</strong>.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Si nous n'avons pas trouvé facilement de définition, c'est parce que les caractéristiques (beauté, technique, originalité, message) sont présentes dans la <em>plupart</em> des œuvres, mais ne sont pas <strong>universelles</strong>.</p>
+<p>Si nous ne sommes pas parvenus facilement à définir l'art, c'est parce que nous avons cru, à tort, que les caractéristiques <strong>essentielles</strong> de l'art seraient la beauté, le savoir-faire technique, l'activité laborieuse de l'artiste, l'originalité, le fait que l'art communique ce qui est inexprimable par le langage, etc. Bien entendu, ces caractéristiques sont bien présentes dans la <strong>plupart</strong> d'œuvres d'art, mais elles ne sont pas <strong>universelles</strong>.</p>
 
-<p>Elles sont <strong>accidentelles</strong> et non essentielles. On peut imaginer des œuvres dépourvues de beauté, sans être originales, etc.</p>
+<p>Les différentes formes d'art et les différents mouvements artistiques nous montrent qu'on peut s'éloigner de ces caractéristiques sans mettre pour autant en péril l'existence de l'art. Cela nous prouve que ces caractéristiques ne sont pas <strong>essentielles</strong>, mais <strong>accidentelles</strong>. Dire que la beauté est une caractéristique <strong>accidentelle</strong> de l'art revient à dire que, certes, la beauté peut être présente dans l'art, mais on peut imaginer d'œuvres d'art entièrement dépourvues de beauté.</p>
 
-<p><strong>Définition :</strong> l'art est une activité visant à produire des œuvres qui <strong>court-circuitent le regard habituel</strong> des spectateurs — par leur beauté exceptionnelle, leur exécution, leur message ou leur originalité. L'intérêt de l'art est de <em>dépayser la perception</em> afin de faire voir les choses sous un angle nouveau.</p>
-`
-};
+<p>Finalement, l'art se définit par sa finalité <strong>essentielle</strong> : l'art est une activité visant à produire des œuvres qui court-circuitent le regard habituel des spectateurs d'une manière ou d'une autre, soit par leur beauté exceptionnelle, soit par la qualité de leur exécution, soit par le message transmis, soit par l'originalité. L'intérêt de l'art est de dépayser la perception des spectateurs afin de les faire voir les choses sous un angle nouveau.</p>
+`;

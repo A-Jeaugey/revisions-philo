@@ -5,7 +5,7 @@ window.NOTIONS = [
     name: "Conscience",
     glyph: "C",
     short: "Du latin cum + scientia. Faculté de se représenter le monde et soi-même.",
-    long: "La conscience se distingue en conscience immédiate (tournée vers le monde) et conscience réfléchie (tournée vers soi). Cette dernière permet le dédoublement entre un sujet pensant et un objet pensé, faisant de l'homme un spectateur de lui-même.",
+    long: "La conscience se dédouble : conscience <b>immédiate</b> (tournée vers le monde, qui sent et perçoit) et conscience <b>réfléchie</b> (tournée vers soi, qui se prend pour objet de pensée). C'est cette deuxième forme qui pose problème : avoir conscience d'être soi, est-ce déjà se connaître ? Toute la philosophie du sujet — de Descartes à Sartre — se joue dans cet écart. La conscience est aussi ce par quoi je me sens responsable de mes actes : sans elle, plus de morale, plus de droit.",
     sequences: [1,3],
     keyAuthors: ["descartes","kant","hegel","sartre"]
   },
@@ -14,7 +14,7 @@ window.NOTIONS = [
     name: "Inconscient",
     glyph: "I",
     short: "Ensemble des contenus psychiques qui échappent à la conscience.",
-    long: "Hypothèse formulée par Freud (1856-1939) pour expliquer les rêves, lapsus, actes manqués et troubles psychiques. Distinguer inconscient et inconscience. Critiqué par Sartre (mauvaise foi) et Popper (non falsifiable).",
+    long: "Hypothèse formulée par <b>Freud</b> pour expliquer ce que la conscience ne suffit pas à expliquer : rêves, lapsus, actes manqués, troubles psychiques. Surtout, ne pas confondre l'<i>inconscient</i> (instance active du psychisme) avec l'<i>inconscience</i> (perte de connaissance, coma). L'enjeu philosophique est radical : si une partie de moi agit à mon insu, la liberté et la responsabilité deviennent fragiles. Sartre refuse cette idée — pour lui c'est de la « mauvaise foi » ; Popper la rejette comme non-scientifique car irréfutable.",
     sequences: [1,3],
     keyAuthors: ["leibniz","freud","sartre"]
   },
@@ -23,7 +23,7 @@ window.NOTIONS = [
     name: "Liberté",
     glyph: "L",
     short: "Capacité de se déterminer soi-même.",
-    long: "Le libre arbitre traditionnel (Descartes) est critiqué par Spinoza : nous sommes conscients de nos désirs mais ignorants des causes. Pour Sartre, l'homme est condamné à être libre. La liberté politique se distingue de la liberté intérieure.",
+    long: "Le <b>libre arbitre</b> traditionnel (Descartes) — pouvoir choisir indépendamment de toute contrainte — est démonté par Spinoza : nous ignorons les causes qui nous déterminent (métaphore de la pierre lancée qui se croit libre). Sartre renverse la perspective : nous sommes <i>condamnés</i> à être libres, forcés de choisir, sans excuse. Distinguer la liberté <b>intérieure</b> (ne pas être l'esclave de ses passions) et la liberté <b>politique</b> (ne pas être l'esclave d'autrui) — Marx montre comment l'une dépend de l'autre. La vraie question n'est plus « sommes-nous libres ? » mais « quel sens donne-t-on à ce mot ? ».",
     sequences: [1,5],
     keyAuthors: ["descartes","spinoza","kant","sartre","marx"]
   },
@@ -32,7 +32,7 @@ window.NOTIONS = [
     name: "Temps",
     glyph: "T",
     short: "Nombre du mouvement selon l'avant et l'après (Aristote).",
-    long: "Difficile à définir (Augustin). Le temps caractérise le devenir des choses (Héraclite). Pour Sartre, l'existence se construit dans le temps : l'homme est un projet qui se réifie à la mort.",
+    long: "« Si personne ne me le demande, je sais ce qu'est le temps. Si on me le demande, je ne sais plus » — <b>saint Augustin</b> résume la difficulté. Aristote en donne une définition objective (le nombre du mouvement), mais cette mesure rate le temps <i>vécu</i>, subjectif, irréductible aux secondes. Pour Héraclite, tout change, rien ne demeure ; pour Sartre, l'homme est un projet, un être-pour-le-temps qui ne se fige qu'à la mort. Le temps est aussi un problème éthique : que faire du temps qui passe ? Comment le remplir sans le perdre ?",
     sequences: [1],
     keyAuthors: ["aristote","augustin","heraclite","sartre"]
   },
@@ -41,7 +41,7 @@ window.NOTIONS = [
     name: "Vérité",
     glyph: "V",
     short: "Adéquation entre la pensée/le langage et la réalité.",
-    long: "À distinguer de la réalité, de la croyance, de l'opinion, du préjugé. Recherchée par la raison et la science, elle a aussi des formes non rationnelles : vérités du cœur (Pascal), vérités esthétiques (Bergson).",
+    long: "La vérité, c'est l'adéquation de la pensée à la chose — mais sur quelle réalité s'appuyer, et comment savoir qu'on l'a atteinte ? Il faut la distinguer de notions voisines : <b>réalité</b> (ce qui est), <b>certitude</b> (l'effet sur le sujet), <b>opinion</b>, <b>croyance</b>, <b>préjugé</b>. Recherchée par la raison et la science (avec le critère de falsifiabilité chez Popper), la vérité a aussi des formes non rationnelles : vérités du cœur (Pascal), vérités esthétiques que seul l'art révèle (Bergson). Question majeure : peut-on connaître <i>la</i> vérité, ou seulement s'en approcher ?",
     sequences: [2],
     keyAuthors: ["descartes","hume","kant","popper","pascal"]
   },
@@ -50,7 +50,7 @@ window.NOTIONS = [
     name: "Raison",
     glyph: "R",
     short: "Faculté de penser logiquement et de distinguer le vrai du faux.",
-    long: "La raison rationnelle (théorique) et raisonnable (pratique). Universellement partagée (Descartes), elle doit reconnaître ses limites (Kant). À elle seule elle ne peut démontrer Dieu, l'âme, la liberté.",
+    long: "Faculté universelle, « la chose du monde la mieux partagée » selon <b>Descartes</b>. Elle se déploie sur deux registres : <b>rationnel</b> (théorique, dans les sciences) et <b>raisonnable</b> (pratique, dans la conduite de la vie). Mais la raison doit reconnaître ses limites : Kant montre qu'elle ne peut pas prouver Dieu, l'âme, la liberté — il faut « abolir le savoir pour y substituer la croyance ». Et la raison n'est pas tout : Pascal lui oppose les « raisons du cœur que la raison ne connaît point ».",
     sequences: [2],
     keyAuthors: ["descartes","hume","kant"]
   },
@@ -59,7 +59,7 @@ window.NOTIONS = [
     name: "Science",
     glyph: "S",
     short: "Connaissances logiques et vérifiables (observation, expérimentation, démonstration).",
-    long: "Sciences formelles (logique, mathématiques) → vérité formelle. Sciences naturelles → expérimentation. Sciences humaines → interprétation (Dilthey). Critère de falsifiabilité (Popper).",
+    long: "Trois grands domaines : sciences <b>formelles</b> (mathématiques, logique — vérités démonstratives, indépendantes de l'expérience), sciences <b>naturelles</b> (physique, chimie — vérification par expérimentation), sciences <b>humaines</b> (interprétation des phénomènes culturels, Dilthey). Le critère de scientificité selon Popper : une théorie est scientifique si elle est <i>falsifiable</i>, c'est-à-dire si on peut imaginer une expérience qui la réfuterait. Conséquence dérangeante : la psychanalyse échoue à ce test, le marxisme aussi. La question reste vive : la science peut-elle tout expliquer, ou y a-t-il un reste — beauté, sens, valeur — qui lui échappe ?",
     sequences: [1,2],
     keyAuthors: ["galilee","descartes","hume","popper","einstein","dilthey"]
   },
@@ -68,7 +68,7 @@ window.NOTIONS = [
     name: "Religion",
     glyph: "R",
     short: "Domaine de la croyance, distinct de la science.",
-    long: "Pour Pascal, c'est le cœur qui sent Dieu, non la raison. Pour Kant, l'existence de Dieu n'est pas démontrable mais reste un postulat de la raison pratique. Conflit historique science/religion (Galilée).",
+    long: "Domaine de la <b>croyance</b>, qui repose sur la foi plutôt que sur la preuve. Pascal distingue les vérités du cœur (qui <i>sentent</i> Dieu) des vérités de la raison (qui démontrent) — les deux ordres ne se rencontrent pas. Kant montre que l'existence de Dieu ne peut pas être démontrée mais reste un « postulat de la raison pratique » : il faut y croire pour que la morale ait un sens. L'histoire est faite de conflits avec la science (procès de Galilée, Darwin), mais aussi de tentatives de conciliation. Question : la religion est-elle l'ennemie de la raison ou son autre face ?",
     sequences: [2],
     keyAuthors: ["pascal","kant","galilee"]
   },
@@ -77,7 +77,7 @@ window.NOTIONS = [
     name: "Langage",
     glyph: "L",
     short: "Faculté humaine d'exprimer des pensées par des signes.",
-    long: "À distinguer du langage animal (instinctif). Le signe linguistique unit signifiant et signifié (Saussure). Le langage configure la pensée (Hegel) mais voile l'individualité (Bergson). Convaincre vs persuader.",
+    long: "Faculté proprement humaine — à distinguer du langage <b>animal</b> (signaux instinctifs, fermés) et des langages <b>formels</b> (mathématiques, code, univoques). Le signe linguistique unit un <b>signifiant</b> (le mot, le son) et un <b>signifié</b> (le concept), et leur rapport est <i>arbitraire</i> (Saussure : rien ne lie naturellement le mot « arbre » à l'objet arbre). Le langage configure la pensée (Hegel : on ne pense vraiment qu'avec des mots) mais peut aussi la trahir : il généralise, là où le réel est singulier (Bergson). Distinction politique cruciale : <b>convaincre</b> (par la raison) vs <b>persuader</b> (par la sensibilité, la rhétorique, la manipulation).",
     sequences: [3],
     keyAuthors: ["descartes","saussure","chomsky","hegel","bergson","nietzsche"]
   },
@@ -86,7 +86,7 @@ window.NOTIONS = [
     name: "Art",
     glyph: "A",
     short: "Activité visant à défamiliariser notre regard sur les choses.",
-    long: "Du latin ars (savoir-faire). L'art se distingue du travail par la gratuité (Arendt). Beau ≠ agréable (Kant). L'art contemporain (Duchamp) remet en question les caractéristiques traditionnelles.",
+    long: "Du latin <i>ars</i> / grec <i>technè</i> : à l'origine, un savoir-faire. Mais l'art moderne ne se réduit pas à une technique : il <b>défamiliarise</b> notre regard, il nous fait voir le monde autrement, il révèle ce que la perception ordinaire raboté. Le <b>beau</b> (Kant) se distingue de l'<b>agréable</b> : il prétend à l'universalité, il est désintéressé, il s'adresse à l'esprit autant qu'aux sens. Hannah Arendt : l'œuvre d'art est gratuite, elle n'est pas un produit du travail utile, elle est faite pour durer. L'art contemporain (Duchamp, son <i>urinoir</i> exposé en 1917) interroge violemment la définition même de l'art : tout peut-il être art ?",
     sequences: [4],
     keyAuthors: ["aristote","kant","nietzsche","alain","arendt","bergson","duchamp"]
   },
@@ -95,7 +95,7 @@ window.NOTIONS = [
     name: "Travail",
     glyph: "T",
     short: "Activité par laquelle l'homme transforme la matière.",
-    long: "L'œuvre d'art est le résultat d'un travail acharné (Nietzsche). Mais le travail seul ne suffit pas pour faire un artiste : il faut un « tour de main » singulier, une originalité.",
+    long: "Activité par laquelle l'homme transforme la matière pour subvenir à ses besoins. Mais l'œuvre d'art aussi est le fruit d'un travail acharné — <b>Nietzsche</b> moque le mythe romantique du « génie qui crée sans effort » : derrière chaque chef-d'œuvre, des heures d'exercice. Distinction subtile avec l'art : le travail produit de l'<i>utile</i> (le marteau, le pain) ; l'art produit du <i>gratuit</i>. Marx montre que le travail peut <b>aliéner</b> (l'ouvrier dépossédé du sens et du produit de son effort) ou <b>émanciper</b> (quand il est libre et créateur).",
     sequences: [4],
     keyAuthors: ["nietzsche","alain"]
   },
@@ -104,7 +104,7 @@ window.NOTIONS = [
     name: "Technique",
     glyph: "T",
     short: "Savoir-faire permettant de produire des objets utiles.",
-    long: "Du grec technè. L'artiste maîtrise une technique mais en fait un usage original. L'artisan suit un plan (idée précède exécution) ; l'artiste découvre l'œuvre en la faisant (Alain).",
+    long: "Savoir-faire qui permet de produire selon un plan défini d'avance. L'<b>artisan</b> suit une recette, l'<b>artiste</b> la transforme : Alain montre que l'artiste découvre l'œuvre <i>en la faisant</i>, alors que l'artisan exécute une idée préexistante. La technique est en soi neutre — c'est l'usage qui en détermine la valeur. Le débat contemporain est tendu : la technique nous libère-t-elle (médecine, communication, transports) ou nous asservit-elle (Heidegger : « l'arraisonnement » de la nature, où tout est traité comme matière première à exploiter) ?",
     sequences: [4],
     keyAuthors: ["alain","kant"]
   },
@@ -113,7 +113,7 @@ window.NOTIONS = [
     name: "Nature",
     glyph: "N",
     short: "Ce qui n'est pas culturel, ce qui est inné ou spontané.",
-    long: "S'oppose à culture. L'état de nature (Rousseau, Hobbes, Locke) est l'homme avant la société civile. Pour Kant, à travers le génie, la nature donne ses règles à l'art.",
+    long: "Ce qui n'est pas culturel : l'inné, le spontané, le donné. S'oppose à la <b>culture</b> (l'acquis, le construit, le transmis). En philosophie politique, l'<b>état de nature</b> est une fiction utile pour penser le politique : pour Hobbes, c'est la « guerre de tous contre tous » et la vie y est « solitaire, brève, brutale » ; pour Rousseau, c'est l'innocence, l'homme est naturellement bon, c'est la société qui le corrompt ; pour Locke, c'est déjà un état de droits naturels (vie, liberté, propriété). La nature peut aussi désigner l'ordre du vivant : à travers le génie, dit Kant, c'est la nature elle-même qui donne ses règles à l'art.",
     sequences: [4,5,6],
     keyAuthors: ["rousseau","hobbes","locke","kant"]
   },
@@ -122,7 +122,7 @@ window.NOTIONS = [
     name: "Justice",
     glyph: "J",
     short: "Notion polysémique : légalité ou légitimité.",
-    long: "Conformité à la loi (légalité) ou conformité à la morale (légitimité). Conflit incarné par Antigone (Sophocle). La justice repose sur la force de l'État (Pascal). Justice sociale (Marx, Rawls).",
+    long: "Notion polysémique qui se joue sur deux plans : la <b>légalité</b> (conformité à la loi écrite) et la <b>légitimité</b> (conformité à la morale, au juste en soi). Le conflit entre Antigone et Créon (Sophocle) incarne cette tension : faut-il obéir aux lois de la cité, même injustes, ou aux lois divines (= morales) ? Pascal résume sèchement : « la justice sans la force est impuissante, la force sans la justice est tyrannique ». Marx pose la question sociale : une société peut être <i>légalement</i> juste et <i>factuellement</i> inégalitaire. Rawls cherche les principes d'une société juste sous le « voile d'ignorance » — quelles règles accepterais-tu si tu ne savais pas quelle place tu occuperais dans la société ?",
     sequences: [5],
     keyAuthors: ["sophocle","pascal","marx","rawls","weber"]
   },
@@ -131,7 +131,7 @@ window.NOTIONS = [
     name: "État",
     glyph: "É",
     short: "Institutions assurant le fonctionnement d'une société.",
-    long: "Né d'un contrat social (Hobbes, Locke, Rousseau). Détient le monopole de la violence légitime (Weber). Peut être absolu (Léviathan de Hobbes) ou limité (libéralisme de Locke).",
+    long: "Ensemble des institutions qui assurent le fonctionnement d'une société. Né d'un <b>contrat social</b> — fiction théorique : on imagine que les hommes ont accepté de transférer une partie de leur liberté pour obtenir la sécurité (<b>Hobbes</b> : Léviathan absolu, l'État doit être tout-puissant pour empêcher la guerre civile) ou pour protéger leurs droits naturels (<b>Locke</b> : État libéral, limité, séparation des pouvoirs). Pour Weber, l'État détient le « monopole de la violence légitime ». Question critique : et les sociétés <i>sans</i> État ? L'anthropologue Pierre Clastres montre que certaines sociétés organisent activement leur refus de l'État, contre l'idée que l'État serait une étape inévitable de l'histoire.",
     sequences: [5],
     keyAuthors: ["hobbes","locke","rousseau","weber","kant","marx","clastres"]
   },
@@ -140,7 +140,7 @@ window.NOTIONS = [
     name: "Devoir",
     glyph: "D",
     short: "Obligation morale qu'on s'impose librement.",
-    long: "Le devoir relève de l'obligation (libre) et non de la contrainte (imposée). Désintéressé, il implique souvent un sacrifice. Question : peut-on avoir un devoir d'être heureux ?",
+    long: "Obligation morale qu'on s'impose à soi-même — à distinguer de la <b>contrainte</b> (imposée du dehors) et de l'<b>envie</b> (suivie spontanément). Le devoir kantien est <i>désintéressé</i> : agir par devoir, c'est agir par respect pour la loi morale, pas par calcul, pas par peur, pas par sentiment. Il implique souvent le sacrifice — du plaisir, du confort, parfois de soi-même. Question paradoxale : peut-on avoir un devoir d'être heureux ? Pour Kant non, le bonheur est trop subjectif pour être un commandement universel ; pour les eudémonistes (Aristote, Épicure), oui, le bonheur est même la fin de toute morale.",
     sequences: [5,6],
     keyAuthors: ["kant"]
   },
@@ -149,7 +149,7 @@ window.NOTIONS = [
     name: "Bonheur",
     glyph: "B",
     short: "État de satisfaction durable, absence de souffrance.",
-    long: "Bon + heur (chance). Hédonisme radical (Calliclès) → Danaïdes. Hédonisme modéré (Épicure) → ataraxie. Stoïcisme → bonheur absolu par la connaissance des causes.",
+    long: "De « bon » + « heur » (chance) : à l'origine, le bonheur dépendait du <i>hasard</i>. Toute la philosophie va chercher à l'arracher à la fortune, à le rendre maîtrisable. Trois grandes voies : l'<b>hédonisme radical</b> (Calliclès, satisfaction maximale de tous les désirs — mais Socrate le compare au tonneau des Danaïdes, percé, qui ne se remplit jamais) ; l'<b>hédonisme modéré</b> (Épicure, ataraxie, absence de troubles, désirs naturels et nécessaires uniquement) ; le <b>stoïcisme</b> (le sage trouve le bonheur dans la connaissance des causes, peu importent les circonstances extérieures). Question contemporaine : le bonheur est-il un droit, un devoir, un produit, ou une illusion vendue par la société de consommation ?",
     sequences: [6],
     keyAuthors: ["socrate","platon","callicles","epicure"]
   }

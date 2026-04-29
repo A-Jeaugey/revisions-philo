@@ -9,6 +9,7 @@ window.App = {
     this.data.build();
     this.theme.init();
     this.search.init();
+    this.help.init();
     this.menu.init();
     this.scroll.init();
     this.timeTracker.init();
@@ -224,6 +225,93 @@ window.App = {
         el.addEventListener('click', () => {
           document.getElementById('search-modal').hidden = true;
         });
+      });
+    }
+  },
+
+  // -------- HELP MODAL --------
+  help: {
+    init() {
+      const modal = document.createElement('div');
+      modal.id = 'help-modal';
+      modal.className = 'modal';
+      modal.hidden = true;
+      modal.innerHTML = `
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card help-card">
+          <header class="help-head">
+            <div>
+              <div class="help-eyebrow">§ Aide</div>
+              <h2 class="help-title">Raccourcis &amp; navigation</h2>
+            </div>
+            <button class="help-close" aria-label="Fermer">×</button>
+          </header>
+
+          <section class="help-section">
+            <h3>Raccourcis clavier</h3>
+            <dl class="help-keys">
+              <dt><kbd>Ctrl</kbd>+<kbd>K</kbd></dt><dd>Recherche globale</dd>
+              <dt><kbd>?</kbd></dt><dd>Cette aide</dd>
+              <dt><kbd>T</kbd></dt><dd>Bascule clair / sombre</dd>
+              <dt><kbd>Esc</kbd></dt><dd>Fermer un dialogue</dd>
+            </dl>
+          </section>
+
+          <section class="help-section">
+            <h3>Flashcards</h3>
+            <dl class="help-keys">
+              <dt><kbd>Espace</kbd></dt><dd>Retourner la carte</dd>
+              <dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>Précédente / suivante</dd>
+            </dl>
+          </section>
+
+          <section class="help-section">
+            <h3>Pomodoro</h3>
+            <p>Bouton en bas à gauche. 3 presets (25/5, 50/10, 15/3).
+            Clique pour ouvrir, démarrer, mettre en pause. L'état est
+            mémorisé d'une session à l'autre.</p>
+          </section>
+
+          <section class="help-section">
+            <h3>Temps de lecture</h3>
+            <p>Le temps passé sur chaque séquence est compté
+            automatiquement (badge ⏱ sur la carte, ligne dans
+            l'aside « Ta progression »). Pause auto quand l'onglet
+            est masqué.</p>
+          </section>
+
+          <section class="help-section">
+            <h3>PDFs</h3>
+            <p>Sur chaque page de séquence, l'aside « Télécharger »
+            propose deux PDFs prêts à imprimer : <b>Cours complet</b>
+            et <b>Fiche de révision</b>, en mode dark.</p>
+          </section>
+        </div>
+      `;
+      document.body.appendChild(modal);
+
+      const open = () => {
+        // Si la recherche est ouverte, on la ferme d'abord.
+        const search = document.getElementById('search-modal');
+        if (search) search.hidden = true;
+        modal.hidden = false;
+      };
+      const close = () => { modal.hidden = true; };
+
+      modal.querySelector('[data-close]').addEventListener('click', close);
+      modal.querySelector('.help-close').addEventListener('click', close);
+
+      const btn = document.getElementById('help-btn');
+      if (btn) btn.addEventListener('click', open);
+
+      document.addEventListener('keydown', (e) => {
+        if (e.target.matches('input, textarea')) return;
+        // Shift+/ produit "?" sur AZERTY/QWERTY ; on accepte aussi e.key === '?'
+        if (e.key === '?' || (e.key === '/' && e.shiftKey)) {
+          e.preventDefault();
+          if (modal.hidden) open(); else close();
+        }
+        if (e.key === 'Escape' && !modal.hidden) close();
       });
     }
   },

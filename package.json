@@ -4,8 +4,10 @@
   "private": true,
   "description": "Cogito — Bac de philosophie. Site statique + générateur de PDF.",
   "scripts": {
+    "build:raw": "node scripts/build-raw.js",
     "build:pdfs": "node scripts/build-pdfs.js",
-    "build:pdf": "node scripts/build-pdfs.js"
+    "build:pdf": "node scripts/build-pdfs.js",
+    "build": "npm run build:raw && npm run build:pdfs"
   },
   "devDependencies": {
     "puppeteer": "^23.6.0"

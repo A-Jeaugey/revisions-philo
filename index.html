@@ -14,6 +14,12 @@
   <link rel="stylesheet" href="./css/views.css" />
   <link rel="stylesheet" href="./css/widgets.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%92%3C/text%3E%3C/svg%3E" />
+
+  <!-- Pour les LLM, crawlers et lecteurs sans JavaScript :
+       l'intégralité du contenu est servie en .md/.html sous /raw/.
+       Index machine-lisible : /llms.txt -->
+  <link rel="alternate" type="text/markdown" href="./llms.txt" title="Index machine-lisible (llmstxt.org)" />
+  <link rel="sitemap" type="application/xml" href="./sitemap.xml" />
 </head>
 <body>
 
@@ -71,7 +77,29 @@
   </div>
 
   <!-- MAIN -->
-  <main id="app"></main>
+  <main id="app">
+    <noscript>
+      <div style="max-width:760px;margin:80px auto;padding:24px;font-family:system-ui,sans-serif;line-height:1.6;">
+        <h1>Cogito — Bac de philosophie</h1>
+        <p>Cette version interactive nécessite JavaScript. L'intégralité du
+        contenu est aussi disponible en version brute (markdown / HTML
+        statique) :</p>
+        <ul>
+          <li><a href="./raw/">Index des ressources brutes</a></li>
+          <li><a href="./llms.txt">llms.txt — index machine-lisible</a></li>
+          <li><a href="./sitemap.xml">sitemap.xml</a></li>
+        </ul>
+        <p>Séquences :
+          <a href="./raw/sequence-1-conscience.md">1 · Conscience</a> ·
+          <a href="./raw/sequence-2-verite.md">2 · Vérité &amp; Raison</a> ·
+          <a href="./raw/sequence-3-langage.md">3 · Langage</a> ·
+          <a href="./raw/sequence-4-definir.md">4 · Art</a> ·
+          <a href="./raw/sequence-5-etat.md">5 · État &amp; Justice</a> ·
+          <a href="./raw/sequence-6-devoir.md">6 · Devoir &amp; Bonheur</a>.
+        </p>
+      </div>
+    </noscript>
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -103,7 +131,11 @@
         <p><kbd>T</kbd> · thème</p>
       </div>
     </div>
-    <div class="footer-bottom">Pour le bac · construit avec amour de la sagesse</div>
+    <div class="footer-bottom">
+      Pour le bac · construit avec amour de la sagesse ·
+      <a href="./raw/" style="color:inherit;opacity:0.7;">version brute</a> ·
+      <a href="./llms.txt" style="color:inherit;opacity:0.7;">llms.txt</a>
+    </div>
   </footer>
 
   <!-- SCRIPTS -->

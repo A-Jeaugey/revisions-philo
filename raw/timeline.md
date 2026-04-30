@@ -1,0 +1,41 @@
+# Frise des philosophes
+
+> Tous les auteurs étudiés, dans l'ordre chronologique.
+
+- **Héraclite d'Éphèse** — v. 500 av. J.-C. · Grèce antique — « Toutes choses coulent ». On ne descend pas deux fois dans le même fleuve.
+- **Sophocle (Antigone)** — v. 496 – 406 av. J.-C. · Grèce antique — Antigone incarne le conflit entre la loi morale (légitimité) et la loi politique (légalité).
+- **Socrate** — v. 470 – 399 av. J.-C. · Grèce antique — Reconnaître son ignorance pour philosopher. La vie immodérée est comparable au tonneau des Danaïdes.
+- **Platon** — v. 428 – 348 av. J.-C. · Grèce antique — La pensée est le dialogue intérieur et silencieux de l'âme avec elle-même.
+- **Aristote** — 384 – 322 av. J.-C. · Grèce antique — Le temps est « le nombre du mouvement selon l'avant et l'après ». Le beau est l'ordre.
+- **Épicure** — 341 – 270 av. J.-C. · Grèce antique — Le bonheur réside dans l'ataraxie : absence de souffrance physique et psychologique.
+- **Saint Augustin** — 354 – 430 · Empire romain — « Si personne ne m'interroge [sur le temps], je le sais ; si je veux répondre, je l'ignore. »
+- **Galilée** — 1564 – 1642 · Italie — La chute des corps ne dépend pas de leur poids — opposition à Aristote et à l'Inquisition.
+- **Thomas Hobbes** — 1588 – 1679 · Angleterre — L'homme est un loup pour l'homme. L'état de nature est une guerre permanente.
+- **René Descartes** — 1596 – 1650 · France — « Je pense, donc je suis » — première certitude indubitable obtenue par le doute.
+- **Evangelista Torricelli** — 1608 – 1647 · Italie — Démonstration expérimentale de l'existence du vide et de la pression atmosphérique.
+- **Blaise Pascal** — 1623 – 1662 · France — « Le cœur a ses raisons que la raison ne connaît point. » Le moi est indéfinissable.
+- **Baruch Spinoza** — 1632 – 1677 · Pays-Bas — Le libre arbitre est une illusion : nous sommes conscients de nos désirs mais ignorants des causes qui nous déterminent.
+- **John Locke** — 1632 – 1704 · Angleterre — L'homme à l'état de nature est moral et rationnel. L'État doit protéger les droits naturels.
+- **G. W. Leibniz** — 1646 – 1716 · Allemagne — Il existe « mille petites perceptions » inconscientes qui composent nos perceptions conscientes.
+- **David Hume** — 1711 – 1776 · Écosse — Les certitudes sur les faits naturels reposent sur l'habitude et la croyance, non sur la raison.
+- **Jean-Jacques Rousseau** — 1712 – 1778 · Suisse / France — L'homme est perfectible. À l'état de nature, il n'a ni les vices ni les vertus de l'homme civil.
+- **Emmanuel Kant** — 1724 – 1804 · Allemagne — « J'ai dû abolir le savoir pour y substituer la croyance. » L'homme est une personne, doté de dignité.
+- **G. W. F. Hegel** — 1770 – 1831 · Allemagne — L'homme est un être pour soi. « Le mot donne à la pensée son existence la plus haute et la plus vraie. »
+- **Alexis de Tocqueville** — 1805 – 1859 · France — La démocratie peut se transformer en tyrannie de la majorité.
+- **Karl Marx** — 1818 – 1883 · Allemagne — Pas de justice sans justice sociale. La liberté en droit n'est pas la liberté en fait.
+- **Wilhelm Dilthey** — 1833 – 1911 · Allemagne — Les sciences de la nature expliquent ; les sciences de l'homme comprennent.
+- **Friedrich Nietzsche** — 1844 – 1900 · Allemagne — La conscience est une maladie : tout ce qui devient conscient devient plat. Le génie n'est qu'un travail.
+- **Sigmund Freud** — 1856 – 1939 · Autriche — Le moi n'est pas maître dans sa propre maison : l'inconscient détermine notre vie psychique.
+- **Ferdinand de Saussure** — 1857 – 1913 · Suisse — La langue découpe simultanément la masse des sons et la masse des idées : elle est cartographie.
+- **Henri Bergson** — 1859 – 1941 · France — Notre langage et notre perception nous voilent l'individualité des choses. L'art seul nous y donne accès.
+- **Max Weber** — 1864 – 1920 · Allemagne — L'État détient « le monopole de la violence légitime ».
+- **Alain (É. Chartier)** — 1868 – 1951 · France — L'artiste, contrairement à l'artisan, est aussi spectateur de son œuvre en train de naître.
+- **Albert Einstein** — 1879 – 1955 · Allemagne / USA — Les concepts physiques sont des créations libres de l'esprit humain.
+- **Marcel Duchamp** — 1887 – 1968 · France — Un objet d'usage devient œuvre d'art lorsqu'il est retiré de sa fonction utilitaire (Fontaine, 1917).
+- **Karl Popper** — 1902 – 1994 · Autriche / GB — Une théorie n'est scientifique que si elle est falsifiable.
+- **Jean-Paul Sartre** — 1905 – 1980 · France — L'existence précède l'essence. L'homme est condamné à être libre. Pas d'inconscient mais de la mauvaise foi.
+- **Hannah Arendt** — 1906 – 1975 · Allemagne / USA — Les œuvres d'art ne sont pas faites pour les hommes mais pour le monde, destinées à survivre aux générations.
+- **John Rawls** — 1921 – 2002 · États-Unis — La désobéissance civile est un acte public, non-violent et politique. Les inégalités sociales menacent la démocratie.
+- **Noam Chomsky** — 1928 – · États-Unis — Tout locuteur peut produire et comprendre des phrases inédites : le langage est créatif.
+- **Pierre Clastres** — 1934 – 1977 · France — Les sociétés primitives ont un chef sans pouvoir : « pouvoir impuissant », chefferie sans coercition.
+- **Calliclès** — personnage de Platon · Grèce antique — Le bonheur consiste dans la satisfaction compulsive de tous nos désirs (hédonisme radical).

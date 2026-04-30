@@ -139,6 +139,17 @@ App.routes.sequence = function(parts) {
             <li><a href="./pdfs/seq-${s.id}-fiche.pdf" download style="color:var(--accent);">📑 Fiche de révision · PDF</a></li>
           </ul>
         </div>
+
+        <div class="aside-card">
+          <div class="ac-title">Lien partageable</div>
+          <p style="font-size:13px;color:var(--text-dim);margin:0 0 10px;">
+            Version brute pour LLM, partage ou lecture sans JS.
+          </p>
+          <ul>
+            <li><a href="./raw/sequence-${s.id}-${(s.slug||'').split('-')[0]}.md" style="color:var(--accent);">📝 Markdown brut</a></li>
+            <li><a href="./raw/sequence-${s.id}-${(s.slug||'').split('-')[0]}.html" style="color:var(--accent);">🌐 HTML pré-rendu</a></li>
+          </ul>
+        </div>
       </aside>
     </div>
   `);

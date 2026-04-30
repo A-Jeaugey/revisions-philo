@@ -1,0 +1,97 @@
+# Cogito — Révisions Bac de philosophie
+
+> Cogito — Révisions Bac de philosophie : 6 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.
+
+Site interactif : https://arthurjeaugey.com/revisions-philo/
+Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
+
+## Séquences
+
+- [Séquence I — La conscience de soi garantit-elle la connaissance de soi ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-1-conscience.md)
+- [Séquence II — La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-2-verite.md)
+- [Séquence III — Y a-t-il adéquation entre le langage et la pensée ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-3-langage.md)
+- [Séquence IV — Comment définir l'art ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-4-definir.md)
+- [Séquence V — Revient-il à l'État de décider de ce qui est juste ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-5-etat.md)
+- [Séquence VI — A-t-on le devoir d'être heureux ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-6-devoir.md)
+
+## Philosophes
+
+- [Socrate — v. 470 – 399 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/socrate.md)
+- [Platon — v. 428 – 348 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/platon.md)
+- [Aristote — 384 – 322 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/aristote.md)
+- [Épicure — 341 – 270 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/epicure.md)
+- [Saint Augustin — 354 – 430](https://arthurjeaugey.com/revisions-philo/raw/philosophes/augustin.md)
+- [Héraclite d'Éphèse — v. 500 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/heraclite.md)
+- [René Descartes — 1596 – 1650](https://arthurjeaugey.com/revisions-philo/raw/philosophes/descartes.md)
+- [Blaise Pascal — 1623 – 1662](https://arthurjeaugey.com/revisions-philo/raw/philosophes/pascal.md)
+- [Baruch Spinoza — 1632 – 1677](https://arthurjeaugey.com/revisions-philo/raw/philosophes/spinoza.md)
+- [G. W. Leibniz — 1646 – 1716](https://arthurjeaugey.com/revisions-philo/raw/philosophes/leibniz.md)
+- [John Locke — 1632 – 1704](https://arthurjeaugey.com/revisions-philo/raw/philosophes/locke.md)
+- [Thomas Hobbes — 1588 – 1679](https://arthurjeaugey.com/revisions-philo/raw/philosophes/hobbes.md)
+- [Jean-Jacques Rousseau — 1712 – 1778](https://arthurjeaugey.com/revisions-philo/raw/philosophes/rousseau.md)
+- [David Hume — 1711 – 1776](https://arthurjeaugey.com/revisions-philo/raw/philosophes/hume.md)
+- [Emmanuel Kant — 1724 – 1804](https://arthurjeaugey.com/revisions-philo/raw/philosophes/kant.md)
+- [G. W. F. Hegel — 1770 – 1831](https://arthurjeaugey.com/revisions-philo/raw/philosophes/hegel.md)
+- [Alexis de Tocqueville — 1805 – 1859](https://arthurjeaugey.com/revisions-philo/raw/philosophes/tocqueville.md)
+- [Karl Marx — 1818 – 1883](https://arthurjeaugey.com/revisions-philo/raw/philosophes/marx.md)
+- [Friedrich Nietzsche — 1844 – 1900](https://arthurjeaugey.com/revisions-philo/raw/philosophes/nietzsche.md)
+- [Sigmund Freud — 1856 – 1939](https://arthurjeaugey.com/revisions-philo/raw/philosophes/freud.md)
+- [Henri Bergson — 1859 – 1941](https://arthurjeaugey.com/revisions-philo/raw/philosophes/bergson.md)
+- [Ferdinand de Saussure — 1857 – 1913](https://arthurjeaugey.com/revisions-philo/raw/philosophes/saussure.md)
+- [Noam Chomsky — 1928 –](https://arthurjeaugey.com/revisions-philo/raw/philosophes/chomsky.md)
+- [Alain (É. Chartier) — 1868 – 1951](https://arthurjeaugey.com/revisions-philo/raw/philosophes/alain.md)
+- [Hannah Arendt — 1906 – 1975](https://arthurjeaugey.com/revisions-philo/raw/philosophes/arendt.md)
+- [Marcel Duchamp — 1887 – 1968](https://arthurjeaugey.com/revisions-philo/raw/philosophes/duchamp.md)
+- [Jean-Paul Sartre — 1905 – 1980](https://arthurjeaugey.com/revisions-philo/raw/philosophes/sartre.md)
+- [Karl Popper — 1902 – 1994](https://arthurjeaugey.com/revisions-philo/raw/philosophes/popper.md)
+- [Albert Einstein — 1879 – 1955](https://arthurjeaugey.com/revisions-philo/raw/philosophes/einstein.md)
+- [Wilhelm Dilthey — 1833 – 1911](https://arthurjeaugey.com/revisions-philo/raw/philosophes/dilthey.md)
+- [Galilée — 1564 – 1642](https://arthurjeaugey.com/revisions-philo/raw/philosophes/galilee.md)
+- [Evangelista Torricelli — 1608 – 1647](https://arthurjeaugey.com/revisions-philo/raw/philosophes/torricelli.md)
+- [Max Weber — 1864 – 1920](https://arthurjeaugey.com/revisions-philo/raw/philosophes/weber.md)
+- [John Rawls — 1921 – 2002](https://arthurjeaugey.com/revisions-philo/raw/philosophes/rawls.md)
+- [Sophocle (Antigone) — v. 496 – 406 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/sophocle.md)
+- [Pierre Clastres — 1934 – 1977](https://arthurjeaugey.com/revisions-philo/raw/philosophes/clastres.md)
+- [Calliclès — personnage de Platon](https://arthurjeaugey.com/revisions-philo/raw/philosophes/callicles.md)
+
+## Notions
+
+- [Conscience](https://arthurjeaugey.com/revisions-philo/raw/notions/conscience.md)
+- [Inconscient](https://arthurjeaugey.com/revisions-philo/raw/notions/inconscient.md)
+- [Liberté](https://arthurjeaugey.com/revisions-philo/raw/notions/liberte.md)
+- [Temps](https://arthurjeaugey.com/revisions-philo/raw/notions/temps.md)
+- [Vérité](https://arthurjeaugey.com/revisions-philo/raw/notions/verite.md)
+- [Raison](https://arthurjeaugey.com/revisions-philo/raw/notions/raison.md)
+- [Science](https://arthurjeaugey.com/revisions-philo/raw/notions/science.md)
+- [Religion](https://arthurjeaugey.com/revisions-philo/raw/notions/religion.md)
+- [Langage](https://arthurjeaugey.com/revisions-philo/raw/notions/langage.md)
+- [Art](https://arthurjeaugey.com/revisions-philo/raw/notions/art.md)
+- [Travail](https://arthurjeaugey.com/revisions-philo/raw/notions/travail.md)
+- [Technique](https://arthurjeaugey.com/revisions-philo/raw/notions/technique.md)
+- [Nature](https://arthurjeaugey.com/revisions-philo/raw/notions/nature.md)
+- [Justice](https://arthurjeaugey.com/revisions-philo/raw/notions/justice.md)
+- [État](https://arthurjeaugey.com/revisions-philo/raw/notions/etat.md)
+- [Devoir](https://arthurjeaugey.com/revisions-philo/raw/notions/devoir.md)
+- [Bonheur](https://arthurjeaugey.com/revisions-philo/raw/notions/bonheur.md)
+
+## Glossaire & Frise
+
+- [Glossaire complet](https://arthurjeaugey.com/revisions-philo/raw/glossaire.md)
+- [Frise chronologique](https://arthurjeaugey.com/revisions-philo/raw/timeline.md)
+
+## Quiz
+
+- [Quiz 1 — Conscience et connaissance de soi](https://arthurjeaugey.com/revisions-philo/raw/quiz/1.md)
+- [Quiz 2 — Vérité, raison, science](https://arthurjeaugey.com/revisions-philo/raw/quiz/2.md)
+- [Quiz 3 — Langage et pensée](https://arthurjeaugey.com/revisions-philo/raw/quiz/3.md)
+- [Quiz 4 — Définir l'art](https://arthurjeaugey.com/revisions-philo/raw/quiz/4.md)
+- [Quiz 5 — État et justice](https://arthurjeaugey.com/revisions-philo/raw/quiz/5.md)
+- [Quiz 6 — Devoir et bonheur](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
+
+## Données structurées (JSON)
+
+- [philosophers.json](https://arthurjeaugey.com/revisions-philo/raw/philosophers.json)
+- [notions.json](https://arthurjeaugey.com/revisions-philo/raw/notions.json)
+- [glossary.json](https://arthurjeaugey.com/revisions-philo/raw/glossary.json)
+- [quiz.json](https://arthurjeaugey.com/revisions-philo/raw/quiz.json)
+- [sequences.json](https://arthurjeaugey.com/revisions-philo/raw/sequences.json) (méta des séquences, sans le HTML détaillé)

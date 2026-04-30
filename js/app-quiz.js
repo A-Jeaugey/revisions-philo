@@ -42,7 +42,7 @@ App.quizPlay = function(qid) {
 
     App.render(`
       <div class="quiz-stage">
-        <div class="crumbs"><a href="#/quiz">Quiz</a> · Q${idx+1}/${quiz.questions.length}</div>
+        <div class="crumbs"><a href="#/quiz">Quiz</a> · Q${idx+1}/${quiz.questions.length} · <a href="./raw/quiz/${quiz.id}.md" style="color:var(--accent);">📝 lien partageable</a></div>
         <h2 style="font-family:var(--font-display);font-size:28px;margin-top:12px;color:var(--accent);">${quiz.title}</h2>
         <div class="quiz-progress" style="margin-top:32px;">${steps}</div>
         <div class="quiz-question">${q.q}</div>

@@ -176,6 +176,11 @@ App.routes.philosophes = function(parts) {
         </ul>
         <h3 style="margin-top:32px;font-family:var(--font-display);">Apparaît dans</h3>
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">${seqs}</div>
+        <div style="margin-top:32px;padding:14px 16px;border:1px solid var(--bd);border-radius:10px;background:var(--bg-2);font-size:13px;color:var(--text-dim);">
+          <b>Lien partageable</b> · version brute pour LLM &amp; partage :
+          <a href="./raw/philosophes/${p.id}.md" style="color:var(--accent);margin-left:6px;">📝 .md</a>
+          <a href="./raw/philosophes/${p.id}.html" style="color:var(--accent);margin-left:6px;">🌐 .html</a>
+        </div>
       </div>
     `);
   }
@@ -225,6 +230,11 @@ App.routes.notions = function(parts) {
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">${auths}</div>
         <h3 style="margin-top:32px;">Séquences associées</h3>
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">${seqs}</div>
+        <div style="margin-top:32px;padding:14px 16px;border:1px solid var(--bd);border-radius:10px;background:var(--bg-2);font-size:13px;color:var(--text-dim);">
+          <b>Lien partageable</b> · version brute pour LLM &amp; partage :
+          <a href="./raw/notions/${n.id}.md" style="color:var(--accent);margin-left:6px;">📝 .md</a>
+          <a href="./raw/notions/${n.id}.html" style="color:var(--accent);margin-left:6px;">🌐 .html</a>
+        </div>
       </div>
     `);
   }
@@ -256,6 +266,11 @@ App.routes.glossaire = function() {
       <div class="crumbs"><a href="#/">Accueil</a> · Glossaire</div>
       <h1>Le <em style="color:var(--accent);">glossaire</em></h1>
       <p class="lead">Toutes les définitions clés en un endroit. Tape pour filtrer.</p>
+      <p style="font-size:13px;color:var(--text-dim);margin-top:8px;">
+        <b>Lien partageable</b> ·
+        <a href="./raw/glossaire.md" style="color:var(--accent);">📝 .md</a> ·
+        <a href="./raw/glossaire.html" style="color:var(--accent);">🌐 .html</a>
+      </p>
     </div>
     <div class="glossary">
       <div class="glossary-search">

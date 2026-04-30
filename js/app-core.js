@@ -136,6 +136,18 @@ window.App = {
 
       const handler = App.routes[root] || App.routes.home;
       handler(parts.slice(1));
+
+      // GoatCounter : enregistrer la route SPA comme une pageview.
+      // L'auto-hit est désactivé dans index.html (no_onload), donc
+      // c'est ici qu'on compte chaque navigation (hash route).
+      if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+        const path = window.location.pathname + '#/' + (hash.replace(/^\/+/, ''));
+        window.goatcounter.count({
+          path: path,
+          title: document.title,
+          event: false
+        });
+      }
     }
   },
 

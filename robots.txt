@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arthurjeaugey.com/revisions-philo/sitemap.xml
+
+# Index machine-lisible (llmstxt.org)
+# https://arthurjeaugey.com/revisions-philo/llms.txt

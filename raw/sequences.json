@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "number": "I",
+    "slug": "conscience-connaissance",
+    "title": "La conscience de soi garantit-elle la connaissance de soi ?",
+    "short": "Conscience, inconscient, liberté, temps : peut-on vraiment se connaître ?",
+    "perspectives": [
+      "La connaissance",
+      "La morale et la politique"
+    ],
+    "notions": [
+      "CONSCIENCE",
+      "INCONSCIENT",
+      "LIBERTÉ",
+      "TEMPS",
+      "Vérité",
+      "Science"
+    ],
+    "reperes": [
+      "médiat / immédiat",
+      "subjectif / objectif",
+      "intuitif / discursif",
+      "essentiel / accidentel"
+    ],
+    "work": "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+    "tint": "#d4a85a",
+    "essentiel": {
+      "question": "Tu sens bien que tu existes, que c'est toi qui penses et qui choisis. Mais est-ce que ça suffit pour vraiment te connaître ?",
+      "enjeu": "On vit en se disant qu'on est maître de soi : on choisit librement, on sait ce qu'on veut, on est responsable. Mais si une grande partie de toi t'échappe — désirs cachés, automatismes, inconscient — alors « être soi » devient beaucoup moins évident. Et c'est toute notre idée de la morale, de la liberté et de la justice qui vacille.",
+      "tension": "Trois moments-clés. <b>Descartes</b> : la seule chose dont je peux être totalement sûr, c'est que je pense ; donc j'existe (le <em>cogito</em>). <b>Hegel</b> précise : on devient vraiment soi en se regardant agir, en se prenant pour objet. Puis <b>Freud</b> casse tout : la conscience, c'est juste la pointe de l'iceberg. L'essentiel — désirs refoulés, pulsions — se passe ailleurs, sans qu'on le voie.",
+      "pieges": [
+        "Être <b>conscient</b> (au sens « pas dans les pommes ») ≠ <b>l'inconscient</b> de Freud. L'inconscient, ce n'est pas un évanouissement — c'est tout ce qui agit en toi sans que tu en saches rien.",
+        "<b>Libre arbitre</b> ≠ <b>liberté</b>. Pour Spinoza, le libre arbitre est une illusion. Pour Sartre, on est <em>condamnés</em> à être libres : on n'a même pas le choix de ne pas choisir.",
+        "Avoir <b>conscience de soi</b> ≠ <b>se connaître</b>. La conscience, c'est gratuit, immédiat. La connaissance, elle se travaille — il faut douter, réfléchir, accepter qu'on soit un peu un mystère pour soi-même."
+      ],
+      "retenir": "Tu as conscience de toi, mais tu ne te connais pas vraiment — et c'est normal. Comprendre ça, c'est déjà commencer la philosophie."
+    },
+    "plan": [
+      {
+        "t": "La connaissance de soi nécessite la conscience de soi",
+        "sub": [
+          "« Je pense, je suis » : première certitude (DESCARTES)",
+          "La conscience de soi fonde l'unité de la personne (KANT)",
+          "L'homme est un « être pour soi » (HEGEL)"
+        ]
+      },
+      {
+        "t": "Le moi occulte",
+        "sub": [
+          "Les « petites perceptions » inconscientes (LEIBNIZ)",
+          "L'illusion de libre arbitre (SPINOZA)",
+          "L'inconscient psychique (FREUD)"
+        ]
+      },
+      {
+        "t": "L'existence humaine, la liberté et le temps",
+        "sub": [
+          "Qu'est-ce que le moi ? (PASCAL)",
+          "La perfectibilité (ROUSSEAU)",
+          "Le moi est un projet (SARTRE)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "number": "II",
+    "slug": "verite-raison-science",
+    "title": "La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?",
+    "short": "Doute, méthode, induction, falsifiabilité, vérités du cœur.",
+    "perspectives": [
+      "La connaissance"
+    ],
+    "notions": [
+      "Vérité",
+      "Raison",
+      "Science",
+      "Religion"
+    ],
+    "reperes": [
+      "subjectif / objectif / intersubjectif",
+      "intuitif / discursif",
+      "persuader / convaincre",
+      "vrai / probable / certain",
+      "médiat / immédiat"
+    ],
+    "work": null,
+    "tint": "#7ed4c5",
+    "plan": [
+      {
+        "t": "La raison seule peut nous conduire à la vérité",
+        "sub": [
+          "La raison face aux obstacles à la vérité (Galilée)",
+          "L'exigence d'une méthode rationnelle (Descartes)",
+          "La maîtrise rationnelle de l'expérience (Torricelli)"
+        ]
+      },
+      {
+        "t": "Mais la raison se doit d'être raisonnable et reconnaître ses limites",
+        "sub": [
+          "Limites des sciences formelles et naturelles (Hume)",
+          "Impossibilité de démontrer Dieu, l'âme, la liberté (Kant)",
+          "Limites des sciences humaines (Dilthey)"
+        ]
+      },
+      {
+        "t": "Il faut donc reconsidérer nos espoirs de vérité et les moyens d'y parvenir",
+        "sub": [
+          "Théorie scientifique vraie = falsifiable (Popper)",
+          "Le rôle de l'imagination (Einstein)",
+          "Les vérités qui se sentent (Pascal)",
+          "La vérité esthétique (Bergson)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "number": "III",
+    "slug": "langage-pensee",
+    "title": "Y a-t-il adéquation entre le langage et la pensée ?",
+    "short": "Du cri animal aux concepts ; le voile bergsonien.",
+    "perspectives": [
+      "La connaissance"
+    ],
+    "notions": [
+      "Langage",
+      "Conscience",
+      "Inconscient",
+      "Liberté",
+      "Art"
+    ],
+    "reperes": [],
+    "work": null,
+    "tint": "#9b7ed4",
+    "plan": [
+      {
+        "t": "Le langage verbal : témoignage de la pensée ?",
+        "sub": [
+          "Communication animale vs langage linguistique",
+          "Le langage est l'extériorisation de la pensée (Descartes)",
+          "Le langage traduit l'activité créatrice (Chomsky)"
+        ]
+      },
+      {
+        "t": "Langage et pensée sont indissociables",
+        "sub": [
+          "La pensée est un langage verbal intérieur (Platon, Hegel)",
+          "La langue cartographie le monde (Saussure)",
+          "Aboutissement de la pensée par les idées générales (Rousseau)"
+        ]
+      },
+      {
+        "t": "Les discontinuités entre langage et pensée",
+        "sub": [
+          "Le langage voile l'individualité (Bergson)",
+          "La conscience est une généralisation (Nietzsche)",
+          "Langage et inconscient",
+          "Le pouvoir politique du langage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "number": "IV",
+    "slug": "definir-art",
+    "title": "Comment définir l'art ?",
+    "short": "Du génie au ready-made : un voyage dans l'esthétique.",
+    "perspectives": [],
+    "notions": [
+      "Art",
+      "Travail",
+      "Technique",
+      "Nature",
+      "Vérité",
+      "Liberté",
+      "Science"
+    ],
+    "reperes": [],
+    "work": null,
+    "tint": "#e08aa8",
+    "plan": [
+      {
+        "t": "L'art = travail + technique mis au service d'œuvres gratuites et originales",
+        "sub": [
+          "Travail et technique",
+          "Gratuité et liberté créatrice",
+          "Originalité et génie (Kant)"
+        ]
+      },
+      {
+        "t": "Création de belles œuvres ayant ouverture sur le monde",
+        "sub": [
+          "La beauté objective",
+          "La belle représentation des choses (Kant)"
+        ]
+      },
+      {
+        "t": "Œuvres qui défamiliarisent notre regard sur les choses",
+        "sub": [
+          "Remise en question des caractéristiques (Duchamp, Manzoni)",
+          "La défamiliarisation : seule caractéristique universelle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "number": "V",
+    "slug": "etat-justice",
+    "title": "Revient-il à l'État de décider de ce qui est juste ?",
+    "short": "Légalité, légitimité, contrat social, désobéissance.",
+    "perspectives": [],
+    "notions": [
+      "Justice",
+      "État",
+      "Liberté",
+      "Devoir",
+      "Bonheur"
+    ],
+    "reperes": [
+      "en fait / en droit",
+      "contrainte / obligation"
+    ],
+    "work": null,
+    "tint": "#7eb6d4",
+    "plan": [
+      {
+        "t": "La justice et la morale ne sont pas des notions naturelles",
+        "sub": [
+          "Pas de justice ni droit à l'état de nature (Rousseau)",
+          "Sociétés sauvages sans État (Clastres)",
+          "L'homme a besoin d'un maître (Kant)"
+        ]
+      },
+      {
+        "t": "Il revient à l'État de décider de ce qui est juste",
+        "sub": [
+          "Légitimité du pouvoir : contrat social",
+          "Hobbes : pessimiste",
+          "Locke : optimiste",
+          "La justice repose sur la force (Pascal, Marx, Rawls)"
+        ]
+      },
+      {
+        "t": "La justice est aussi morale et relève de la conscience",
+        "sub": [
+          "Conflit loi politique / loi morale (Antigone)",
+          "Désobéissance civile (Rawls)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "number": "VI",
+    "slug": "devoir-bonheur",
+    "title": "A-t-on le devoir d'être heureux ?",
+    "short": "De Calliclès à Spinoza : qu'est-ce qu'une vie réussie ?",
+    "perspectives": [],
+    "notions": [
+      "Devoir",
+      "Bonheur",
+      "Liberté",
+      "Raison",
+      "Nature",
+      "Temps"
+    ],
+    "reperes": [
+      "absolu / relatif"
+    ],
+    "work": null,
+    "tint": "#d4a85a",
+    "inProgress": true,
+    "plan": [
+      {
+        "t": "Une morale qui vise le bonheur est possible",
+        "sub": [
+          "Le bonheur ne consiste pas dans l'hédonisme radical (Calliclès)",
+          "Bonheur indissociable du bien moral",
+          "L'épicurisme : l'hédonisme modéré",
+          "Le stoïcisme : la vertu fait le bonheur"
+        ]
+      }
+    ]
+  }
+]

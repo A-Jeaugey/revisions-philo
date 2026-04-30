@@ -1,0 +1,504 @@
+[
+  {
+    "term": "Conscience",
+    "etym": "lat. cum scientia = avec savoir",
+    "def": "Faculté de se représenter le monde (immédiate) et soi-même (réfléchie). La conscience réfléchie permet le dédoublement entre un sujet pensant et un objet pensé.",
+    "tags": [
+      "sequence-1",
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Inconscient",
+    "def": "Ensemble des contenus et phénomènes psychiques qui échappent totalement à la conscience du sujet (Freud). À ne pas confondre avec l'inconscience.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Cogito",
+    "etym": "lat. cogito = je pense",
+    "def": "Première certitude indubitable obtenue par Descartes au terme du doute hyperbolique : « Je pense, donc je suis ». Connaissance immédiate de soi comme chose pensante.",
+    "tags": [
+      "sequence-1",
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Doute méthodique",
+    "def": "Méthode cartésienne consistant à remettre en question tout ce qu'on tient pour vrai afin de découvrir des certitudes indubitables. Ce doute est volontaire et n'est qu'un moyen.",
+    "tags": [
+      "sequence-1",
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Doute hyperbolique",
+    "def": "Doute volontairement exagéré (fiction du malin génie) qui radicalise le doute méthodique pour atteindre la certitude la plus solide.",
+    "tags": [
+      "sequence-1",
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Intuition",
+    "def": "Connaissance immédiate d'une évidence indubitable. Vérité qui s'impose à l'esprit sans démonstration (Descartes).",
+    "tags": [
+      "sequence-1",
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Déduction",
+    "def": "Raisonnement par lequel on tire une conclusion nécessaire à partir d'autres choses connues. Cheminement logique infaillible.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Induction",
+    "def": "Forme de raisonnement consistant à tirer des conclusions générales à partir de propositions particulières. Incontournable mais non nécessaire (Hume).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Libre arbitre",
+    "def": "Aptitude à se déterminer librement et par soi seul, pour agir et penser. Liberté intérieure, distincte de la liberté politique.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Liberté",
+    "def": "Pour Spinoza, capacité d'agir éclairée par la connaissance des causes. Pour Sartre, condition fondamentale de l'homme à laquelle il est « condamné ».",
+    "tags": [
+      "sequence-1",
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Déterminisme",
+    "def": "Conception philosophique selon laquelle tous les événements sont liés et déterminés par la chaîne des événements antérieurs.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Vérité",
+    "def": "Adéquation (concordance) entre ce qu'on pense ou dit et la réalité à laquelle elle/il se réfère. Propriété de nos idées ou énoncés.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Réalité",
+    "def": "Ensemble des choses existantes (matérielles ou immatérielles, physiques ou psychiques).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Certitude",
+    "def": "État de l'esprit qui sait posséder la vérité ; effet de la vérité sur le moi.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Opinion",
+    "def": "Jugement qu'on porte sur quelque chose sans qu'il soit nécessairement vrai (subjectif).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Préjugé",
+    "def": "Jugement préconçu hérité du milieu social, culturel, religieux (impersonnel).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Croyance",
+    "def": "Idée qu'on tient pour vraie tout en sachant qu'elle n'est pas suffisamment fondée.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Apparence",
+    "def": "Manière dont quelque chose nous apparaît, notamment à travers les sens.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Hypothèse",
+    "def": "Proposition avancée provisoirement comme explication de faits, qui doit être contrôlée par la déduction ou par l'expérience.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Raison",
+    "def": "Faculté de l'esprit humain permettant de penser de manière logique, méthodique et cohérente afin de distinguer le vrai du faux, le bien du mal.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Rationnel",
+    "def": "Usage théorique de la raison (dans le domaine de la connaissance).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Raisonnable",
+    "def": "Usage pratique de la raison (morale, politique, recherche du bonheur, conduite de la vie).",
+    "tags": [
+      "sequence-2",
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Science",
+    "def": "Ensemble de connaissances logiques et vérifiables acquises à travers l'observation, l'expérimentation et la démonstration.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Falsifiabilité",
+    "def": "Critère scientifique de Popper : une théorie n'est scientifique que si elle peut être réfutée par une expérience.",
+    "tags": [
+      "sequence-1",
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "A priori",
+    "def": "Connaissance qui ne dépend pas de l'expérience sensible.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "A posteriori",
+    "def": "Connaissance qui découle de l'expérience sensible.",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Nécessaire",
+    "def": "Ce qui ne peut pas ne pas être, ce qui ne peut pas être autrement (opposé : contingent).",
+    "tags": [
+      "sequence-2"
+    ]
+  },
+  {
+    "term": "Essence",
+    "def": "Ce qui fait qu'une chose est ce qu'elle est ; ce sans quoi une chose ne pourrait pas exister. Opposée à l'accident.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Existence",
+    "def": "Pour Sartre, condition de l'homme : « l'existence précède l'essence ». L'homme se construit par ses choix.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Temps",
+    "def": "Continuité indéfinie, milieu où se déroule la succession des événements et des phénomènes, et leur représentation dans la conscience.",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Devenir",
+    "def": "Changement, transformation continuelle des choses (Héraclite : « tout coule »).",
+    "tags": [
+      "sequence-1"
+    ]
+  },
+  {
+    "term": "Langage",
+    "def": "Faculté humaine d'exprimer des pensées à travers un système de signes conventionnels.",
+    "tags": [
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Signe linguistique",
+    "def": "Unité du langage composée d'un signifiant (matériel : son, geste, mot) et d'un signifié (mental : concept). Arbitraire (Saussure).",
+    "tags": [
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Pensée antéprédicative",
+    "def": "Pensée préconceptuelle, sans mots, confuse, qui précède la mise en forme par le langage.",
+    "tags": [
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Convaincre",
+    "def": "Obtenir l'assentiment de l'auditoire par des arguments rationnels.",
+    "tags": [
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Persuader",
+    "def": "Obtenir l'assentiment de l'auditoire en faisant appel à la sensibilité, aux préjugés, aux angoisses (rhétorique).",
+    "tags": [
+      "sequence-3"
+    ]
+  },
+  {
+    "term": "Art",
+    "etym": "lat. ars / gr. technè = savoir-faire",
+    "def": "Activité humaine visant à produire des œuvres qui défamiliarisent notre regard sur les choses.",
+    "tags": [
+      "sequence-4"
+    ]
+  },
+  {
+    "term": "Génie",
+    "def": "Personne que la nature a douée d'un talent inné, qui produit ce pour quoi on ne saurait donner de règle déterminée (Kant).",
+    "tags": [
+      "sequence-4"
+    ]
+  },
+  {
+    "term": "Beau",
+    "def": "« Ce qui plaît universellement et sans concept » (Kant). Subjectif mais universel, plaisir désintéressé et intellectuel.",
+    "tags": [
+      "sequence-4"
+    ]
+  },
+  {
+    "term": "Agréable",
+    "def": "Ce qui plaît à une personne singulière ou particulière, suscite un plaisir sensoriel (Kant).",
+    "tags": [
+      "sequence-4"
+    ]
+  },
+  {
+    "term": "Défamiliarisation",
+    "def": "Caractéristique universelle de l'art : rendre les choses étranges pour court-circuiter notre regard habituel.",
+    "tags": [
+      "sequence-4"
+    ]
+  },
+  {
+    "term": "Justice",
+    "def": "Notion polysémique : ce qui est légal (conforme aux lois) et/ou ce qui est moral, légitime, justifié.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "État",
+    "def": "Ensemble d'institutions législatives, judiciaires, exécutives, administratives, militaires qui assurent le bon fonctionnement d'une société sur un territoire donné.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Contrat social",
+    "def": "Pacte par lequel les individus renoncent à une partie de leurs libertés naturelles en les transférant à une autorité politique commune.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "État de nature",
+    "def": "Hypothèse philosophique : l'homme avant son existence culturelle et politique. Point de départ de la construction culturelle.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Insociable sociabilité",
+    "def": "Expression de Kant : l'homme a un penchant à s'associer doublé d'une répulsion à le faire, d'où le besoin d'un maître.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Désobéissance civile",
+    "def": "Acte public, non-violent, décidé en conscience, contraire à la loi, accompli pour amener un changement (Rawls).",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Légalité",
+    "def": "Conformité à la loi en vigueur.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Légitimité",
+    "def": "Conformité à la justice morale, à ce qui est juste indépendamment de la loi.",
+    "tags": [
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "Obligation",
+    "def": "Exigence/norme de conduite qu'on s'impose à soi-même librement. Relève de la morale (devoir).",
+    "tags": [
+      "sequence-5",
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Contrainte",
+    "def": "Ce qui s'impose à nous de l'extérieur, contre notre volonté. Respectée pour éviter des conséquences désagréables.",
+    "tags": [
+      "sequence-5",
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Devoir",
+    "def": "Obligation morale qu'on s'impose librement grâce à la conscience morale. Désintéressé.",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Bonheur",
+    "etym": "bon + heur (chance)",
+    "def": "État de satisfaction durable, d'absence de souffrance physique ou psychologique.",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Hédonisme",
+    "etym": "gr. hédonè = plaisir",
+    "def": "Doctrine selon laquelle le bonheur consiste dans la satisfaction des désirs et plaisirs.",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Ataraxie",
+    "def": "Pour Épicure : absence de souffrance physique et psychologique, tranquillité de l'âme.",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Vertu",
+    "def": "Ensemble de dispositions volontaires et réfléchies (courage, prudence, modération, justice).",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Stoïcisme",
+    "def": "Doctrine selon laquelle on doit agir sur soi-même plutôt que sur le monde, pour atteindre un bonheur absolu.",
+    "tags": [
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Subjectif",
+    "def": "Qui dépend du sujet, de sa perception personnelle.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Objectif",
+    "def": "Qui existe indépendamment du sujet, dans la réalité elle-même.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Médiat",
+    "def": "Par l'entremise de quelque chose, indirect.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Immédiat",
+    "def": "Direct, sans intermédiaire.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Intuitif",
+    "def": "Qui s'obtient par intuition (connaissance immédiate).",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Discursif",
+    "def": "Qui procède par étapes, par démonstration.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Essentiel",
+    "def": "Qui appartient à l'essence d'une chose, ce sans quoi elle ne pourrait pas exister.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Accidentel",
+    "def": "Qui n'appartient pas à l'essence, qui peut varier sans changer la nature de la chose.",
+    "tags": [
+      "repere"
+    ]
+  },
+  {
+    "term": "Absolu",
+    "def": "Indépendant de tout contexte, qui ne dépend de rien d'autre.",
+    "tags": [
+      "repere",
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "Relatif",
+    "def": "Qui dépend des circonstances, du contexte, du sujet.",
+    "tags": [
+      "repere",
+      "sequence-6"
+    ]
+  },
+  {
+    "term": "En fait",
+    "def": "Ce qui est effectif actuellement.",
+    "tags": [
+      "repere",
+      "sequence-5"
+    ]
+  },
+  {
+    "term": "En droit",
+    "def": "Ce qui doit être, mais qui n'est pas nécessairement ou ne sera peut-être jamais.",
+    "tags": [
+      "repere",
+      "sequence-5"
+    ]
+  }
+]

@@ -11,9 +11,66 @@ window.SEQUENCE_4 = {
   work: null,
   tint: "#e08aa8",
   plan: [
-    { t: "L'art = travail + technique mis au service d'œuvres gratuites et originales", sub: ["Travail et technique","Gratuité et liberté créatrice","Originalité et génie (Kant)"] },
-    { t: "Création de belles œuvres ayant ouverture sur le monde", sub: ["La beauté objective","La belle représentation des choses (Kant)"] },
-    { t: "Œuvres qui défamiliarisent notre regard sur les choses", sub: ["Remise en question des caractéristiques (Duchamp, Manzoni)","La défamiliarisation : seule caractéristique universelle"] }
+    {
+      t: "L'art = travail + technique au service d'œuvres gratuites et originales",
+      enjeu: "Premier réflexe : on cherche les caractéristiques visibles de l'art (savoir-faire, beauté, originalité) pour le distinguer de l'artisanat ou de la production industrielle.",
+      sub: [
+        {
+          t: "L'art se définit par le travail et la technique",
+          auteur: "Nietzsche",
+          idee: "Pas de génie mystérieux : l'œuvre est le résultat d'un travail acharné, de privations, d'apprentissage. On admire le génie parce qu'on ne voit que l'œuvre finie, jamais sa fabrication.",
+          apport: "Désacralise l'art. Il s'enracine dans le travail et la technique — comme tout savoir-faire."
+        },
+        {
+          t: "La gratuité de l'art rend possible la liberté créatrice",
+          auteur: "Arendt / Alain",
+          idee: "L'œuvre d'art ne sert à rien (Arendt). Contrairement à l'artisan qui exécute un plan, le peintre découvre son œuvre à mesure qu'il la fait — il en est lui-même le spectateur (Alain).",
+          apport: "L'art se distingue par sa gratuité. Sans finalité utilitaire, l'imagination peut être libre."
+        },
+        {
+          t: "Originalité et génie",
+          auteur: "Kant",
+          idee: "Le génie produit des œuvres exemplaires sans suivre de règles connues. Il ignore lui-même comment ses idées lui viennent : à travers lui, c'est la nature qui prescrit les règles à l'art.",
+          apport: "L'originalité du chef-d'œuvre échappe à la simple maîtrise technique. Quelque chose résiste à l'explication."
+        }
+      ]
+    },
+    {
+      t: "L'art crée de belles œuvres qui ouvrent sur le monde",
+      enjeu: "Une autre piste : et si l'art se définissait par sa finalité — produire de la beauté, et à travers elle, donner à voir le réel autrement ?",
+      sub: [
+        {
+          t: "La beauté objective",
+          auteur: "Aristote",
+          idee: "Pour les Anciens, le beau, c'est l'ordonné, le bien fait par rapport à sa finalité. L'art imite la nature et nous fait contempler avec plaisir même un cadavre ou un animal repoussant.",
+          apport: "Conception classique : le beau est une harmonie présente dans l'objet, accessible par l'imitation."
+        },
+        {
+          t: "La belle représentation des choses",
+          auteur: "Kant",
+          idee: "Le beau n'est pas l'agréable (subjectif et sensoriel). Il est subjectif mais universel : quand je dis « c'est beau », je l'exige des autres, comme si c'était une qualité de l'objet. Il plaît « universellement sans concept ».",
+          apport: "Sortie du relativisme (« chacun ses goûts ») : le beau prétend à un accord universel, même s'il reste indéfinissable."
+        }
+      ]
+    },
+    {
+      t: "L'art défamiliarise notre regard sur les choses",
+      enjeu: "Mais l'art contemporain (Duchamp, Manzoni) bouscule tout : ni beauté, ni technique, ni originalité. Il faut donc une définition plus radicale.",
+      sub: [
+        {
+          t: "La remise en question des caractéristiques de l'art",
+          auteur: "Duchamp / Manzoni",
+          idee: "La Fontaine de Duchamp (un urinoir signé) ou la Merda d'artista de Manzoni n'ont ni technique, ni beauté, ni originalité. Et pourtant ce sont des œuvres d'art reconnues.",
+          apport: "Toutes les caractéristiques classiques (beauté, savoir-faire, originalité) deviennent accidentelles, pas essentielles."
+        },
+        {
+          t: "La défamiliarisation : seule caractéristique universelle",
+          auteur: "Christo",
+          idee: "Quand Christo emballe le Reichstag pendant des mois, les Berlinois redécouvrent un monument qu'ils ne voyaient plus. L'art rend étrange ce que l'habitude avait effacé — il fait voir.",
+          apport: "Définition essentielle de l'art : court-circuiter le regard habituel, donner accès à une vérité que l'habitude masque."
+        }
+      ]
+    }
   ],
   content: `
 <h2 id="intro">Introduction</h2>

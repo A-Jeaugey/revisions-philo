@@ -147,7 +147,19 @@ function sequenceMarkdown(s) {
     head.push('');
     s.plan.forEach((p, i) => {
       head.push(`${i + 1}. **${p.t}**`);
-      (p.sub || []).forEach(x => head.push(`   - ${x}`));
+      if (p.enjeu) head.push(`   _Pourquoi ce moment :_ ${stripTags(p.enjeu)}`);
+      (p.sub || []).forEach(x => {
+        if (typeof x === 'string') {
+          head.push(`   - ${x}`);
+          return;
+        }
+        const auth = x.auteur ? `**${x.auteur}**` : '';
+        const titre = x.t ? `${x.t}` : '';
+        const sep = auth && titre ? ' — ' : '';
+        head.push(`   - ${auth}${sep}${titre}`);
+        if (x.idee) head.push(`     · ${stripTags(x.idee)}`);
+        if (x.apport) head.push(`     · _Apport :_ ${stripTags(x.apport)}`);
+      });
     });
     head.push('');
   }

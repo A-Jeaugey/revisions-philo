@@ -11,9 +11,72 @@ window.SEQUENCE_5 = {
   work: null,
   tint: "#7eb6d4",
   plan: [
-    { t: "La justice et la morale ne sont pas des notions naturelles", sub: ["Pas de justice ni droit à l'état de nature (Rousseau)","Sociétés sauvages sans État (Clastres)","L'homme a besoin d'un maître (Kant)"] },
-    { t: "Il revient à l'État de décider de ce qui est juste", sub: ["Légitimité du pouvoir : contrat social","Hobbes : pessimiste","Locke : optimiste","La justice repose sur la force (Pascal, Marx, Rawls)"] },
-    { t: "La justice est aussi morale et relève de la conscience", sub: ["Conflit loi politique / loi morale (Antigone)","Désobéissance civile (Rawls)"] }
+    {
+      t: "La justice et la morale ne sont pas des notions naturelles",
+      enjeu: "Avant de demander si l'État doit décider du juste, on regarde s'il existe une justice naturelle, antérieure à l'État. Réponse : non — la justice est une construction politique.",
+      sub: [
+        {
+          t: "Pas de justice ni de droit à l'état de nature",
+          auteur: "Rousseau",
+          idee: "L'homme à l'état de nature est un « animal borné » solitaire, qui ne connaît que la pitié naturelle. Ni vices, ni vertus, ni morale, ni justice — juste la satisfaction des besoins primaires.",
+          apport: "Le juste et l'injuste ne sont pas inscrits dans la nature humaine. Ce sont des notions qui apparaissent avec la culture."
+        },
+        {
+          t: "Les sociétés sauvages sans État",
+          auteur: "Clastres",
+          idee: "Chez les Indiens d'Amazonie, le chef n'a aucune autorité de coercition. C'est un orateur qui doit se montrer généreux. La société se passe d'État en empêchant activement son apparition.",
+          apport: "L'État n'est ni naturel ni nécessaire. D'autres formes d'organisation sont possibles — mais fragiles face à nos sociétés étatiques."
+        },
+        {
+          t: "L'homme a besoin d'un maître",
+          auteur: "Kant",
+          idee: "L'homme a une « insociable sociabilité » : besoin d'autrui mais penchant à l'égoïsme. Sans contrainte extérieure, il abuse de sa liberté. Il faut donc un maître — mais le maître aussi sera tenté.",
+          apport: "L'État devient nécessaire pour réguler une nature humaine ambivalente, sans illusion sur la pureté du pouvoir."
+        }
+      ]
+    },
+    {
+      t: "Il revient à l'État de décider de ce qui est juste",
+      enjeu: "Si la justice n'est pas naturelle, c'est l'État qui l'institue. Reste à savoir d'où il tire sa légitimité — et si la justice qu'il rend est vraiment juste.",
+      sub: [
+        {
+          t: "Le contrat social — perspective pessimiste",
+          auteur: "Hobbes",
+          idee: "À l'état de nature, c'est la guerre de tous contre tous : la vie y est « brève, solitaire, misérable ». Pour en sortir, les hommes transfèrent toutes leurs libertés à un souverain absolu (le Léviathan). Mieux vaut un pouvoir illimité que pas de pouvoir.",
+          apport: "Justifie un État fort. Le souverain décide du juste — c'est lui qui rend la liberté possible en limitant les libertés naturelles."
+        },
+        {
+          t: "Le contrat social — perspective optimiste",
+          auteur: "Locke",
+          idee: "L'homme à l'état de nature est moral et rationnel ; il reconnaît les droits naturels d'autrui (vie, propriété, liberté). L'État n'est qu'un arbitre limité, divisé, responsable, qui protège ces droits.",
+          apport: "Fonde le libéralisme politique : un État au pouvoir encadré, qui ne décide pas du juste mais protège les droits naturels."
+        },
+        {
+          t: "La justice repose sur la force",
+          auteur: "Pascal / Marx / Rawls",
+          idee: "« La justice sans la force est impuissante » (Pascal). Pour Marx, les lois reflètent la domination des plus forts économiquement. Pour Rawls, l'inégalité sociale gangrène la démocratie elle-même.",
+          apport: "Limite décisive : ce que l'État dit juste reflète souvent un rapport de force. La justice formelle n'est pas la justice réelle."
+        }
+      ]
+    },
+    {
+      t: "La justice est aussi morale, et relève de la conscience",
+      enjeu: "Si l'État peut se tromper, le citoyen ne lui doit pas une obéissance aveugle. Il y a une justice intérieure qui peut s'opposer à la justice légale.",
+      sub: [
+        {
+          t: "Le conflit entre loi politique et loi morale",
+          auteur: "Antigone (Sophocle)",
+          idee: "Créon interdit d'enterrer le frère d'Antigone (traître à la cité). Antigone désobéit au nom d'un devoir moral supérieur. Elle sera emmurée vivante. Légalité (Créon) contre légitimité (Antigone).",
+          apport: "Distinction décisive : ce qui est légal n'est pas toujours légitime. La conscience morale peut surpasser la loi écrite."
+        },
+        {
+          t: "La désobéissance civile",
+          auteur: "Rawls",
+          idee: "« Acte public, non-violent, décidé en conscience, contraire à la loi, visant à la modifier. » Pas une infraction égoïste : un appel public à corriger une injustice — sans détruire l'État.",
+          apport: "Conciliation : on peut désobéir à une loi tout en restant fidèle au principe démocratique. Le citoyen reste juge."
+        }
+      ]
+    }
   ],
   content: `
 <h2 id="intro">Introduction → problématisation</h2>

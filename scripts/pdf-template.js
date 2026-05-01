@@ -89,10 +89,22 @@ function renderEncadre(s) {
   `;
 }
 
+function subLabel(x) {
+  if (typeof x === 'string') return x;
+  const auth = x.auteur ? ` (${String(x.auteur).toUpperCase()})` : '';
+  return `${x.t || ''}${auth}`;
+}
+
+function hasRichPlan(s) {
+  return (s.plan || []).some(p =>
+    Array.isArray(p.sub) && p.sub.some(it => it && typeof it === 'object' && (it.idee || it.apport))
+  );
+}
+
 function renderPlan(s) {
   const items = s.plan.map(p => `
     <li><strong>${p.t}</strong>
-      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${x}</li>`).join('')}</ol>` : ''}
+      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${subLabel(x)}</li>`).join('')}</ol>` : ''}
     </li>
   `).join('');
   return `
@@ -100,6 +112,41 @@ function renderPlan(s) {
       <div class="plan-title">Plan détaillé</div>
       <ol>${items}</ol>
     </div>
+  `;
+}
+
+function renderExpress(s) {
+  if (!hasRichPlan(s)) return '';
+  const roman = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+  const parts = s.plan.map((p, i) => `
+    <article class="fx-part">
+      <div class="fx-part-num">${roman[i] || (i+1)}</div>
+      <div class="fx-part-body">
+        <h3 class="fx-part-title">${p.t}</h3>
+        ${p.enjeu ? `<p class="fx-why"><span class="fx-why-tag">Pourquoi ce moment</span> ${p.enjeu}</p>` : ''}
+        <ul class="fx-list">
+          ${(p.sub || []).map(it => {
+            if (typeof it === 'string') return `<li class="fx-simple">${it}</li>`;
+            return `
+              <li class="fx-item">
+                <div class="fx-head">
+                  ${it.auteur ? `<span class="fx-auth">${it.auteur}</span>` : ''}
+                  <span class="fx-thesis">${it.t || ''}</span>
+                </div>
+                ${it.idee ? `<p class="fx-idee">${it.idee}</p>` : ''}
+                ${it.apport ? `<p class="fx-apport"><span class="fx-apport-tag">Apport</span> ${it.apport}</p>` : ''}
+              </li>`;
+          }).join('')}
+        </ul>
+      </div>
+    </article>
+  `).join('');
+  return `
+    <section class="fiche-express">
+      <div class="fx-eyebrow">§ Fiche express · réviser en un coup d'œil</div>
+      <h2 class="fx-title">${s.title}</h2>
+      ${parts}
+    </section>
   `;
 }
 
@@ -124,9 +171,10 @@ function renderFiche(s, { philosophers, notions }) {
 
   const planItems = s.plan.map(p => `
     <li><strong>${p.t}</strong>
-      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${x}</li>`).join('')}</ol>` : ''}
+      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${subLabel(x)}</li>`).join('')}</ol>` : ''}
     </li>
   `).join('');
+  const expressBlock = renderExpress(s);
 
   const meta = `
     <section class="fiche-meta">
@@ -144,7 +192,7 @@ function renderFiche(s, { philosophers, notions }) {
       <div class="doc-body">
         ${essentielHTML(s.essentiel)}
         ${meta}
-        <section><h2>Plan détaillé</h2><ol class="fiche-plan-list">${planItems}</ol></section>
+        ${expressBlock || `<section><h2>Plan détaillé</h2><ol class="fiche-plan-list">${planItems}</ol></section>`}
         ${auths.length ? `
           <section>
             <h2>Auteurs-clés</h2>

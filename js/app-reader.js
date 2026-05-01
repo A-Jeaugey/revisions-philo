@@ -13,12 +13,51 @@ App.routes.sequence = function(parts) {
   const prev = window.SEQUENCES.find(x => x.id === s.id - 1);
   const next = window.SEQUENCES.find(x => x.id === s.id + 1);
 
+  const subLabel = (x) => {
+    if (typeof x === 'string') return x;
+    const auth = x.auteur ? ` (${x.auteur.toUpperCase()})` : '';
+    return `${x.t || ''}${auth}`;
+  };
   const planHtml = s.plan.map((p, i) => `
     <li>
       <strong>${p.t}</strong>
-      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${x}</li>`).join('')}</ol>` : ''}
+      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${subLabel(x)}</li>`).join('')}</ol>` : ''}
     </li>
   `).join('');
+
+  const hasExpress = s.plan.some(p =>
+    Array.isArray(p.sub) && p.sub.some(it => it && typeof it === 'object' && (it.idee || it.apport))
+  );
+  const roman = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+  const expressHtml = hasExpress ? `
+    <section class="fiche-express">
+      <div class="fx-eyebrow">§ Fiche express · réviser en un coup d'œil</div>
+      <h2 class="fx-title">${s.title}</h2>
+      ${s.plan.map((p, i) => `
+        <article class="fx-part">
+          <div class="fx-part-num">${roman[i] || (i+1)}</div>
+          <div class="fx-part-body">
+            <h3 class="fx-part-title">${p.t}</h3>
+            ${p.enjeu ? `<p class="fx-why"><span class="fx-why-tag">Pourquoi ce moment</span> ${p.enjeu}</p>` : ''}
+            <ul class="fx-list">
+              ${(p.sub || []).map(it => {
+                if (typeof it === 'string') return `<li class="fx-simple">${it}</li>`;
+                return `
+                  <li class="fx-item">
+                    <div class="fx-head">
+                      ${it.auteur ? `<span class="fx-auth">${it.auteur}</span>` : ''}
+                      <span class="fx-thesis">${it.t || ''}</span>
+                    </div>
+                    ${it.idee ? `<p class="fx-idee">${it.idee}</p>` : ''}
+                    ${it.apport ? `<p class="fx-apport"><span class="fx-apport-tag">Apport</span> ${it.apport}</p>` : ''}
+                  </li>`;
+              }).join('')}
+            </ul>
+          </div>
+        </article>
+      `).join('')}
+    </section>
+  ` : '';
 
   App.render(`
     <div class="read-layout">
@@ -84,10 +123,11 @@ App.routes.sequence = function(parts) {
           </div>` : ''}
         </div>
 
+        ${expressHtml || `
         <div class="plan-box">
           <div class="plan-title">Plan détaillé</div>
           <ol>${planHtml}</ol>
-        </div>
+        </div>`}
 
         ${s.content}
 

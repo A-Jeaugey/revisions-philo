@@ -718,6 +718,149 @@ html, body {
   font-weight: 600;
 }
 
+/* Fiche express — réviser en un coup d'œil */
+.doc-body .fiche-express {
+  margin: 4mm 0 6mm;
+  padding: 5mm 6mm 4mm;
+  border: 1pt solid var(--ink);
+  border-radius: 3pt;
+  background: var(--paper);
+  position: relative;
+}
+.doc-body .fiche-express::before {
+  content: '';
+  position: absolute; inset: 1.5mm;
+  border: 0.5pt solid var(--rule);
+  border-radius: 2pt;
+  pointer-events: none;
+}
+.doc-body .fiche-express > * { position: relative; }
+.doc-body .fiche-express .fx-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 1mm;
+}
+.doc-body .fiche-express .fx-title {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 13pt;
+  font-weight: 500;
+  color: var(--text-strong);
+  margin: 0 0 3mm;
+  padding-bottom: 2mm;
+  border-bottom: 0.5pt solid var(--rule);
+  letter-spacing: -0.01em;
+}
+.doc-body .fiche-express .fx-part {
+  display: grid;
+  grid-template-columns: 10mm 1fr;
+  gap: 3mm;
+  padding: 3mm 0 1mm;
+  border-bottom: 0.5pt dashed var(--rule);
+  page-break-inside: avoid;
+}
+.doc-body .fiche-express .fx-part:last-child { border-bottom: 0; }
+.doc-body .fiche-express .fx-part-num {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18pt;
+  color: var(--accent);
+  line-height: 1;
+  text-align: right;
+}
+.doc-body .fiche-express .fx-part-title {
+  font-family: 'Fraunces', serif;
+  font-size: 12pt;
+  font-weight: 500;
+  color: var(--text-strong);
+  margin: 0 0 1.5mm;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+.doc-body .fiche-express .fx-why {
+  margin: 0 0 2mm;
+  padding: 1.5mm 2.5mm;
+  background: var(--accent-soft);
+  border-left: 1pt solid var(--accent);
+  border-radius: 0 2pt 2pt 0;
+  font-size: 9pt;
+  line-height: 1.5;
+  color: var(--text);
+}
+.doc-body .fiche-express .fx-why-tag {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 7pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-right: 1.5mm;
+}
+.doc-body .fiche-express .fx-list { list-style: none; padding: 0; margin: 0; }
+.doc-body .fiche-express .fx-item {
+  padding: 1.5mm 0;
+  border-top: 0.5pt solid var(--rule);
+  page-break-inside: avoid;
+}
+.doc-body .fiche-express .fx-item:first-child { border-top: 0; padding-top: 0; }
+.doc-body .fiche-express .fx-head {
+  margin-bottom: 1mm;
+}
+.doc-body .fiche-express .fx-auth {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--accent);
+  padding: 0.6mm 2mm;
+  border-radius: 2pt;
+  margin-right: 2mm;
+}
+.doc-body .fiche-express .fx-thesis {
+  font-family: 'Fraunces', serif;
+  font-size: 10.5pt;
+  font-weight: 500;
+  color: var(--text-strong);
+  font-style: italic;
+}
+.doc-body .fiche-express .fx-idee {
+  font-size: 9.5pt;
+  line-height: 1.5;
+  color: var(--text);
+  margin: 0 0 1mm;
+}
+.doc-body .fiche-express .fx-apport {
+  font-size: 8.5pt;
+  line-height: 1.45;
+  color: var(--text-dim);
+  margin: 0.5mm 0 0;
+  padding-left: 3mm;
+  border-left: 0.5pt solid var(--rule);
+}
+.doc-body .fiche-express .fx-apport-tag {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 7pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-right: 1.5mm;
+}
+.doc-body .fiche-express .fx-simple {
+  padding: 1mm 0;
+  font-size: 9pt;
+  color: var(--text-dim);
+}
+
 .fiche-auteurs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

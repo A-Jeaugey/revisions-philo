@@ -11,9 +11,84 @@ window.SEQUENCE_2 = {
   work: null,
   tint: "#7ed4c5",
   plan: [
-    { t: "La raison seule peut nous conduire à la vérité", sub: ["La raison face aux obstacles à la vérité (Galilée)","L'exigence d'une méthode rationnelle (Descartes)","La maîtrise rationnelle de l'expérience (Torricelli)"] },
-    { t: "Mais la raison se doit d'être raisonnable et reconnaître ses limites", sub: ["Limites des sciences formelles et naturelles (Hume)","Impossibilité de démontrer Dieu, l'âme, la liberté (Kant)","Limites des sciences humaines (Dilthey)"] },
-    { t: "Il faut donc reconsidérer nos espoirs de vérité et les moyens d'y parvenir", sub: ["Théorie scientifique vraie = falsifiable (Popper)","Le rôle de l'imagination (Einstein)","Les vérités qui se sentent (Pascal)","La vérité esthétique (Bergson)"] }
+    {
+      t: "La raison seule peut nous conduire à la vérité",
+      enjeu: "Premier réflexe : la raison, méthodique et universelle, semble la seule faculté capable de dépasser les illusions des sens et des opinions pour viser le vrai.",
+      sub: [
+        {
+          t: "La raison face aux obstacles à la vérité",
+          auteur: "Galilée",
+          idee: "Au procès de l'Inquisition, il prouve par expérience (boîte de papier + boîte de sable tombant ensemble) que les corps ne tombent pas selon leur poids. La raison ose contre l'évidence sensible et l'autorité d'Aristote.",
+          apport: "La science avance en surmontant les obstacles épistémologiques. La raison ose contre la tradition."
+        },
+        {
+          t: "L'exigence d'une méthode rationnelle",
+          auteur: "Descartes",
+          idee: "Le bon sens est universel mais mal employé. Il faut une méthode : douter de tout, repartir d'intuitions évidentes (« Je pense, je suis »), puis déduire pas à pas — comme les mathématiciens.",
+          apport: "Donne au savoir un modèle solide : doute → intuitions premières → déduction."
+        },
+        {
+          t: "La maîtrise rationnelle de l'expérience",
+          auteur: "Torricelli",
+          idee: "Pour expliquer pourquoi l'eau ne monte pas au-delà de 10 m dans une pompe, il fait l'hypothèse de la pression de l'air et la teste avec son tube de mercure (qui s'arrête à 76 cm).",
+          apport: "Naissance de la méthode expérimentale : la raison construit des hypothèses et les soumet au réel."
+        }
+      ]
+    },
+    {
+      t: "Mais la raison se doit d'être raisonnable et reconnaître ses limites",
+      enjeu: "Une raison qui ne s'interroge pas sur ses propres limites devient dogmatique. Il faut la critiquer pour la sauver.",
+      sub: [
+        {
+          t: "Limites des sciences formelles et naturelles",
+          auteur: "Hume",
+          idee: "Les vérités mathématiques sont certaines mais formelles — elles ne disent rien du monde. Quant aux lois de la nature, elles reposent sur l'induction (« le soleil s'est levé hier... »), simple habitude sans nécessité logique.",
+          apport: "Distingue vérités formelles (a priori, vides) et matérielles (a posteriori, incertaines)."
+        },
+        {
+          t: "L'impossibilité de démontrer Dieu, l'âme, la liberté",
+          auteur: "Kant",
+          idee: "On peut penser Dieu, mais pas le connaître. La raison ne saisit que des phénomènes — la réalité filtrée par nos sens et nos catégories — jamais les choses en soi. Dieu, l'âme, la liberté : objets de croyance, pas de savoir.",
+          apport: "Trace les frontières de la connaissance rationnelle. Le dogmatisme métaphysique tombe."
+        },
+        {
+          t: "Limites des sciences humaines",
+          auteur: "Dilthey",
+          idee: "L'homme étant libre, son comportement n'obéit pas à des lois prédictibles comme la chute d'une pierre. On peut seulement comprendre / interpréter ses actes, pas les expliquer.",
+          apport: "Distinction décisive : expliquer (nature) / comprendre (humain). La science a ses zones d'inaccès."
+        }
+      ]
+    },
+    {
+      t: "Il faut donc reconsidérer nos espoirs de vérité et les moyens d'y parvenir",
+      enjeu: "La vérité reste un idéal — mais elle s'atteint par essais, mobilise l'imagination, et peut prendre d'autres voies que la pure raison.",
+      sub: [
+        {
+          t: "Une théorie scientifique « vraie » est une théorie falsifiable",
+          auteur: "Popper",
+          idee: "Une théorie n'est jamais prouvée définitivement. Elle est scientifique si elle peut être réfutée par une expérience future. Les vérités scientifiques sont des hypothèses en sursis.",
+          apport: "Critère de falsifiabilité : la vérité scientifique est provisoire, toujours révisable."
+        },
+        {
+          t: "Le rôle de l'imagination dans la science",
+          auteur: "Einstein",
+          idee: "Comprendre la nature, c'est comme deviner le mécanisme d'une montre fermée. Les concepts (force, énergie) ne sont pas dictés par les sens : ce sont des créations libres de l'esprit.",
+          apport: "La science n'est pas pur enregistrement — elle invente. L'imagination y joue un rôle décisif."
+        },
+        {
+          t: "Les vérités qui se sentent",
+          auteur: "Pascal",
+          idee: "Les axiomes des mathématiques sont indémontrables : ils se sentent. « Le cœur a ses raisons que la raison ne connaît point. » Il existe des vérités du cœur, à côté de celles de la raison.",
+          apport: "La raison n'a pas le monopole du vrai. Certaines vérités s'éprouvent intuitivement."
+        },
+        {
+          t: "La vérité esthétique",
+          auteur: "Bergson",
+          idee: "L'artiste perçoit le réel autrement, débarrassé des concepts habituels. Son œuvre nous révèle des vérités sur la nature et sur nous-mêmes que la science manque.",
+          apport: "L'art aussi est voie d'accès à la vérité, par la sensibilité et l'intuition."
+        }
+      ]
+    }
   ],
   content: `
 <h2 id="intro">INTRODUCTION : Analyse du sujet et problématisation</h2>

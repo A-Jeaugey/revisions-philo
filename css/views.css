@@ -1072,6 +1072,184 @@
   font-weight: 600;
 }
 
+/* -----------------------------------------------------------
+   FICHE EXPRESS — réviser une séquence en un coup d'œil
+   Pour chaque sous-partie : auteur · idée simplifiée · apport.
+   ----------------------------------------------------------- */
+.fiche-express {
+  margin: 36px 0;
+  padding: 36px 40px 32px;
+  border: 1.5px solid var(--ink);
+  border-radius: var(--r);
+  background: var(--paper);
+  position: relative;
+}
+.fiche-express::before {
+  content: '';
+  position: absolute; inset: 6px;
+  border: 1px solid var(--rule);
+  border-radius: calc(var(--r) - 6px);
+  pointer-events: none;
+}
+.fiche-express > * { position: relative; z-index: 1; }
+
+.fiche-express .fx-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.fiche-express .fx-title {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.4vw, 28px);
+  font-weight: 500;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 22px;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.fiche-express .fx-part {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 20px;
+  padding: 22px 0 4px;
+  border-bottom: 1px dashed var(--rule);
+}
+.fiche-express .fx-part:last-child { border-bottom: 0; }
+
+.fiche-express .fx-part-num {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 38px;
+  color: var(--accent);
+  line-height: 1;
+  text-align: right;
+  padding-top: 2px;
+}
+
+.fiche-express .fx-part-title {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 10px;
+  line-height: 1.3;
+  letter-spacing: -0.012em;
+}
+
+.fiche-express .fx-why {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  background: var(--accent-soft);
+  border-left: 2px solid var(--accent);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.fiche-express .fx-why-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.fiche-express .fx-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+}
+.fiche-express .fx-item {
+  padding: 12px 0;
+  border-top: 1px solid var(--rule);
+}
+.fiche-express .fx-item:first-child { border-top: 0; padding-top: 4px; }
+
+.fiche-express .fx-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.fiche-express .fx-auth {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--accent);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.fiche-express .fx-thesis {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ink);
+  font-style: italic;
+  letter-spacing: -0.005em;
+}
+
+.fiche-express .fx-idee {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+.fiche-express .fx-apport {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  margin: 4px 0 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--rule);
+}
+.fiche-express .fx-apport-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.fiche-express .fx-simple {
+  padding: 6px 0;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+@media (max-width: 720px) {
+  .fiche-express { padding: 24px 22px 22px; }
+  .fiche-express .fx-part {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .fiche-express .fx-part-num {
+    text-align: left;
+    font-size: 28px;
+  }
+}
+
 /* Aside cards */
 .aside-card {
   padding: 22px 24px;

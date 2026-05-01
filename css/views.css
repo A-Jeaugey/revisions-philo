@@ -1073,6 +1073,148 @@
 }
 
 /* -----------------------------------------------------------
+   PLAN ↔ FICHE EXPRESS — bascule entre plan « sec » et détaillé
+   ----------------------------------------------------------- */
+.plan-section {
+  margin: 36px 0;
+  position: relative;
+}
+.plan-section .plan-box,
+.plan-section .fiche-express { margin: 0; }
+
+.plan-toggle {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  gap: 0;
+  padding: 5px;
+  margin: 0 0 18px;
+  background: var(--paper-2, var(--paper));
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  box-shadow: 0 6px 18px -10px rgba(0,0,0,0.18), inset 0 0 0 1px var(--rule);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+}
+.plan-toggle .pt-btn {
+  position: relative;
+  z-index: 2;
+  padding: 9px 22px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--text-dim);
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  border-radius: 999px;
+  transition: color .35s cubic-bezier(.22,1,.36,1);
+  white-space: nowrap;
+}
+.plan-toggle .pt-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.plan-toggle .pt-btn.pt-active {
+  color: var(--ink);
+}
+.plan-toggle .pt-btn:not(.pt-active):hover {
+  color: var(--ink);
+}
+.plan-toggle .pt-spark {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--accent);
+  margin-right: 4px;
+  transform: translateY(1px);
+  transition: transform .5s cubic-bezier(.22,1,.36,1);
+}
+.plan-toggle .pt-btn:hover .pt-spark { transform: translateY(1px) rotate(180deg); }
+
+.plan-toggle .pt-thumb {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: calc(100% - 10px);
+  width: 0;
+  background: var(--accent);
+  border-radius: 999px;
+  box-shadow: 0 6px 14px -6px var(--accent), 0 0 0 1px var(--accent);
+  transition: transform .42s cubic-bezier(.22,1,.36,1),
+              width .42s cubic-bezier(.22,1,.36,1);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Pulse subtil sur l'onglet inactif pour inviter au clic */
+.plan-section[data-mode="brief"] .pt-btn[data-mode="detailed"]::after,
+.plan-section[data-mode="detailed"] .pt-btn[data-mode="brief"]::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 999px;
+  pointer-events: none;
+  animation: pt-pulse 2.4s ease-in-out infinite;
+}
+@keyframes pt-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,0,0,0); }
+  50%      { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plan-section[data-mode] .pt-btn::after { animation: none; }
+}
+
+/* Vues empilées : la vue inactive est en absolu pour ne pas peser
+   sur la hauteur, mais reste dans le flux pendant la transition. */
+.plan-views {
+  position: relative;
+}
+.plan-view {
+  transition:
+    opacity .42s cubic-bezier(.22,1,.36,1),
+    transform .42s cubic-bezier(.22,1,.36,1),
+    filter .42s cubic-bezier(.22,1,.36,1);
+}
+.plan-section[data-mode="brief"] .plan-view-detailed,
+.plan-section[data-mode="detailed"] .plan-view-brief {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(14px) scale(0.985);
+  filter: blur(2px);
+}
+.plan-section[data-mode="brief"] .plan-view-brief,
+.plan-section[data-mode="detailed"] .plan-view-detailed {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+/* Cascade des parties quand on passe en mode détaillé */
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in {
+  animation: fx-stagger .65s cubic-bezier(.22,1,.36,1) backwards;
+}
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(1) { animation-delay: .12s; }
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(2) { animation-delay: .22s; }
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(3) { animation-delay: .32s; }
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(4) { animation-delay: .42s; }
+.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(5) { animation-delay: .52s; }
+@keyframes fx-stagger {
+  from { opacity: 0; transform: translateY(28px) scale(0.985); filter: blur(2px); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);     filter: blur(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plan-section[data-mode="detailed"] .fx-part.fx-anim-in { animation: none; }
+  .plan-view { transition: opacity .15s linear; }
+}
+
+/* -----------------------------------------------------------
    FICHE EXPRESS — réviser une séquence en un coup d'œil
    Pour chaque sous-partie : auteur · idée simplifiée · apport.
    ----------------------------------------------------------- */

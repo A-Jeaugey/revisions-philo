@@ -123,7 +123,27 @@ App.routes.sequence = function(parts) {
           </div>` : ''}
         </div>
 
-        ${expressHtml || `
+        ${hasExpress ? `
+        <section class="plan-section" data-mode="brief" id="plan-section">
+          <div class="plan-toggle" role="tablist" aria-label="Format du plan">
+            <span class="pt-thumb" aria-hidden="true"></span>
+            <button class="pt-btn pt-active" data-mode="brief" role="tab" aria-selected="true">Plan</button>
+            <button class="pt-btn" data-mode="detailed" role="tab" aria-selected="false">
+              <span class="pt-spark" aria-hidden="true">✦</span> Fiche détaillée
+            </button>
+          </div>
+          <div class="plan-views">
+            <div class="plan-view plan-view-brief" role="tabpanel">
+              <div class="plan-box">
+                <div class="plan-title">Plan détaillé</div>
+                <ol>${planHtml}</ol>
+              </div>
+            </div>
+            <div class="plan-view plan-view-detailed" role="tabpanel" aria-hidden="true">
+              ${expressHtml}
+            </div>
+          </div>
+        </section>` : `
         <div class="plan-box">
           <div class="plan-title">Plan détaillé</div>
           <ol>${planHtml}</ol>
@@ -253,6 +273,50 @@ App.routes.sequence = function(parts) {
     refreshTime();
     if (App._timeRefresh) clearInterval(App._timeRefresh);
     App._timeRefresh = setInterval(refreshTime, 30 * 1000);
+
+    // Plan ↔ Fiche détaillée — toggle stylé
+    const planSec = document.getElementById('plan-section');
+    if (planSec) {
+      const toggle = planSec.querySelector('.plan-toggle');
+      const thumb = planSec.querySelector('.pt-thumb');
+      const btns = planSec.querySelectorAll('.pt-btn');
+      const panels = planSec.querySelectorAll('.plan-view');
+      const positionThumb = () => {
+        if (!thumb || !toggle) return;
+        const active = planSec.querySelector('.pt-btn.pt-active');
+        if (!active) return;
+        thumb.style.width = active.offsetWidth + 'px';
+        thumb.style.transform = `translateX(${active.offsetLeft}px)`;
+      };
+      const setMode = (mode) => {
+        if (planSec.dataset.mode === mode) return;
+        planSec.dataset.mode = mode;
+        btns.forEach(b => {
+          const active = b.dataset.mode === mode;
+          b.classList.toggle('pt-active', active);
+          b.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        panels.forEach(p => {
+          const active = p.classList.contains('plan-view-' + mode);
+          p.setAttribute('aria-hidden', active ? 'false' : 'true');
+        });
+        positionThumb();
+        // Force re-trigger des animations en cascade côté détaillé
+        if (mode === 'detailed') {
+          const parts = planSec.querySelectorAll('.fx-part');
+          parts.forEach(p => {
+            p.classList.remove('fx-anim-in');
+            void p.offsetWidth;
+            p.classList.add('fx-anim-in');
+          });
+        }
+      };
+      btns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+      // Init du thumb (avec un léger délai pour laisser les fonts se charger)
+      requestAnimationFrame(positionThumb);
+      setTimeout(positionThumb, 250);
+      window.addEventListener('resize', positionThumb, { passive: true });
+    }
 
     // Iceberg interactivity (séquence 1) — toggle inline tooltip
     const iceberg = document.getElementById('iceberg-widget');

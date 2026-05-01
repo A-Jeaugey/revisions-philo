@@ -13,51 +13,42 @@ App.routes.sequence = function(parts) {
   const prev = window.SEQUENCES.find(x => x.id === s.id - 1);
   const next = window.SEQUENCES.find(x => x.id === s.id + 1);
 
-  const subLabel = (x) => {
-    if (typeof x === 'string') return x;
-    const auth = x.auteur ? ` (${x.auteur.toUpperCase()})` : '';
-    return `${x.t || ''}${auth}`;
-  };
-  const planHtml = s.plan.map((p, i) => `
-    <li>
-      <strong>${p.t}</strong>
-      ${p.sub && p.sub.length ? `<ol>${p.sub.map(x => `<li>${subLabel(x)}</li>`).join('')}</ol>` : ''}
-    </li>
-  `).join('');
-
   const hasExpress = s.plan.some(p =>
-    Array.isArray(p.sub) && p.sub.some(it => it && typeof it === 'object' && (it.idee || it.apport))
+    p.enjeu || (Array.isArray(p.sub) && p.sub.some(it => it && typeof it === 'object' && (it.idee || it.apport)))
   );
-  const roman = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
-  const expressHtml = hasExpress ? `
-    <section class="fiche-express">
-      <div class="fx-eyebrow">§ Fiche express · réviser en un coup d'œil</div>
-      <h2 class="fx-title">${s.title}</h2>
-      ${s.plan.map((p, i) => `
-        <article class="fx-part">
-          <div class="fx-part-num">${roman[i] || (i+1)}</div>
-          <div class="fx-part-body">
-            <h3 class="fx-part-title">${p.t}</h3>
-            ${p.enjeu ? `<p class="fx-why"><span class="fx-why-tag">Pourquoi ce moment</span> ${p.enjeu}</p>` : ''}
-            <ul class="fx-list">
-              ${(p.sub || []).map(it => {
-                if (typeof it === 'string') return `<li class="fx-simple">${it}</li>`;
-                return `
-                  <li class="fx-item">
-                    <div class="fx-head">
-                      ${it.auteur ? `<span class="fx-auth">${it.auteur}</span>` : ''}
-                      <span class="fx-thesis">${it.t || ''}</span>
-                    </div>
-                    ${it.idee ? `<p class="fx-idee">${it.idee}</p>` : ''}
-                    ${it.apport ? `<p class="fx-apport"><span class="fx-apport-tag">Apport</span> ${it.apport}</p>` : ''}
-                  </li>`;
-              }).join('')}
-            </ul>
-          </div>
-        </article>
-      `).join('')}
-    </section>
-  ` : '';
+
+  // Construit le plan avec des « slots » d'expansion inline.
+  // Les détails (enjeu, idée, apport) sont toujours dans le DOM mais
+  // collapsés via grid-template-rows: 0fr → 1fr en mode détaillé.
+  let _idx = 0;
+  const grow = (inner) => `<div class="pdg" style="--idx:${_idx++}"><div class="pdg-inner">${inner}</div></div>`;
+  const planHtml = s.plan.map((p) => {
+    const enjeuSlot = p.enjeu
+      ? grow(`<p class="plan-enjeu"><span class="plan-enjeu-tag">Pourquoi ce moment</span> ${p.enjeu}</p>`)
+      : '';
+    const subs = (p.sub || []).map((x) => {
+      if (typeof x === 'string') {
+        return `<li><span class="psub-line">${x}</span></li>`;
+      }
+      const auth = x.auteur ? `<span class="psub-auth">${x.auteur}</span>` : '';
+      const titre = x.t || '';
+      const headline = `<span class="psub-line">${titre}${auth ? ' ' + auth : ''}</span>`;
+      const detail = (x.idee || x.apport)
+        ? grow(`
+            ${x.idee ? `<p class="plan-idee">${x.idee}</p>` : ''}
+            ${x.apport ? `<p class="plan-apport"><span class="plan-apport-tag">Apport</span> ${x.apport}</p>` : ''}
+          `)
+        : '';
+      return `<li>${headline}${detail}</li>`;
+    }).join('');
+    return `
+      <li>
+        <strong>${p.t}</strong>
+        ${enjeuSlot}
+        ${subs ? `<ol>${subs}</ol>` : ''}
+      </li>
+    `;
+  }).join('');
 
   App.render(`
     <div class="read-layout">
@@ -123,31 +114,17 @@ App.routes.sequence = function(parts) {
           </div>` : ''}
         </div>
 
-        ${hasExpress ? `
-        <section class="plan-section" data-mode="brief" id="plan-section">
-          <div class="plan-toggle" role="tablist" aria-label="Format du plan">
-            <span class="pt-thumb" aria-hidden="true"></span>
-            <button class="pt-btn pt-active" data-mode="brief" role="tab" aria-selected="true">Plan</button>
-            <button class="pt-btn" data-mode="detailed" role="tab" aria-selected="false">
-              <span class="pt-spark" aria-hidden="true">✦</span> Fiche détaillée
-            </button>
+        <div class="plan-box" id="plan-section" data-mode="brief">
+          <div class="plan-title-row">
+            <span class="plan-title">Plan détaillé</span>
+            ${hasExpress ? `
+              <button type="button" class="plan-expand" aria-expanded="false">
+                <span class="pe-icon" aria-hidden="true">▾</span>
+                <span class="pe-label">Tout déplier</span>
+              </button>` : ''}
           </div>
-          <div class="plan-views">
-            <div class="plan-view plan-view-brief" role="tabpanel">
-              <div class="plan-box">
-                <div class="plan-title">Plan détaillé</div>
-                <ol>${planHtml}</ol>
-              </div>
-            </div>
-            <div class="plan-view plan-view-detailed" role="tabpanel" aria-hidden="true">
-              ${expressHtml}
-            </div>
-          </div>
-        </section>` : `
-        <div class="plan-box">
-          <div class="plan-title">Plan détaillé</div>
           <ol>${planHtml}</ol>
-        </div>`}
+        </div>
 
         ${s.content}
 
@@ -274,48 +251,18 @@ App.routes.sequence = function(parts) {
     if (App._timeRefresh) clearInterval(App._timeRefresh);
     App._timeRefresh = setInterval(refreshTime, 30 * 1000);
 
-    // Plan ↔ Fiche détaillée — toggle stylé
+    // Plan ↔ détails inline : on bascule data-mode="detailed", les
+    // slots .pdg s'écartent in-place via grid-template-rows.
     const planSec = document.getElementById('plan-section');
-    if (planSec) {
-      const toggle = planSec.querySelector('.plan-toggle');
-      const thumb = planSec.querySelector('.pt-thumb');
-      const btns = planSec.querySelectorAll('.pt-btn');
-      const panels = planSec.querySelectorAll('.plan-view');
-      const positionThumb = () => {
-        if (!thumb || !toggle) return;
-        const active = planSec.querySelector('.pt-btn.pt-active');
-        if (!active) return;
-        thumb.style.width = active.offsetWidth + 'px';
-        thumb.style.transform = `translateX(${active.offsetLeft}px)`;
-      };
-      const setMode = (mode) => {
-        if (planSec.dataset.mode === mode) return;
-        planSec.dataset.mode = mode;
-        btns.forEach(b => {
-          const active = b.dataset.mode === mode;
-          b.classList.toggle('pt-active', active);
-          b.setAttribute('aria-selected', active ? 'true' : 'false');
-        });
-        panels.forEach(p => {
-          const active = p.classList.contains('plan-view-' + mode);
-          p.setAttribute('aria-hidden', active ? 'false' : 'true');
-        });
-        positionThumb();
-        // Force re-trigger des animations en cascade côté détaillé
-        if (mode === 'detailed') {
-          const parts = planSec.querySelectorAll('.fx-part');
-          parts.forEach(p => {
-            p.classList.remove('fx-anim-in');
-            void p.offsetWidth;
-            p.classList.add('fx-anim-in');
-          });
-        }
-      };
-      btns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
-      // Init du thumb (avec un léger délai pour laisser les fonts se charger)
-      requestAnimationFrame(positionThumb);
-      setTimeout(positionThumb, 250);
-      window.addEventListener('resize', positionThumb, { passive: true });
+    const expandBtn = planSec && planSec.querySelector('.plan-expand');
+    if (expandBtn) {
+      expandBtn.addEventListener('click', () => {
+        const detailed = planSec.dataset.mode === 'detailed';
+        planSec.dataset.mode = detailed ? 'brief' : 'detailed';
+        expandBtn.setAttribute('aria-expanded', detailed ? 'false' : 'true');
+        const lbl = expandBtn.querySelector('.pe-label');
+        if (lbl) lbl.textContent = detailed ? 'Tout déplier' : 'Replier';
+      });
     }
 
     // Iceberg interactivity (séquence 1) — toggle inline tooltip

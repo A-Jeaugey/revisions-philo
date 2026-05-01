@@ -999,18 +999,24 @@
   border-radius: calc(var(--r) - 6px);
   pointer-events: none;
 }
+.plan-box .plan-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--rule);
+  width: 100%;
+}
 .plan-box .plan-title {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 24px;
   font-weight: 600;
   display: inline-flex; align-items: center; gap: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--rule);
-  width: 100%;
 }
 .plan-box .plan-title::before {
   content: '§';
@@ -1073,232 +1079,101 @@
 }
 
 /* -----------------------------------------------------------
-   PLAN ↔ FICHE EXPRESS — bascule entre plan « sec » et détaillé
+   PLAN — bouton « tout déplier » + slots inline qui s'écartent
+   pour accueillir l'enjeu de chaque partie et l'idée + l'apport
+   de chaque sous-partie. Animation via grid-template-rows 0fr→1fr.
    ----------------------------------------------------------- */
-.plan-section {
-  margin: 36px 0;
-  position: relative;
-}
-.plan-section .plan-box,
-.plan-section .fiche-express { margin: 0; }
-
-.plan-toggle {
+.plan-box .plan-expand {
   display: inline-flex;
-  position: relative;
   align-items: center;
-  gap: 0;
-  padding: 5px;
-  margin: 0 0 18px;
-  background: var(--paper-2, var(--paper));
+  gap: 8px;
+  padding: 7px 14px;
+  background: transparent;
   border: 1px solid var(--ink);
   border-radius: 999px;
-  box-shadow: 0 6px 18px -10px rgba(0,0,0,0.18), inset 0 0 0 1px var(--rule);
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.20em;
-  text-transform: uppercase;
-}
-.plan-toggle .pt-btn {
-  position: relative;
-  z-index: 2;
-  padding: 9px 22px;
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-  color: var(--text-dim);
-  font: inherit;
-  letter-spacing: inherit;
-  text-transform: inherit;
-  border-radius: 999px;
-  transition: color .35s cubic-bezier(.22,1,.36,1);
-  white-space: nowrap;
-}
-.plan-toggle .pt-btn:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-.plan-toggle .pt-btn.pt-active {
   color: var(--ink);
-}
-.plan-toggle .pt-btn:not(.pt-active):hover {
-  color: var(--ink);
-}
-.plan-toggle .pt-spark {
-  display: inline-block;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 13px;
-  line-height: 1;
-  color: var(--accent);
-  margin-right: 4px;
-  transform: translateY(1px);
-  transition: transform .5s cubic-bezier(.22,1,.36,1);
-}
-.plan-toggle .pt-btn:hover .pt-spark { transform: translateY(1px) rotate(180deg); }
-
-.plan-toggle .pt-thumb {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  height: calc(100% - 10px);
-  width: 0;
-  background: var(--accent);
-  border-radius: 999px;
-  box-shadow: 0 6px 14px -6px var(--accent), 0 0 0 1px var(--accent);
-  transition: transform .42s cubic-bezier(.22,1,.36,1),
-              width .42s cubic-bezier(.22,1,.36,1);
-  z-index: 1;
-  pointer-events: none;
-}
-
-/* Pulse subtil sur l'onglet inactif pour inviter au clic */
-.plan-section[data-mode="brief"] .pt-btn[data-mode="detailed"]::after,
-.plan-section[data-mode="detailed"] .pt-btn[data-mode="brief"]::after {
-  content: '';
-  position: absolute;
-  inset: 4px;
-  border-radius: 999px;
-  pointer-events: none;
-  animation: pt-pulse 2.4s ease-in-out infinite;
-}
-@keyframes pt-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(0,0,0,0); }
-  50%      { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .plan-section[data-mode] .pt-btn::after { animation: none; }
-}
-
-/* Vues empilées : la vue inactive est en absolu pour ne pas peser
-   sur la hauteur, mais reste dans le flux pendant la transition. */
-.plan-views {
-  position: relative;
-}
-.plan-view {
-  transition:
-    opacity .42s cubic-bezier(.22,1,.36,1),
-    transform .42s cubic-bezier(.22,1,.36,1),
-    filter .42s cubic-bezier(.22,1,.36,1);
-}
-.plan-section[data-mode="brief"] .plan-view-detailed,
-.plan-section[data-mode="detailed"] .plan-view-brief {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(14px) scale(0.985);
-  filter: blur(2px);
-}
-.plan-section[data-mode="brief"] .plan-view-brief,
-.plan-section[data-mode="detailed"] .plan-view-detailed {
-  opacity: 1;
-  transform: none;
-  filter: none;
-}
-
-/* Cascade des parties quand on passe en mode détaillé */
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in {
-  animation: fx-stagger .65s cubic-bezier(.22,1,.36,1) backwards;
-}
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(1) { animation-delay: .12s; }
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(2) { animation-delay: .22s; }
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(3) { animation-delay: .32s; }
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(4) { animation-delay: .42s; }
-.plan-section[data-mode="detailed"] .fx-part.fx-anim-in:nth-child(5) { animation-delay: .52s; }
-@keyframes fx-stagger {
-  from { opacity: 0; transform: translateY(28px) scale(0.985); filter: blur(2px); }
-  to   { opacity: 1; transform: translateY(0)    scale(1);     filter: blur(0); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .plan-section[data-mode="detailed"] .fx-part.fx-anim-in { animation: none; }
-  .plan-view { transition: opacity .15s linear; }
-}
-
-/* -----------------------------------------------------------
-   FICHE EXPRESS — réviser une séquence en un coup d'œil
-   Pour chaque sous-partie : auteur · idée simplifiée · apport.
-   ----------------------------------------------------------- */
-.fiche-express {
-  margin: 36px 0;
-  padding: 36px 40px 32px;
-  border: 1.5px solid var(--ink);
-  border-radius: var(--r);
-  background: var(--paper);
-  position: relative;
-}
-.fiche-express::before {
-  content: '';
-  position: absolute; inset: 6px;
-  border: 1px solid var(--rule);
-  border-radius: calc(var(--r) - 6px);
-  pointer-events: none;
-}
-.fiche-express > * { position: relative; z-index: 1; }
-
-.fiche-express .fx-eyebrow {
   font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--accent);
+  font-size: 10.5px;
   font-weight: 600;
-  margin-bottom: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .25s cubic-bezier(.22,1,.36,1),
+              color .25s cubic-bezier(.22,1,.36,1),
+              transform .25s cubic-bezier(.22,1,.36,1),
+              box-shadow .25s cubic-bezier(.22,1,.36,1);
 }
-.fiche-express .fx-title {
-  font-family: var(--font-display);
-  font-size: clamp(22px, 2.4vw, 28px);
-  font-weight: 500;
-  font-style: italic;
-  color: var(--ink);
-  margin: 0 0 22px;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
-  padding-bottom: 18px;
-  border-bottom: 1px solid var(--rule);
+.plan-box .plan-expand:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px -8px var(--accent);
 }
-
-.fiche-express .fx-part {
-  display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 20px;
-  padding: 22px 0 4px;
-  border-bottom: 1px dashed var(--rule);
+.plan-box .plan-expand:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
-.fiche-express .fx-part:last-child { border-bottom: 0; }
-
-.fiche-express .fx-part-num {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 500;
-  font-size: 38px;
-  color: var(--accent);
+.plan-box .plan-expand .pe-icon {
+  display: inline-block;
+  font-size: 10px;
   line-height: 1;
-  text-align: right;
-  padding-top: 2px;
+  transform: rotate(0deg);
+  transition: transform .45s cubic-bezier(.22,1,.36,1);
+}
+.plan-box[data-mode="detailed"] .plan-expand {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.plan-box[data-mode="detailed"] .plan-expand .pe-icon {
+  transform: rotate(180deg);
 }
 
-.fiche-express .fx-part-title {
-  font-family: var(--font-display);
-  font-size: 21px;
-  font-weight: 500;
-  color: var(--ink);
-  margin: 0 0 10px;
-  line-height: 1.3;
-  letter-spacing: -0.012em;
+/* Slot d'expansion : grid 0fr → 1fr anime la hauteur sans valeur fixe */
+.plan-box .pdg {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .55s cubic-bezier(.22,1,.36,1);
+  transition-delay: calc(var(--idx, 0) * 35ms);
+}
+.plan-box .pdg > .pdg-inner {
+  overflow: hidden;
+  min-height: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity .35s cubic-bezier(.22,1,.36,1),
+              transform .35s cubic-bezier(.22,1,.36,1);
+  transition-delay: calc(var(--idx, 0) * 35ms);
+}
+.plan-box[data-mode="detailed"] .pdg {
+  grid-template-rows: 1fr;
+}
+.plan-box[data-mode="detailed"] .pdg > .pdg-inner {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.fiche-express .fx-why {
-  margin: 0 0 16px;
+/* Pour la fermeture, on inverse la cascade (haut → bas devient bas → haut) */
+.plan-box[data-mode="brief"] .pdg,
+.plan-box[data-mode="brief"] .pdg > .pdg-inner {
+  transition-delay: 0ms;
+}
+
+/* Contenu des slots */
+.plan-box .plan-enjeu {
+  margin: 8px 0 6px;
   padding: 10px 14px;
   background: var(--accent-soft);
   border-left: 2px solid var(--accent);
   border-radius: 0 var(--r-sm) var(--r-sm) 0;
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.55;
   color: var(--text);
+  font-weight: 400;
+  font-style: normal;
 }
-.fiche-express .fx-why-tag {
+.plan-box .plan-enjeu-tag {
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 9.5px;
@@ -1309,87 +1184,72 @@
   margin-right: 8px;
 }
 
-.fiche-express .fx-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 8px;
+/* Sous-parties : ligne avec auteur en pastille */
+.plan-box .psub-line {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
-.fiche-express .fx-item {
-  padding: 12px 0;
-  border-top: 1px solid var(--rule);
-}
-.fiche-express .fx-item:first-child { border-top: 0; padding-top: 4px; }
-
-.fiche-express .fx-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 10px;
-  margin-bottom: 6px;
-}
-.fiche-express .fx-auth {
+.plan-box .psub-auth {
+  display: inline-block;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 9.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--ink);
   background: var(--accent);
-  padding: 3px 10px;
+  padding: 2px 8px;
+  margin-left: 6px;
   border-radius: 999px;
-}
-.fiche-express .fx-thesis {
-  font-family: var(--font-display);
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--ink);
-  font-style: italic;
-  letter-spacing: -0.005em;
+  vertical-align: 2px;
+  white-space: nowrap;
 }
 
-.fiche-express .fx-idee {
+.plan-box .plan-idee {
+  margin: 6px 0 4px;
+  padding: 0;
   font-family: var(--font-body);
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--text);
-  margin: 0 0 6px;
-}
-.fiche-express .fx-apport {
-  font-family: var(--font-body);
-  font-size: 13.5px;
+  font-size: 14px;
   line-height: 1.55;
-  color: var(--text-dim);
-  margin: 4px 0 0;
-  padding-left: 14px;
-  border-left: 2px solid var(--rule);
+  color: var(--text);
+  font-weight: 400;
+  font-style: normal;
 }
-.fiche-express .fx-apport-tag {
+.plan-box .plan-apport {
+  margin: 2px 0 8px;
+  padding: 2px 0 2px 14px;
+  border-left: 2px solid var(--rule);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-dim);
+  font-weight: 400;
+  font-style: normal;
+}
+.plan-box .plan-apport-tag {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 9.5px;
-  letter-spacing: 0.22em;
+  font-size: 9px;
+  letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--accent);
   font-weight: 600;
   margin-right: 6px;
 }
 
-.fiche-express .fx-simple {
-  padding: 6px 0;
-  font-size: 14px;
-  color: var(--text-dim);
-}
-
 @media (max-width: 720px) {
-  .fiche-express { padding: 24px 22px 22px; }
-  .fiche-express .fx-part {
-    grid-template-columns: 1fr;
-    gap: 6px;
+  .plan-box .plan-title-row {
+    flex-wrap: wrap;
+    gap: 10px;
   }
-  .fiche-express .fx-part-num {
-    text-align: left;
-    font-size: 28px;
-  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plan-box .pdg,
+  .plan-box .pdg > .pdg-inner { transition-duration: .15s; transition-delay: 0ms; }
+  .plan-box .plan-expand,
+  .plan-box .plan-expand .pe-icon { transition-duration: .1s; }
 }
 
 /* Aside cards */

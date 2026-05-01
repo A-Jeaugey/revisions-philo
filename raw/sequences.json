@@ -39,26 +39,74 @@
     "plan": [
       {
         "t": "La connaissance de soi nécessite la conscience de soi",
+        "enjeu": "On part de l'évidence : j'ai une conscience qui me permet de me regarder agir et penser. Si elle suffit à me connaître, la question est tranchée.",
         "sub": [
-          "« Je pense, je suis » : première certitude (DESCARTES)",
-          "La conscience de soi fonde l'unité de la personne (KANT)",
-          "L'homme est un « être pour soi » (HEGEL)"
+          {
+            "t": "« Je pense, je suis » : première certitude",
+            "auteur": "Descartes",
+            "idee": "Je peux douter de tout (mes sens me trompent, je rêve peut-être, un malin génie me manipule). Mais pour douter, il faut bien que je pense — donc j'existe comme chose pensante.",
+            "apport": "Pose la conscience comme première certitude indubitable, socle de tout savoir possible."
+          },
+          {
+            "t": "La conscience de soi fonde l'unité de la personne",
+            "auteur": "Kant",
+            "idee": "Pouvoir dire « Je » à travers tous mes changements me fait être une seule et même personne — je sais que l'enfant de 6 ans, c'était moi.",
+            "apport": "Sans la conscience de soi, pas d'identité personnelle dans le temps, ni de dignité humaine."
+          },
+          {
+            "t": "L'homme est un « être pour soi »",
+            "auteur": "Hegel",
+            "idee": "L'animal est, l'homme se prend pour objet : il se regarde agir, se réfléchit dans ses œuvres et ses actes pour se découvrir.",
+            "apport": "La connaissance de soi n'est pas donnée — elle se construit dans le rapport actif à soi."
+          }
         ]
       },
       {
         "t": "Le moi occulte",
+        "enjeu": "Mais ma conscience ne couvre pas tout ce que je suis : une part énorme m'échappe. D'où l'hypothèse d'un moi caché qui agit sans que je le sache.",
         "sub": [
-          "Les « petites perceptions » inconscientes (LEIBNIZ)",
-          "L'illusion de libre arbitre (SPINOZA)",
-          "L'inconscient psychique (FREUD)"
+          {
+            "t": "Les « petites perceptions » inconscientes",
+            "auteur": "Leibniz",
+            "idee": "Le bruit de la mer, c'est le bruit de mille vagues qu'on n'entend pas une à une. Une foule de phénomènes psychiques sont trop petits ou trop nombreux pour devenir conscients.",
+            "apport": "Première brèche : la conscience laisse passer d'innombrables phénomènes — l'inconscient n'est pas une exception."
+          },
+          {
+            "t": "L'illusion du libre arbitre",
+            "auteur": "Spinoza",
+            "idee": "Une pierre lancée qui se mettrait à penser croirait qu'elle vole parce qu'elle le veut. On se croit libre parce qu'on est conscient de ses désirs — sans voir les causes qui les déterminent.",
+            "apport": "Le libre arbitre tombe : la conscience révèle nos désirs mais cache leurs causes."
+          },
+          {
+            "t": "L'inconscient psychique",
+            "auteur": "Freud",
+            "idee": "Pour expliquer les rêves, lapsus, actes manqués et névroses, il faut supposer un inconscient — désirs refoulés, pulsions (Éros, Thanatos) — qui agit en sous-main. Le Moi n'est pas maître chez lui.",
+            "apport": "Bouleverse la question : la conscience est la pointe d'un iceberg, l'essentiel se passe ailleurs."
+          }
         ]
       },
       {
         "t": "L'existence humaine, la liberté et le temps",
+        "enjeu": "Dernière difficulté : « le moi » n'est peut-être pas une chose qu'on découvre, mais quelque chose qu'on construit dans le temps, par ses choix.",
         "sub": [
-          "Qu'est-ce que le moi ? (PASCAL)",
-          "La perfectibilité (ROUSSEAU)",
-          "Le moi est un projet (SARTRE)"
+          {
+            "t": "Qu'est-ce que le moi ?",
+            "auteur": "Pascal",
+            "idee": "Le moi n'est ni dans le corps (la beauté périt), ni dans l'âme (on peut perdre sa mémoire sans cesser d'être soi). On n'aime jamais une personne, seulement des qualités empruntées.",
+            "apport": "Le moi se dérobe à toute définition substantielle : il n'est nulle part « comme une chose »."
+          },
+          {
+            "t": "La perfectibilité",
+            "auteur": "Rousseau",
+            "idee": "Contrairement à l'animal figé dans son espèce, l'homme peut se transformer indéfiniment, pour le meilleur ou le pire. Sa « nature » est de ne pas en avoir une fixée.",
+            "apport": "L'identité humaine est ouverte — un devenir, pas une essence."
+          },
+          {
+            "t": "Le moi est un projet",
+            "auteur": "Sartre",
+            "idee": "Pour un coupe-papier, l'essence précède l'existence (l'artisan a un plan). Pour l'homme, l'inverse : on existe d'abord, on se définit ensuite par ses choix. On est condamné à être libre.",
+            "apport": "Conclusion : l'identité n'est jamais figée. Elle est un projet jusqu'à la mort, dont on est responsable."
+          }
         ]
       }
     ]
@@ -90,27 +138,80 @@
     "plan": [
       {
         "t": "La raison seule peut nous conduire à la vérité",
+        "enjeu": "Premier réflexe : la raison, méthodique et universelle, semble la seule faculté capable de dépasser les illusions des sens et des opinions pour viser le vrai.",
         "sub": [
-          "La raison face aux obstacles à la vérité (Galilée)",
-          "L'exigence d'une méthode rationnelle (Descartes)",
-          "La maîtrise rationnelle de l'expérience (Torricelli)"
+          {
+            "t": "La raison face aux obstacles à la vérité",
+            "auteur": "Galilée",
+            "idee": "Au procès de l'Inquisition, il prouve par expérience (boîte de papier + boîte de sable tombant ensemble) que les corps ne tombent pas selon leur poids. La raison ose contre l'évidence sensible et l'autorité d'Aristote.",
+            "apport": "La science avance en surmontant les obstacles épistémologiques. La raison ose contre la tradition."
+          },
+          {
+            "t": "L'exigence d'une méthode rationnelle",
+            "auteur": "Descartes",
+            "idee": "Le bon sens est universel mais mal employé. Il faut une méthode : douter de tout, repartir d'intuitions évidentes (« Je pense, je suis »), puis déduire pas à pas — comme les mathématiciens.",
+            "apport": "Donne au savoir un modèle solide : doute → intuitions premières → déduction."
+          },
+          {
+            "t": "La maîtrise rationnelle de l'expérience",
+            "auteur": "Torricelli",
+            "idee": "Pour expliquer pourquoi l'eau ne monte pas au-delà de 10 m dans une pompe, il fait l'hypothèse de la pression de l'air et la teste avec son tube de mercure (qui s'arrête à 76 cm).",
+            "apport": "Naissance de la méthode expérimentale : la raison construit des hypothèses et les soumet au réel."
+          }
         ]
       },
       {
         "t": "Mais la raison se doit d'être raisonnable et reconnaître ses limites",
+        "enjeu": "Une raison qui ne s'interroge pas sur ses propres limites devient dogmatique. Il faut la critiquer pour la sauver.",
         "sub": [
-          "Limites des sciences formelles et naturelles (Hume)",
-          "Impossibilité de démontrer Dieu, l'âme, la liberté (Kant)",
-          "Limites des sciences humaines (Dilthey)"
+          {
+            "t": "Limites des sciences formelles et naturelles",
+            "auteur": "Hume",
+            "idee": "Les vérités mathématiques sont certaines mais formelles — elles ne disent rien du monde. Quant aux lois de la nature, elles reposent sur l'induction (« le soleil s'est levé hier... »), simple habitude sans nécessité logique.",
+            "apport": "Distingue vérités formelles (a priori, vides) et matérielles (a posteriori, incertaines)."
+          },
+          {
+            "t": "L'impossibilité de démontrer Dieu, l'âme, la liberté",
+            "auteur": "Kant",
+            "idee": "On peut penser Dieu, mais pas le connaître. La raison ne saisit que des phénomènes — la réalité filtrée par nos sens et nos catégories — jamais les choses en soi. Dieu, l'âme, la liberté : objets de croyance, pas de savoir.",
+            "apport": "Trace les frontières de la connaissance rationnelle. Le dogmatisme métaphysique tombe."
+          },
+          {
+            "t": "Limites des sciences humaines",
+            "auteur": "Dilthey",
+            "idee": "L'homme étant libre, son comportement n'obéit pas à des lois prédictibles comme la chute d'une pierre. On peut seulement comprendre / interpréter ses actes, pas les expliquer.",
+            "apport": "Distinction décisive : expliquer (nature) / comprendre (humain). La science a ses zones d'inaccès."
+          }
         ]
       },
       {
         "t": "Il faut donc reconsidérer nos espoirs de vérité et les moyens d'y parvenir",
+        "enjeu": "La vérité reste un idéal — mais elle s'atteint par essais, mobilise l'imagination, et peut prendre d'autres voies que la pure raison.",
         "sub": [
-          "Théorie scientifique vraie = falsifiable (Popper)",
-          "Le rôle de l'imagination (Einstein)",
-          "Les vérités qui se sentent (Pascal)",
-          "La vérité esthétique (Bergson)"
+          {
+            "t": "Une théorie scientifique « vraie » est une théorie falsifiable",
+            "auteur": "Popper",
+            "idee": "Une théorie n'est jamais prouvée définitivement. Elle est scientifique si elle peut être réfutée par une expérience future. Les vérités scientifiques sont des hypothèses en sursis.",
+            "apport": "Critère de falsifiabilité : la vérité scientifique est provisoire, toujours révisable."
+          },
+          {
+            "t": "Le rôle de l'imagination dans la science",
+            "auteur": "Einstein",
+            "idee": "Comprendre la nature, c'est comme deviner le mécanisme d'une montre fermée. Les concepts (force, énergie) ne sont pas dictés par les sens : ce sont des créations libres de l'esprit.",
+            "apport": "La science n'est pas pur enregistrement — elle invente. L'imagination y joue un rôle décisif."
+          },
+          {
+            "t": "Les vérités qui se sentent",
+            "auteur": "Pascal",
+            "idee": "Les axiomes des mathématiques sont indémontrables : ils se sentent. « Le cœur a ses raisons que la raison ne connaît point. » Il existe des vérités du cœur, à côté de celles de la raison.",
+            "apport": "La raison n'a pas le monopole du vrai. Certaines vérités s'éprouvent intuitivement."
+          },
+          {
+            "t": "La vérité esthétique",
+            "auteur": "Bergson",
+            "idee": "L'artiste perçoit le réel autrement, débarrassé des concepts habituels. Son œuvre nous révèle des vérités sur la nature et sur nous-mêmes que la science manque.",
+            "apport": "L'art aussi est voie d'accès à la vérité, par la sensibilité et l'intuition."
+          }
         ]
       }
     ]
@@ -137,27 +238,80 @@
     "plan": [
       {
         "t": "Le langage verbal : témoignage de la pensée ?",
+        "enjeu": "On part d'un constat : la parole est ce qui distingue clairement l'homme. Premier indice qu'elle exprime fidèlement la pensée derrière elle.",
         "sub": [
-          "Communication animale vs langage linguistique",
-          "Le langage est l'extériorisation de la pensée (Descartes)",
-          "Le langage traduit l'activité créatrice (Chomsky)"
+          {
+            "t": "Communication animale vs langage linguistique",
+            "auteur": "Saussure",
+            "idee": "Le cri animal traduit un état (peur, faim) — le signe linguistique humain est arbitraire (rien dans le mot « chien » n'évoque l'animal), décomposable, recombinable à l'infini.",
+            "apport": "Pose la spécificité humaine : le langage n'est pas réaction mais système de signes au service d'une intention consciente."
+          },
+          {
+            "t": "Le langage est l'extériorisation de la pensée",
+            "auteur": "Descartes",
+            "idee": "Un perroquet peut prononcer des mots sans penser ; un sourd-muet invente lui-même des signes pour exprimer ses pensées. La parole est « la seule marque assurée de la pensée cachée dans le corps ».",
+            "apport": "Le langage prouve qu'il y a derrière le corps un esprit qui pense — donc qu'on a accès à la pensée d'autrui."
+          },
+          {
+            "t": "Le langage traduit l'activité créatrice de la pensée",
+            "auteur": "Chomsky",
+            "idee": "Tout locuteur produit en permanence des phrases inédites que personne n'a jamais entendues, et tout le monde les comprend. Parler, ce n'est pas piocher dans un stock — c'est créer.",
+            "apport": "Le langage est libre et combinatoire, à l'image d'une pensée qui invente."
+          }
         ]
       },
       {
         "t": "Langage et pensée sont indissociables",
+        "enjeu": "Mais le langage ne se contente pas de traduire la pensée — il la rend possible. Sans mots, la pensée resterait informe.",
         "sub": [
-          "La pensée est un langage verbal intérieur (Platon, Hegel)",
-          "La langue cartographie le monde (Saussure)",
-          "Aboutissement de la pensée par les idées générales (Rousseau)"
+          {
+            "t": "La pensée est un langage intérieur",
+            "auteur": "Platon",
+            "idee": "« Penser, c'est le dialogue intérieur et silencieux de l'âme avec elle-même. » Quand on pense, on se parle à soi-même : la pensée a déjà la forme d'un discours.",
+            "apport": "Refus d'une pensée « pure » qui précéderait le langage : penser = parler intérieurement."
+          },
+          {
+            "t": "La langue cartographie le monde",
+            "auteur": "Saussure",
+            "idee": "La langue découpe simultanément le son et le sens : « bleu » se distingue de « pleut » et la couleur bleue se distingue du vert. Sans ce double découpage, ni concepts, ni perception nette.",
+            "apport": "Sans langue, la pensée serait une masse confuse. Les concepts naissent du découpage linguistique."
+          },
+          {
+            "t": "Le langage est l'aboutissement de la pensée",
+            "auteur": "Rousseau",
+            "idee": "Essaie de te représenter « un arbre en général » — impossible, tu vois toujours un arbre particulier. Les idées générales (triangle, justice, animal) n'existent que par les mots.",
+            "apport": "Sans le mot, pas d'idée générale, pas de pensée abstraite. Le langage donne sa forme la plus haute à la pensée."
+          }
         ]
       },
       {
         "t": "Les discontinuités entre langage et pensée",
+        "enjeu": "Mais cette adéquation a un prix : le langage généralise. Il manque la singularité des choses, des vécus — et il peut tromper.",
         "sub": [
-          "Le langage voile l'individualité (Bergson)",
-          "La conscience est une généralisation (Nietzsche)",
-          "Langage et inconscient",
-          "Le pouvoir politique du langage"
+          {
+            "t": "Le langage voile l'individualité",
+            "auteur": "Bergson",
+            "idee": "L'œil du loup ne distingue pas un agneau d'un agneau. Notre langage non plus : on dit « tristesse » sans voir que ma tristesse n'est pas la tienne. Seuls les artistes (poètes, romanciers) percent ce voile.",
+            "apport": "Le mot manque la singularité du réel et de notre vie intérieure — l'art est le moyen exceptionnel d'y accéder."
+          },
+          {
+            "t": "La conscience est une généralisation",
+            "auteur": "Nietzsche",
+            "idee": "Tout ce qui devient conscient devient « plat, générique ». La conscience s'est développée pour permettre la communication en société — elle ne saisit que la surface, l'utile, le partagé.",
+            "apport": "Critique radicale : la conscience verbale appauvrit la vie. La pensée la plus riche reste inexprimable."
+          },
+          {
+            "t": "Le langage et l'inconscient",
+            "auteur": "Freud",
+            "idee": "L'inconscient parle, mais en code : rêves, lapsus, symptômes. Le travail du psychanalyste consiste à déchiffrer ce langage symbolique que le patient lui-même ne comprend pas.",
+            "apport": "Une part de notre pensée s'exprime sans qu'on la maîtrise — la parole consciente n'est pas toute la pensée."
+          },
+          {
+            "t": "Le pouvoir politique du langage",
+            "auteur": "Rhétorique",
+            "idee": "Convaincre, c'est obtenir l'accord par des arguments rationnels. Persuader, c'est l'obtenir en jouant sur la sensibilité, les peurs, les préjugés. Le discours politique exploite cet écart.",
+            "apport": "Le langage peut être délibérément déconnecté de la pensée — outil de manipulation et de pouvoir."
+          }
         ]
       }
     ]
@@ -183,25 +337,63 @@
     "tint": "#e08aa8",
     "plan": [
       {
-        "t": "L'art = travail + technique mis au service d'œuvres gratuites et originales",
+        "t": "L'art = travail + technique au service d'œuvres gratuites et originales",
+        "enjeu": "Premier réflexe : on cherche les caractéristiques visibles de l'art (savoir-faire, beauté, originalité) pour le distinguer de l'artisanat ou de la production industrielle.",
         "sub": [
-          "Travail et technique",
-          "Gratuité et liberté créatrice",
-          "Originalité et génie (Kant)"
+          {
+            "t": "L'art se définit par le travail et la technique",
+            "auteur": "Nietzsche",
+            "idee": "Pas de génie mystérieux : l'œuvre est le résultat d'un travail acharné, de privations, d'apprentissage. On admire le génie parce qu'on ne voit que l'œuvre finie, jamais sa fabrication.",
+            "apport": "Désacralise l'art. Il s'enracine dans le travail et la technique — comme tout savoir-faire."
+          },
+          {
+            "t": "La gratuité de l'art rend possible la liberté créatrice",
+            "auteur": "Arendt / Alain",
+            "idee": "L'œuvre d'art ne sert à rien (Arendt). Contrairement à l'artisan qui exécute un plan, le peintre découvre son œuvre à mesure qu'il la fait — il en est lui-même le spectateur (Alain).",
+            "apport": "L'art se distingue par sa gratuité. Sans finalité utilitaire, l'imagination peut être libre."
+          },
+          {
+            "t": "Originalité et génie",
+            "auteur": "Kant",
+            "idee": "Le génie produit des œuvres exemplaires sans suivre de règles connues. Il ignore lui-même comment ses idées lui viennent : à travers lui, c'est la nature qui prescrit les règles à l'art.",
+            "apport": "L'originalité du chef-d'œuvre échappe à la simple maîtrise technique. Quelque chose résiste à l'explication."
+          }
         ]
       },
       {
-        "t": "Création de belles œuvres ayant ouverture sur le monde",
+        "t": "L'art crée de belles œuvres qui ouvrent sur le monde",
+        "enjeu": "Une autre piste : et si l'art se définissait par sa finalité — produire de la beauté, et à travers elle, donner à voir le réel autrement ?",
         "sub": [
-          "La beauté objective",
-          "La belle représentation des choses (Kant)"
+          {
+            "t": "La beauté objective",
+            "auteur": "Aristote",
+            "idee": "Pour les Anciens, le beau, c'est l'ordonné, le bien fait par rapport à sa finalité. L'art imite la nature et nous fait contempler avec plaisir même un cadavre ou un animal repoussant.",
+            "apport": "Conception classique : le beau est une harmonie présente dans l'objet, accessible par l'imitation."
+          },
+          {
+            "t": "La belle représentation des choses",
+            "auteur": "Kant",
+            "idee": "Le beau n'est pas l'agréable (subjectif et sensoriel). Il est subjectif mais universel : quand je dis « c'est beau », je l'exige des autres, comme si c'était une qualité de l'objet. Il plaît « universellement sans concept ».",
+            "apport": "Sortie du relativisme (« chacun ses goûts ») : le beau prétend à un accord universel, même s'il reste indéfinissable."
+          }
         ]
       },
       {
-        "t": "Œuvres qui défamiliarisent notre regard sur les choses",
+        "t": "L'art défamiliarise notre regard sur les choses",
+        "enjeu": "Mais l'art contemporain (Duchamp, Manzoni) bouscule tout : ni beauté, ni technique, ni originalité. Il faut donc une définition plus radicale.",
         "sub": [
-          "Remise en question des caractéristiques (Duchamp, Manzoni)",
-          "La défamiliarisation : seule caractéristique universelle"
+          {
+            "t": "La remise en question des caractéristiques de l'art",
+            "auteur": "Duchamp / Manzoni",
+            "idee": "La Fontaine de Duchamp (un urinoir signé) ou la Merda d'artista de Manzoni n'ont ni technique, ni beauté, ni originalité. Et pourtant ce sont des œuvres d'art reconnues.",
+            "apport": "Toutes les caractéristiques classiques (beauté, savoir-faire, originalité) deviennent accidentelles, pas essentielles."
+          },
+          {
+            "t": "La défamiliarisation : seule caractéristique universelle",
+            "auteur": "Christo",
+            "idee": "Quand Christo emballe le Reichstag pendant des mois, les Berlinois redécouvrent un monument qu'ils ne voyaient plus. L'art rend étrange ce que l'habitude avait effacé — il fait voir.",
+            "apport": "Définition essentielle de l'art : court-circuiter le regard habituel, donner accès à une vérité que l'habitude masque."
+          }
         ]
       }
     ]
@@ -229,26 +421,68 @@
     "plan": [
       {
         "t": "La justice et la morale ne sont pas des notions naturelles",
+        "enjeu": "Avant de demander si l'État doit décider du juste, on regarde s'il existe une justice naturelle, antérieure à l'État. Réponse : non — la justice est une construction politique.",
         "sub": [
-          "Pas de justice ni droit à l'état de nature (Rousseau)",
-          "Sociétés sauvages sans État (Clastres)",
-          "L'homme a besoin d'un maître (Kant)"
+          {
+            "t": "Pas de justice ni de droit à l'état de nature",
+            "auteur": "Rousseau",
+            "idee": "L'homme à l'état de nature est un « animal borné » solitaire, qui ne connaît que la pitié naturelle. Ni vices, ni vertus, ni morale, ni justice — juste la satisfaction des besoins primaires.",
+            "apport": "Le juste et l'injuste ne sont pas inscrits dans la nature humaine. Ce sont des notions qui apparaissent avec la culture."
+          },
+          {
+            "t": "Les sociétés sauvages sans État",
+            "auteur": "Clastres",
+            "idee": "Chez les Indiens d'Amazonie, le chef n'a aucune autorité de coercition. C'est un orateur qui doit se montrer généreux. La société se passe d'État en empêchant activement son apparition.",
+            "apport": "L'État n'est ni naturel ni nécessaire. D'autres formes d'organisation sont possibles — mais fragiles face à nos sociétés étatiques."
+          },
+          {
+            "t": "L'homme a besoin d'un maître",
+            "auteur": "Kant",
+            "idee": "L'homme a une « insociable sociabilité » : besoin d'autrui mais penchant à l'égoïsme. Sans contrainte extérieure, il abuse de sa liberté. Il faut donc un maître — mais le maître aussi sera tenté.",
+            "apport": "L'État devient nécessaire pour réguler une nature humaine ambivalente, sans illusion sur la pureté du pouvoir."
+          }
         ]
       },
       {
         "t": "Il revient à l'État de décider de ce qui est juste",
+        "enjeu": "Si la justice n'est pas naturelle, c'est l'État qui l'institue. Reste à savoir d'où il tire sa légitimité — et si la justice qu'il rend est vraiment juste.",
         "sub": [
-          "Légitimité du pouvoir : contrat social",
-          "Hobbes : pessimiste",
-          "Locke : optimiste",
-          "La justice repose sur la force (Pascal, Marx, Rawls)"
+          {
+            "t": "Le contrat social — perspective pessimiste",
+            "auteur": "Hobbes",
+            "idee": "À l'état de nature, c'est la guerre de tous contre tous : la vie y est « brève, solitaire, misérable ». Pour en sortir, les hommes transfèrent toutes leurs libertés à un souverain absolu (le Léviathan). Mieux vaut un pouvoir illimité que pas de pouvoir.",
+            "apport": "Justifie un État fort. Le souverain décide du juste — c'est lui qui rend la liberté possible en limitant les libertés naturelles."
+          },
+          {
+            "t": "Le contrat social — perspective optimiste",
+            "auteur": "Locke",
+            "idee": "L'homme à l'état de nature est moral et rationnel ; il reconnaît les droits naturels d'autrui (vie, propriété, liberté). L'État n'est qu'un arbitre limité, divisé, responsable, qui protège ces droits.",
+            "apport": "Fonde le libéralisme politique : un État au pouvoir encadré, qui ne décide pas du juste mais protège les droits naturels."
+          },
+          {
+            "t": "La justice repose sur la force",
+            "auteur": "Pascal / Marx / Rawls",
+            "idee": "« La justice sans la force est impuissante » (Pascal). Pour Marx, les lois reflètent la domination des plus forts économiquement. Pour Rawls, l'inégalité sociale gangrène la démocratie elle-même.",
+            "apport": "Limite décisive : ce que l'État dit juste reflète souvent un rapport de force. La justice formelle n'est pas la justice réelle."
+          }
         ]
       },
       {
-        "t": "La justice est aussi morale et relève de la conscience",
+        "t": "La justice est aussi morale, et relève de la conscience",
+        "enjeu": "Si l'État peut se tromper, le citoyen ne lui doit pas une obéissance aveugle. Il y a une justice intérieure qui peut s'opposer à la justice légale.",
         "sub": [
-          "Conflit loi politique / loi morale (Antigone)",
-          "Désobéissance civile (Rawls)"
+          {
+            "t": "Le conflit entre loi politique et loi morale",
+            "auteur": "Antigone (Sophocle)",
+            "idee": "Créon interdit d'enterrer le frère d'Antigone (traître à la cité). Antigone désobéit au nom d'un devoir moral supérieur. Elle sera emmurée vivante. Légalité (Créon) contre légitimité (Antigone).",
+            "apport": "Distinction décisive : ce qui est légal n'est pas toujours légitime. La conscience morale peut surpasser la loi écrite."
+          },
+          {
+            "t": "La désobéissance civile",
+            "auteur": "Rawls",
+            "idee": "« Acte public, non-violent, décidé en conscience, contraire à la loi, visant à la modifier. » Pas une infraction égoïste : un appel public à corriger une injustice — sans détruire l'État.",
+            "apport": "Conciliation : on peut désobéir à une loi tout en restant fidèle au principe démocratique. Le citoyen reste juge."
+          }
         ]
       }
     ]
@@ -277,11 +511,32 @@
     "plan": [
       {
         "t": "Une morale qui vise le bonheur est possible",
+        "enjeu": "On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Trois positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu.",
         "sub": [
-          "Le bonheur ne consiste pas dans l'hédonisme radical (Calliclès)",
-          "Bonheur indissociable du bien moral",
-          "L'épicurisme : l'hédonisme modéré",
-          "Le stoïcisme : la vertu fait le bonheur"
+          {
+            "t": "Le bonheur n'est pas l'hédonisme radical",
+            "auteur": "Calliclès (Platon)",
+            "idee": "Pour Calliclès, vivre selon la nature, c'est satisfaire tous ses désirs sans frein (gourmandise, débauche). Mais Socrate lui répond : la vie démesurée est un tonneau des Danaïdes — un manque sans fin, une frustration permanente.",
+            "apport": "Premier rejet : le plaisir illimité ne fait pas le bonheur. Trop de plaisir engendre lassitude, le désir renaît sans cesse."
+          },
+          {
+            "t": "Le bonheur est indissociable du bien moral",
+            "auteur": "Vertu (Aristote)",
+            "idee": "Plutôt que suivre nos inclinations animales, agir selon la raison — qui fait notre essence d'homme. Le bonheur passe par les vertus : courage, prudence, modération, justice.",
+            "apport": "Le bonheur n'est pas séparable de la moralité. La vie heureuse est une vie réussie selon ce qui nous est propre — la raison."
+          },
+          {
+            "t": "L'épicurisme : l'hédonisme modéré",
+            "auteur": "Épicure",
+            "idee": "Ne satisfaire que les désirs naturels et nécessaires (manger quand on a faim) ; fuir les désirs vains (gloire, richesse) qui font plus souffrir que jouir. Le but : l'ataraxie — l'absence de trouble physique et mental.",
+            "apport": "Le bonheur n'est pas l'excès mais la sérénité. Une vie tranquille, faite de petits plaisirs accessibles, suffit."
+          },
+          {
+            "t": "Le stoïcisme : la vertu fait le bonheur",
+            "auteur": "Stoïciens",
+            "idee": "Agir sur soi plutôt que sur le monde. Distinguer ce qui dépend de nous (nos pensées, nos jugements) de ce qui n'en dépend pas (la santé, la réussite, la mort) — et se détacher du second.",
+            "apport": "Bonheur absolu et non relatif aux circonstances. La vertu rationnelle suffit à elle-même."
+          }
         ]
       }
     ]

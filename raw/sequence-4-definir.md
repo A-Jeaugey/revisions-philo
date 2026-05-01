@@ -6,16 +6,33 @@
 
 ## Plan détaillé
 
-1. **L'art = travail + technique mis au service d'œuvres gratuites et originales**
-   - Travail et technique
-   - Gratuité et liberté créatrice
-   - Originalité et génie (Kant)
-2. **Création de belles œuvres ayant ouverture sur le monde**
-   - La beauté objective
-   - La belle représentation des choses (Kant)
-3. **Œuvres qui défamiliarisent notre regard sur les choses**
-   - Remise en question des caractéristiques (Duchamp, Manzoni)
-   - La défamiliarisation : seule caractéristique universelle
+1. **L'art = travail + technique au service d'œuvres gratuites et originales**
+   _Pourquoi ce moment :_ Premier réflexe : on cherche les caractéristiques visibles de l'art (savoir-faire, beauté, originalité) pour le distinguer de l'artisanat ou de la production industrielle.
+   - **Nietzsche** — L'art se définit par le travail et la technique
+     · Pas de génie mystérieux : l'œuvre est le résultat d'un travail acharné, de privations, d'apprentissage. On admire le génie parce qu'on ne voit que l'œuvre finie, jamais sa fabrication.
+     · _Apport :_ Désacralise l'art. Il s'enracine dans le travail et la technique — comme tout savoir-faire.
+   - **Arendt / Alain** — La gratuité de l'art rend possible la liberté créatrice
+     · L'œuvre d'art ne sert à rien (Arendt). Contrairement à l'artisan qui exécute un plan, le peintre découvre son œuvre à mesure qu'il la fait — il en est lui-même le spectateur (Alain).
+     · _Apport :_ L'art se distingue par sa gratuité. Sans finalité utilitaire, l'imagination peut être libre.
+   - **Kant** — Originalité et génie
+     · Le génie produit des œuvres exemplaires sans suivre de règles connues. Il ignore lui-même comment ses idées lui viennent : à travers lui, c'est la nature qui prescrit les règles à l'art.
+     · _Apport :_ L'originalité du chef-d'œuvre échappe à la simple maîtrise technique. Quelque chose résiste à l'explication.
+2. **L'art crée de belles œuvres qui ouvrent sur le monde**
+   _Pourquoi ce moment :_ Une autre piste : et si l'art se définissait par sa finalité — produire de la beauté, et à travers elle, donner à voir le réel autrement ?
+   - **Aristote** — La beauté objective
+     · Pour les Anciens, le beau, c'est l'ordonné, le bien fait par rapport à sa finalité. L'art imite la nature et nous fait contempler avec plaisir même un cadavre ou un animal repoussant.
+     · _Apport :_ Conception classique : le beau est une harmonie présente dans l'objet, accessible par l'imitation.
+   - **Kant** — La belle représentation des choses
+     · Le beau n'est pas l'agréable (subjectif et sensoriel). Il est subjectif mais universel : quand je dis « c'est beau », je l'exige des autres, comme si c'était une qualité de l'objet. Il plaît « universellement sans concept ».
+     · _Apport :_ Sortie du relativisme (« chacun ses goûts ») : le beau prétend à un accord universel, même s'il reste indéfinissable.
+3. **L'art défamiliarise notre regard sur les choses**
+   _Pourquoi ce moment :_ Mais l'art contemporain (Duchamp, Manzoni) bouscule tout : ni beauté, ni technique, ni originalité. Il faut donc une définition plus radicale.
+   - **Duchamp / Manzoni** — La remise en question des caractéristiques de l'art
+     · La Fontaine de Duchamp (un urinoir signé) ou la Merda d'artista de Manzoni n'ont ni technique, ni beauté, ni originalité. Et pourtant ce sont des œuvres d'art reconnues.
+     · _Apport :_ Toutes les caractéristiques classiques (beauté, savoir-faire, originalité) deviennent accidentelles, pas essentielles.
+   - **Christo** — La défamiliarisation : seule caractéristique universelle
+     · Quand Christo emballe le Reichstag pendant des mois, les Berlinois redécouvrent un monument qu'ils ne voyaient plus. L'art rend étrange ce que l'habitude avait effacé — il fait voir.
+     · _Apport :_ Définition essentielle de l'art : court-circuiter le regard habituel, donner accès à une vérité que l'habitude masque.
 
 ---
 

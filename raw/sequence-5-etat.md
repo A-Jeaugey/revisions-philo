@@ -8,17 +8,35 @@
 ## Plan détaillé
 
 1. **La justice et la morale ne sont pas des notions naturelles**
-   - Pas de justice ni droit à l'état de nature (Rousseau)
-   - Sociétés sauvages sans État (Clastres)
-   - L'homme a besoin d'un maître (Kant)
+   _Pourquoi ce moment :_ Avant de demander si l'État doit décider du juste, on regarde s'il existe une justice naturelle, antérieure à l'État. Réponse : non — la justice est une construction politique.
+   - **Rousseau** — Pas de justice ni de droit à l'état de nature
+     · L'homme à l'état de nature est un « animal borné » solitaire, qui ne connaît que la pitié naturelle. Ni vices, ni vertus, ni morale, ni justice — juste la satisfaction des besoins primaires.
+     · _Apport :_ Le juste et l'injuste ne sont pas inscrits dans la nature humaine. Ce sont des notions qui apparaissent avec la culture.
+   - **Clastres** — Les sociétés sauvages sans État
+     · Chez les Indiens d'Amazonie, le chef n'a aucune autorité de coercition. C'est un orateur qui doit se montrer généreux. La société se passe d'État en empêchant activement son apparition.
+     · _Apport :_ L'État n'est ni naturel ni nécessaire. D'autres formes d'organisation sont possibles — mais fragiles face à nos sociétés étatiques.
+   - **Kant** — L'homme a besoin d'un maître
+     · L'homme a une « insociable sociabilité » : besoin d'autrui mais penchant à l'égoïsme. Sans contrainte extérieure, il abuse de sa liberté. Il faut donc un maître — mais le maître aussi sera tenté.
+     · _Apport :_ L'État devient nécessaire pour réguler une nature humaine ambivalente, sans illusion sur la pureté du pouvoir.
 2. **Il revient à l'État de décider de ce qui est juste**
-   - Légitimité du pouvoir : contrat social
-   - Hobbes : pessimiste
-   - Locke : optimiste
-   - La justice repose sur la force (Pascal, Marx, Rawls)
-3. **La justice est aussi morale et relève de la conscience**
-   - Conflit loi politique / loi morale (Antigone)
-   - Désobéissance civile (Rawls)
+   _Pourquoi ce moment :_ Si la justice n'est pas naturelle, c'est l'État qui l'institue. Reste à savoir d'où il tire sa légitimité — et si la justice qu'il rend est vraiment juste.
+   - **Hobbes** — Le contrat social — perspective pessimiste
+     · À l'état de nature, c'est la guerre de tous contre tous : la vie y est « brève, solitaire, misérable ». Pour en sortir, les hommes transfèrent toutes leurs libertés à un souverain absolu (le Léviathan). Mieux vaut un pouvoir illimité que pas de pouvoir.
+     · _Apport :_ Justifie un État fort. Le souverain décide du juste — c'est lui qui rend la liberté possible en limitant les libertés naturelles.
+   - **Locke** — Le contrat social — perspective optimiste
+     · L'homme à l'état de nature est moral et rationnel ; il reconnaît les droits naturels d'autrui (vie, propriété, liberté). L'État n'est qu'un arbitre limité, divisé, responsable, qui protège ces droits.
+     · _Apport :_ Fonde le libéralisme politique : un État au pouvoir encadré, qui ne décide pas du juste mais protège les droits naturels.
+   - **Pascal / Marx / Rawls** — La justice repose sur la force
+     · « La justice sans la force est impuissante » (Pascal). Pour Marx, les lois reflètent la domination des plus forts économiquement. Pour Rawls, l'inégalité sociale gangrène la démocratie elle-même.
+     · _Apport :_ Limite décisive : ce que l'État dit juste reflète souvent un rapport de force. La justice formelle n'est pas la justice réelle.
+3. **La justice est aussi morale, et relève de la conscience**
+   _Pourquoi ce moment :_ Si l'État peut se tromper, le citoyen ne lui doit pas une obéissance aveugle. Il y a une justice intérieure qui peut s'opposer à la justice légale.
+   - **Antigone (Sophocle)** — Le conflit entre loi politique et loi morale
+     · Créon interdit d'enterrer le frère d'Antigone (traître à la cité). Antigone désobéit au nom d'un devoir moral supérieur. Elle sera emmurée vivante. Légalité (Créon) contre légitimité (Antigone).
+     · _Apport :_ Distinction décisive : ce qui est légal n'est pas toujours légitime. La conscience morale peut surpasser la loi écrite.
+   - **Rawls** — La désobéissance civile
+     · « Acte public, non-violent, décidé en conscience, contraire à la loi, visant à la modifier. » Pas une infraction égoïste : un appel public à corriger une injustice — sans détruire l'État.
+     · _Apport :_ Conciliation : on peut désobéir à une loi tout en restant fidèle au principe démocratique. Le citoyen reste juge.
 
 ---
 

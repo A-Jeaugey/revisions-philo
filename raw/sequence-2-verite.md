@@ -9,18 +9,41 @@
 ## Plan détaillé
 
 1. **La raison seule peut nous conduire à la vérité**
-   - La raison face aux obstacles à la vérité (Galilée)
-   - L'exigence d'une méthode rationnelle (Descartes)
-   - La maîtrise rationnelle de l'expérience (Torricelli)
+   _Pourquoi ce moment :_ Premier réflexe : la raison, méthodique et universelle, semble la seule faculté capable de dépasser les illusions des sens et des opinions pour viser le vrai.
+   - **Galilée** — La raison face aux obstacles à la vérité
+     · Au procès de l'Inquisition, il prouve par expérience (boîte de papier + boîte de sable tombant ensemble) que les corps ne tombent pas selon leur poids. La raison ose contre l'évidence sensible et l'autorité d'Aristote.
+     · _Apport :_ La science avance en surmontant les obstacles épistémologiques. La raison ose contre la tradition.
+   - **Descartes** — L'exigence d'une méthode rationnelle
+     · Le bon sens est universel mais mal employé. Il faut une méthode : douter de tout, repartir d'intuitions évidentes (« Je pense, je suis »), puis déduire pas à pas — comme les mathématiciens.
+     · _Apport :_ Donne au savoir un modèle solide : doute → intuitions premières → déduction.
+   - **Torricelli** — La maîtrise rationnelle de l'expérience
+     · Pour expliquer pourquoi l'eau ne monte pas au-delà de 10 m dans une pompe, il fait l'hypothèse de la pression de l'air et la teste avec son tube de mercure (qui s'arrête à 76 cm).
+     · _Apport :_ Naissance de la méthode expérimentale : la raison construit des hypothèses et les soumet au réel.
 2. **Mais la raison se doit d'être raisonnable et reconnaître ses limites**
-   - Limites des sciences formelles et naturelles (Hume)
-   - Impossibilité de démontrer Dieu, l'âme, la liberté (Kant)
-   - Limites des sciences humaines (Dilthey)
+   _Pourquoi ce moment :_ Une raison qui ne s'interroge pas sur ses propres limites devient dogmatique. Il faut la critiquer pour la sauver.
+   - **Hume** — Limites des sciences formelles et naturelles
+     · Les vérités mathématiques sont certaines mais formelles — elles ne disent rien du monde. Quant aux lois de la nature, elles reposent sur l'induction (« le soleil s'est levé hier... »), simple habitude sans nécessité logique.
+     · _Apport :_ Distingue vérités formelles (a priori, vides) et matérielles (a posteriori, incertaines).
+   - **Kant** — L'impossibilité de démontrer Dieu, l'âme, la liberté
+     · On peut penser Dieu, mais pas le connaître. La raison ne saisit que des phénomènes — la réalité filtrée par nos sens et nos catégories — jamais les choses en soi. Dieu, l'âme, la liberté : objets de croyance, pas de savoir.
+     · _Apport :_ Trace les frontières de la connaissance rationnelle. Le dogmatisme métaphysique tombe.
+   - **Dilthey** — Limites des sciences humaines
+     · L'homme étant libre, son comportement n'obéit pas à des lois prédictibles comme la chute d'une pierre. On peut seulement comprendre / interpréter ses actes, pas les expliquer.
+     · _Apport :_ Distinction décisive : expliquer (nature) / comprendre (humain). La science a ses zones d'inaccès.
 3. **Il faut donc reconsidérer nos espoirs de vérité et les moyens d'y parvenir**
-   - Théorie scientifique vraie = falsifiable (Popper)
-   - Le rôle de l'imagination (Einstein)
-   - Les vérités qui se sentent (Pascal)
-   - La vérité esthétique (Bergson)
+   _Pourquoi ce moment :_ La vérité reste un idéal — mais elle s'atteint par essais, mobilise l'imagination, et peut prendre d'autres voies que la pure raison.
+   - **Popper** — Une théorie scientifique « vraie » est une théorie falsifiable
+     · Une théorie n'est jamais prouvée définitivement. Elle est scientifique si elle peut être réfutée par une expérience future. Les vérités scientifiques sont des hypothèses en sursis.
+     · _Apport :_ Critère de falsifiabilité : la vérité scientifique est provisoire, toujours révisable.
+   - **Einstein** — Le rôle de l'imagination dans la science
+     · Comprendre la nature, c'est comme deviner le mécanisme d'une montre fermée. Les concepts (force, énergie) ne sont pas dictés par les sens : ce sont des créations libres de l'esprit.
+     · _Apport :_ La science n'est pas pur enregistrement — elle invente. L'imagination y joue un rôle décisif.
+   - **Pascal** — Les vérités qui se sentent
+     · Les axiomes des mathématiques sont indémontrables : ils se sentent. « Le cœur a ses raisons que la raison ne connaît point. » Il existe des vérités du cœur, à côté de celles de la raison.
+     · _Apport :_ La raison n'a pas le monopole du vrai. Certaines vérités s'éprouvent intuitivement.
+   - **Bergson** — La vérité esthétique
+     · L'artiste perçoit le réel autrement, débarrassé des concepts habituels. Son œuvre nous révèle des vérités sur la nature et sur nous-mêmes que la science manque.
+     · _Apport :_ L'art aussi est voie d'accès à la vérité, par la sensibilité et l'intuition.
 
 ---
 

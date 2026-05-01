@@ -25,17 +25,38 @@ Tu sens bien que tu existes, que c'est toi qui penses et qui choisis. Mais est-c
 ## Plan détaillé
 
 1. **La connaissance de soi nécessite la conscience de soi**
-   - « Je pense, je suis » : première certitude (DESCARTES)
-   - La conscience de soi fonde l'unité de la personne (KANT)
-   - L'homme est un « être pour soi » (HEGEL)
+   _Pourquoi ce moment :_ On part de l'évidence : j'ai une conscience qui me permet de me regarder agir et penser. Si elle suffit à me connaître, la question est tranchée.
+   - **Descartes** — « Je pense, je suis » : première certitude
+     · Je peux douter de tout (mes sens me trompent, je rêve peut-être, un malin génie me manipule). Mais pour douter, il faut bien que je pense — donc j'existe comme chose pensante.
+     · _Apport :_ Pose la conscience comme première certitude indubitable, socle de tout savoir possible.
+   - **Kant** — La conscience de soi fonde l'unité de la personne
+     · Pouvoir dire « Je » à travers tous mes changements me fait être une seule et même personne — je sais que l'enfant de 6 ans, c'était moi.
+     · _Apport :_ Sans la conscience de soi, pas d'identité personnelle dans le temps, ni de dignité humaine.
+   - **Hegel** — L'homme est un « être pour soi »
+     · L'animal est, l'homme se prend pour objet : il se regarde agir, se réfléchit dans ses œuvres et ses actes pour se découvrir.
+     · _Apport :_ La connaissance de soi n'est pas donnée — elle se construit dans le rapport actif à soi.
 2. **Le moi occulte**
-   - Les « petites perceptions » inconscientes (LEIBNIZ)
-   - L'illusion de libre arbitre (SPINOZA)
-   - L'inconscient psychique (FREUD)
+   _Pourquoi ce moment :_ Mais ma conscience ne couvre pas tout ce que je suis : une part énorme m'échappe. D'où l'hypothèse d'un moi caché qui agit sans que je le sache.
+   - **Leibniz** — Les « petites perceptions » inconscientes
+     · Le bruit de la mer, c'est le bruit de mille vagues qu'on n'entend pas une à une. Une foule de phénomènes psychiques sont trop petits ou trop nombreux pour devenir conscients.
+     · _Apport :_ Première brèche : la conscience laisse passer d'innombrables phénomènes — l'inconscient n'est pas une exception.
+   - **Spinoza** — L'illusion du libre arbitre
+     · Une pierre lancée qui se mettrait à penser croirait qu'elle vole parce qu'elle le veut. On se croit libre parce qu'on est conscient de ses désirs — sans voir les causes qui les déterminent.
+     · _Apport :_ Le libre arbitre tombe : la conscience révèle nos désirs mais cache leurs causes.
+   - **Freud** — L'inconscient psychique
+     · Pour expliquer les rêves, lapsus, actes manqués et névroses, il faut supposer un inconscient — désirs refoulés, pulsions (Éros, Thanatos) — qui agit en sous-main. Le Moi n'est pas maître chez lui.
+     · _Apport :_ Bouleverse la question : la conscience est la pointe d'un iceberg, l'essentiel se passe ailleurs.
 3. **L'existence humaine, la liberté et le temps**
-   - Qu'est-ce que le moi ? (PASCAL)
-   - La perfectibilité (ROUSSEAU)
-   - Le moi est un projet (SARTRE)
+   _Pourquoi ce moment :_ Dernière difficulté : « le moi » n'est peut-être pas une chose qu'on découvre, mais quelque chose qu'on construit dans le temps, par ses choix.
+   - **Pascal** — Qu'est-ce que le moi ?
+     · Le moi n'est ni dans le corps (la beauté périt), ni dans l'âme (on peut perdre sa mémoire sans cesser d'être soi). On n'aime jamais une personne, seulement des qualités empruntées.
+     · _Apport :_ Le moi se dérobe à toute définition substantielle : il n'est nulle part « comme une chose ».
+   - **Rousseau** — La perfectibilité
+     · Contrairement à l'animal figé dans son espèce, l'homme peut se transformer indéfiniment, pour le meilleur ou le pire. Sa « nature » est de ne pas en avoir une fixée.
+     · _Apport :_ L'identité humaine est ouverte — un devenir, pas une essence.
+   - **Sartre** — Le moi est un projet
+     · Pour un coupe-papier, l'essence précède l'existence (l'artisan a un plan). Pour l'homme, l'inverse : on existe d'abord, on se définit ensuite par ses choix. On est condamné à être libre.
+     · _Apport :_ Conclusion : l'identité n'est jamais figée. Elle est un projet jusqu'à la mort, dont on est responsable.
 
 ---
 

@@ -8,18 +8,41 @@
 ## Plan détaillé
 
 1. **Le langage verbal : témoignage de la pensée ?**
-   - Communication animale vs langage linguistique
-   - Le langage est l'extériorisation de la pensée (Descartes)
-   - Le langage traduit l'activité créatrice (Chomsky)
+   _Pourquoi ce moment :_ On part d'un constat : la parole est ce qui distingue clairement l'homme. Premier indice qu'elle exprime fidèlement la pensée derrière elle.
+   - **Saussure** — Communication animale vs langage linguistique
+     · Le cri animal traduit un état (peur, faim) — le signe linguistique humain est arbitraire (rien dans le mot « chien » n'évoque l'animal), décomposable, recombinable à l'infini.
+     · _Apport :_ Pose la spécificité humaine : le langage n'est pas réaction mais système de signes au service d'une intention consciente.
+   - **Descartes** — Le langage est l'extériorisation de la pensée
+     · Un perroquet peut prononcer des mots sans penser ; un sourd-muet invente lui-même des signes pour exprimer ses pensées. La parole est « la seule marque assurée de la pensée cachée dans le corps ».
+     · _Apport :_ Le langage prouve qu'il y a derrière le corps un esprit qui pense — donc qu'on a accès à la pensée d'autrui.
+   - **Chomsky** — Le langage traduit l'activité créatrice de la pensée
+     · Tout locuteur produit en permanence des phrases inédites que personne n'a jamais entendues, et tout le monde les comprend. Parler, ce n'est pas piocher dans un stock — c'est créer.
+     · _Apport :_ Le langage est libre et combinatoire, à l'image d'une pensée qui invente.
 2. **Langage et pensée sont indissociables**
-   - La pensée est un langage verbal intérieur (Platon, Hegel)
-   - La langue cartographie le monde (Saussure)
-   - Aboutissement de la pensée par les idées générales (Rousseau)
+   _Pourquoi ce moment :_ Mais le langage ne se contente pas de traduire la pensée — il la rend possible. Sans mots, la pensée resterait informe.
+   - **Platon** — La pensée est un langage intérieur
+     · « Penser, c'est le dialogue intérieur et silencieux de l'âme avec elle-même. » Quand on pense, on se parle à soi-même : la pensée a déjà la forme d'un discours.
+     · _Apport :_ Refus d'une pensée « pure » qui précéderait le langage : penser = parler intérieurement.
+   - **Saussure** — La langue cartographie le monde
+     · La langue découpe simultanément le son et le sens : « bleu » se distingue de « pleut » et la couleur bleue se distingue du vert. Sans ce double découpage, ni concepts, ni perception nette.
+     · _Apport :_ Sans langue, la pensée serait une masse confuse. Les concepts naissent du découpage linguistique.
+   - **Rousseau** — Le langage est l'aboutissement de la pensée
+     · Essaie de te représenter « un arbre en général » — impossible, tu vois toujours un arbre particulier. Les idées générales (triangle, justice, animal) n'existent que par les mots.
+     · _Apport :_ Sans le mot, pas d'idée générale, pas de pensée abstraite. Le langage donne sa forme la plus haute à la pensée.
 3. **Les discontinuités entre langage et pensée**
-   - Le langage voile l'individualité (Bergson)
-   - La conscience est une généralisation (Nietzsche)
-   - Langage et inconscient
-   - Le pouvoir politique du langage
+   _Pourquoi ce moment :_ Mais cette adéquation a un prix : le langage généralise. Il manque la singularité des choses, des vécus — et il peut tromper.
+   - **Bergson** — Le langage voile l'individualité
+     · L'œil du loup ne distingue pas un agneau d'un agneau. Notre langage non plus : on dit « tristesse » sans voir que ma tristesse n'est pas la tienne. Seuls les artistes (poètes, romanciers) percent ce voile.
+     · _Apport :_ Le mot manque la singularité du réel et de notre vie intérieure — l'art est le moyen exceptionnel d'y accéder.
+   - **Nietzsche** — La conscience est une généralisation
+     · Tout ce qui devient conscient devient « plat, générique ». La conscience s'est développée pour permettre la communication en société — elle ne saisit que la surface, l'utile, le partagé.
+     · _Apport :_ Critique radicale : la conscience verbale appauvrit la vie. La pensée la plus riche reste inexprimable.
+   - **Freud** — Le langage et l'inconscient
+     · L'inconscient parle, mais en code : rêves, lapsus, symptômes. Le travail du psychanalyste consiste à déchiffrer ce langage symbolique que le patient lui-même ne comprend pas.
+     · _Apport :_ Une part de notre pensée s'exprime sans qu'on la maîtrise — la parole consciente n'est pas toute la pensée.
+   - **Rhétorique** — Le pouvoir politique du langage
+     · Convaincre, c'est obtenir l'accord par des arguments rationnels. Persuader, c'est l'obtenir en jouant sur la sensibilité, les peurs, les préjugés. Le discours politique exploite cet écart.
+     · _Apport :_ Le langage peut être délibérément déconnecté de la pensée — outil de manipulation et de pouvoir.
 
 ---
 

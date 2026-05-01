@@ -12,7 +12,36 @@ window.SEQUENCE_6 = {
   tint: "#d4a85a",
   inProgress: true,
   plan: [
-    { t: "Une morale qui vise le bonheur est possible", sub: ["Le bonheur ne consiste pas dans l'hédonisme radical (Calliclès)","Bonheur indissociable du bien moral","L'épicurisme : l'hédonisme modéré","Le stoïcisme : la vertu fait le bonheur"] }
+    {
+      t: "Une morale qui vise le bonheur est possible",
+      enjeu: "On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Trois positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu.",
+      sub: [
+        {
+          t: "Le bonheur n'est pas l'hédonisme radical",
+          auteur: "Calliclès (Platon)",
+          idee: "Pour Calliclès, vivre selon la nature, c'est satisfaire tous ses désirs sans frein (gourmandise, débauche). Mais Socrate lui répond : la vie démesurée est un tonneau des Danaïdes — un manque sans fin, une frustration permanente.",
+          apport: "Premier rejet : le plaisir illimité ne fait pas le bonheur. Trop de plaisir engendre lassitude, le désir renaît sans cesse."
+        },
+        {
+          t: "Le bonheur est indissociable du bien moral",
+          auteur: "Vertu (Aristote)",
+          idee: "Plutôt que suivre nos inclinations animales, agir selon la raison — qui fait notre essence d'homme. Le bonheur passe par les vertus : courage, prudence, modération, justice.",
+          apport: "Le bonheur n'est pas séparable de la moralité. La vie heureuse est une vie réussie selon ce qui nous est propre — la raison."
+        },
+        {
+          t: "L'épicurisme : l'hédonisme modéré",
+          auteur: "Épicure",
+          idee: "Ne satisfaire que les désirs naturels et nécessaires (manger quand on a faim) ; fuir les désirs vains (gloire, richesse) qui font plus souffrir que jouir. Le but : l'ataraxie — l'absence de trouble physique et mental.",
+          apport: "Le bonheur n'est pas l'excès mais la sérénité. Une vie tranquille, faite de petits plaisirs accessibles, suffit."
+        },
+        {
+          t: "Le stoïcisme : la vertu fait le bonheur",
+          auteur: "Stoïciens",
+          idee: "Agir sur soi plutôt que sur le monde. Distinguer ce qui dépend de nous (nos pensées, nos jugements) de ce qui n'en dépend pas (la santé, la réussite, la mort) — et se détacher du second.",
+          apport: "Bonheur absolu et non relatif aux circonstances. La vertu rationnelle suffit à elle-même."
+        }
+      ]
+    }
   ],
   content: `
 <div class="callout warn">

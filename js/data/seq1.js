@@ -22,9 +22,78 @@ window.SEQUENCE_1 = {
     retenir: "Tu as conscience de toi, mais tu ne te connais pas vraiment — et c'est normal. Comprendre ça, c'est déjà commencer la philosophie."
   },
   plan: [
-    { t: "La connaissance de soi nécessite la conscience de soi", sub: ["« Je pense, je suis » : première certitude (DESCARTES)","La conscience de soi fonde l'unité de la personne (KANT)","L'homme est un « être pour soi » (HEGEL)"] },
-    { t: "Le moi occulte", sub: ["Les « petites perceptions » inconscientes (LEIBNIZ)","L'illusion de libre arbitre (SPINOZA)","L'inconscient psychique (FREUD)"] },
-    { t: "L'existence humaine, la liberté et le temps", sub: ["Qu'est-ce que le moi ? (PASCAL)","La perfectibilité (ROUSSEAU)","Le moi est un projet (SARTRE)"] }
+    {
+      t: "La connaissance de soi nécessite la conscience de soi",
+      enjeu: "On part de l'évidence : j'ai une conscience qui me permet de me regarder agir et penser. Si elle suffit à me connaître, la question est tranchée.",
+      sub: [
+        {
+          t: "« Je pense, je suis » : première certitude",
+          auteur: "Descartes",
+          idee: "Je peux douter de tout (mes sens me trompent, je rêve peut-être, un malin génie me manipule). Mais pour douter, il faut bien que je pense — donc j'existe comme chose pensante.",
+          apport: "Pose la conscience comme première certitude indubitable, socle de tout savoir possible."
+        },
+        {
+          t: "La conscience de soi fonde l'unité de la personne",
+          auteur: "Kant",
+          idee: "Pouvoir dire « Je » à travers tous mes changements me fait être une seule et même personne — je sais que l'enfant de 6 ans, c'était moi.",
+          apport: "Sans la conscience de soi, pas d'identité personnelle dans le temps, ni de dignité humaine."
+        },
+        {
+          t: "L'homme est un « être pour soi »",
+          auteur: "Hegel",
+          idee: "L'animal est, l'homme se prend pour objet : il se regarde agir, se réfléchit dans ses œuvres et ses actes pour se découvrir.",
+          apport: "La connaissance de soi n'est pas donnée — elle se construit dans le rapport actif à soi."
+        }
+      ]
+    },
+    {
+      t: "Le moi occulte",
+      enjeu: "Mais ma conscience ne couvre pas tout ce que je suis : une part énorme m'échappe. D'où l'hypothèse d'un moi caché qui agit sans que je le sache.",
+      sub: [
+        {
+          t: "Les « petites perceptions » inconscientes",
+          auteur: "Leibniz",
+          idee: "Le bruit de la mer, c'est le bruit de mille vagues qu'on n'entend pas une à une. Une foule de phénomènes psychiques sont trop petits ou trop nombreux pour devenir conscients.",
+          apport: "Première brèche : la conscience laisse passer d'innombrables phénomènes — l'inconscient n'est pas une exception."
+        },
+        {
+          t: "L'illusion du libre arbitre",
+          auteur: "Spinoza",
+          idee: "Une pierre lancée qui se mettrait à penser croirait qu'elle vole parce qu'elle le veut. On se croit libre parce qu'on est conscient de ses désirs — sans voir les causes qui les déterminent.",
+          apport: "Le libre arbitre tombe : la conscience révèle nos désirs mais cache leurs causes."
+        },
+        {
+          t: "L'inconscient psychique",
+          auteur: "Freud",
+          idee: "Pour expliquer les rêves, lapsus, actes manqués et névroses, il faut supposer un inconscient — désirs refoulés, pulsions (Éros, Thanatos) — qui agit en sous-main. Le Moi n'est pas maître chez lui.",
+          apport: "Bouleverse la question : la conscience est la pointe d'un iceberg, l'essentiel se passe ailleurs."
+        }
+      ]
+    },
+    {
+      t: "L'existence humaine, la liberté et le temps",
+      enjeu: "Dernière difficulté : « le moi » n'est peut-être pas une chose qu'on découvre, mais quelque chose qu'on construit dans le temps, par ses choix.",
+      sub: [
+        {
+          t: "Qu'est-ce que le moi ?",
+          auteur: "Pascal",
+          idee: "Le moi n'est ni dans le corps (la beauté périt), ni dans l'âme (on peut perdre sa mémoire sans cesser d'être soi). On n'aime jamais une personne, seulement des qualités empruntées.",
+          apport: "Le moi se dérobe à toute définition substantielle : il n'est nulle part « comme une chose »."
+        },
+        {
+          t: "La perfectibilité",
+          auteur: "Rousseau",
+          idee: "Contrairement à l'animal figé dans son espèce, l'homme peut se transformer indéfiniment, pour le meilleur ou le pire. Sa « nature » est de ne pas en avoir une fixée.",
+          apport: "L'identité humaine est ouverte — un devenir, pas une essence."
+        },
+        {
+          t: "Le moi est un projet",
+          auteur: "Sartre",
+          idee: "Pour un coupe-papier, l'essence précède l'existence (l'artisan a un plan). Pour l'homme, l'inverse : on existe d'abord, on se définit ensuite par ses choix. On est condamné à être libre.",
+          apport: "Conclusion : l'identité n'est jamais figée. Elle est un projet jusqu'à la mort, dont on est responsable."
+        }
+      ]
+    }
   ],
   content: `
 <h2 id="intro">Introduction</h2>

@@ -11,9 +11,84 @@ window.SEQUENCE_3 = {
   work: null,
   tint: "#9b7ed4",
   plan: [
-    { t: "Le langage verbal : témoignage de la pensée ?", sub: ["Communication animale vs langage linguistique","Le langage est l'extériorisation de la pensée (Descartes)","Le langage traduit l'activité créatrice (Chomsky)"] },
-    { t: "Langage et pensée sont indissociables", sub: ["La pensée est un langage verbal intérieur (Platon, Hegel)","La langue cartographie le monde (Saussure)","Aboutissement de la pensée par les idées générales (Rousseau)"] },
-    { t: "Les discontinuités entre langage et pensée", sub: ["Le langage voile l'individualité (Bergson)","La conscience est une généralisation (Nietzsche)","Langage et inconscient","Le pouvoir politique du langage"] }
+    {
+      t: "Le langage verbal : témoignage de la pensée ?",
+      enjeu: "On part d'un constat : la parole est ce qui distingue clairement l'homme. Premier indice qu'elle exprime fidèlement la pensée derrière elle.",
+      sub: [
+        {
+          t: "Communication animale vs langage linguistique",
+          auteur: "Saussure",
+          idee: "Le cri animal traduit un état (peur, faim) — le signe linguistique humain est arbitraire (rien dans le mot « chien » n'évoque l'animal), décomposable, recombinable à l'infini.",
+          apport: "Pose la spécificité humaine : le langage n'est pas réaction mais système de signes au service d'une intention consciente."
+        },
+        {
+          t: "Le langage est l'extériorisation de la pensée",
+          auteur: "Descartes",
+          idee: "Un perroquet peut prononcer des mots sans penser ; un sourd-muet invente lui-même des signes pour exprimer ses pensées. La parole est « la seule marque assurée de la pensée cachée dans le corps ».",
+          apport: "Le langage prouve qu'il y a derrière le corps un esprit qui pense — donc qu'on a accès à la pensée d'autrui."
+        },
+        {
+          t: "Le langage traduit l'activité créatrice de la pensée",
+          auteur: "Chomsky",
+          idee: "Tout locuteur produit en permanence des phrases inédites que personne n'a jamais entendues, et tout le monde les comprend. Parler, ce n'est pas piocher dans un stock — c'est créer.",
+          apport: "Le langage est libre et combinatoire, à l'image d'une pensée qui invente."
+        }
+      ]
+    },
+    {
+      t: "Langage et pensée sont indissociables",
+      enjeu: "Mais le langage ne se contente pas de traduire la pensée — il la rend possible. Sans mots, la pensée resterait informe.",
+      sub: [
+        {
+          t: "La pensée est un langage intérieur",
+          auteur: "Platon",
+          idee: "« Penser, c'est le dialogue intérieur et silencieux de l'âme avec elle-même. » Quand on pense, on se parle à soi-même : la pensée a déjà la forme d'un discours.",
+          apport: "Refus d'une pensée « pure » qui précéderait le langage : penser = parler intérieurement."
+        },
+        {
+          t: "La langue cartographie le monde",
+          auteur: "Saussure",
+          idee: "La langue découpe simultanément le son et le sens : « bleu » se distingue de « pleut » et la couleur bleue se distingue du vert. Sans ce double découpage, ni concepts, ni perception nette.",
+          apport: "Sans langue, la pensée serait une masse confuse. Les concepts naissent du découpage linguistique."
+        },
+        {
+          t: "Le langage est l'aboutissement de la pensée",
+          auteur: "Rousseau",
+          idee: "Essaie de te représenter « un arbre en général » — impossible, tu vois toujours un arbre particulier. Les idées générales (triangle, justice, animal) n'existent que par les mots.",
+          apport: "Sans le mot, pas d'idée générale, pas de pensée abstraite. Le langage donne sa forme la plus haute à la pensée."
+        }
+      ]
+    },
+    {
+      t: "Les discontinuités entre langage et pensée",
+      enjeu: "Mais cette adéquation a un prix : le langage généralise. Il manque la singularité des choses, des vécus — et il peut tromper.",
+      sub: [
+        {
+          t: "Le langage voile l'individualité",
+          auteur: "Bergson",
+          idee: "L'œil du loup ne distingue pas un agneau d'un agneau. Notre langage non plus : on dit « tristesse » sans voir que ma tristesse n'est pas la tienne. Seuls les artistes (poètes, romanciers) percent ce voile.",
+          apport: "Le mot manque la singularité du réel et de notre vie intérieure — l'art est le moyen exceptionnel d'y accéder."
+        },
+        {
+          t: "La conscience est une généralisation",
+          auteur: "Nietzsche",
+          idee: "Tout ce qui devient conscient devient « plat, générique ». La conscience s'est développée pour permettre la communication en société — elle ne saisit que la surface, l'utile, le partagé.",
+          apport: "Critique radicale : la conscience verbale appauvrit la vie. La pensée la plus riche reste inexprimable."
+        },
+        {
+          t: "Le langage et l'inconscient",
+          auteur: "Freud",
+          idee: "L'inconscient parle, mais en code : rêves, lapsus, symptômes. Le travail du psychanalyste consiste à déchiffrer ce langage symbolique que le patient lui-même ne comprend pas.",
+          apport: "Une part de notre pensée s'exprime sans qu'on la maîtrise — la parole consciente n'est pas toute la pensée."
+        },
+        {
+          t: "Le pouvoir politique du langage",
+          auteur: "Rhétorique",
+          idee: "Convaincre, c'est obtenir l'accord par des arguments rationnels. Persuader, c'est l'obtenir en jouant sur la sensibilité, les peurs, les préjugés. Le discours politique exploite cet écart.",
+          apport: "Le langage peut être délibérément déconnecté de la pensée — outil de manipulation et de pouvoir."
+        }
+      ]
+    }
   ],
   content: `
 <h2 id="intro">Introduction</h2>

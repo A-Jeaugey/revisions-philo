@@ -224,7 +224,7 @@ window.SEQUENCE_3.content += `
 
 <p>Le langage verbal est la preuve de l'existence d'une conscience réfléchie chez l'autre personne.</p>
 
-<p>L'exemple convoqué par Descartes (les perroquets, les sourds et les muets, les hommes stupides, les malades mentaux) (Samuel) montrent que la condition de possibilité du langage verbal n'est pas la possession d'organes appropriés mais la pensée qui devient consciente.</p>
+<p>L'exemple convoqué par Descartes (les perroquets, les sourds et les muets, les hommes stupides, les malades mentaux) montrent que la condition de possibilité du langage verbal n'est pas la possession d'organes appropriés mais la pensée qui devient consciente.</p>
 
 <p>D'un côté, on voit les perroquets disposer d'organes pour prononcer des paroles sans témoigner qu'ils pensent ce qu'ils disent ; de l'autre on constate que les sourds et les muets, quoique dépourvus des organes habituels de la parole, inventent d'eux-mêmes un langage verbal pour exprimer leurs pensées.</p>
 

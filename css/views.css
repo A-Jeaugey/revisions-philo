@@ -249,13 +249,13 @@
   max-width: var(--container);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 16px;
 }
 
 /* Bento : 1ère carte large (2 cols x 2 lignes), reste réguliers */
 .seq-grid .seq-card:nth-child(1) {
-  grid-column: span 4;
+  grid-column: span 8;
   grid-row: span 2;
   min-height: 540px;
 }
@@ -266,10 +266,11 @@
   font-size: 44px;
 }
 .seq-grid .seq-card:nth-child(2),
-.seq-grid .seq-card:nth-child(3) { grid-column: span 2; }
+.seq-grid .seq-card:nth-child(3) { grid-column: span 4; }
 .seq-grid .seq-card:nth-child(4),
 .seq-grid .seq-card:nth-child(5),
-.seq-grid .seq-card:nth-child(6) { grid-column: span 2; }
+.seq-grid .seq-card:nth-child(6),
+.seq-grid .seq-card:nth-child(7) { grid-column: span 3; }
 
 @media (max-width: 1080px) {
   .seq-grid { grid-template-columns: repeat(4, 1fr); }
@@ -278,7 +279,8 @@
   .seq-grid .seq-card:nth-child(3) { grid-column: span 2; }
   .seq-grid .seq-card:nth-child(4),
   .seq-grid .seq-card:nth-child(5),
-  .seq-grid .seq-card:nth-child(6) { grid-column: span 2; }
+  .seq-grid .seq-card:nth-child(6),
+  .seq-grid .seq-card:nth-child(7) { grid-column: span 2; }
 }
 @media (max-width: 700px) {
   .seq-grid { grid-template-columns: 1fr; gap: 12px; }

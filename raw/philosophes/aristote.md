@@ -17,3 +17,4 @@
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence II — La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?
 - Séquence IV — Comment définir l'art ?
+- Séquence VII — La technique nous éloigne-t-elle de la nature ?

@@ -18,3 +18,4 @@
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VII — La technique nous éloigne-t-elle de la nature ?

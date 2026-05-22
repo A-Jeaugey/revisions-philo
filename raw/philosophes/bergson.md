@@ -9,6 +9,7 @@
 - Voile du langage
 - Perception utilitaire
 - L'artiste révèle le réel
+- Homo faber avant homo sapiens
 
 **Tags.** langage, art, perception.
 
@@ -16,3 +17,4 @@
 
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence IV — Comment définir l'art ?
+- Séquence VII — La technique nous éloigne-t-elle de la nature ?

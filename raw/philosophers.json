@@ -760,6 +760,26 @@
     ]
   },
   {
+    "id": "callicles",
+    "name": "Calliclès",
+    "initials": "C",
+    "dates": "personnage de Platon",
+    "country": "Grèce antique",
+    "thesis": "Le bonheur consiste dans la satisfaction compulsive de tous nos désirs (hédonisme radical).",
+    "tags": [
+      "hédonisme",
+      "plaisir"
+    ],
+    "sequences": [
+      6
+    ],
+    "keyIdeas": [
+      "Hédonisme radical",
+      "Vivre selon la nature",
+      "Critique des conventions morales"
+    ]
+  },
+  {
     "id": "jonas",
     "name": "Hans Jonas",
     "initials": "J",
@@ -799,26 +819,6 @@
       "Dialectique de la raison",
       "Aliénation sociale par la technique",
       "Isolement paradoxal du progrès"
-    ]
-  },
-  {
-    "id": "callicles",
-    "name": "Calliclès",
-    "initials": "C",
-    "dates": "personnage de Platon",
-    "country": "Grèce antique",
-    "thesis": "Le bonheur consiste dans la satisfaction compulsive de tous nos désirs (hédonisme radical).",
-    "tags": [
-      "hédonisme",
-      "plaisir"
-    ],
-    "sequences": [
-      6
-    ],
-    "keyIdeas": [
-      "Hédonisme radical",
-      "Vivre selon la nature",
-      "Critique des conventions morales"
     ]
   }
 ]

@@ -21,7 +21,7 @@ App.routes.home = function() {
   }).join('');
 
   const stats = [
-    { num: '6', lbl: 'séquences' },
+    { num: window.SEQUENCES.length+'', lbl: 'séquences' },
     { num: App.data.philosophers.length+'', lbl: 'philosophes' },
     { num: App.data.notions.length+'', lbl: 'notions' },
     { num: window.QUIZZES.reduce((a,q)=>a+q.questions.length,0)+'', lbl: 'questions de quiz' }
@@ -48,7 +48,7 @@ App.routes.home = function() {
       <div class="section-head">
         <div>
           <div class="section-eyebrow">Le programme</div>
-          <h2>Six <em>séquences</em> pour tout maîtriser</h2>
+          <h2>Sept <em>séquences</em> pour tout maîtriser</h2>
         </div>
         <p class="section-sub">Chaque fiche reprend l'intégralité des contenus étudiés en classe, augmentée d'éléments interactifs pour mieux comprendre et mémoriser.</p>
       </div>
@@ -141,7 +141,7 @@ App.routes.sequences = function() {
     <div class="page-head">
       <div class="crumbs"><a href="#/">Accueil</a> · Séquences</div>
       <h1>Les <em style="color:var(--accent);font-style:italic;">séquences</em></h1>
-      <p class="lead">Six grandes questions pour le bac. Chacune est complètement transcrite et augmentée d'outils interactifs.</p>
+      <p class="lead">Sept grandes questions pour le bac. Chacune est complètement transcrite et augmentée d'outils interactifs.</p>
     </div>
     <div class="container">
       <div class="seq-grid">${cards}</div>

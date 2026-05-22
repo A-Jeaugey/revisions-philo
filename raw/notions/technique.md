@@ -2,13 +2,18 @@
 
 > Savoir-faire permettant de produire des objets utiles.
 
-Savoir-faire qui permet de produire selon un plan défini d'avance. L'artisan suit une recette, l'artiste la transforme : Alain montre que l'artiste découvre l'œuvre en la faisant, alors que l'artisan exécute une idée préexistante. La technique est en soi neutre — c'est l'usage qui en détermine la valeur. Le débat contemporain est tendu : la technique nous libère-t-elle (médecine, communication, transports) ou nous asservit-elle (Heidegger : « l'arraisonnement » de la nature, où tout est traité comme matière première à exploiter) ?
+Ensemble des moyens matériels (outils, machines) et immatériels (savoir-faire) permettant de transformer la nature. Platon (mythe de Prométhée) : la technique compense la fragilité biologique de l'homme. Aristote : elle actualise ce qui était en puissance dans la polyvalence de la main. Descartes : elle doit s'allier à la science pour nous rendre « maîtres et possesseurs de la nature ». Bergson : l'homme est fondamentalement un homo faber, la technique est la démarche originelle de son intelligence. Mais Jonas avertit : les fronts se sont inversés — nous sommes désormais une plus grande menace pour la nature qu'elle ne l'est pour nous.
 
 ## Philosophes clés
 
 - Alain (É. Chartier) (1868 – 1951)
 - Emmanuel Kant (1724 – 1804)
+- Platon (v. 428 – 348 av. J.-C.)
+- Aristote (384 – 322 av. J.-C.)
+- René Descartes (1596 – 1650)
+- Henri Bergson (1859 – 1941)
 
 ## Séquences associées
 
 - Séquence IV — Comment définir l'art ?
+- Séquence VII — La technique nous éloigne-t-elle de la nature ?

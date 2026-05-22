@@ -33,6 +33,8 @@
 - **Albert Einstein** — 1879 – 1955 · Allemagne / USA — Les concepts physiques sont des créations libres de l'esprit humain.
 - **Marcel Duchamp** — 1887 – 1968 · France — Un objet d'usage devient œuvre d'art lorsqu'il est retiré de sa fonction utilitaire (Fontaine, 1917).
 - **Karl Popper** — 1902 – 1994 · Autriche / GB — Une théorie n'est scientifique que si elle est falsifiable.
+- **Hans Jonas** — 1903 – 1993 · Allemagne — Les fronts se sont inversés : nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous.
+- **Adorno & Horkheimer** — 1903–1969 / 1895–1973 · Allemagne — Le progrès sépare littéralement les hommes : les hommes voyagent sur leurs pneus, complètement isolément les uns des autres.
 - **Jean-Paul Sartre** — 1905 – 1980 · France — L'existence précède l'essence. L'homme est condamné à être libre. Pas d'inconscient mais de la mauvaise foi.
 - **Hannah Arendt** — 1906 – 1975 · Allemagne / USA — Les œuvres d'art ne sont pas faites pour les hommes mais pour le monde, destinées à survivre aux générations.
 - **John Rawls** — 1921 – 2002 · États-Unis — La désobéissance civile est un acte public, non-violent et politique. Les inégalités sociales menacent la démocratie.

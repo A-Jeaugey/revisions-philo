@@ -13,7 +13,7 @@ window.PHILOSOPHERS = [
     dates: "v. 428 – 348 av. J.-C.", country: "Grèce antique",
     thesis: "La pensée est le dialogue intérieur et silencieux de l'âme avec elle-même.",
     tags: ["langage","pensée","dialogue"],
-    sequences: [3,6],
+    sequences: [3,6,7],
     keyIdeas: ["Théorie des Idées", "Pensée = discours intérieur", "Critique de Calliclès"]
   },
   {
@@ -21,7 +21,7 @@ window.PHILOSOPHERS = [
     dates: "384 – 322 av. J.-C.", country: "Grèce antique",
     thesis: "Le temps est « le nombre du mouvement selon l'avant et l'après ». Le beau est l'ordre.",
     tags: ["temps","beau","logique"],
-    sequences: [1,2,4],
+    sequences: [1,2,4,7],
     keyIdeas: ["Définition du temps", "L'art comme imitation", "Causalité"]
   },
   {
@@ -53,7 +53,7 @@ window.PHILOSOPHERS = [
     dates: "1596 – 1650", country: "France",
     thesis: "« Je pense, donc je suis » — première certitude indubitable obtenue par le doute.",
     tags: ["cogito","doute","raison"],
-    sequences: [1,2,3],
+    sequences: [1,2,3,7],
     keyIdeas: ["Doute hyperbolique", "Cogito ergo sum", "Distinction âme/corps", "Méthode rationnelle"]
   },
   {
@@ -101,7 +101,7 @@ window.PHILOSOPHERS = [
     dates: "1712 – 1778", country: "Suisse / France",
     thesis: "L'homme est perfectible. À l'état de nature, il n'a ni les vices ni les vertus de l'homme civil.",
     tags: ["nature","perfectibilité","langage"],
-    sequences: [1,3,5],
+    sequences: [1,3,5,7],
     keyIdeas: ["Perfectibilité", "État de nature", "Pitié naturelle", "Idées générales et langage"]
   },
   {
@@ -141,8 +141,8 @@ window.PHILOSOPHERS = [
     dates: "1818 – 1883", country: "Allemagne",
     thesis: "Pas de justice sans justice sociale. La liberté en droit n'est pas la liberté en fait.",
     tags: ["justice","économie","domination"],
-    sequences: [5],
-    keyIdeas: ["Critique de l'idéologie bourgeoise", "Justice sociale", "Liberté en fait"]
+    sequences: [5,7],
+    keyIdeas: ["Critique de l'idéologie bourgeoise", "Justice sociale", "Liberté en fait", "Travail conscient vs instinct animal"]
   },
   {
     id: "nietzsche", name: "Friedrich Nietzsche", initials: "N",
@@ -165,8 +165,8 @@ window.PHILOSOPHERS = [
     dates: "1859 – 1941", country: "France",
     thesis: "Notre langage et notre perception nous voilent l'individualité des choses. L'art seul nous y donne accès.",
     tags: ["langage","art","perception"],
-    sequences: [3,4],
-    keyIdeas: ["Voile du langage", "Perception utilitaire", "L'artiste révèle le réel"]
+    sequences: [3,4,7],
+    keyIdeas: ["Voile du langage", "Perception utilitaire", "L'artiste révèle le réel", "Homo faber avant homo sapiens"]
   },
   {
     id: "saussure", name: "Ferdinand de Saussure", initials: "S",
@@ -295,5 +295,21 @@ window.PHILOSOPHERS = [
     tags: ["hédonisme","plaisir"],
     sequences: [6],
     keyIdeas: ["Hédonisme radical", "Vivre selon la nature", "Critique des conventions morales"]
+  },
+  {
+    id: "jonas", name: "Hans Jonas", initials: "J",
+    dates: "1903 – 1993", country: "Allemagne",
+    thesis: "Les fronts se sont inversés : nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous.",
+    tags: ["technique","environnement","responsabilité"],
+    sequences: [7],
+    keyIdeas: ["Principe responsabilité", "Inversion des fronts homme/nature", "Critique du projet cartésien de domination"]
+  },
+  {
+    id: "adorno", name: "Adorno & Horkheimer", initials: "A",
+    dates: "1903–1969 / 1895–1973", country: "Allemagne",
+    thesis: "Le progrès sépare littéralement les hommes : les hommes voyagent sur leurs pneus, complètement isolément les uns des autres.",
+    tags: ["technique","aliénation","isolement"],
+    sequences: [7],
+    keyIdeas: ["Dialectique de la raison", "Aliénation sociale par la technique", "Isolement paradoxal du progrès"]
   }
 ];

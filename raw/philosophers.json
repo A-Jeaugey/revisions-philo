@@ -34,7 +34,8 @@
     ],
     "sequences": [
       3,
-      6
+      6,
+      7
     ],
     "keyIdeas": [
       "Théorie des Idées",
@@ -57,7 +58,8 @@
     "sequences": [
       1,
       2,
-      4
+      4,
+      7
     ],
     "keyIdeas": [
       "Définition du temps",
@@ -139,7 +141,8 @@
     "sequences": [
       1,
       2,
-      3
+      3,
+      7
     ],
     "keyIdeas": [
       "Doute hyperbolique",
@@ -269,7 +272,8 @@
     "sequences": [
       1,
       3,
-      5
+      5,
+      7
     ],
     "keyIdeas": [
       "Perfectibilité",
@@ -380,12 +384,14 @@
       "domination"
     ],
     "sequences": [
-      5
+      5,
+      7
     ],
     "keyIdeas": [
       "Critique de l'idéologie bourgeoise",
       "Justice sociale",
-      "Liberté en fait"
+      "Liberté en fait",
+      "Travail conscient vs instinct animal"
     ]
   },
   {
@@ -447,12 +453,14 @@
     ],
     "sequences": [
       3,
-      4
+      4,
+      7
     ],
     "keyIdeas": [
       "Voile du langage",
       "Perception utilitaire",
-      "L'artiste révèle le réel"
+      "L'artiste révèle le réel",
+      "Homo faber avant homo sapiens"
     ]
   },
   {
@@ -749,6 +757,48 @@
     "keyIdeas": [
       "Société contre l'État",
       "Chef sans pouvoir"
+    ]
+  },
+  {
+    "id": "jonas",
+    "name": "Hans Jonas",
+    "initials": "J",
+    "dates": "1903 – 1993",
+    "country": "Allemagne",
+    "thesis": "Les fronts se sont inversés : nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous.",
+    "tags": [
+      "technique",
+      "environnement",
+      "responsabilité"
+    ],
+    "sequences": [
+      7
+    ],
+    "keyIdeas": [
+      "Principe responsabilité",
+      "Inversion des fronts homme/nature",
+      "Critique du projet cartésien de domination"
+    ]
+  },
+  {
+    "id": "adorno",
+    "name": "Adorno & Horkheimer",
+    "initials": "A",
+    "dates": "1903–1969 / 1895–1973",
+    "country": "Allemagne",
+    "thesis": "Le progrès sépare littéralement les hommes : les hommes voyagent sur leurs pneus, complètement isolément les uns des autres.",
+    "tags": [
+      "technique",
+      "aliénation",
+      "isolement"
+    ],
+    "sequences": [
+      7
+    ],
+    "keyIdeas": [
+      "Dialectique de la raison",
+      "Aliénation sociale par la technique",
+      "Isolement paradoxal du progrès"
     ]
   },
   {

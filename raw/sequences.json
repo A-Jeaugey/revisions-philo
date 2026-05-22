@@ -540,5 +540,108 @@
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "number": "VII",
+    "slug": "technique-nature",
+    "title": "La technique nous éloigne-t-elle de la nature ?",
+    "short": "De Prométhée à Jonas : la technique, prolongement ou rupture avec la nature ?",
+    "perspectives": [
+      "L'existence humaine et la culture"
+    ],
+    "notions": [
+      "TECHNIQUE",
+      "NATURE",
+      "TRAVAIL",
+      "Bonheur",
+      "Conscience",
+      "Liberté"
+    ],
+    "reperes": [
+      "en acte / en puissance",
+      "médiat / immédiat"
+    ],
+    "work": "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+    "tint": "#7aab5e",
+    "essentiel": {
+      "question": "La technique produit des objets artificiels et transforme la nature. Mais peut-on vraiment dire qu'elle nous en éloigne, si c'est notre nature même d'être technique ?",
+      "enjeu": "Si la technique est inhérente à la nature humaine, alors l'opposer à la nature, c'est mal poser le problème. L'enjeu véritable est ailleurs : la technique effrénée peut-elle se retourner contre l'homme — aliéner notre humanité — ou contre la nature extérieure qui nous fait vivre ?",
+      "tension": "<b>Platon, Aristote, Descartes</b> : la technique n'est pas contre-nature — elle compense notre fragilité biologique, actualise les potentialités de la main, et prolonge les processus naturels. <b>Marx et Bergson</b> : ce qui distingue l'homme des animaux c'est la conscience et l'intelligence fabriquante (<em>homo faber</em>). Puis <b>Rousseau et Jonas</b> renversent tout : la technique débridée a corrompu l'état de nature, et désormais c'est nous qui sommes devenus la menace pour la nature.",
+      "pieges": [
+        "<b>Artificiel ≠ contre-nature.</b> Même le plastique ou l'acier sont le prolongement de processus naturels — la technique actualise ce qui était déjà <em>en puissance</em> dans la matière. Rien de ce qu'elle produit n'est strictement contre-nature.",
+        "<b>Homo faber ≠ homo sapiens.</b> Bergson ne dit pas que l'homme ne pense pas — il dit que la faculté de fabriquer est <em>plus ancienne et plus fondamentale</em> que la faculté théorique. C'est un déplacement du centre de gravité de l'humanité, pas une négation de la raison.",
+        "<b>Éloigner la nature extérieure ≠ aliéner notre nature intérieure.</b> La technique nous éloigne peut-être moins de la nature du dehors qu'elle ne peut corrompre notre propre humanité : fin de l'<em>homo faber</em>, isolement social, travail aliénant."
+      ],
+      "retenir": "L'homme ne peut pas s'éloigner de la nature par la technique, car c'est sa nature même d'être technique. Ce qu'il risque, c'est de se corrompre lui-même — et de corrompre la nature qui l'entoure."
+    },
+    "plan": [
+      {
+        "t": "Le naturel et l'artificiel : antithèse ou continuité ?",
+        "enjeu": "La technique semble s'opposer à la nature. Mais si la nature humaine est précisément d'être technique, l'opposition s'effondre — la technique est un prolongement naturel.",
+        "sub": [
+          {
+            "t": "L'habilité technique compense notre faiblesse naturelle",
+            "auteur": "Platon",
+            "idee": "Dans le mythe de Prométhée, les animaux reçoivent griffes, fourrures, venins. L'homme, lui, reste nu et sans armes. Prométhée lui vole la connaissance des arts et le feu pour compenser ce manque.",
+            "apport": "La technique n'est pas un éloignement de la nature : c'est la réponse à notre fragilité naturelle. Sans elle, l'espèce humaine s'éteignait."
+          },
+          {
+            "t": "L'habilité technique est présente en puissance dans la polyvalence de la main",
+            "auteur": "Aristote",
+            "idee": "L'animal n'a qu'une arme fixe. La main de l'homme peut devenir griffe, corne, lance ou épée selon l'outil qu'il saisit. La technique actualise ce qui était en puissance dans la main.",
+            "apport": "Le repère <em>en acte / en puissance</em> : la technique n'invente pas de toutes pièces — elle réalise ce que la nature avait déjà prévu à l'état de potentialité."
+          },
+          {
+            "t": "La « maîtrise de la nature » : la continuité entre la technique et la nature",
+            "auteur": "Descartes",
+            "idee": "La science doit s'allier à la technique pour nous rendre « maîtres et possesseurs de la nature ». Même les matières artificielles (acier, plastique) sont des prolongements de l'activité naturelle de la matière.",
+            "apport": "Rien de ce que la technique produit n'est contre-nature : elle met en acte ce qui était en puissance. L'enjeu est le soulagement de la souffrance humaine."
+          }
+        ]
+      },
+      {
+        "t": "L'instinct animal versus l'intelligence humaine",
+        "enjeu": "Certains animaux semblent aussi travailler. Qu'est-ce qui rend l'activité technique humaine radicalement différente ?",
+        "sub": [
+          {
+            "t": "Le travail humain est une activité consciente",
+            "auteur": "Marx",
+            "idee": "L'abeille surpasse l'architecte en dextérité — mais l'architecte construit d'abord dans sa tête. Le travail humain est médiat : précédé d'un projet conscient qui détermine les moyens et subordonne la volonté.",
+            "apport": "Ce qui fait la différence : la <em>conscience</em> qui médiatise le travail. Ni instinct, ni automatisme — mais liberté, donc aussi erreur possible."
+          },
+          {
+            "t": "L'intelligence humaine est essentiellement technique",
+            "auteur": "Bergson",
+            "idee": "L'intelligence humaine a pour démarche originelle « la fabrication des outils à faire des outils ». L'homme est moins un homo sapiens qu'un homo faber. Instinct et intelligence : deux solutions élégantes au même problème, l'adaptation.",
+            "apport": "La technique n'est pas un accident de l'histoire humaine : elle est l'expression la plus fondamentale de notre intelligence."
+          }
+        ]
+      },
+      {
+        "t": "La technique effrénée ou la corruption de la nature",
+        "enjeu": "Mais cette intelligence technique, une fois déchaînée, peut se retourner contre l'homme et contre la nature. Le progrès n'est pas neutre.",
+        "sub": [
+          {
+            "t": "La technique et la fin de l'état de nature",
+            "auteur": "Rousseau",
+            "idee": "À l'état de nature, la technique reste modeste et égalitaire. C'est lorsqu'elle crée des besoins superflus et engendre la division du travail qu'elle produit inégalités, misère et dépendance mutuelle.",
+            "apport": "La technique n'éloigne pas l'homme de la nature extérieure — elle le corrompt lui-même, en faisant naître des besoins, des inégalités et des États."
+          },
+          {
+            "t": "La question environnementale",
+            "auteur": "Jonas",
+            "idee": "Les fronts se sont inversés : autrefois, la nature menaçait l'homme. Désormais, « nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous ».",
+            "apport": "Le projet cartésien de domination est obsolète. La technique n'éloigne plus l'homme de la nature — elle la détruit."
+          },
+          {
+            "t": "L'aliénation des hommes",
+            "auteur": "Adorno / Horkheimer / Bergson",
+            "idee": "Le progrès technique isole : la voiture remplace le train, les réseaux sociaux remplacent la rencontre. Et si l'homme est un homo faber, réserver la technique aux spécialistes revient à lui amputer son intelligence propre.",
+            "apport": "Triple aliénation : sociale (isolement), professionnelle (travail parcellaire), identitaire (fin de l'homo faber)."
+          }
+        ]
+      }
+    ]
   }
 ]

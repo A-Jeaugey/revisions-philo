@@ -174,13 +174,15 @@
     "name": "Travail",
     "glyph": "T",
     "short": "Activité par laquelle l'homme transforme la matière.",
-    "long": "Activité par laquelle l'homme transforme la matière pour subvenir à ses besoins. Mais l'œuvre d'art aussi est le fruit d'un travail acharné — <b>Nietzsche</b> moque le mythe romantique du « génie qui crée sans effort » : derrière chaque chef-d'œuvre, des heures d'exercice. Distinction subtile avec l'art : le travail produit de l'<i>utile</i> (le marteau, le pain) ; l'art produit du <i>gratuit</i>. Marx montre que le travail peut <b>aliéner</b> (l'ouvrier dépossédé du sens et du produit de son effort) ou <b>émanciper</b> (quand il est libre et créateur).",
+    "long": "Activité par laquelle l'homme transforme la matière pour subvenir à ses besoins. Mais l'œuvre d'art aussi est le fruit d'un travail acharné — <b>Nietzsche</b> moque le mythe romantique du « génie qui crée sans effort » : derrière chaque chef-d'œuvre, des heures d'exercice. Distinction subtile avec l'art : le travail produit de l'<i>utile</i> (le marteau, le pain) ; l'art produit du <i>gratuit</i>. Marx montre que le travail peut <b>aliéner</b> (l'ouvrier dépossédé du sens et du produit de son effort) ou <b>émanciper</b> (quand il est libre et créateur). Marx distingue le travail humain (médiat, précédé d'un projet conscient) du travail animal (immédiat, instinctif) : l'architecte construit d'abord dans sa tête.",
     "sequences": [
-      4
+      4,
+      7
     ],
     "keyAuthors": [
       "nietzsche",
-      "alain"
+      "alain",
+      "marx"
     ]
   },
   {
@@ -188,13 +190,18 @@
     "name": "Technique",
     "glyph": "T",
     "short": "Savoir-faire permettant de produire des objets utiles.",
-    "long": "Savoir-faire qui permet de produire selon un plan défini d'avance. L'<b>artisan</b> suit une recette, l'<b>artiste</b> la transforme : Alain montre que l'artiste découvre l'œuvre <i>en la faisant</i>, alors que l'artisan exécute une idée préexistante. La technique est en soi neutre — c'est l'usage qui en détermine la valeur. Le débat contemporain est tendu : la technique nous libère-t-elle (médecine, communication, transports) ou nous asservit-elle (Heidegger : « l'arraisonnement » de la nature, où tout est traité comme matière première à exploiter) ?",
+    "long": "Ensemble des moyens matériels (outils, machines) et immatériels (savoir-faire) permettant de transformer la nature. <b>Platon</b> (mythe de Prométhée) : la technique compense la fragilité biologique de l'homme. <b>Aristote</b> : elle actualise ce qui était <em>en puissance</em> dans la polyvalence de la main. <b>Descartes</b> : elle doit s'allier à la science pour nous rendre « maîtres et possesseurs de la nature ». <b>Bergson</b> : l'homme est fondamentalement un <em>homo faber</em>, la technique est la démarche originelle de son intelligence. Mais <b>Jonas</b> avertit : les fronts se sont inversés — nous sommes désormais une plus grande menace pour la nature qu'elle ne l'est pour nous.",
     "sequences": [
-      4
+      4,
+      7
     ],
     "keyAuthors": [
       "alain",
-      "kant"
+      "kant",
+      "platon",
+      "aristote",
+      "descartes",
+      "bergson"
     ]
   },
   {
@@ -202,17 +209,20 @@
     "name": "Nature",
     "glyph": "N",
     "short": "Ce qui n'est pas culturel, ce qui est inné ou spontané.",
-    "long": "Ce qui n'est pas culturel : l'inné, le spontané, le donné. S'oppose à la <b>culture</b> (l'acquis, le construit, le transmis). En philosophie politique, l'<b>état de nature</b> est une fiction utile pour penser le politique : pour Hobbes, c'est la « guerre de tous contre tous » et la vie y est « solitaire, brève, brutale » ; pour Rousseau, c'est l'innocence, l'homme est naturellement bon, c'est la société qui le corrompt ; pour Locke, c'est déjà un état de droits naturels (vie, liberté, propriété). La nature peut aussi désigner l'ordre du vivant : à travers le génie, dit Kant, c'est la nature elle-même qui donne ses règles à l'art.",
+    "long": "Ce qui n'est pas culturel : l'inné, le spontané, le donné. S'oppose à la <b>culture</b> (l'acquis, le construit, le transmis). En philosophie politique, l'<b>état de nature</b> est une fiction utile pour penser le politique : pour Hobbes, c'est la « guerre de tous contre tous » ; pour Rousseau, c'est l'innocence, l'homme est naturellement bon, c'est la technique et la société qui le corrompent ; pour Locke, c'est déjà un état de droits naturels. La nature peut aussi désigner l'ordre du vivant : à travers le génie, dit Kant, c'est la nature elle-même qui donne ses règles à l'art. Enfin, <b>Jonas</b> renverse le rapport homme/nature : là où Descartes voulait en faire nos « maîtres et possesseurs », nous en sommes devenus la principale menace.",
     "sequences": [
       4,
       5,
-      6
+      6,
+      7
     ],
     "keyAuthors": [
       "rousseau",
       "hobbes",
       "locke",
-      "kant"
+      "kant",
+      "descartes",
+      "jonas"
     ]
   },
   {

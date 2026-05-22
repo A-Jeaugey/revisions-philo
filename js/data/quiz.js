@@ -94,5 +94,20 @@ window.QUIZZES = [
       { q: "Le stoïcisme propose :", o: ["D'agir sur le monde","D'agir sur soi-même","D'éviter le monde","De rechercher le plaisir"], c: 1, e: "Bonheur absolu, indépendant des circonstances extérieures." },
       { q: "L'étymologie de bonheur est :", o: ["Bon + heur (chance)","Bien + cœur","Bon + jour","Bien + heure"], c: 0, e: "« heur » = chance — d'où le problème : peut-il y avoir un devoir d'être heureux ?" }
     ]
+  },
+  {
+    id: 7,
+    title: "La technique et la nature",
+    description: "Platon, Aristote, Descartes, Marx, Bergson, Rousseau, Jonas…",
+    questions: [
+      { q: "Dans le mythe de Prométhée, que Prométhée offre-t-il aux hommes pour compenser leur faiblesse naturelle ?", o: ["La force et la vitesse","La connaissance des arts et le feu","L'immortalité","La beauté et l'intelligence"], c: 1, e: "Prométhée vole à Héphaïstos et Athéna « la connaissance des arts avec le feu » — car sans le feu, la technique est impossible." },
+      { q: "Pour Aristote, qu'est-ce qui rend la main humaine supérieure aux armes naturelles des animaux ?", o: ["Sa force","Sa polyvalence : elle peut devenir toute arme ou outil","Sa précision","Sa taille"], c: 1, e: "« La main devient griffe, serre, corne ou lance ou épée ou toute autre arme ou outil. » — polyvalence vs spécialisation animale." },
+      { q: "Le repère « en puissance / en acte » appliqué à la technique (Aristote) signifie que :", o: ["La technique crée quelque chose de totalement nouveau","La technique actualise des potentialités déjà présentes dans la nature","La technique va contre la nature","La technique dépend de la puissance physique"], c: 1, e: "La technique rend <em>en acte</em> (effectif) ce qui était <em>en puissance</em> (potentiel) dans la main et dans la matière." },
+      { q: "Quel est le projet de Descartes dans le Discours de la méthode ?", o: ["Revenir à l'état de nature","Nous rendre « maîtres et possesseurs de la nature »","Condamner la technique","Prouver l'existence de Dieu"], c: 1, e: "Descartes veut allier science et technique pour libérer l'homme de la souffrance naturelle (maladie, travail pénible)." },
+      { q: "Ce qui distingue dès l'abord « le plus mauvais architecte de l'abeille la plus experte » (Marx), c'est que :", o: ["L'architecte est plus habile","L'architecte construit d'abord dans sa tête","L'architecte travaille plus vite","L'architecte n'a pas d'instinct"], c: 1, e: "Le travail humain est <em>médiat</em> — précédé d'un projet conscient. L'animal agit <em>immédiatement</em>, par instinct." },
+      { q: "Selon Bergson, l'homme est avant tout :", o: ["Un homo sapiens (homme savant)","Un homo faber (homme fabricateur)","Un homo politicus","Un homo aestheticus"], c: 1, e: "L'intelligence humaine a pour démarche originelle « la fabrication des outils à faire des outils » — la raison théorique n'est qu'un prolongement." },
+      { q: "Selon Jonas, par rapport à la nature, la situation actuelle est que :", o: ["La nature reste notre principale menace","La technique a réconcilié l'homme et la nature","Nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était pour nous","La nature est indifférente à l'homme"], c: 2, e: "« Les fronts se sont inversés. » Le projet cartésien de domination est obsolète — c'est désormais nous qui menaçons la nature." },
+      { q: "Pour Adorno et Horkheimer, le paradoxe du progrès technique est que :", o: ["Il nous rapproche de la nature","Il rapproche les hommes","Il isole les hommes tout en prétendant les relier","Il supprime le travail"], c: 2, e: "La voiture remplace le train, les réseaux sociaux remplacent la rencontre : « les hommes voyagent sur leurs pneus, complètement isolément les uns des autres »." }
+    ]
   }
 ];

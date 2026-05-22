@@ -24,7 +24,7 @@ const RAW      = path.join(ROOT, 'raw');
 
 const SITE_BASE = 'https://arthurjeaugey.com/revisions-philo';
 const SITE_NAME = 'Cogito';
-const SITE_DESC = 'Cogito — Révisions Bac de philosophie : 6 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.';
+const SITE_DESC = 'Cogito — Révisions Bac de philosophie : 7 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.';
 
 // --- Charge les data files comme le fait scripts/build-pdfs.js ---
 global.window = global;
@@ -36,6 +36,7 @@ global.window = global;
   'seq4.js',
   'seq5.js',
   'seq6.js',
+  'seq7.js', 'seq7b.js',
   'sequences.js',
 ].forEach(f => require(path.join(DATA_DIR, f)));
 
@@ -54,6 +55,7 @@ const SEQ_MD_FILES = {
   4: 'sequence_4_definir_art.md',
   5: 'sequence_5_etat_justice.md',
   6: 'sequence_6_devoir_bonheur.md',
+  7: 'sequence_7_technique_nature.md',
 };
 
 // --- helpers --------------------------------------------------------------

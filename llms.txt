@@ -1,6 +1,6 @@
 # Cogito — Révisions Bac de philosophie
 
-> Cogito — Révisions Bac de philosophie : 6 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.
+> Cogito — Révisions Bac de philosophie : 7 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.
 
 Site interactif : https://arthurjeaugey.com/revisions-philo/
 Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
@@ -13,6 +13,7 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Séquence IV — Comment définir l'art ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-4-definir.md)
 - [Séquence V — Revient-il à l'État de décider de ce qui est juste ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-5-etat.md)
 - [Séquence VI — A-t-on le devoir d'être heureux ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-6-devoir.md)
+- [Séquence VII — La technique nous éloigne-t-elle de la nature ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-7-technique.md)
 
 ## Philosophes
 
@@ -53,6 +54,8 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Sophocle (Antigone) — v. 496 – 406 av. J.-C.](https://arthurjeaugey.com/revisions-philo/raw/philosophes/sophocle.md)
 - [Pierre Clastres — 1934 – 1977](https://arthurjeaugey.com/revisions-philo/raw/philosophes/clastres.md)
 - [Calliclès — personnage de Platon](https://arthurjeaugey.com/revisions-philo/raw/philosophes/callicles.md)
+- [Hans Jonas — 1903 – 1993](https://arthurjeaugey.com/revisions-philo/raw/philosophes/jonas.md)
+- [Adorno & Horkheimer — 1903–1969 / 1895–1973](https://arthurjeaugey.com/revisions-philo/raw/philosophes/adorno.md)
 
 ## Notions
 
@@ -87,6 +90,7 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Quiz 4 — Définir l'art](https://arthurjeaugey.com/revisions-philo/raw/quiz/4.md)
 - [Quiz 5 — État et justice](https://arthurjeaugey.com/revisions-philo/raw/quiz/5.md)
 - [Quiz 6 — Devoir et bonheur](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
+- [Quiz 7 — La technique et la nature](https://arthurjeaugey.com/revisions-philo/raw/quiz/7.md)
 
 ## Données structurées (JSON)
 

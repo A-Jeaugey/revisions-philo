@@ -9,6 +9,7 @@
 - Critique du génie
 - Conscience comme maladie
 - Travail de l'artiste
+- Vivre « attaché au piquet du présent »
 
 **Tags.** conscience, langage, art.
 
@@ -16,3 +17,4 @@
 
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence IV — Comment définir l'art ?
+- Séquence VI — A-t-on le devoir d'être heureux ?

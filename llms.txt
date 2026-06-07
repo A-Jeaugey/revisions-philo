@@ -90,7 +90,7 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Quiz 3 — Langage et pensée](https://arthurjeaugey.com/revisions-philo/raw/quiz/3.md)
 - [Quiz 4 — Définir l'art](https://arthurjeaugey.com/revisions-philo/raw/quiz/4.md)
 - [Quiz 5 — État et justice](https://arthurjeaugey.com/revisions-philo/raw/quiz/5.md)
-- [Quiz 6 — Devoir et bonheur](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
+- [Quiz 6 — A-t-on le devoir d'être heureux ?](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
 - [Quiz 7 — Travailler, est-ce perdre sa vie en la gagnant ?](https://arthurjeaugey.com/revisions-philo/raw/quiz/7.md)
 - [Quiz 8 — La technique et la nature](https://arthurjeaugey.com/revisions-philo/raw/quiz/8.md)
 

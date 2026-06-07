@@ -42,6 +42,7 @@
     "sequences": [
       1,
       5,
+      6,
       7
     ],
     "keyAuthors": [
@@ -59,13 +60,16 @@
     "short": "Nombre du mouvement selon l'avant et l'après (Aristote).",
     "long": "« Si personne ne me le demande, je sais ce qu'est le temps. Si on me le demande, je ne sais plus » — <b>saint Augustin</b> résume la difficulté. Aristote en donne une définition objective (le nombre du mouvement), mais cette mesure rate le temps <i>vécu</i>, subjectif, irréductible aux secondes. Pour Héraclite, tout change, rien ne demeure ; pour Sartre, l'homme est un projet, un être-pour-le-temps qui ne se fige qu'à la mort. Le temps est aussi un problème éthique : que faire du temps qui passe ? Comment le remplir sans le perdre ?",
     "sequences": [
-      1
+      1,
+      6
     ],
     "keyAuthors": [
       "aristote",
       "augustin",
       "heraclite",
-      "sartre"
+      "sartre",
+      "pascal",
+      "nietzsche"
     ]
   },
   {
@@ -92,12 +96,14 @@
     "short": "Faculté de penser logiquement et de distinguer le vrai du faux.",
     "long": "Faculté universelle, « la chose du monde la mieux partagée » selon <b>Descartes</b>. Elle se déploie sur deux registres : <b>rationnel</b> (théorique, dans les sciences) et <b>raisonnable</b> (pratique, dans la conduite de la vie). Mais la raison doit reconnaître ses limites : Kant montre qu'elle ne peut pas prouver Dieu, l'âme, la liberté — il faut « abolir le savoir pour y substituer la croyance ». Et la raison n'est pas tout : Pascal lui oppose les « raisons du cœur que la raison ne connaît point ».",
     "sequences": [
-      2
+      2,
+      6
     ],
     "keyAuthors": [
       "descartes",
       "hume",
-      "kant"
+      "kant",
+      "pascal"
     ]
   },
   {
@@ -283,7 +289,9 @@
       6
     ],
     "keyAuthors": [
-      "kant"
+      "kant",
+      "aristote",
+      "epicure"
     ]
   },
   {
@@ -300,7 +308,10 @@
       "socrate",
       "platon",
       "callicles",
-      "epicure"
+      "epicure",
+      "kant",
+      "pascal",
+      "nietzsche"
     ]
   }
 ]

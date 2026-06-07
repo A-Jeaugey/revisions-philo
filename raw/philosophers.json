@@ -170,12 +170,14 @@
     "sequences": [
       1,
       2,
-      5
+      5,
+      6
     ],
     "keyIdeas": [
       "Vérités du cœur",
       "Moi indéfinissable",
-      "Justice sans force = impuissante"
+      "Justice sans force = impuissante",
+      "« Nous ne vivons jamais, nous espérons de vivre »"
     ]
   },
   {
@@ -279,6 +281,7 @@
       1,
       3,
       5,
+      6,
       7,
       8
     ],
@@ -287,7 +290,8 @@
       "État de nature",
       "Pitié naturelle",
       "Idées générales et langage",
-      "Travail et naissance des inégalités"
+      "Travail et naissance des inégalités",
+      "Satisfaction imaginée vs satisfaction réelle"
     ]
   },
   {
@@ -328,14 +332,18 @@
       1,
       2,
       4,
-      5
+      5,
+      6
     ],
     "keyIdeas": [
       "Distinction phénomène/noumène",
       "Postulats de la raison pratique",
       "Insociable sociabilité",
       "Génie artistique",
-      "Beau universel sans concept"
+      "Beau universel sans concept",
+      "Impératif catégorique",
+      "Loi morale universalisable",
+      "Bonheur = idéal de l'imagination"
     ]
   },
   {
@@ -420,12 +428,14 @@
     ],
     "sequences": [
       3,
-      4
+      4,
+      6
     ],
     "keyIdeas": [
       "Critique du génie",
       "Conscience comme maladie",
-      "Travail de l'artiste"
+      "Travail de l'artiste",
+      "Vivre « attaché au piquet du présent »"
     ]
   },
   {

@@ -7,6 +7,8 @@ Obligation morale qu'on s'impose à soi-même — à distinguer de la contrainte
 ## Philosophes clés
 
 - Emmanuel Kant (1724 – 1804)
+- Aristote (384 – 322 av. J.-C.)
+- Épicure (341 – 270 av. J.-C.)
 
 ## Séquences associées
 

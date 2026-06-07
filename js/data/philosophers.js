@@ -61,8 +61,8 @@ window.PHILOSOPHERS = [
     dates: "1623 – 1662", country: "France",
     thesis: "« Le cœur a ses raisons que la raison ne connaît point. » Le moi est indéfinissable.",
     tags: ["coeur","vérité","moi"],
-    sequences: [1,2,5],
-    keyIdeas: ["Vérités du cœur", "Moi indéfinissable", "Justice sans force = impuissante"]
+    sequences: [1,2,5,6],
+    keyIdeas: ["Vérités du cœur", "Moi indéfinissable", "Justice sans force = impuissante", "« Nous ne vivons jamais, nous espérons de vivre »"]
   },
   {
     id: "spinoza", name: "Baruch Spinoza", initials: "S",
@@ -101,8 +101,8 @@ window.PHILOSOPHERS = [
     dates: "1712 – 1778", country: "Suisse / France",
     thesis: "L'homme est perfectible. À l'état de nature, il n'a ni les vices ni les vertus de l'homme civil.",
     tags: ["nature","perfectibilité","langage"],
-    sequences: [1,3,5,7,8],
-    keyIdeas: ["Perfectibilité", "État de nature", "Pitié naturelle", "Idées générales et langage", "Travail et naissance des inégalités"]
+    sequences: [1,3,5,6,7,8],
+    keyIdeas: ["Perfectibilité", "État de nature", "Pitié naturelle", "Idées générales et langage", "Travail et naissance des inégalités", "Satisfaction imaginée vs satisfaction réelle"]
   },
   {
     id: "hume", name: "David Hume", initials: "H",
@@ -117,8 +117,8 @@ window.PHILOSOPHERS = [
     dates: "1724 – 1804", country: "Allemagne",
     thesis: "« J'ai dû abolir le savoir pour y substituer la croyance. » L'homme est une personne, doté de dignité.",
     tags: ["raison","liberté","beau","morale"],
-    sequences: [1,2,4,5],
-    keyIdeas: ["Distinction phénomène/noumène", "Postulats de la raison pratique", "Insociable sociabilité", "Génie artistique", "Beau universel sans concept"]
+    sequences: [1,2,4,5,6],
+    keyIdeas: ["Distinction phénomène/noumène", "Postulats de la raison pratique", "Insociable sociabilité", "Génie artistique", "Beau universel sans concept", "Impératif catégorique", "Loi morale universalisable", "Bonheur = idéal de l'imagination"]
   },
   {
     id: "hegel", name: "G. W. F. Hegel", initials: "H",
@@ -149,8 +149,8 @@ window.PHILOSOPHERS = [
     dates: "1844 – 1900", country: "Allemagne",
     thesis: "La conscience est une maladie : tout ce qui devient conscient devient plat. Le génie n'est qu'un travail.",
     tags: ["conscience","langage","art"],
-    sequences: [3,4],
-    keyIdeas: ["Critique du génie", "Conscience comme maladie", "Travail de l'artiste"]
+    sequences: [3,4,6],
+    keyIdeas: ["Critique du génie", "Conscience comme maladie", "Travail de l'artiste", "Vivre « attaché au piquet du présent »"]
   },
   {
     id: "freud", name: "Sigmund Freud", initials: "F",

@@ -10,7 +10,10 @@
 - Saint Augustin (354 – 430)
 - Héraclite d'Éphèse (v. 500 av. J.-C.)
 - Jean-Paul Sartre (1905 – 1980)
+- Blaise Pascal (1623 – 1662)
+- Friedrich Nietzsche (1844 – 1900)
 
 ## Séquences associées
 
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
+- Séquence VI — A-t-on le devoir d'être heureux ?

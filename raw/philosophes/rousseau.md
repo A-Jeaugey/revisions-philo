@@ -11,6 +11,7 @@
 - Pitié naturelle
 - Idées générales et langage
 - Travail et naissance des inégalités
+- Satisfaction imaginée vs satisfaction réelle
 
 **Tags.** nature, perfectibilité, langage.
 
@@ -19,5 +20,6 @@
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VI — A-t-on le devoir d'être heureux ?
 - Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?
 - Séquence VIII — La technique nous éloigne-t-elle de la nature ?

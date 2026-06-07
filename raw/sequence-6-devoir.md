@@ -2,13 +2,29 @@
 
 > De Calliclès à Spinoza : qu'est-ce qu'une vie réussie ?
 
+**Perspectives.** La morale et la politique.
 **Notions.** Devoir, Bonheur, Liberté, Raison, Nature, Temps.
 **Repères.** absolu / relatif.
+
+## En clair
+
+Le devoir nous impose souvent des sacrifices ; le bonheur est notre quête la plus naturelle. Doit-on chercher le bonheur — ou se contenter de devenir digne d'en être heureux ?
+
+**Pourquoi ça compte.** Si le devoir est par essence désintéressé et le bonheur recherché pour lui-même, l'idée même d'un devoir d'être heureux semble contradictoire. Et le bonheur lui-même : est-il atteignable, ou n'est-il qu'un mirage que notre conscience temporelle nous interdit de saisir ?
+
+**Le débat.** Trois positions s'affrontent. Calliclès, Épicure, stoïciens, utilitaristes : une morale eudémoniste est possible — le bonheur peut être fin de l'action, à condition d'être pensé (modération, ataraxie, vertu, calcul). Kant : non, le devoir est désintéressé par essence — chercher le bonheur n'est pas être moral, c'est rationaliser son intérêt. Kant encore, Pascal, Nietzsche : le bonheur n'a pas de contenu déterminé, c'est un idéal de l'imagination, et notre conscience temporelle nous empêche d'habiter le présent.
+
+**À ne pas confondre :**
+- Devoir ≠ contrainte. Le devoir s'impose librement (c'est une obligation morale) ; la contrainte vient de l'extérieur. Confondre les deux, c'est manquer ce que Kant appelle l'autonomie.
+- Hédonisme radical ≠ épicurisme. Calliclès cherche le plaisir illimité ; Épicure cherche l'ataraxie, par la modération des désirs. L'épicurisme n'est pas une débauche organisée — c'est presque son contraire.
+- Agir conformément au devoir ≠ agir par devoir. Le commerçant honnête peut l'être par intérêt (pour conserver sa clientèle) : son acte est conforme au devoir, mais pas moral. Seule l'intention compte chez Kant.
+
+**À retenir.** Le bonheur ne peut pas être un devoir au sens kantien — il est trop subjectif pour être universalisé. Mais l'accomplissement du devoir nous rend digne d'être heureux : c'est peut-être la meilleure manière d'approcher un bonheur qui se dérobe si on le poursuit trop directement.
 
 ## Plan détaillé
 
 1. **Une morale qui vise le bonheur est possible**
-   _Pourquoi ce moment :_ On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Trois positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu.
+   _Pourquoi ce moment :_ On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Quatre positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu, l'utilitarisme conséquentialiste.
    - **Calliclès (Platon)** — Le bonheur n'est pas l'hédonisme radical
      · Pour Calliclès, vivre selon la nature, c'est satisfaire tous ses désirs sans frein (gourmandise, débauche). Mais Socrate lui répond : la vie démesurée est un tonneau des Danaïdes — un manque sans fin, une frustration permanente.
      · _Apport :_ Premier rejet : le plaisir illimité ne fait pas le bonheur. Trop de plaisir engendre lassitude, le désir renaît sans cesse.
@@ -18,9 +34,31 @@
    - **Épicure** — L'épicurisme : l'hédonisme modéré
      · Ne satisfaire que les désirs naturels et nécessaires (manger quand on a faim) ; fuir les désirs vains (gloire, richesse) qui font plus souffrir que jouir. Le but : l'ataraxie — l'absence de trouble physique et mental.
      · _Apport :_ Le bonheur n'est pas l'excès mais la sérénité. Une vie tranquille, faite de petits plaisirs accessibles, suffit.
-   - **Stoïciens** — Le stoïcisme : la vertu fait le bonheur
+   - **Stoïciens (Épictète)** — Le stoïcisme : la vertu fait le bonheur
      · Agir sur soi plutôt que sur le monde. Distinguer ce qui dépend de nous (nos pensées, nos jugements) de ce qui n'en dépend pas (la santé, la réussite, la mort) — et se détacher du second.
      · _Apport :_ Bonheur absolu et non relatif aux circonstances. La vertu rationnelle suffit à elle-même.
+   - **Utilitarisme** — L'utilitarisme : une morale conséquentialiste
+     · Le bonheur absolu est impossible. La morale consiste à calculer rationnellement les conséquences de nos actes pour maximiser le plaisir et minimiser la souffrance — pour soi et pour les autres.
+     · _Apport :_ Un acte est bon selon ses conséquences sur le monde. La poursuite rationnelle de l'intérêt privé doit tenir compte du bien-être d'autrui.
+2. **Le devoir est indépendant de la recherche du bonheur**
+   _Pourquoi ce moment :_ L'acte moral, en tant qu'acte de devoir, est désintéressé. Il ne peut donc viser le bonheur comme but. Kant fonde la morale sur la dignité humaine et la loi universelle.
+   - **Kant** — L'acte moral est désintéressé
+     · Un acte n'est moral que par son intention, non par sa conformité aux règles. L'impératif catégorique (inconditionné) s'oppose à l'impératif hypothétique (intéressé). Agir par devoir, et non simplement conformément au devoir.
+     · _Apport :_ Si l'on agit par calcul, par peur ou par intérêt, l'acte n'est pas moral — même s'il est conforme à la règle. Seule l'intention compte.
+   - **Kant** — Le fondement de la morale est la dignité humaine
+     · « Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin et jamais simplement comme un moyen. »
+     · _Apport :_ Pas de morale sans respect de la dignité humaine — ni dans autrui, ni dans soi-même. Autrui peut être un moyen, mais jamais simplement un moyen.
+   - **Kant** — La loi morale universalisable & l'autonomie
+     · « Agis uniquement d'après une maxime telle que tu puisses vouloir en même temps qu'elle devienne une loi universelle. » Obéir à sa propre raison morale, c'est s'obéir à soi-même.
+     · _Apport :_ Le devoir n'est pas l'opposé de la liberté : il en est l'expression, par l'autonomie de la volonté rationnelle.
+3. **La recherche du bonheur est vaine : il faut apprendre à vivre**
+   _Pourquoi ce moment :_ Le bonheur, comme idéal, échappe à toute définition rationnelle. Plutôt que le poursuivre, on peut chercher à être digne d'être heureux — et apprendre à habiter le présent.
+   - **Kant / Rousseau** — Le bonheur n'est qu'un idéal de l'imagination
+     · Nous ne savons pas ce qui nous rend heureux ; le bonheur n'est pas un idéal de la raison, mais de l'imagination. Rousseau prolonge : la satisfaction imaginée d'un désir est plus intense que la satisfaction réelle.
+     · _Apport :_ Le bonheur n'a pas de contenu déterminé. Plutôt que le poursuivre, se rendre digne d'être heureux par le devoir.
+   - **Pascal / Nietzsche** — Bonheur et temps
+     · Notre malheur vient de notre conscience temporelle : nos pensées vont vers le passé (nostalgie) ou le futur (angoisse), jamais le présent. Pascal : « nous ne vivons jamais, mais nous espérons de vivre ». La solution selon Nietzsche : vivre « attaché au piquet du présent », comme les bêtes.
+     · _Apport :_ Le secret du bonheur n'est pas la projection vers un avenir rêvé, mais la présence à l'instant.
 
 ---
 

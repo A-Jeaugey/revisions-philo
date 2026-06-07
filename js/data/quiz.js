@@ -83,8 +83,8 @@ window.QUIZZES = [
   },
   {
     id: 6,
-    title: "Devoir et bonheur",
-    description: "Calliclès, Épicure, stoïcisme…",
+    title: "A-t-on le devoir d'être heureux ?",
+    description: "Calliclès, Épicure, stoïcisme, utilitarisme, Kant, Pascal, Nietzsche…",
     questions: [
       { q: "Quelle est la différence entre obligation et contrainte ?", o: ["Aucune","Obligation = libre, contrainte = extérieure","Obligation = forcée","Contrainte = morale"], c: 1, e: "L'obligation s'impose librement (morale) ; la contrainte est extérieure et forcée." },
       { q: "Pour Calliclès, le bonheur consiste à :", o: ["Maîtriser ses désirs","Satisfaire compulsivement tous ses désirs","Méditer","Aider les autres"], c: 1, e: "Hédonisme radical : « vivre selon la nature »." },
@@ -92,7 +92,14 @@ window.QUIZZES = [
       { q: "Pour Épicure, le bonheur est :", o: ["Le plaisir intense","L'ataraxie","La gloire","La richesse"], c: 1, e: "Ataraxie = absence de souffrance physique et psychologique." },
       { q: "L'épicurisme est :", o: ["Un hédonisme radical","Un hédonisme modéré par la raison","Un ascétisme","Un stoïcisme"], c: 1, e: "Satisfaire seulement les désirs naturels et nécessaires." },
       { q: "Le stoïcisme propose :", o: ["D'agir sur le monde","D'agir sur soi-même","D'éviter le monde","De rechercher le plaisir"], c: 1, e: "Bonheur absolu, indépendant des circonstances extérieures." },
-      { q: "L'étymologie de bonheur est :", o: ["Bon + heur (chance)","Bien + cœur","Bon + jour","Bien + heure"], c: 0, e: "« heur » = chance — d'où le problème : peut-il y avoir un devoir d'être heureux ?" }
+      { q: "L'étymologie de bonheur est :", o: ["Bon + heur (chance)","Bien + cœur","Bon + jour","Bien + heure"], c: 0, e: "« heur » = chance — d'où le problème : peut-il y avoir un devoir d'être heureux ?" },
+      { q: "L'utilitarisme juge un acte selon :", o: ["Son intention","Ses conséquences (calcul plaisir/souffrance)","Sa conformité à la loi divine","Sa beauté"], c: 1, e: "Morale conséquentialiste : un acte est bon s'il maximise le plaisir et minimise la souffrance dans le monde." },
+      { q: "Chez Kant, un acte est moral :", o: ["S'il est conforme aux règles","S'il est accompli par devoir, désintéressé","S'il rend heureux","S'il est utile"], c: 1, e: "La moralité réside dans l'<em>intention</em>. Agir <em>par</em> devoir, pas seulement <em>conformément au</em> devoir." },
+      { q: "L'impératif catégorique se distingue de l'impératif hypothétique en ce qu'il est :", o: ["Conditionnel et intéressé","Inconditionné et désintéressé","Réservé aux experts","Subjectif"], c: 1, e: "Catégorique = inconditionné, ne dépend d'aucune fin extérieure. Hypothétique = « si tu veux X, alors fais Y »." },
+      { q: "La formule kantienne sur l'humanité dit qu'autrui :", o: ["Doit être traité comme un moyen","Ne doit jamais être un moyen","Doit toujours être traité aussi comme une fin, jamais simplement comme un moyen","Doit être ignoré"], c: 2, e: "Autrui est inévitablement un moyen (commerçant/client). Mais il ne doit jamais être réduit à ce seul statut." },
+      { q: "Pour Kant, le bonheur est :", o: ["Un idéal de la raison","Un idéal de l'imagination","Un devoir","Une vertu"], c: 1, e: "On ne sait pas à quoi ressemble le bonheur ; on ne peut que l'imaginer. D'où : ne le cherche pas, deviens digne d'être heureux." },
+      { q: "Pour Pascal, le problème du bonheur est que :", o: ["Il est inaccessible aux riches","Nous ne vivons jamais le présent, toujours dans l'espoir du futur","Il est interdit par Dieu","Il est trop facile"], c: 1, e: "« Nous ne vivons jamais, mais nous espérons de vivre […], il est inévitable que nous ne le soyons jamais. »" },
+      { q: "La solution de Nietzsche pour le bonheur, c'est de vivre :", o: ["Dans la nostalgie","Dans l'espoir","« Attaché au piquet du présent »","Dans la souffrance"], c: 2, e: "S'inspirer des bêtes qui vivent dans l'instant. L'homme jalouse leur bonheur, car sa conscience temporelle l'en éloigne." }
     ]
   },
   {

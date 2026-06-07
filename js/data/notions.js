@@ -24,7 +24,7 @@ window.NOTIONS = [
     glyph: "L",
     short: "Capacité de se déterminer soi-même.",
     long: "Le <b>libre arbitre</b> traditionnel (Descartes) — pouvoir choisir indépendamment de toute contrainte — est démonté par Spinoza : nous ignorons les causes qui nous déterminent (métaphore de la pierre lancée qui se croit libre). Sartre renverse la perspective : nous sommes <i>condamnés</i> à être libres, forcés de choisir, sans excuse. Distinguer la liberté <b>intérieure</b> (ne pas être l'esclave de ses passions) et la liberté <b>politique</b> (ne pas être l'esclave d'autrui) — Marx montre comment l'une dépend de l'autre. La vraie question n'est plus « sommes-nous libres ? » mais « quel sens donne-t-on à ce mot ? ».",
-    sequences: [1,5,7],
+    sequences: [1,5,6,7],
     keyAuthors: ["descartes","spinoza","kant","sartre","marx"]
   },
   {
@@ -33,8 +33,8 @@ window.NOTIONS = [
     glyph: "T",
     short: "Nombre du mouvement selon l'avant et l'après (Aristote).",
     long: "« Si personne ne me le demande, je sais ce qu'est le temps. Si on me le demande, je ne sais plus » — <b>saint Augustin</b> résume la difficulté. Aristote en donne une définition objective (le nombre du mouvement), mais cette mesure rate le temps <i>vécu</i>, subjectif, irréductible aux secondes. Pour Héraclite, tout change, rien ne demeure ; pour Sartre, l'homme est un projet, un être-pour-le-temps qui ne se fige qu'à la mort. Le temps est aussi un problème éthique : que faire du temps qui passe ? Comment le remplir sans le perdre ?",
-    sequences: [1],
-    keyAuthors: ["aristote","augustin","heraclite","sartre"]
+    sequences: [1,6],
+    keyAuthors: ["aristote","augustin","heraclite","sartre","pascal","nietzsche"]
   },
   {
     id: "verite",
@@ -51,8 +51,8 @@ window.NOTIONS = [
     glyph: "R",
     short: "Faculté de penser logiquement et de distinguer le vrai du faux.",
     long: "Faculté universelle, « la chose du monde la mieux partagée » selon <b>Descartes</b>. Elle se déploie sur deux registres : <b>rationnel</b> (théorique, dans les sciences) et <b>raisonnable</b> (pratique, dans la conduite de la vie). Mais la raison doit reconnaître ses limites : Kant montre qu'elle ne peut pas prouver Dieu, l'âme, la liberté — il faut « abolir le savoir pour y substituer la croyance ». Et la raison n'est pas tout : Pascal lui oppose les « raisons du cœur que la raison ne connaît point ».",
-    sequences: [2],
-    keyAuthors: ["descartes","hume","kant"]
+    sequences: [2,6],
+    keyAuthors: ["descartes","hume","kant","pascal"]
   },
   {
     id: "science",
@@ -142,7 +142,7 @@ window.NOTIONS = [
     short: "Obligation morale qu'on s'impose librement.",
     long: "Obligation morale qu'on s'impose à soi-même — à distinguer de la <b>contrainte</b> (imposée du dehors) et de l'<b>envie</b> (suivie spontanément). Le devoir kantien est <i>désintéressé</i> : agir par devoir, c'est agir par respect pour la loi morale, pas par calcul, pas par peur, pas par sentiment. Il implique souvent le sacrifice — du plaisir, du confort, parfois de soi-même. Question paradoxale : peut-on avoir un devoir d'être heureux ? Pour Kant non, le bonheur est trop subjectif pour être un commandement universel ; pour les eudémonistes (Aristote, Épicure), oui, le bonheur est même la fin de toute morale.",
     sequences: [5,6],
-    keyAuthors: ["kant"]
+    keyAuthors: ["kant","aristote","epicure"]
   },
   {
     id: "bonheur",
@@ -151,6 +151,6 @@ window.NOTIONS = [
     short: "État de satisfaction durable, absence de souffrance.",
     long: "De « bon » + « heur » (chance) : à l'origine, le bonheur dépendait du <i>hasard</i>. Toute la philosophie va chercher à l'arracher à la fortune, à le rendre maîtrisable. Trois grandes voies : l'<b>hédonisme radical</b> (Calliclès, satisfaction maximale de tous les désirs — mais Socrate le compare au tonneau des Danaïdes, percé, qui ne se remplit jamais) ; l'<b>hédonisme modéré</b> (Épicure, ataraxie, absence de troubles, désirs naturels et nécessaires uniquement) ; le <b>stoïcisme</b> (le sage trouve le bonheur dans la connaissance des causes, peu importent les circonstances extérieures). Question contemporaine : le bonheur est-il un droit, un devoir, un produit, ou une illusion vendue par la société de consommation ?",
     sequences: [6,7],
-    keyAuthors: ["socrate","platon","callicles","epicure"]
+    keyAuthors: ["socrate","platon","callicles","epicure","kant","pascal","nietzsche"]
   }
 ];

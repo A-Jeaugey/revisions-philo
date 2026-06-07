@@ -10,7 +10,11 @@ De « bon » + « heur » (chance) : à l'origine, le bonheur dépendait du hasa
 - Platon (v. 428 – 348 av. J.-C.)
 - Calliclès (personnage de Platon)
 - Épicure (341 – 270 av. J.-C.)
+- Emmanuel Kant (1724 – 1804)
+- Blaise Pascal (1623 – 1662)
+- Friedrich Nietzsche (1844 – 1900)
 
 ## Séquences associées
 
 - Séquence VI — A-t-on le devoir d'être heureux ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

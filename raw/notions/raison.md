@@ -9,7 +9,9 @@ Faculté universelle, « la chose du monde la mieux partagée » selon Descartes
 - René Descartes (1596 – 1650)
 - David Hume (1711 – 1776)
 - Emmanuel Kant (1724 – 1804)
+- Blaise Pascal (1623 – 1662)
 
 ## Séquences associées
 
 - Séquence II — La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?
+- Séquence VI — A-t-on le devoir d'être heureux ?

@@ -32,6 +32,7 @@ const dataFiles = [
   'seq5.js',
   'seq6.js',
   'seq7.js', 'seq7b.js',
+  'seq8.js', 'seq8b.js',
   'sequences.js',
 ];
 dataFiles.forEach(f => require(path.join(DATA_DIR, f)));

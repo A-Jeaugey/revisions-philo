@@ -493,7 +493,9 @@
     "slug": "devoir-bonheur",
     "title": "A-t-on le devoir d'être heureux ?",
     "short": "De Calliclès à Spinoza : qu'est-ce qu'une vie réussie ?",
-    "perspectives": [],
+    "perspectives": [
+      "La morale et la politique"
+    ],
     "notions": [
       "Devoir",
       "Bonheur",
@@ -507,11 +509,21 @@
     ],
     "work": null,
     "tint": "#d4a85a",
-    "inProgress": true,
+    "essentiel": {
+      "question": "Le devoir nous impose souvent des sacrifices ; le bonheur est notre quête la plus naturelle. Doit-on chercher le bonheur — ou se contenter de devenir <em>digne</em> d'en être heureux ?",
+      "enjeu": "Si le devoir est par essence désintéressé et le bonheur recherché pour lui-même, l'idée même d'un <em>devoir</em> d'être heureux semble contradictoire. Et le bonheur lui-même : est-il atteignable, ou n'est-il qu'un mirage que notre conscience temporelle nous interdit de saisir ?",
+      "tension": "Trois positions s'affrontent. <b>Calliclès, Épicure, stoïciens, utilitaristes</b> : une morale eudémoniste est possible — le bonheur peut être fin de l'action, à condition d'être pensé (modération, ataraxie, vertu, calcul). <b>Kant</b> : non, le devoir est désintéressé par essence — chercher le bonheur n'est pas être moral, c'est rationaliser son intérêt. <b>Kant encore, Pascal, Nietzsche</b> : le bonheur n'a pas de contenu déterminé, c'est un idéal de l'imagination, et notre conscience temporelle nous empêche d'habiter le présent.",
+      "pieges": [
+        "<b>Devoir ≠ contrainte.</b> Le devoir s'impose librement (c'est une <em>obligation morale</em>) ; la contrainte vient de l'extérieur. Confondre les deux, c'est manquer ce que Kant appelle l'<em>autonomie</em>.",
+        "<b>Hédonisme radical ≠ épicurisme.</b> Calliclès cherche le plaisir illimité ; Épicure cherche l'ataraxie, par la modération des désirs. L'épicurisme n'est pas une débauche organisée — c'est presque son contraire.",
+        "<b>Agir conformément au devoir ≠ agir par devoir.</b> Le commerçant honnête peut l'être par intérêt (pour conserver sa clientèle) : son acte est <em>conforme</em> au devoir, mais pas moral. Seule l'<em>intention</em> compte chez Kant."
+      ],
+      "retenir": "Le bonheur ne peut pas être un devoir au sens kantien — il est trop subjectif pour être universalisé. Mais l'accomplissement du devoir nous rend <em>digne</em> d'être heureux : c'est peut-être la meilleure manière d'approcher un bonheur qui se dérobe si on le poursuit trop directement."
+    },
     "plan": [
       {
         "t": "Une morale qui vise le bonheur est possible",
-        "enjeu": "On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Trois positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu.",
+        "enjeu": "On commence par poser la possibilité d'une morale qui prend le bonheur pour but. Quatre positions s'affrontent : l'hédonisme radical, l'épicurisme modéré, le stoïcisme de la vertu, l'utilitarisme conséquentialiste.",
         "sub": [
           {
             "t": "Le bonheur n'est pas l'hédonisme radical",
@@ -533,9 +545,57 @@
           },
           {
             "t": "Le stoïcisme : la vertu fait le bonheur",
-            "auteur": "Stoïciens",
+            "auteur": "Stoïciens (Épictète)",
             "idee": "Agir sur soi plutôt que sur le monde. Distinguer ce qui dépend de nous (nos pensées, nos jugements) de ce qui n'en dépend pas (la santé, la réussite, la mort) — et se détacher du second.",
             "apport": "Bonheur absolu et non relatif aux circonstances. La vertu rationnelle suffit à elle-même."
+          },
+          {
+            "t": "L'utilitarisme : une morale conséquentialiste",
+            "auteur": "Utilitarisme",
+            "idee": "Le bonheur absolu est impossible. La morale consiste à calculer rationnellement les conséquences de nos actes pour maximiser le plaisir et minimiser la souffrance — pour soi <em>et</em> pour les autres.",
+            "apport": "Un acte est bon selon ses conséquences sur le monde. La poursuite rationnelle de l'intérêt privé doit tenir compte du bien-être d'autrui."
+          }
+        ]
+      },
+      {
+        "t": "Le devoir est indépendant de la recherche du bonheur",
+        "enjeu": "L'acte moral, en tant qu'acte de devoir, est désintéressé. Il ne peut donc viser le bonheur comme but. Kant fonde la morale sur la dignité humaine et la loi universelle.",
+        "sub": [
+          {
+            "t": "L'acte moral est désintéressé",
+            "auteur": "Kant",
+            "idee": "Un acte n'est moral que par son <em>intention</em>, non par sa conformité aux règles. L'<b>impératif catégorique</b> (inconditionné) s'oppose à l'<b>impératif hypothétique</b> (intéressé). Agir <em>par</em> devoir, et non simplement <em>conformément au</em> devoir.",
+            "apport": "Si l'on agit par calcul, par peur ou par intérêt, l'acte n'est pas moral — même s'il est conforme à la règle. Seule l'intention compte."
+          },
+          {
+            "t": "Le fondement de la morale est la dignité humaine",
+            "auteur": "Kant",
+            "idee": "« Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin et jamais simplement comme un moyen. »",
+            "apport": "Pas de morale sans respect de la dignité humaine — ni dans autrui, ni dans soi-même. Autrui peut être un moyen, mais jamais <em>simplement</em> un moyen."
+          },
+          {
+            "t": "La loi morale universalisable & l'autonomie",
+            "auteur": "Kant",
+            "idee": "« Agis uniquement d'après une maxime telle que tu puisses vouloir en même temps qu'elle devienne une loi universelle. » Obéir à sa propre raison morale, c'est s'obéir à soi-même.",
+            "apport": "Le devoir n'est pas l'opposé de la liberté : il en est l'expression, par l'<em>autonomie</em> de la volonté rationnelle."
+          }
+        ]
+      },
+      {
+        "t": "La recherche du bonheur est vaine : il faut apprendre à vivre",
+        "enjeu": "Le bonheur, comme idéal, échappe à toute définition rationnelle. Plutôt que le poursuivre, on peut chercher à être digne d'être heureux — et apprendre à habiter le présent.",
+        "sub": [
+          {
+            "t": "Le bonheur n'est qu'un idéal de l'imagination",
+            "auteur": "Kant / Rousseau",
+            "idee": "Nous ne savons pas ce qui nous rend heureux ; le bonheur n'est pas un idéal de la raison, mais de l'imagination. Rousseau prolonge : la satisfaction <em>imaginée</em> d'un désir est plus intense que la satisfaction <em>réelle</em>.",
+            "apport": "Le bonheur n'a pas de contenu déterminé. Plutôt que le poursuivre, se rendre digne d'être heureux par le devoir."
+          },
+          {
+            "t": "Bonheur et temps",
+            "auteur": "Pascal / Nietzsche",
+            "idee": "Notre malheur vient de notre conscience temporelle : nos pensées vont vers le passé (nostalgie) ou le futur (angoisse), jamais le présent. Pascal : « nous ne vivons jamais, mais nous espérons de vivre ». La solution selon Nietzsche : vivre « attaché au piquet du présent », comme les bêtes.",
+            "apport": "Le secret du bonheur n'est pas la projection vers un avenir rêvé, mais la présence à l'instant."
           }
         ]
       }
@@ -544,6 +604,116 @@
   {
     "id": 7,
     "number": "VII",
+    "slug": "travail",
+    "title": "Travailler, est-ce perdre sa vie en la gagnant ?",
+    "short": "De la malédiction biblique à l'humanisation : le travail, fardeau aliénant ou source de dignité ?",
+    "perspectives": [
+      "L'existence humaine et la culture"
+    ],
+    "notions": [
+      "TRAVAIL",
+      "NATURE",
+      "TECHNIQUE",
+      "Bonheur",
+      "État",
+      "Conscience",
+      "Liberté"
+    ],
+    "reperes": [
+      "nature / culture",
+      "contingent / nécessaire / possible"
+    ],
+    "work": "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+    "tint": "#cf7048",
+    "essentiel": {
+      "question": "École maternelle, études, métier, tâches domestiques : on passe le plus clair de notre vie éveillée à travailler — souvent dans la peine. Le travail nous vole-t-il la vie qu'il est pourtant censé nous permettre de gagner ?",
+      "enjeu": "Le travail est nécessaire pour vivre, mais il est aussi chronophage, pénible, parfois aliénant : il semble nous éloigner du bonheur. Pourtant, c'est par le travail que l'homme se distingue de l'animal, transforme la nature et devient un être de culture. Toute la question est de savoir si, en gagnant sa vie, on la perd — ou si on la construit.",
+      "tension": "<b>Genèse, Rousseau, Marx</b> : le travail est d'abord vécu comme une malédiction — punition du péché, invention contingente source d'inégalités, aliénation de l'ouvrier moderne. <b>Arendt et Descartes</b> : d'où le vieux rêve de s'en libérer, par l'esclavage hier, par la technique aujourd'hui — un rêve qui s'est retourné en son contraire. <b>Hegel et Locke</b> : mais le travail humanise — il objective notre intériorité, fonde la propriété et les droits, donne sens à l'existence.",
+      "pieges": [
+        "<b>Travail ≠ activité libre.</b> Le travail est par définition contraint : il répond à un besoin. À distinguer de l'œuvre gratuite ou du loisir. C'est cette contrainte qui le rend pénible — mais pas nécessairement aliénant.",
+        "<b>Aliénation ≠ simple fatigue.</b> Chez Marx, être aliéné, ce n'est pas être fatigué : c'est être rendu <em>étranger à soi-même</em>, dépossédé du sens et du produit de son travail, qui appartient à un autre.",
+        "<b>Ce n'est pas le travail en soi qui est mortifère.</b> Si le travail nous fait « perdre notre vie », c'est à cause des <em>conditions culturelles</em> (économiques, politiques, de consommation) dans lesquelles on travaille — pas à cause du travail comme tel."
+      ],
+      "retenir": "On perd sa vie à la gagner quand le travail est aliéné. Mais c'est aussi par le travail que l'homme s'humanise, crée des droits et donne un sens à son existence. Le problème n'est pas le travail, mais ses conditions."
+    },
+    "plan": [
+      {
+        "t": "Le travail est une source de souffrance, donc de malheur",
+        "enjeu": "Contraignant, chronophage et pénible, le travail assure la survie mais se fait au prix d'une violence que l'homme s'inflige à lui-même. L'histoire l'a presque toujours associé à la souffrance.",
+        "sub": [
+          {
+            "t": "Le travail comme marque d'une humanité corrompue",
+            "auteur": "La Genèse",
+            "idee": "Après le péché originel, la nature nourricière devient hostile : le sol est « maudit », l'homme doit manger son pain « à la sueur de son front ». Le travail apparaît comme une punition infligée au genre humain.",
+            "apport": "Dans l'imaginaire mythique, le travail n'est pas une dimension naturelle de l'homme mais une malédiction — le signe d'un paradis (la nature gratuite) perdu."
+          },
+          {
+            "t": "Le travail chronophage est une invention humaine",
+            "auteur": "Rousseau",
+            "idee": "À l'état de nature, les hommes disposent des mêmes savoir-faire techniques modestes et vivent libres, égaux, bons et sains. C'est la métallurgie et l'agriculture qui, en introduisant la propriété et la division du travail, font naître le travail contraignant.",
+            "apport": "Le repère <em>contingent / nécessaire / possible</em> : le travail pénible n'est pas une nécessité de la condition humaine, mais le résultat d'événements contingents."
+          },
+          {
+            "t": "Le travail moderne comme source d'aliénation",
+            "auteur": "Marx",
+            "idee": "La révolution industrielle transforme l'artisan libre en prolétaire. Le travail devient extérieur à l'ouvrier : il ne s'y affirme pas mais s'y nie, il ne s'appartient plus. S'y ajoute l'exploitation économique (la plus-value).",
+            "apport": "Un grand renversement : ce qui était un moyen (le travail) devient une fin. « Au lieu de travailler pour vivre, on vit pour travailler. »"
+          }
+        ]
+      },
+      {
+        "t": "Mépris et rêve de libération du travail contraignant",
+        "enjeu": "Parce qu'il est un fardeau, le travail a longtemps été méprisé par les hommes privilégiés, qui ont rêvé de s'en affranchir — par l'esclavage hier, par la technique aujourd'hui.",
+        "sub": [
+          {
+            "t": "La hiérarchie grecque des activités humaines",
+            "auteur": "Arendt",
+            "idee": "Les Anciens ne méprisaient pas le travail parce qu'il était réservé aux esclaves : ils tenaient des esclaves à cause de la nature servile du travail. Travailler, c'était s'asservir à la nécessité. La <em>skholè</em> (temps libre) était réservée aux activités nobles : politique, science, arts.",
+            "apport": "Le travail a longtemps été assimilé à une vie animale, dont l'homme libre devait s'affranchir pour s'élever au-dessus des besoins vitaux."
+          },
+          {
+            "t": "La libération du travail par la technique",
+            "auteur": "Descartes",
+            "idee": "À l'époque moderne, la science s'allie à la technique pour nous rendre « comme maîtres et possesseurs de la nature ». L'objectif : libérer l'homme de la souffrance — celle du travail pénible et celle de notre nature corporelle (maladie, vieillissement).",
+            "apport": "Le rêve moderne : le progrès technique doit affranchir l'homme du fardeau le plus ancien, le travail."
+          },
+          {
+            "t": "La fétichisation contemporaine du travail",
+            "auteur": "Arendt",
+            "idee": "Paradoxe : l'automatisation devait libérer du travail, mais la modernité a fait du travail la valeur suprême et réduit l'homme au statut de travailleur-consommateur. Le remplacement des hommes par les machines mène à une « société de travailleurs sans travail ».",
+            "apport": "Le rêve cartésien s'est inversé : au lieu de nous libérer, le progrès nous a privés des activités plus hautes pour lesquelles il valait la peine de gagner cette liberté."
+          }
+        ]
+      },
+      {
+        "t": "Le travail revalorisé",
+        "enjeu": "Mais libérer l'homme du travail reviendrait à le déposséder de ce qui fait son humanité. Loin d'être une simple peine, le travail humanise, fonde des droits et donne sens à l'existence.",
+        "sub": [
+          {
+            "t": "Le travail comme processus d'humanisation",
+            "auteur": "Hegel / Marx",
+            "idee": "En transformant la nature, l'homme marque la matière « du sceau de son intériorité » : c'est l'objectivation de la subjectivité. En se contemplant dans son œuvre, il prend conscience de ce qu'il est. Marx ajoute : le travail humain, conscient, préexiste « dans l'imagination du travailleur ».",
+            "apport": "Le travail n'est pas que souffrance : il est le moyen par lequel l'homme se connaît, s'extériorise et se distingue de l'animal."
+          },
+          {
+            "t": "Le travail comme source de droits",
+            "auteur": "Locke",
+            "idee": "Chacun a un droit de propriété sur sa propre personne. En mêlant son travail à la matière, l'homme « y joint un élément personnel » et s'en acquiert la propriété. Marx prolonge : la reconnaissance du travail fonde la conquête des droits politiques et civiques.",
+            "apport": "Le travail est créateur de droit : il fonde la propriété (Locke) et, historiquement, la dignité sociale et la citoyenneté (Marx)."
+          },
+          {
+            "t": "Le travail thérapeutique",
+            "auteur": "Synthèse",
+            "idee": "Le travail donne un sens à l'existence, comble l'ennui et le vide, et tisse du lien social : la division du travail assure la complémentarité des individus et l'épanouissement par la relation aux autres.",
+            "apport": "Loin de n'être qu'un fardeau, le travail structure et valorise l'existence — une vie humaine vécue activement est une vie de travail."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": "VIII",
     "slug": "technique-nature",
     "title": "La technique nous éloigne-t-elle de la nature ?",
     "short": "De Prométhée à Jonas : la technique, prolongement ou rupture avec la nature ?",

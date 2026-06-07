@@ -13,16 +13,16 @@ window.PHILOSOPHERS = [
     dates: "v. 428 – 348 av. J.-C.", country: "Grèce antique",
     thesis: "La pensée est le dialogue intérieur et silencieux de l'âme avec elle-même.",
     tags: ["langage","pensée","dialogue"],
-    sequences: [3,6,7],
-    keyIdeas: ["Théorie des Idées", "Pensée = discours intérieur", "Critique de Calliclès"]
+    sequences: [3,6,8],
+    keyIdeas: ["Théorie des Idées", "Pensée = discours intérieur", "Critique de Calliclès", "Mythe de Prométhée"]
   },
   {
     id: "aristote", name: "Aristote", initials: "A",
     dates: "384 – 322 av. J.-C.", country: "Grèce antique",
     thesis: "Le temps est « le nombre du mouvement selon l'avant et l'après ». Le beau est l'ordre.",
     tags: ["temps","beau","logique"],
-    sequences: [1,2,4,7],
-    keyIdeas: ["Définition du temps", "L'art comme imitation", "Causalité"]
+    sequences: [1,2,4,8],
+    keyIdeas: ["Définition du temps", "L'art comme imitation", "Causalité", "Polyvalence de la main"]
   },
   {
     id: "epicure", name: "Épicure", initials: "É",
@@ -53,16 +53,16 @@ window.PHILOSOPHERS = [
     dates: "1596 – 1650", country: "France",
     thesis: "« Je pense, donc je suis » — première certitude indubitable obtenue par le doute.",
     tags: ["cogito","doute","raison"],
-    sequences: [1,2,3,7],
-    keyIdeas: ["Doute hyperbolique", "Cogito ergo sum", "Distinction âme/corps", "Méthode rationnelle"]
+    sequences: [1,2,3,7,8],
+    keyIdeas: ["Doute hyperbolique", "Cogito ergo sum", "Distinction âme/corps", "Méthode rationnelle", "« Maîtres et possesseurs de la nature »"]
   },
   {
     id: "pascal", name: "Blaise Pascal", initials: "P",
     dates: "1623 – 1662", country: "France",
     thesis: "« Le cœur a ses raisons que la raison ne connaît point. » Le moi est indéfinissable.",
     tags: ["coeur","vérité","moi"],
-    sequences: [1,2,5],
-    keyIdeas: ["Vérités du cœur", "Moi indéfinissable", "Justice sans force = impuissante"]
+    sequences: [1,2,5,6],
+    keyIdeas: ["Vérités du cœur", "Moi indéfinissable", "Justice sans force = impuissante", "« Nous ne vivons jamais, nous espérons de vivre »"]
   },
   {
     id: "spinoza", name: "Baruch Spinoza", initials: "S",
@@ -85,8 +85,8 @@ window.PHILOSOPHERS = [
     dates: "1632 – 1704", country: "Angleterre",
     thesis: "L'homme à l'état de nature est moral et rationnel. L'État doit protéger les droits naturels.",
     tags: ["état","contrat","libéralisme"],
-    sequences: [5],
-    keyIdeas: ["Pensée libérale", "Droits naturels", "État limité et constitutionnel"]
+    sequences: [5,7],
+    keyIdeas: ["Pensée libérale", "Droits naturels", "État limité et constitutionnel", "Le travail fonde la propriété"]
   },
   {
     id: "hobbes", name: "Thomas Hobbes", initials: "H",
@@ -101,8 +101,8 @@ window.PHILOSOPHERS = [
     dates: "1712 – 1778", country: "Suisse / France",
     thesis: "L'homme est perfectible. À l'état de nature, il n'a ni les vices ni les vertus de l'homme civil.",
     tags: ["nature","perfectibilité","langage"],
-    sequences: [1,3,5,7],
-    keyIdeas: ["Perfectibilité", "État de nature", "Pitié naturelle", "Idées générales et langage"]
+    sequences: [1,3,5,6,7,8],
+    keyIdeas: ["Perfectibilité", "État de nature", "Pitié naturelle", "Idées générales et langage", "Travail et naissance des inégalités", "Satisfaction imaginée vs satisfaction réelle"]
   },
   {
     id: "hume", name: "David Hume", initials: "H",
@@ -117,16 +117,16 @@ window.PHILOSOPHERS = [
     dates: "1724 – 1804", country: "Allemagne",
     thesis: "« J'ai dû abolir le savoir pour y substituer la croyance. » L'homme est une personne, doté de dignité.",
     tags: ["raison","liberté","beau","morale"],
-    sequences: [1,2,4,5],
-    keyIdeas: ["Distinction phénomène/noumène", "Postulats de la raison pratique", "Insociable sociabilité", "Génie artistique", "Beau universel sans concept"]
+    sequences: [1,2,4,5,6],
+    keyIdeas: ["Distinction phénomène/noumène", "Postulats de la raison pratique", "Insociable sociabilité", "Génie artistique", "Beau universel sans concept", "Impératif catégorique", "Loi morale universalisable", "Bonheur = idéal de l'imagination"]
   },
   {
     id: "hegel", name: "G. W. F. Hegel", initials: "H",
     dates: "1770 – 1831", country: "Allemagne",
     thesis: "L'homme est un être pour soi. « Le mot donne à la pensée son existence la plus haute et la plus vraie. »",
     tags: ["conscience","langage","dialectique"],
-    sequences: [1,3],
-    keyIdeas: ["Être en soi / pour soi", "Langage et pensée", "Dialectique"]
+    sequences: [1,3,7],
+    keyIdeas: ["Être en soi / pour soi", "Langage et pensée", "Dialectique", "Travail = objectivation de la subjectivité"]
   },
   {
     id: "tocqueville", name: "Alexis de Tocqueville", initials: "T",
@@ -141,16 +141,16 @@ window.PHILOSOPHERS = [
     dates: "1818 – 1883", country: "Allemagne",
     thesis: "Pas de justice sans justice sociale. La liberté en droit n'est pas la liberté en fait.",
     tags: ["justice","économie","domination"],
-    sequences: [5,7],
-    keyIdeas: ["Critique de l'idéologie bourgeoise", "Justice sociale", "Liberté en fait", "Travail conscient vs instinct animal"]
+    sequences: [5,7,8],
+    keyIdeas: ["Critique de l'idéologie bourgeoise", "Justice sociale", "Liberté en fait", "Travail conscient vs instinct animal", "Aliénation du travail"]
   },
   {
     id: "nietzsche", name: "Friedrich Nietzsche", initials: "N",
     dates: "1844 – 1900", country: "Allemagne",
     thesis: "La conscience est une maladie : tout ce qui devient conscient devient plat. Le génie n'est qu'un travail.",
     tags: ["conscience","langage","art"],
-    sequences: [3,4],
-    keyIdeas: ["Critique du génie", "Conscience comme maladie", "Travail de l'artiste"]
+    sequences: [3,4,6],
+    keyIdeas: ["Critique du génie", "Conscience comme maladie", "Travail de l'artiste", "Vivre « attaché au piquet du présent »"]
   },
   {
     id: "freud", name: "Sigmund Freud", initials: "F",
@@ -165,7 +165,7 @@ window.PHILOSOPHERS = [
     dates: "1859 – 1941", country: "France",
     thesis: "Notre langage et notre perception nous voilent l'individualité des choses. L'art seul nous y donne accès.",
     tags: ["langage","art","perception"],
-    sequences: [3,4,7],
+    sequences: [3,4,8],
     keyIdeas: ["Voile du langage", "Perception utilitaire", "L'artiste révèle le réel", "Homo faber avant homo sapiens"]
   },
   {
@@ -197,8 +197,8 @@ window.PHILOSOPHERS = [
     dates: "1906 – 1975", country: "Allemagne / USA",
     thesis: "Les œuvres d'art ne sont pas faites pour les hommes mais pour le monde, destinées à survivre aux générations.",
     tags: ["art","durée"],
-    sequences: [4],
-    keyIdeas: ["Gratuité de l'art", "Durabilité des œuvres"]
+    sequences: [4,7],
+    keyIdeas: ["Gratuité de l'art", "Durabilité des œuvres", "Hiérarchie grecque des activités", "Société de travailleurs sans travail"]
   },
   {
     id: "duchamp", name: "Marcel Duchamp", initials: "D",
@@ -301,7 +301,7 @@ window.PHILOSOPHERS = [
     dates: "1903 – 1993", country: "Allemagne",
     thesis: "Les fronts se sont inversés : nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous.",
     tags: ["technique","environnement","responsabilité"],
-    sequences: [7],
+    sequences: [8],
     keyIdeas: ["Principe responsabilité", "Inversion des fronts homme/nature", "Critique du projet cartésien de domination"]
   },
   {
@@ -309,7 +309,7 @@ window.PHILOSOPHERS = [
     dates: "1903–1969 / 1895–1973", country: "Allemagne",
     thesis: "Le progrès sépare littéralement les hommes : les hommes voyagent sur leurs pneus, complètement isolément les uns des autres.",
     tags: ["technique","aliénation","isolement"],
-    sequences: [7],
+    sequences: [8],
     keyIdeas: ["Dialectique de la raison", "Aliénation sociale par la technique", "Isolement paradoxal du progrès"]
   }
 ];

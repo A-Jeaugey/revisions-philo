@@ -18,4 +18,5 @@ Ce qui n'est pas culturel : l'inné, le spontané, le donné. S'oppose à la cul
 - Séquence IV — Comment définir l'art ?
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
 - Séquence VI — A-t-on le devoir d'être heureux ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

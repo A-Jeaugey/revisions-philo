@@ -1,6 +1,6 @@
 # Cogito — Révisions Bac de philosophie
 
-> Cogito — Révisions Bac de philosophie : 7 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.
+> Cogito — Révisions Bac de philosophie : 8 séquences, fiches, philosophes, notions, glossaire, frise, quiz et flashcards.
 
 Site interactif : https://arthurjeaugey.com/revisions-philo/
 Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
@@ -13,7 +13,8 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Séquence IV — Comment définir l'art ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-4-definir.md)
 - [Séquence V — Revient-il à l'État de décider de ce qui est juste ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-5-etat.md)
 - [Séquence VI — A-t-on le devoir d'être heureux ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-6-devoir.md)
-- [Séquence VII — La technique nous éloigne-t-elle de la nature ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-7-technique.md)
+- [Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-7-travail.md)
+- [Séquence VIII — La technique nous éloigne-t-elle de la nature ?](https://arthurjeaugey.com/revisions-philo/raw/sequence-8-technique.md)
 
 ## Philosophes
 
@@ -89,8 +90,9 @@ Index des ressources brutes : https://arthurjeaugey.com/revisions-philo/raw/
 - [Quiz 3 — Langage et pensée](https://arthurjeaugey.com/revisions-philo/raw/quiz/3.md)
 - [Quiz 4 — Définir l'art](https://arthurjeaugey.com/revisions-philo/raw/quiz/4.md)
 - [Quiz 5 — État et justice](https://arthurjeaugey.com/revisions-philo/raw/quiz/5.md)
-- [Quiz 6 — Devoir et bonheur](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
-- [Quiz 7 — La technique et la nature](https://arthurjeaugey.com/revisions-philo/raw/quiz/7.md)
+- [Quiz 6 — A-t-on le devoir d'être heureux ?](https://arthurjeaugey.com/revisions-philo/raw/quiz/6.md)
+- [Quiz 7 — Travailler, est-ce perdre sa vie en la gagnant ?](https://arthurjeaugey.com/revisions-philo/raw/quiz/7.md)
+- [Quiz 8 — La technique et la nature](https://arthurjeaugey.com/revisions-philo/raw/quiz/8.md)
 
 ## Données structurées (JSON)
 

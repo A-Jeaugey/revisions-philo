@@ -11,6 +11,9 @@
 - Insociable sociabilité
 - Génie artistique
 - Beau universel sans concept
+- Impératif catégorique
+- Loi morale universalisable
+- Bonheur = idéal de l'imagination
 
 **Tags.** raison, liberté, beau, morale.
 
@@ -20,3 +23,4 @@
 - Séquence II — La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?
 - Séquence IV — Comment définir l'art ?
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VI — A-t-on le devoir d'être heureux ?

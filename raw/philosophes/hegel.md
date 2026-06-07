@@ -9,6 +9,7 @@
 - Être en soi / pour soi
 - Langage et pensée
 - Dialectique
+- Travail = objectivation de la subjectivité
 
 **Tags.** conscience, langage, dialectique.
 
@@ -16,3 +17,4 @@
 
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

@@ -16,4 +16,5 @@ Ensemble des moyens matériels (outils, machines) et immatériels (savoir-faire)
 ## Séquences associées
 
 - Séquence IV — Comment définir l'art ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

@@ -17,3 +17,4 @@ Ensemble des institutions qui assurent le fonctionnement d'une société. Né d'
 ## Séquences associées
 
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

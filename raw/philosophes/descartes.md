@@ -10,6 +10,7 @@
 - Cogito ergo sum
 - Distinction âme/corps
 - Méthode rationnelle
+- « Maîtres et possesseurs de la nature »
 
 **Tags.** cogito, doute, raison.
 
@@ -18,4 +19,5 @@
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence II — La vérité n'appartient-elle qu'aux domaines de la raison et de la science ?
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

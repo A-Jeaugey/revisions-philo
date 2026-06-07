@@ -15,3 +15,4 @@ Notion polysémique qui se joue sur deux plans : la légalité (conformité à l
 ## Séquences associées
 
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

@@ -6,6 +6,21 @@
 **Notions.** Vérité, Raison, Science, Religion.
 **Repères.** subjectif / objectif / intersubjectif · intuitif / discursif · persuader / convaincre · vrai / probable / certain · médiat / immédiat.
 
+## En clair
+
+Notre époque dit que ce qui est vrai, c'est ce qui est prouvé scientifiquement. Mais tes émotions, ton intuition, ce qui te touche dans un poème — est-ce que c'est faux pour autant ?
+
+**Pourquoi ça compte.** Si la vérité est réservée à la raison et à la science, tout ce qui leur échappe — la beauté, la foi, l'amour, le sens — devient illusion. Mais la science elle-même est-elle aussi sûre qu'on le croit ? Et le cœur ne peut-il pas avoir ses propres vérités ?
+
+**Le débat.** Descartes, Galilée, Torricelli : la raison méthodique surpasse les sens et l'autorité — la vérité passe par le doute, l'intuition évidente, la déduction et l'expérimentation. Hume, Kant, Dilthey : mais la raison a des limites — l'induction n'est qu'une habitude, on ne connaît que des phénomènes (jamais les choses en soi), et l'humain résiste à toute loi prédictive. Popper, Einstein, Pascal, Bergson : la vérité scientifique reste falsifiable et créatrice — et il existe d'autres voies, les vérités du cœur et celles de l'art, qui révèlent ce que la raison manque.
+
+**À ne pas confondre :**
+- Vrai ≠ réel. La table est réelle ; « je pense, donc je suis » est vrai. Le vrai est une propriété d'un énoncé, pas d'une chose.
+- Certitude ≠ vérité. Je peux être absolument certain d'une opinion fausse (la Terre plate), et incertain d'une vérité (le soleil se lèvera demain — induction).
+- Persuader ≠ convaincre. Convaincre, c'est obtenir l'accord par la raison ; persuader, c'est l'obtenir par les sentiments. La rhétorique politique exploite cette différence.
+
+**À retenir.** La raison est la voie royale du vrai, mais pas la seule. La science est toujours révisable, et certaines vérités — du cœur, de l'art — disent quelque chose du réel que la démonstration ne sait pas dire.
+
 ## Plan détaillé
 
 1. **La raison seule peut nous conduire à la vérité**

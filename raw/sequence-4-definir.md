@@ -4,6 +4,21 @@
 
 **Notions.** Art, Travail, Technique, Nature, Vérité, Liberté, Science.
 
+## En clair
+
+Tu reconnais une œuvre d'art quand tu la vois. Mais pourquoi un tableau et un urinoir signé Duchamp sont-ils tous les deux au musée, alors qu'une chaise bien faite, non ?
+
+**Pourquoi ça compte.** Si l'art est juste un savoir-faire, l'artisan et l'artiste sont la même chose. Si c'est la beauté, l'art contemporain n'est plus de l'art. Et si c'est l'originalité, qu'est-ce qui distingue le génie du caprice ? Sans définition claire, on ne sait plus ce qu'on met dans un musée — ni pourquoi on devrait s'y arrêter.
+
+**Le débat.** Nietzsche, Alain, Arendt, Kant : l'art = travail + technique + génie. L'œuvre est un savoir-faire gratuit, sans utilité, et le génie y suit des règles qu'il ignore lui-même. Aristote, Kant : l'art = belle représentation du monde, qui prétend à un accord universel sans pourtant suivre de concept. Duchamp, Manzoni, Christo : l'art contemporain casse tout — ni beauté, ni technique, ni originalité. Reste une chose : l'art défamiliarise le regard, fait voir le monde autrement.
+
+**À ne pas confondre :**
+- Beau ≠ agréable. L'agréable est subjectif (j'aime le chocolat). Le beau prétend à l'universalité (« tu devrais trouver ça beau aussi »).
+- Artiste ≠ artisan. L'artisan exécute un plan préétabli ; l'artiste, dit Alain, découvre son œuvre en la faisant — il en est lui-même spectateur.
+- Art ≠ technique. Toute technique vise une utilité ; l'art, lui, est gratuit (Arendt). C'est pour cela qu'un urinoir devient œuvre quand il sort de sa fonction.
+
+**À retenir.** L'art ne se définit ni par la beauté, ni par la technique, ni par le génie — il se définit par ce qu'il fait : il défamiliarise notre regard et nous fait voir le monde autrement.
+
 ## Plan détaillé
 
 1. **L'art = travail + technique au service d'œuvres gratuites et originales**

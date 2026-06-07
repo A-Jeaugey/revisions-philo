@@ -10,6 +10,17 @@ window.SEQUENCE_5 = {
   reperes: ["en fait / en droit","contrainte / obligation"],
   work: null,
   tint: "#7eb6d4",
+  essentiel: {
+    question: "Une loi qui interdit d'aider un migrant, c'est légal. Mais est-ce juste ? Et quand tu trouves une loi injuste, dois-tu obéir quand même ?",
+    enjeu: "Si seul l'État dit ce qui est juste, alors tout ce qu'il décide est juste — y compris les régimes nazis, l'esclavage légal, l'apartheid. Si la justice est une affaire de conscience individuelle, c'est l'anarchie. Toute la philosophie politique cherche le bon équilibre : comment fonder un État dont les lois soient respectables sans être indiscutables.",
+    tension: "<b>Rousseau, Clastres, Kant</b> : il n'y a pas de justice naturelle. C'est l'État (ou d'autres formes politiques) qui institue le juste — et l'« insociable sociabilité » humaine le rend nécessaire. <b>Hobbes, Locke</b> : oui mais lequel ? Un Léviathan absolu qui empêche la guerre civile (Hobbes), ou un État libéral, limité, qui protège des droits naturels (Locke) ? <b>Sophocle, Pascal, Marx, Rawls</b> : la légalité n'est pas la légitimité. Antigone désobéit à Créon ; Marx montre que la loi sert les dominants ; Rawls théorise la désobéissance civile.",
+    pieges: [
+      "<b>Légalité ≠ légitimité.</b> Une loi peut être légale (votée selon la procédure) sans être légitime (juste moralement). C'est tout le drame d'Antigone.",
+      "<b>Contrainte ≠ obligation.</b> L'État contraint par la force ; le devoir moral oblige par la conscience. Confondre les deux, c'est rendre l'obéissance aveugle.",
+      "<b>En droit ≠ en fait.</b> La loi me reconnaît la liberté <em>en droit</em> (égalité formelle), alors que ma condition sociale me l'interdit <em>en fait</em>. C'est la critique de Marx."
+    ],
+    retenir: "L'État doit dire ce qui est juste — sinon, c'est la guerre. Mais sa parole n'est pas la dernière : la conscience morale reste juge, et la désobéissance civile peut être un acte civique."
+  },
   plan: [
     {
       t: "La justice et la morale ne sont pas des notions naturelles",

@@ -10,6 +10,17 @@ window.SEQUENCE_2 = {
   reperes: ["subjectif / objectif / intersubjectif","intuitif / discursif","persuader / convaincre","vrai / probable / certain","médiat / immédiat"],
   work: null,
   tint: "#7ed4c5",
+  essentiel: {
+    question: "Notre époque dit que ce qui est vrai, c'est ce qui est prouvé scientifiquement. Mais tes émotions, ton intuition, ce qui te touche dans un poème — est-ce que c'est faux pour autant ?",
+    enjeu: "Si la vérité est réservée à la raison et à la science, tout ce qui leur échappe — la beauté, la foi, l'amour, le sens — devient illusion. Mais la science elle-même est-elle aussi sûre qu'on le croit ? Et le cœur ne peut-il pas avoir ses propres vérités ?",
+    tension: "<b>Descartes, Galilée, Torricelli</b> : la raison méthodique surpasse les sens et l'autorité — la vérité passe par le doute, l'intuition évidente, la déduction et l'expérimentation. <b>Hume, Kant, Dilthey</b> : mais la raison a des limites — l'induction n'est qu'une habitude, on ne connaît que des phénomènes (jamais les choses en soi), et l'humain résiste à toute loi prédictive. <b>Popper, Einstein, Pascal, Bergson</b> : la vérité scientifique reste falsifiable et créatrice — et il existe d'autres voies, les vérités du cœur et celles de l'art, qui révèlent ce que la raison manque.",
+    pieges: [
+      "<b>Vrai ≠ réel.</b> La table est réelle ; « je pense, donc je suis » est <em>vrai</em>. Le vrai est une propriété d'un énoncé, pas d'une chose.",
+      "<b>Certitude ≠ vérité.</b> Je peux être absolument certain d'une opinion fausse (la Terre plate), et incertain d'une vérité (le soleil se lèvera demain — induction).",
+      "<b>Persuader ≠ convaincre.</b> Convaincre, c'est obtenir l'accord par la raison ; persuader, c'est l'obtenir par les sentiments. La rhétorique politique exploite cette différence."
+    ],
+    retenir: "La raison est la voie royale du vrai, mais pas la seule. La science est toujours révisable, et certaines vérités — du cœur, de l'art — disent quelque chose du réel que la démonstration ne sait pas dire."
+  },
   plan: [
     {
       t: "La raison seule peut nous conduire à la vérité",

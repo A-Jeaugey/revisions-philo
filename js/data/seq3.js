@@ -10,6 +10,17 @@ window.SEQUENCE_3 = {
   reperes: [],
   work: null,
   tint: "#9b7ed4",
+  essentiel: {
+    question: "Quand tu cherches tes mots, tu sens bien que tu penses <em>quelque chose</em> sans encore le dire. Mais cette pensée muette est-elle vraiment claire — ou n'existe-t-elle vraiment qu'une fois formulée ?",
+    enjeu: "Si la pensée précède le langage, on en a plus dans la tête qu'on n'arrive à dire. Mais si pensée et langage sont indissociables, mal parler revient à mal penser, et nos mots construisent notre monde. Et si le langage trahit aussi la pensée, c'est toute la sincérité, la politique et l'art qui se jouent dans cet écart.",
+    tension: "<b>Saussure, Descartes, Chomsky</b> : le langage humain est arbitraire, infini, créatif — il <em>exprime</em> une pensée qui le précède. <b>Platon, Saussure, Rousseau</b> : impossible — penser, c'est se parler intérieurement, et sans mots, pas de concepts généraux ni d'abstraction. <b>Bergson, Nietzsche, Freud</b> : mais le mot trahit la singularité du vécu, la conscience verbale appauvrit la vie, et l'inconscient parle dans un langage codé — l'art seul peut percer le voile.",
+    pieges: [
+      "<b>Langue ≠ parole.</b> La <em>langue</em> est le système collectif (français, anglais) ; la <em>parole</em> est l'acte individuel. Saussure distingue les deux.",
+      "<b>Communiquer ≠ penser.</b> Les abeilles communiquent (danse), elles ne pensent pas. Le langage humain n'est pas un simple signal — il est combinable, abstrait, créatif.",
+      "<b>Convaincre ≠ persuader.</b> Convaincre fait appel à la raison de l'autre ; persuader joue sur ses émotions, ses peurs, ses préjugés. Le discours politique exploite l'écart."
+    ],
+    retenir: "Langage et pensée se construisent ensemble — mais le langage généralise toujours, et une part de notre vie intérieure reste indicible. L'art tente d'y revenir."
+  },
   plan: [
     {
       t: "Le langage verbal : témoignage de la pensée ?",

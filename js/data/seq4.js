@@ -10,6 +10,17 @@ window.SEQUENCE_4 = {
   reperes: [],
   work: null,
   tint: "#e08aa8",
+  essentiel: {
+    question: "Tu reconnais une œuvre d'art quand tu la vois. Mais pourquoi un tableau et un urinoir signé Duchamp sont-ils tous les deux au musée, alors qu'une chaise bien faite, non ?",
+    enjeu: "Si l'art est juste un savoir-faire, l'artisan et l'artiste sont la même chose. Si c'est la beauté, l'art contemporain n'est plus de l'art. Et si c'est l'originalité, qu'est-ce qui distingue le génie du caprice ? Sans définition claire, on ne sait plus ce qu'on met dans un musée — ni pourquoi on devrait s'y arrêter.",
+    tension: "<b>Nietzsche, Alain, Arendt, Kant</b> : l'art = travail + technique + génie. L'œuvre est un savoir-faire gratuit, sans utilité, et le génie y suit des règles qu'il ignore lui-même. <b>Aristote, Kant</b> : l'art = belle représentation du monde, qui prétend à un accord universel sans pourtant suivre de concept. <b>Duchamp, Manzoni, Christo</b> : l'art contemporain casse tout — ni beauté, ni technique, ni originalité. Reste une chose : l'art <em>défamiliarise</em> le regard, fait voir le monde autrement.",
+    pieges: [
+      "<b>Beau ≠ agréable.</b> L'agréable est subjectif (j'aime le chocolat). Le beau prétend à l'universalité (« tu devrais trouver ça beau aussi »).",
+      "<b>Artiste ≠ artisan.</b> L'artisan exécute un plan préétabli ; l'artiste, dit Alain, <em>découvre</em> son œuvre en la faisant — il en est lui-même spectateur.",
+      "<b>Art ≠ technique.</b> Toute technique vise une utilité ; l'art, lui, est <em>gratuit</em> (Arendt). C'est pour cela qu'un urinoir devient œuvre quand il sort de sa fonction."
+    ],
+    retenir: "L'art ne se définit ni par la beauté, ni par la technique, ni par le génie — il se définit par ce qu'il <em>fait</em> : il défamiliarise notre regard et nous fait voir le monde autrement."
+  },
   plan: [
     {
       t: "L'art = travail + technique au service d'œuvres gratuites et originales",

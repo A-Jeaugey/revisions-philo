@@ -5,6 +5,21 @@
 **Perspectives.** La connaissance.
 **Notions.** Langage, Conscience, Inconscient, Liberté, Art.
 
+## En clair
+
+Quand tu cherches tes mots, tu sens bien que tu penses quelque chose sans encore le dire. Mais cette pensée muette est-elle vraiment claire — ou n'existe-t-elle vraiment qu'une fois formulée ?
+
+**Pourquoi ça compte.** Si la pensée précède le langage, on en a plus dans la tête qu'on n'arrive à dire. Mais si pensée et langage sont indissociables, mal parler revient à mal penser, et nos mots construisent notre monde. Et si le langage trahit aussi la pensée, c'est toute la sincérité, la politique et l'art qui se jouent dans cet écart.
+
+**Le débat.** Saussure, Descartes, Chomsky : le langage humain est arbitraire, infini, créatif — il exprime une pensée qui le précède. Platon, Saussure, Rousseau : impossible — penser, c'est se parler intérieurement, et sans mots, pas de concepts généraux ni d'abstraction. Bergson, Nietzsche, Freud : mais le mot trahit la singularité du vécu, la conscience verbale appauvrit la vie, et l'inconscient parle dans un langage codé — l'art seul peut percer le voile.
+
+**À ne pas confondre :**
+- Langue ≠ parole. La langue est le système collectif (français, anglais) ; la parole est l'acte individuel. Saussure distingue les deux.
+- Communiquer ≠ penser. Les abeilles communiquent (danse), elles ne pensent pas. Le langage humain n'est pas un simple signal — il est combinable, abstrait, créatif.
+- Convaincre ≠ persuader. Convaincre fait appel à la raison de l'autre ; persuader joue sur ses émotions, ses peurs, ses préjugés. Le discours politique exploite l'écart.
+
+**À retenir.** Langage et pensée se construisent ensemble — mais le langage généralise toujours, et une part de notre vie intérieure reste indicible. L'art tente d'y revenir.
+
 ## Plan détaillé
 
 1. **Le langage verbal : témoignage de la pensée ?**

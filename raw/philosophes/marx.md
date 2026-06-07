@@ -10,10 +10,12 @@
 - Justice sociale
 - Liberté en fait
 - Travail conscient vs instinct animal
+- Aliénation du travail
 
 **Tags.** justice, économie, domination.
 
 ## Apparaît dans
 
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

@@ -269,8 +269,9 @@
 .seq-grid .seq-card:nth-child(3) { grid-column: span 4; }
 .seq-grid .seq-card:nth-child(4),
 .seq-grid .seq-card:nth-child(5),
-.seq-grid .seq-card:nth-child(6),
-.seq-grid .seq-card:nth-child(7) { grid-column: span 3; }
+.seq-grid .seq-card:nth-child(6) { grid-column: span 4; }
+.seq-grid .seq-card:nth-child(7),
+.seq-grid .seq-card:nth-child(8) { grid-column: span 6; }
 
 @media (max-width: 1080px) {
   .seq-grid { grid-template-columns: repeat(4, 1fr); }
@@ -281,6 +282,7 @@
   .seq-grid .seq-card:nth-child(5),
   .seq-grid .seq-card:nth-child(6),
   .seq-grid .seq-card:nth-child(7) { grid-column: span 2; }
+  .seq-grid .seq-card:nth-child(8) { grid-column: span 4; }
 }
 @media (max-width: 700px) {
   .seq-grid { grid-template-columns: 1fr; gap: 12px; }

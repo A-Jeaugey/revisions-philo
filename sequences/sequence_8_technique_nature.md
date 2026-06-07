@@ -1,4 +1,4 @@
-# Séquence n° 7 : La technique nous éloigne-t-elle de la nature ?
+# Séquence n° 8 : La technique nous éloigne-t-elle de la nature ?
 
 <encadré>
 **PERSPECTIVE :**

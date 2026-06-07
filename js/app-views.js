@@ -48,7 +48,7 @@ App.routes.home = function() {
       <div class="section-head">
         <div>
           <div class="section-eyebrow">Le programme</div>
-          <h2>Sept <em>séquences</em> pour tout maîtriser</h2>
+          <h2>Huit <em>séquences</em> pour tout maîtriser</h2>
         </div>
         <p class="section-sub">Chaque fiche reprend l'intégralité des contenus étudiés en classe, augmentée d'éléments interactifs pour mieux comprendre et mémoriser.</p>
       </div>
@@ -141,7 +141,7 @@ App.routes.sequences = function() {
     <div class="page-head">
       <div class="crumbs"><a href="#/">Accueil</a> · Séquences</div>
       <h1>Les <em style="color:var(--accent);font-style:italic;">séquences</em></h1>
-      <p class="lead">Sept grandes questions pour le bac. Chacune est complètement transcrite et augmentée d'outils interactifs.</p>
+      <p class="lead">Huit grandes questions pour le bac. Chacune est complètement transcrite et augmentée d'outils interactifs.</p>
     </div>
     <div class="container">
       <div class="seq-grid">${cards}</div>

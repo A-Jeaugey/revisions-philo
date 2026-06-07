@@ -1,4 +1,4 @@
-# Séquence VII — La technique nous éloigne-t-elle de la nature ?
+# Séquence VIII — La technique nous éloigne-t-elle de la nature ?
 
 > De Prométhée à Jonas : la technique, prolongement ou rupture avec la nature ?
 
@@ -57,7 +57,7 @@ La technique produit des objets artificiels et transforme la nature. Mais peut-o
 
 ---
 
-# Séquence n° 7 : La technique nous éloigne-t-elle de la nature ?
+# Séquence n° 8 : La technique nous éloigne-t-elle de la nature ?
 
 <encadré>
 **PERSPECTIVE :**

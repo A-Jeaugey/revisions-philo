@@ -1,90 +1,96 @@
-// Séquence 7 — La technique nous éloigne-t-elle de la nature ?
+// Séquence 7 — Travailler, est-ce perdre sa vie en la gagnant ?
 window.SEQUENCE_7 = {
   id: 7,
   number: "VII",
-  slug: "technique-nature",
-  title: "La technique nous éloigne-t-elle de la nature ?",
-  short: "De Prométhée à Jonas : la technique, prolongement ou rupture avec la nature ?",
+  slug: "travail",
+  title: "Travailler, est-ce perdre sa vie en la gagnant ?",
+  short: "De la malédiction biblique à l'humanisation : le travail, fardeau aliénant ou source de dignité ?",
   perspectives: ["L'existence humaine et la culture"],
-  notions: ["TECHNIQUE","NATURE","TRAVAIL","Bonheur","Conscience","Liberté"],
-  reperes: ["en acte / en puissance","médiat / immédiat"],
+  notions: ["TRAVAIL","NATURE","TECHNIQUE","Bonheur","État","Conscience","Liberté"],
+  reperes: ["nature / culture","contingent / nécessaire / possible"],
   work: "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
-  tint: "#7aab5e",
+  tint: "#cf7048",
   essentiel: {
-    question: "La technique produit des objets artificiels et transforme la nature. Mais peut-on vraiment dire qu'elle nous en éloigne, si c'est notre nature même d'être technique ?",
-    enjeu: "Si la technique est inhérente à la nature humaine, alors l'opposer à la nature, c'est mal poser le problème. L'enjeu véritable est ailleurs : la technique effrénée peut-elle se retourner contre l'homme — aliéner notre humanité — ou contre la nature extérieure qui nous fait vivre ?",
-    tension: "<b>Platon, Aristote, Descartes</b> : la technique n'est pas contre-nature — elle compense notre fragilité biologique, actualise les potentialités de la main, et prolonge les processus naturels. <b>Marx et Bergson</b> : ce qui distingue l'homme des animaux c'est la conscience et l'intelligence fabriquante (<em>homo faber</em>). Puis <b>Rousseau et Jonas</b> renversent tout : la technique débridée a corrompu l'état de nature, et désormais c'est nous qui sommes devenus la menace pour la nature.",
+    question: "École maternelle, études, métier, tâches domestiques : on passe le plus clair de notre vie éveillée à travailler — souvent dans la peine. Le travail nous vole-t-il la vie qu'il est pourtant censé nous permettre de gagner ?",
+    enjeu: "Le travail est nécessaire pour vivre, mais il est aussi chronophage, pénible, parfois aliénant : il semble nous éloigner du bonheur. Pourtant, c'est par le travail que l'homme se distingue de l'animal, transforme la nature et devient un être de culture. Toute la question est de savoir si, en gagnant sa vie, on la perd — ou si on la construit.",
+    tension: "<b>Genèse, Rousseau, Marx</b> : le travail est d'abord vécu comme une malédiction — punition du péché, invention contingente source d'inégalités, aliénation de l'ouvrier moderne. <b>Arendt et Descartes</b> : d'où le vieux rêve de s'en libérer, par l'esclavage hier, par la technique aujourd'hui — un rêve qui s'est retourné en son contraire. <b>Hegel et Locke</b> : mais le travail humanise — il objective notre intériorité, fonde la propriété et les droits, donne sens à l'existence.",
     pieges: [
-      "<b>Artificiel ≠ contre-nature.</b> Même le plastique ou l'acier sont le prolongement de processus naturels — la technique actualise ce qui était déjà <em>en puissance</em> dans la matière. Rien de ce qu'elle produit n'est strictement contre-nature.",
-      "<b>Homo faber ≠ homo sapiens.</b> Bergson ne dit pas que l'homme ne pense pas — il dit que la faculté de fabriquer est <em>plus ancienne et plus fondamentale</em> que la faculté théorique. C'est un déplacement du centre de gravité de l'humanité, pas une négation de la raison.",
-      "<b>Éloigner la nature extérieure ≠ aliéner notre nature intérieure.</b> La technique nous éloigne peut-être moins de la nature du dehors qu'elle ne peut corrompre notre propre humanité : fin de l'<em>homo faber</em>, isolement social, travail aliénant."
+      "<b>Travail ≠ activité libre.</b> Le travail est par définition contraint : il répond à un besoin. À distinguer de l'œuvre gratuite ou du loisir. C'est cette contrainte qui le rend pénible — mais pas nécessairement aliénant.",
+      "<b>Aliénation ≠ simple fatigue.</b> Chez Marx, être aliéné, ce n'est pas être fatigué : c'est être rendu <em>étranger à soi-même</em>, dépossédé du sens et du produit de son travail, qui appartient à un autre.",
+      "<b>Ce n'est pas le travail en soi qui est mortifère.</b> Si le travail nous fait « perdre notre vie », c'est à cause des <em>conditions culturelles</em> (économiques, politiques, de consommation) dans lesquelles on travaille — pas à cause du travail comme tel."
     ],
-    retenir: "L'homme ne peut pas s'éloigner de la nature par la technique, car c'est sa nature même d'être technique. Ce qu'il risque, c'est de se corrompre lui-même — et de corrompre la nature qui l'entoure."
+    retenir: "On perd sa vie à la gagner quand le travail est aliéné. Mais c'est aussi par le travail que l'homme s'humanise, crée des droits et donne un sens à son existence. Le problème n'est pas le travail, mais ses conditions."
   },
   plan: [
     {
-      t: "Le naturel et l'artificiel : antithèse ou continuité ?",
-      enjeu: "La technique semble s'opposer à la nature. Mais si la nature humaine est précisément d'être technique, l'opposition s'effondre — la technique est un prolongement naturel.",
+      t: "Le travail est une source de souffrance, donc de malheur",
+      enjeu: "Contraignant, chronophage et pénible, le travail assure la survie mais se fait au prix d'une violence que l'homme s'inflige à lui-même. L'histoire l'a presque toujours associé à la souffrance.",
       sub: [
         {
-          t: "L'habilité technique compense notre faiblesse naturelle",
-          auteur: "Platon",
-          idee: "Dans le mythe de Prométhée, les animaux reçoivent griffes, fourrures, venins. L'homme, lui, reste nu et sans armes. Prométhée lui vole la connaissance des arts et le feu pour compenser ce manque.",
-          apport: "La technique n'est pas un éloignement de la nature : c'est la réponse à notre fragilité naturelle. Sans elle, l'espèce humaine s'éteignait."
+          t: "Le travail comme marque d'une humanité corrompue",
+          auteur: "La Genèse",
+          idee: "Après le péché originel, la nature nourricière devient hostile : le sol est « maudit », l'homme doit manger son pain « à la sueur de son front ». Le travail apparaît comme une punition infligée au genre humain.",
+          apport: "Dans l'imaginaire mythique, le travail n'est pas une dimension naturelle de l'homme mais une malédiction — le signe d'un paradis (la nature gratuite) perdu."
         },
         {
-          t: "L'habilité technique est présente en puissance dans la polyvalence de la main",
-          auteur: "Aristote",
-          idee: "L'animal n'a qu'une arme fixe. La main de l'homme peut devenir griffe, corne, lance ou épée selon l'outil qu'il saisit. La technique actualise ce qui était en puissance dans la main.",
-          apport: "Le repère <em>en acte / en puissance</em> : la technique n'invente pas de toutes pièces — elle réalise ce que la nature avait déjà prévu à l'état de potentialité."
-        },
-        {
-          t: "La « maîtrise de la nature » : la continuité entre la technique et la nature",
-          auteur: "Descartes",
-          idee: "La science doit s'allier à la technique pour nous rendre « maîtres et possesseurs de la nature ». Même les matières artificielles (acier, plastique) sont des prolongements de l'activité naturelle de la matière.",
-          apport: "Rien de ce que la technique produit n'est contre-nature : elle met en acte ce qui était en puissance. L'enjeu est le soulagement de la souffrance humaine."
-        }
-      ]
-    },
-    {
-      t: "L'instinct animal versus l'intelligence humaine",
-      enjeu: "Certains animaux semblent aussi travailler. Qu'est-ce qui rend l'activité technique humaine radicalement différente ?",
-      sub: [
-        {
-          t: "Le travail humain est une activité consciente",
-          auteur: "Marx",
-          idee: "L'abeille surpasse l'architecte en dextérité — mais l'architecte construit d'abord dans sa tête. Le travail humain est médiat : précédé d'un projet conscient qui détermine les moyens et subordonne la volonté.",
-          apport: "Ce qui fait la différence : la <em>conscience</em> qui médiatise le travail. Ni instinct, ni automatisme — mais liberté, donc aussi erreur possible."
-        },
-        {
-          t: "L'intelligence humaine est essentiellement technique",
-          auteur: "Bergson",
-          idee: "L'intelligence humaine a pour démarche originelle « la fabrication des outils à faire des outils ». L'homme est moins un homo sapiens qu'un homo faber. Instinct et intelligence : deux solutions élégantes au même problème, l'adaptation.",
-          apport: "La technique n'est pas un accident de l'histoire humaine : elle est l'expression la plus fondamentale de notre intelligence."
-        }
-      ]
-    },
-    {
-      t: "La technique effrénée ou la corruption de la nature",
-      enjeu: "Mais cette intelligence technique, une fois déchaînée, peut se retourner contre l'homme et contre la nature. Le progrès n'est pas neutre.",
-      sub: [
-        {
-          t: "La technique et la fin de l'état de nature",
+          t: "Le travail chronophage est une invention humaine",
           auteur: "Rousseau",
-          idee: "À l'état de nature, la technique reste modeste et égalitaire. C'est lorsqu'elle crée des besoins superflus et engendre la division du travail qu'elle produit inégalités, misère et dépendance mutuelle.",
-          apport: "La technique n'éloigne pas l'homme de la nature extérieure — elle le corrompt lui-même, en faisant naître des besoins, des inégalités et des États."
+          idee: "À l'état de nature, les hommes disposent des mêmes savoir-faire techniques modestes et vivent libres, égaux, bons et sains. C'est la métallurgie et l'agriculture qui, en introduisant la propriété et la division du travail, font naître le travail contraignant.",
+          apport: "Le repère <em>contingent / nécessaire / possible</em> : le travail pénible n'est pas une nécessité de la condition humaine, mais le résultat d'événements contingents."
         },
         {
-          t: "La question environnementale",
-          auteur: "Jonas",
-          idee: "Les fronts se sont inversés : autrefois, la nature menaçait l'homme. Désormais, « nous sommes devenus un plus grand danger pour la nature qu'elle ne l'était autrefois pour nous ».",
-          apport: "Le projet cartésien de domination est obsolète. La technique n'éloigne plus l'homme de la nature — elle la détruit."
+          t: "Le travail moderne comme source d'aliénation",
+          auteur: "Marx",
+          idee: "La révolution industrielle transforme l'artisan libre en prolétaire. Le travail devient extérieur à l'ouvrier : il ne s'y affirme pas mais s'y nie, il ne s'appartient plus. S'y ajoute l'exploitation économique (la plus-value).",
+          apport: "Un grand renversement : ce qui était un moyen (le travail) devient une fin. « Au lieu de travailler pour vivre, on vit pour travailler. »"
+        }
+      ]
+    },
+    {
+      t: "Mépris et rêve de libération du travail contraignant",
+      enjeu: "Parce qu'il est un fardeau, le travail a longtemps été méprisé par les hommes privilégiés, qui ont rêvé de s'en affranchir — par l'esclavage hier, par la technique aujourd'hui.",
+      sub: [
+        {
+          t: "La hiérarchie grecque des activités humaines",
+          auteur: "Arendt",
+          idee: "Les Anciens ne méprisaient pas le travail parce qu'il était réservé aux esclaves : ils tenaient des esclaves à cause de la nature servile du travail. Travailler, c'était s'asservir à la nécessité. La <em>skholè</em> (temps libre) était réservée aux activités nobles : politique, science, arts.",
+          apport: "Le travail a longtemps été assimilé à une vie animale, dont l'homme libre devait s'affranchir pour s'élever au-dessus des besoins vitaux."
         },
         {
-          t: "L'aliénation des hommes",
-          auteur: "Adorno / Horkheimer / Bergson",
-          idee: "Le progrès technique isole : la voiture remplace le train, les réseaux sociaux remplacent la rencontre. Et si l'homme est un homo faber, réserver la technique aux spécialistes revient à lui amputer son intelligence propre.",
-          apport: "Triple aliénation : sociale (isolement), professionnelle (travail parcellaire), identitaire (fin de l'homo faber)."
+          t: "La libération du travail par la technique",
+          auteur: "Descartes",
+          idee: "À l'époque moderne, la science s'allie à la technique pour nous rendre « comme maîtres et possesseurs de la nature ». L'objectif : libérer l'homme de la souffrance — celle du travail pénible et celle de notre nature corporelle (maladie, vieillissement).",
+          apport: "Le rêve moderne : le progrès technique doit affranchir l'homme du fardeau le plus ancien, le travail."
+        },
+        {
+          t: "La fétichisation contemporaine du travail",
+          auteur: "Arendt",
+          idee: "Paradoxe : l'automatisation devait libérer du travail, mais la modernité a fait du travail la valeur suprême et réduit l'homme au statut de travailleur-consommateur. Le remplacement des hommes par les machines mène à une « société de travailleurs sans travail ».",
+          apport: "Le rêve cartésien s'est inversé : au lieu de nous libérer, le progrès nous a privés des activités plus hautes pour lesquelles il valait la peine de gagner cette liberté."
+        }
+      ]
+    },
+    {
+      t: "Le travail revalorisé",
+      enjeu: "Mais libérer l'homme du travail reviendrait à le déposséder de ce qui fait son humanité. Loin d'être une simple peine, le travail humanise, fonde des droits et donne sens à l'existence.",
+      sub: [
+        {
+          t: "Le travail comme processus d'humanisation",
+          auteur: "Hegel / Marx",
+          idee: "En transformant la nature, l'homme marque la matière « du sceau de son intériorité » : c'est l'objectivation de la subjectivité. En se contemplant dans son œuvre, il prend conscience de ce qu'il est. Marx ajoute : le travail humain, conscient, préexiste « dans l'imagination du travailleur ».",
+          apport: "Le travail n'est pas que souffrance : il est le moyen par lequel l'homme se connaît, s'extériorise et se distingue de l'animal."
+        },
+        {
+          t: "Le travail comme source de droits",
+          auteur: "Locke",
+          idee: "Chacun a un droit de propriété sur sa propre personne. En mêlant son travail à la matière, l'homme « y joint un élément personnel » et s'en acquiert la propriété. Marx prolonge : la reconnaissance du travail fonde la conquête des droits politiques et civiques.",
+          apport: "Le travail est créateur de droit : il fonde la propriété (Locke) et, historiquement, la dignité sociale et la citoyenneté (Marx)."
+        },
+        {
+          t: "Le travail thérapeutique",
+          auteur: "Synthèse",
+          idee: "Le travail donne un sens à l'existence, comble l'ennui et le vide, et tisse du lien social : la division du travail assure la complémentarité des individus et l'épanouissement par la relation aux autres.",
+          apport: "Loin de n'être qu'un fardeau, le travail structure et valorise l'existence — une vie humaine vécue activement est une vie de travail."
         }
       ]
     }
@@ -92,139 +98,133 @@ window.SEQUENCE_7 = {
   content: `
 <h2 id="intro">Introduction</h2>
 
-<p>La <strong>nature</strong> désigne deux choses : l'essence d'une chose (c'est en ce sens qu'on parle d'une <em>nature humaine</em>) et la totalité des choses existantes, <strong>exception faite des productions humaines</strong>. Or, lorsqu'on considère la technique, elle apparaît d'emblée comme l'opposée de la nature dans la mesure où elle relève de notre existence culturelle.</p>
+<p><strong>Travailler</strong>, c'est exercer un effort prolongé (physique ou intellectuel) pour produire ou modifier quelque chose dans le but de satisfaire des besoins naturels ou culturels. De ce fait, le travail est souvent ressenti comme <strong>pénible et contraignant</strong>, mais nécessaire à tel point que notre vie entière est rythmée par lui, depuis l'entrée à l'école maternelle jusqu'à la mort.</p>
+
+<p>Le travail est, notamment aujourd'hui, hautement <strong>chronophage</strong> : la vie vécue en dehors du travail et du sommeil ne représente, dans les situations les plus avantageuses, que deux ou trois heures par jour. Par conséquent, le travail semble nous éloigner du <strong>BONHEUR</strong>, car il est une source de souffrance physique et morale (frustration, dépression, burn-out). Ce n'est pas étonnant que l'origine présumée du mot « travail » soit le latin <em>tripalium</em>, qui désigne un instrument de torture, ou que le travail renvoie à la souffrance de l'accouchement (« entrer en travail »).</p>
 
 <div class="callout def">
-  <div class="callout-title">Technique</div>
-  <p>Ensemble des moyens matériels (outils, machines) et immatériels (savoir-faire) grâce auxquels un travail peut être effectué.</p>
+  <div class="callout-title">Le paradoxe du travail</div>
+  <p>Le travail est à la fois ce qui nous fait <em>gagner</em> notre vie (subvenir à nos besoins) et ce qui semble nous la faire <em>perdre</em> (en la consumant dans la peine). D'où la question : travailler, est-ce perdre sa vie en la gagnant ?</p>
 </div>
 
-<p>La technique est indissociable de la manière dont l'homme <strong>modifie ou transforme la nature</strong>. L'homme apparaît comme un <strong>être d'antinature</strong> par la manière dont il acquiert des savoir-faire qu'il ne possède pas naturellement et par la manière dont il fabrique des objets artificiels qui transfigurent son existence. Peut-on envisager notre existence autrement qu'entourée d'objets fabriqués qui la conditionnent socialement, politiquement, moralement ?</p>
+<p>Cependant, le travail est <strong>anthropogène</strong> : il caractérise l'Homme. Il représente la manière dont l'homme modifie la <strong>NATURE</strong>, qu'il s'agisse de la nature extérieure ou de sa propre nature. C'est par le travail que l'homme devient ce qu'il est : un <strong>être de culture</strong>, foncièrement différent de ce qu'il était à l'état de nature. Le travail a transformé l'homme d'un animal hautement intelligent en un homme au sens culturel du terme.</p>
 
-<p>Nous nous étonnons tellement de l'importance de la fabrication technique dans l'histoire de notre espèce que nous pouvons nous demander si l'activité technique n'est pas <strong>inhérente à notre nature</strong>. De même, peut-on affirmer que notre activité technique nous éloigne de la nature extérieure, étant donné que le savoir-faire technique vise la production d'objets artificiels en utilisant les propriétés naturelles de la matière ?</p>
+<p>Ainsi, pour répondre à la question posée, il faut prendre en compte à la fois le <strong>caractère mortifère</strong> du travail et sa <strong>dimension anthropogène</strong>, qui rend la vie humaine digne d'être vécue autrement que celle d'un animal. Nous montrerons d'abord les raisons pour lesquelles le travail est une source de souffrance ; puis nous nous pencherons sur le mépris historique du travail et le rêve de s'en libérer par la technique ; enfin, nous exposerons les raisons de valoriser la vie laborieuse.</p>
 
 <hr>
 
-<h2 id="part-1">I. Le naturel et l'artificiel : antithèse ou continuité ?</h2>
+<h2 id="part-1">I. Le travail est une source de souffrance, donc de malheur</h2>
 
-<p>La technique <em>paraît</em> nous éloigner de la nature, mais cet éloignement n'est qu'apparent, car l'être humain est, par sa nature, voué au maniement des outils. De même, rien de ce que l'homme produit ne peut être considéré comme contre-nature, dans la mesure où la production technique suppose la capacité de connaître et d'utiliser les propriétés naturelles de la matière.</p>
+<p>Le travail assure la survie des individus ; mais son caractère contraignant, chronophage et pénible est une source de souffrance physique et psychologique. Travailler pour subvenir à ses besoins revient à <strong>se faire violence à soi-même</strong> (privation du repos, épuisement, report des moments de jouissance). Ce n'est donc pas étonnant que, dans l'histoire de l'humanité, le travail soit généralement associé à la souffrance.</p>
 
-<h3 id="platon">1. L'habilité technique compense notre faiblesse naturelle</h3>
+<h3 id="genese">1. Le travail comme marque d'une humanité corrompue</h3>
 
 <div class="author-card">
-  <div class="ac-avatar">P</div>
+  <div class="ac-avatar">G</div>
   <div>
-    <div class="ac-name">Platon</div>
-    <div class="ac-meta">v. 427 – 347 av. J.-C. · Grèce antique · <em>Protagoras</em>, 320a–321c</div>
+    <div class="ac-name">La Genèse</div>
+    <div class="ac-meta">Mythe du péché originel · Ancien Testament</div>
   </div>
 </div>
 
+<p><em>Dieu bannit les premiers hommes du paradis après qu'ils aient goûté au fruit défendu :</em></p>
+
 <blockquote>
-  Après qu'ils aient façonné les animaux (y compris les hommes), les dieux demandèrent à Prométhée et Épiméthée de les parachever en attribuant à chacun des qualités appropriées. Épiméthée s'en chargea du partage :<br><br>
-  « […] il attribua aux uns la force sans la vitesse, aux autres la vitesse sans la force ; il donna des armes à ceux-ci, les refusa à ceux-là, mais il imagina pour eux d'autres moyens de conservation ; car à ceux d'entre eux qu'il logeait dans un corps de petite taille, il donna des ailes pour fuir ou un refuge souterrain ; pour ceux qui avaient l'avantage d'une grande taille, leur grandeur suffit à les conserver […]. Cependant Épiméthée […] avait, sans y prendre garde, dépensé pour les animaux toutes les facultés dont il disposait et il lui restait la race humaine à pourvoir, et il ne savait que faire. Dans cet embarras, Prométhée vient pour examiner le partage ; il voit les animaux bien pourvus, mais l'homme nu, sans chaussures, ni couverture, ni armes […]. Alors Prométhée, ne sachant qu'imaginer pour donner à l'homme le moyen de se conserver, vole à Héphaïstos et à Athéna la connaissance des arts avec le feu ; car, sans le feu, la connaissance des arts était impossible et inutile ; et il en fait présent à l'homme. L'homme eut ainsi la science propre à conserver sa vie. »
-  <cite>Platon, Protagoras</cite>
+  « [Dieu] dit à la femme : J'augmenterai la souffrance de tes grossesses, tu enfanteras avec douleur […]. Il dit à l'homme : Puisque tu as écouté la voix de ta femme, et que tu as mangé de l'arbre au sujet duquel je t'avais donné cet ordre […], le sol sera maudit à cause de toi. C'est à force de peine que tu en tireras ta nourriture tous les jours de ta vie, il te produira des épines et des ronces […]. C'est à la sueur de ton visage que tu mangeras du pain, jusqu'à ce que tu retournes dans la terre, d'où tu as été pris ; car tu es poussière, et tu retourneras dans la poussière. »
+  <cite>Genèse, 3</cite>
 </blockquote>
 
 <div class="callout note">
   <div class="callout-title">Questions</div>
   <ol>
-    <li>Selon le mythe, quelle est la particularité de l'espèce humaine à l'état naturel ?</li>
-    <li>Que signifie « la connaissance des arts » (<em>entechnon sophian</em>) ?</li>
-    <li>Le mot technique vient du grec <em>technè</em>. Comment comprenez-vous la technique à partir de son étymologie ?</li>
-    <li>Quel est l'intérêt du feu pour la survie de l'espèce humaine, outre le chauffage et l'éclairage ? Pensez au dieu forgeron (Héphaïstos) auquel il est dérobé.</li>
-    <li>Quelle est la thèse soutenue par l'auteur ?</li>
+    <li>Quel est le sens du travail selon le mythe biblique ?</li>
+    <li>Selon une interprétation, le péché originel serait la découverte du secret de la reproduction des plantes. Comment s'accorde-t-elle avec l'avènement du travail depuis les premiers chasseurs-cueilleurs ?</li>
   </ol>
 </div>
 
-<p>Contrairement aux autres espèces animales qui disposent par leur nature corporelle d'atouts (<em>grandeur, petitesse, fourrure, force, vitesse, sabots, venin, crocs, griffes, ailes</em>) pour s'adapter à leur milieu ambiant, l'être humain semble défavorisé par sa <strong>nature biologique</strong>. Comme Platon le montre dans le mythe de Prométhée, la constitution anatomique de l'homme ne lui procure aucun avantage pour se défendre des prédateurs, se nourrir facilement, se protéger des conditions climatiques. La nature toute entière est donc une source de danger pour l'espèce humaine et la condamne à une extinction imminente.</p>
+<p>Les mythes présentent le travail comme une <strong>punition</strong> infligée au genre humain. Selon la <em>Genèse</em>, le travail est la conséquence de la corruption de la nature humaine (le péché originel), qui entraîne la corruption de la nature tout entière. La perte du paradis est la perte d'une <strong>nature nourricière</strong> qui fournissait à l'homme, sans peine, le nécessaire pour vivre. Suite au péché, la nature devient hostile : étant condamné au travail, l'homme est voué à la souffrance.</p>
 
-<p>C'est la raison pour laquelle chez Platon, <strong>« la connaissance des arts »</strong> (le savoir-faire technique) et le <strong>feu</strong> (l'outil permettant la fabrication d'autres outils) représentent les dons offerts par Prométhée aux hommes pour assurer leur survie.</p>
+<p>Ce mythe, dont les premières traces apparaissent en Mésopotamie, a souvent été mis en relation avec l'apparition de l'<strong>agriculture</strong> dans le Croissant Fertile (il y a 10 000 ans). La nostalgie du paradis perdu (celui des chasseurs-cueilleurs) transparaît aussi dans le récit de la jalousie de Caïn (l'agriculteur) envers Abel (le pasteur nomade). L'agriculture apparaît comme le début du travail chronophage.</p>
 
-<p>Ainsi, l'habilité technique permet à l'homme de <strong>compenser sa déficience biologique</strong>. En créant des outils et en transformant la nature par son travail, l'homme compense sa fragilité et se hisse au-dessus de toutes les autres espèces. Tandis que <strong>les animaux s'adaptent à la nature</strong> par leurs avantages biologiques, <strong>l'homme adapte la nature à ses besoins</strong> par son intelligence technique.</p>
-
-<h3 id="aristote">2. L'habilité technique est présente <em>en puissance</em> dans la polyvalence de la main</h3>
+<h3 id="rousseau">2. Le travail chronophage est une invention humaine</h3>
 
 <div class="author-card">
-  <div class="ac-avatar">A</div>
+  <div class="ac-avatar">R</div>
   <div>
-    <div class="ac-name">Aristote</div>
-    <div class="ac-meta">384 – 322 av. J.-C. · Grèce antique · <em>Les Parties des animaux</em>, § 10, 687b</div>
+    <div class="ac-name">Jean-Jacques Rousseau</div>
+    <div class="ac-meta">1712 – 1778 · Suisse / France · <em>Discours sur l'origine de l'inégalité</em>, 1755 (œuvre suivie)</div>
   </div>
 </div>
 
 <blockquote>
-  « […] ceux qui disent que l'homme n'est pas bien constitué et qu'il est le moins bien partagé des animaux (parce que, dit-on, il est sans chaussures, il est nu et n'a pas d'armes pour combattre) sont dans l'erreur. Car les autres animaux n'ont chacun qu'un seul moyen de défense et il ne leur est pas possible de le changer pour un autre, mais ils sont forcés, pour ainsi dire, de garder leurs chaussures pour dormir et pour faire n'importe quoi d'autre, et ne doivent jamais déposer l'armure qu'ils ont autour de leur corps ni changer l'arme qu'ils ont reçue en partage. L'homme au contraire, possède de nombreux moyens de défense, et il lui est toujours loisible d'en changer et même d'avoir l'arme qu'il veut quand il veut. Car la main devient griffe, serre, corne ou lance ou épée ou toute autre arme ou outil. Elle peut être tout cela, parce qu'elle est capable de tout saisir et de tout tenir. »
-  <cite>Aristote, Les Parties des animaux</cite>
+  « Tant que les hommes se contentèrent de leurs cabanes rustiques, tant qu'ils se bornèrent à coudre leurs habits de peaux avec des épines ou des arêtes […], en un mot tant qu'ils ne s'appliquèrent qu'à des ouvrages qu'un seul pouvait faire […], ils vécurent libres, sains, bons et heureux autant qu'ils pouvaient l'être par leur nature […] : mais dès l'instant qu'un homme eut besoin du secours d'un autre ; dès qu'on s'aperçut qu'il était utile à un seul d'avoir des provisions pour deux, l'égalité disparut, la propriété s'introduisit, le travail devint nécessaire […]. La métallurgie et l'agriculture sont les deux arts dont l'invention produisit cette grande révolution. »
+  <cite>Rousseau, Discours sur l'origine de l'inégalité</cite>
 </blockquote>
 
 <div class="callout note">
   <div class="callout-title">Questions</div>
   <ol>
-    <li>Quelle est la particularité anatomique de la main ?</li>
-    <li>Quelle est la thèse soutenue par Aristote et comment l'argumente-t-il ?</li>
-    <li>Quels sont le philosophe et la thèse qu'Aristote récuse dans ce fragment ?</li>
-    <li>Comment Aristote réfute-t-il cette thèse ?</li>
+    <li>Comment vivent les hommes avant l'apparition de la division du travail ?</li>
+    <li>Quels sont les deux « arts » qui, selon Rousseau, font naître le travail contraignant ?</li>
+    <li>Pourquoi peut-on dire que le travail pénible est <em>contingent</em> et non <em>nécessaire</em> ?</li>
   </ol>
 </div>
 
-<p>La fragilité biologique de l'homme n'est qu'apparente : il y a quelque chose dans son anatomie qui rend <strong>possible</strong> le maniement des outils — <strong>la configuration de sa main</strong>. ARISTOTE oppose la <strong>polyvalence de la main</strong> à la spécialisation des atouts animaux (serres, dents, cornes). La main de l'homme peut servir de serre, de dent, de corne, etc. par le maniement de divers outils.</p>
-
-<p>La technique, c'est-à-dire la fabrication et le maniement d'outils, apparaît comme le <strong>prolongement des potentialités présentes dans la main</strong>.</p>
+<p>La découverte, à l'époque moderne, de sociétés « primitives » qui travaillent très peu a permis de voir que le travail dans sa forme chronophage et pénible n'est pas une dimension <strong>nécessaire</strong> de l'existence humaine, mais le résultat d'une série d'événements <strong>contingents</strong>.</p>
 
 <div class="encadre">
   <div class="encadre-block">
-    <div class="label">En puissance</div>
-    <div class="vals">Ce qui existe à l'état de potentialité (possibilité non encore réalisée).</div>
+    <div class="label">Contingent</div>
+    <div class="vals">Ce qui peut être ou ne pas être, se produire ou non.</div>
   </div>
   <div class="encadre-block">
-    <div class="label">En acte</div>
-    <div class="vals">Ce qui est pleinement réalisé, effectif.</div>
+    <div class="label">Nécessaire</div>
+    <div class="vals">Ce qui ne peut pas ne pas être, ni être autrement.</div>
+  </div>
+  <div class="encadre-block">
+    <div class="label">Possible</div>
+    <div class="vals">Ce qui peut être, exister, se produire : ce qui est réalisable.</div>
   </div>
 </div>
 
-<p>Ce qui était présent <strong>EN PUISSANCE</strong> dans la polyvalence de la main de l'homme devient, par la technique, <strong>EN ACTE</strong>. Par exemple, la capacité de creuser un tunnel sous La Manche a toujours été présente <em>en puissance</em> dans la main de l'homme, mais pour que cette capacité soit <em>en acte</em> il a fallu attendre le développement des machines modernes.</p>
+<p>Pour Rousseau, à l'<strong>état de nature</strong>, les hommes disposent tous des mêmes savoir-faire techniques modestes et sont <strong>libres</strong> (indépendants), <strong>égaux</strong>, <strong>bons</strong> et <strong>sains</strong>. L'origine des malheurs de l'homme civilisé est le moment où le travail et la technique créèrent des <strong>besoins superflus</strong>, eurent une action transformatrice sur la nature (métallurgie, agriculture) et conduisirent à la <strong>division du travail</strong>. Ce sont ces événements lointains qui marquèrent la fin de l'état de nature et engendrèrent les inégalités, la misère, le travail contraignant et finalement les premiers États.</p>
 
-<p>Bien entendu, la polyvalence de la main n'est pas une condition suffisante. D'autres animaux (les chimpanzés) disposent du même avantage (pouce opposable), sans fabriquer des outils. C'est pour cette raison qu'ARISTOTE soutient que, chez l'homme, cette polyvalence de la main est complétée par la possession d'une <strong>intelligence</strong>.</p>
-
-<h3 id="descartes">3. La « maîtrise de la nature » : la continuité entre la technique et la nature</h3>
+<h3 id="marx">3. Le travail moderne comme source d'aliénation</h3>
 
 <div class="author-card">
-  <div class="ac-avatar">D</div>
+  <div class="ac-avatar">M</div>
   <div>
-    <div class="ac-name">René Descartes</div>
-    <div class="ac-meta">1596 – 1650 · France · <em>Discours de la méthode</em>, 1637</div>
+    <div class="ac-name">Karl Marx</div>
+    <div class="ac-meta">1818 – 1883 · Allemagne · <em>Manuscrits de 1844</em></div>
   </div>
+</div>
+
+<div class="callout def">
+  <div class="callout-title">Vocabulaire : aliéner</div>
+  <p>Aliéner un bien (matériel ou moral), c'est le <strong>céder à un autre</strong> (du latin <em>alienus</em>, « autre »). Chez Marx, le terme signifie le fait d'être <strong>rendu étranger à sa propre humanité</strong> dans son travail, lorsque le bien produit ne nous appartient pas et que le travailleur est réduit à sa force mécanique de production.</p>
 </div>
 
 <blockquote>
-  « Mais, sitôt que j'ai eu acquis quelques notions générales touchant la physique […], j'ai cru que je ne pouvais les tenir cachées sans pécher grandement contre la loi qui nous oblige à procurer autant qu'il est en nous le bien général de tous les hommes : car elles m'ont fait voir qu'il est possible de parvenir à des connaissances qui soient fort utiles à la vie ; et qu'au lieu de cette philosophie spéculative qu'on enseigne dans les écoles, on en peut trouver une pratique, par laquelle, connaissant la force et les actions du feu, de l'eau, de l'air, des astres, des cieux, et de tous les autres corps qui nous environnent […], nous les pourrions employer […] à tous les usages auxquels ils sont propres, et ainsi <strong>nous rendre comme maîtres et possesseurs de la nature</strong>. Ce qui n'est pas seulement à désirer pour l'invention d'une infinité d'artifices, qui feraient qu'on jouirait sans aucune peine des fruits de la terre et de toutes les commodités qui s'y trouvent, mais principalement aussi pour la conservation de la santé, laquelle est sans doute le premier bien et le fondement de tous les autres biens de cette vie […]. »
-  <cite>Descartes, Discours de la méthode</cite>
+  « [E]n quoi consiste l'aliénation du travail ? D'abord dans le fait que le travail est extérieur à l'ouvrier, c'est-à-dire qu'il n'appartient pas à son essence, que donc, dans son travail, celui-ci ne s'affirme pas mais se nie, ne se sent pas à l'aise mais malheureux […]. Son travail n'est donc pas volontaire mais contraint, c'est du travail forcé. Il n'est donc pas la satisfaction d'un besoin, mais seulement un moyen de satisfaire des besoins en dehors du travail. […] le caractère extérieur à l'ouvrier du travail apparaît dans le fait qu'il n'est pas son bien propre mais celui d'un autre, qu'il ne lui appartient pas, que dans le travail l'ouvrier ne s'appartient pas lui-même, mais appartient à un autre. »
+  <cite>Marx, Manuscrits de 1844</cite>
 </blockquote>
 
 <div class="callout note">
   <div class="callout-title">Questions</div>
-  <ul>
-    <li>Quels sont les deux types de connaissance que Descartes oppose tout au long du texte ?</li>
-    <li>Comment la connaissance de « la force et les actions du feu, de l'eau, de l'air, des astres » peut-elle devenir « fort utile à la vie » ?</li>
-    <li>Analysez le sens de l'expression « nous rendre <em>comme</em> maîtres et possesseurs de la nature ». Pourquoi importe-t-il de préciser « comme » ?</li>
-    <li>Quels sont les deux types de maîtrise de la nature envisagés par Descartes ?</li>
-  </ul>
+  <ol>
+    <li>Qu'est-ce qui, dans le travail machinal, rend l'ouvrier étranger à lui-même ?</li>
+    <li>Expliquez pourquoi le travail n'est pas « la satisfaction d'un besoin, mais seulement un moyen de satisfaire des besoins en dehors du travail ».</li>
+    <li>Pourquoi l'activité de l'ouvrier ne lui appartient-elle pas ?</li>
+  </ol>
 </div>
 
-<p>Ce n'est qu'à l'époque moderne, grâce à des savants comme DESCARTES, que la <strong>science</strong> devient l'alliée de la <strong>technique</strong>. Pour Descartes, la première cause de la souffrance humaine est la nature — la nature extérieure (hostilité des animaux sauvages, conditions climatiques, travail pénible) et notre propre <strong>nature corporelle</strong> (maladies, vieillissement, mort).</p>
+<p>La révolution industrielle a transformé le paysan et l'artisan d'autrefois — libres dans leurs gestes, maîtres de leur travail — en <strong>prolétaires</strong>, salariés dont la seule valeur est leur force de travail. Cette <strong>aliénation</strong> (déshumanisation) comporte plusieurs dimensions. L'ouvrier moderne ne maîtrise plus son travail : il occupe une place négligeable dans un univers (la grande usine) qu'il ne comprend pas, et la machine lui impose son rythme (le travail à la chaîne, dénoncé par Chaplin dans <em>Les Temps modernes</em>).</p>
 
-<p>Le projet cartésien consiste à « <strong>nous rendre <em>comme</em> maîtres et possesseurs de la nature</strong> » à travers la science et la technique alliées :</p>
-
-<ul>
-  <li>Maîtriser la <strong>nature extérieure</strong> pour jouir « <em>sans aucune peine des fruits de la terre et de toutes les commodités qui s'y trouvent</em> »</li>
-  <li>Maîtriser notre propre <strong>nature corporelle</strong> (à travers la technique médicale) pour diminuer la souffrance physique et repousser la mort</li>
-</ul>
-
-<p>La technique peut alors enlever à la nature son caractère hostile. Ces résultats restent en un sens <strong>naturels</strong>, car ce sont des résultats produits par la nature lorsqu'elle est secondée par l'activité technique de l'homme. En ce sens, rien de ce que la technique produit n'est contre-nature, car il s'agit tout simplement de rendre <strong>en acte</strong> ce qui se trouve <strong>en puissance</strong> dans la nature. Même la production de matières artificielles (comme l'acier ou le plastique) n'est rien d'autre que le prolongement technique de l'activité créatrice de la nature.</p>
+<p>À cette aliénation s'ajoute l'<strong>aliénation économique</strong> : l'ouvrier est exploité par l'entrepreneur capitaliste, qui retire une <em>plus-value</em> de son travail. L'aliénation générale de la société industrielle peut se comprendre comme un <strong>grand renversement</strong> : ce qui était un simple moyen — le travail — est devenu une fin en soi. <strong>Au lieu de travailler pour vivre, voilà que l'on vit pour travailler.</strong></p>
 
 <div class="callout note">
   <div class="callout-title">Transition</div>
-  <p>Nous venons de voir que l'activité créatrice de l'homme est immanente à sa nature et représente un prolongement des phénomènes naturels. Il convient par la suite de comprendre la raison de cette particularité de l'espèce humaine, d'autant plus qu'elle n'est pas la seule à pouvoir disposer de savoir-faire lui permettant d'agir sur son environnement.</p>
+  <p>Travailler pour gagner sa vie a pour conséquence de ne pas pouvoir vivre autrement qu'en dehors du travail. Alors, pour ne pas perdre sa vie en essayant de la gagner, ne faudrait-il pas libérer les hommes de la nécessité de travailler ?</p>
 </div>
 `
 };

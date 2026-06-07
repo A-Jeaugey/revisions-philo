@@ -14,3 +14,4 @@ De « bon » + « heur » (chance) : à l'origine, le bonheur dépendait du hasa
 ## Séquences associées
 
 - Séquence VI — A-t-on le devoir d'être heureux ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

@@ -16,3 +16,4 @@ Le libre arbitre traditionnel (Descartes) — pouvoir choisir indépendamment de
 
 - Séquence I — La conscience de soi garantit-elle la connaissance de soi ?
 - Séquence V — Revient-il à l'État de décider de ce qui est juste ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

@@ -6,7 +6,7 @@ window.NOTIONS = [
     glyph: "C",
     short: "Du latin cum + scientia. Faculté de se représenter le monde et soi-même.",
     long: "La conscience se dédouble : conscience <b>immédiate</b> (tournée vers le monde, qui sent et perçoit) et conscience <b>réfléchie</b> (tournée vers soi, qui se prend pour objet de pensée). C'est cette deuxième forme qui pose problème : avoir conscience d'être soi, est-ce déjà se connaître ? Toute la philosophie du sujet — de Descartes à Sartre — se joue dans cet écart. La conscience est aussi ce par quoi je me sens responsable de mes actes : sans elle, plus de morale, plus de droit.",
-    sequences: [1,3],
+    sequences: [1,3,7],
     keyAuthors: ["descartes","kant","hegel","sartre"]
   },
   {
@@ -24,7 +24,7 @@ window.NOTIONS = [
     glyph: "L",
     short: "Capacité de se déterminer soi-même.",
     long: "Le <b>libre arbitre</b> traditionnel (Descartes) — pouvoir choisir indépendamment de toute contrainte — est démonté par Spinoza : nous ignorons les causes qui nous déterminent (métaphore de la pierre lancée qui se croit libre). Sartre renverse la perspective : nous sommes <i>condamnés</i> à être libres, forcés de choisir, sans excuse. Distinguer la liberté <b>intérieure</b> (ne pas être l'esclave de ses passions) et la liberté <b>politique</b> (ne pas être l'esclave d'autrui) — Marx montre comment l'une dépend de l'autre. La vraie question n'est plus « sommes-nous libres ? » mais « quel sens donne-t-on à ce mot ? ».",
-    sequences: [1,5],
+    sequences: [1,5,7],
     keyAuthors: ["descartes","spinoza","kant","sartre","marx"]
   },
   {
@@ -95,9 +95,9 @@ window.NOTIONS = [
     name: "Travail",
     glyph: "T",
     short: "Activité par laquelle l'homme transforme la matière.",
-    long: "Activité par laquelle l'homme transforme la matière pour subvenir à ses besoins. Mais l'œuvre d'art aussi est le fruit d'un travail acharné — <b>Nietzsche</b> moque le mythe romantique du « génie qui crée sans effort » : derrière chaque chef-d'œuvre, des heures d'exercice. Distinction subtile avec l'art : le travail produit de l'<i>utile</i> (le marteau, le pain) ; l'art produit du <i>gratuit</i>. Marx montre que le travail peut <b>aliéner</b> (l'ouvrier dépossédé du sens et du produit de son effort) ou <b>émanciper</b> (quand il est libre et créateur). Marx distingue le travail humain (médiat, précédé d'un projet conscient) du travail animal (immédiat, instinctif) : l'architecte construit d'abord dans sa tête.",
-    sequences: [4,7],
-    keyAuthors: ["nietzsche","alain","marx"]
+    long: "Activité par laquelle l'homme transforme la matière pour subvenir à ses besoins. Souvent vécu comme une peine (le mot viendrait de <i>tripalium</i>, un instrument de torture), le travail est aussi <b>anthropogène</b> : c'est par lui que l'homme s'arrache à l'animalité et devient un être de culture. D'où le paradoxe : « perdre sa vie à la gagner ». <b>Rousseau</b> montre que le travail contraignant n'est pas nécessaire mais contingent (né de la métallurgie et de l'agriculture). <b>Marx</b> dénonce l'<b>aliénation</b> : l'ouvrier moderne, dépossédé du sens et du produit de son effort, est rendu étranger à lui-même. Mais <b>Hegel</b> y voit une <i>objectivation de la subjectivité</i> (l'homme se reconnaît dans son œuvre), <b>Locke</b> en fait la source de la propriété, et <b>Arendt</b> analyse comment la modernité a fait du travail une valeur suprême. Marx distingue enfin le travail humain (médiat, précédé d'un projet conscient) du travail animal (immédiat, instinctif) : l'architecte construit d'abord dans sa tête.",
+    sequences: [4,7,8],
+    keyAuthors: ["marx","rousseau","arendt","hegel","locke","nietzsche","alain"]
   },
   {
     id: "technique",
@@ -105,7 +105,7 @@ window.NOTIONS = [
     glyph: "T",
     short: "Savoir-faire permettant de produire des objets utiles.",
     long: "Ensemble des moyens matériels (outils, machines) et immatériels (savoir-faire) permettant de transformer la nature. <b>Platon</b> (mythe de Prométhée) : la technique compense la fragilité biologique de l'homme. <b>Aristote</b> : elle actualise ce qui était <em>en puissance</em> dans la polyvalence de la main. <b>Descartes</b> : elle doit s'allier à la science pour nous rendre « maîtres et possesseurs de la nature ». <b>Bergson</b> : l'homme est fondamentalement un <em>homo faber</em>, la technique est la démarche originelle de son intelligence. Mais <b>Jonas</b> avertit : les fronts se sont inversés — nous sommes désormais une plus grande menace pour la nature qu'elle ne l'est pour nous.",
-    sequences: [4,7],
+    sequences: [4,7,8],
     keyAuthors: ["alain","kant","platon","aristote","descartes","bergson"]
   },
   {
@@ -114,7 +114,7 @@ window.NOTIONS = [
     glyph: "N",
     short: "Ce qui n'est pas culturel, ce qui est inné ou spontané.",
     long: "Ce qui n'est pas culturel : l'inné, le spontané, le donné. S'oppose à la <b>culture</b> (l'acquis, le construit, le transmis). En philosophie politique, l'<b>état de nature</b> est une fiction utile pour penser le politique : pour Hobbes, c'est la « guerre de tous contre tous » ; pour Rousseau, c'est l'innocence, l'homme est naturellement bon, c'est la technique et la société qui le corrompent ; pour Locke, c'est déjà un état de droits naturels. La nature peut aussi désigner l'ordre du vivant : à travers le génie, dit Kant, c'est la nature elle-même qui donne ses règles à l'art. Enfin, <b>Jonas</b> renverse le rapport homme/nature : là où Descartes voulait en faire nos « maîtres et possesseurs », nous en sommes devenus la principale menace.",
-    sequences: [4,5,6,7],
+    sequences: [4,5,6,7,8],
     keyAuthors: ["rousseau","hobbes","locke","kant","descartes","jonas"]
   },
   {
@@ -123,7 +123,7 @@ window.NOTIONS = [
     glyph: "J",
     short: "Notion polysémique : légalité ou légitimité.",
     long: "Notion polysémique qui se joue sur deux plans : la <b>légalité</b> (conformité à la loi écrite) et la <b>légitimité</b> (conformité à la morale, au juste en soi). Le conflit entre Antigone et Créon (Sophocle) incarne cette tension : faut-il obéir aux lois de la cité, même injustes, ou aux lois divines (= morales) ? Pascal résume sèchement : « la justice sans la force est impuissante, la force sans la justice est tyrannique ». Marx pose la question sociale : une société peut être <i>légalement</i> juste et <i>factuellement</i> inégalitaire. Rawls cherche les principes d'une société juste sous le « voile d'ignorance » — quelles règles accepterais-tu si tu ne savais pas quelle place tu occuperais dans la société ?",
-    sequences: [5],
+    sequences: [5,7],
     keyAuthors: ["sophocle","pascal","marx","rawls","weber"]
   },
   {
@@ -132,7 +132,7 @@ window.NOTIONS = [
     glyph: "É",
     short: "Institutions assurant le fonctionnement d'une société.",
     long: "Ensemble des institutions qui assurent le fonctionnement d'une société. Né d'un <b>contrat social</b> — fiction théorique : on imagine que les hommes ont accepté de transférer une partie de leur liberté pour obtenir la sécurité (<b>Hobbes</b> : Léviathan absolu, l'État doit être tout-puissant pour empêcher la guerre civile) ou pour protéger leurs droits naturels (<b>Locke</b> : État libéral, limité, séparation des pouvoirs). Pour Weber, l'État détient le « monopole de la violence légitime ». Question critique : et les sociétés <i>sans</i> État ? L'anthropologue Pierre Clastres montre que certaines sociétés organisent activement leur refus de l'État, contre l'idée que l'État serait une étape inévitable de l'histoire.",
-    sequences: [5],
+    sequences: [5,7],
     keyAuthors: ["hobbes","locke","rousseau","weber","kant","marx","clastres"]
   },
   {
@@ -150,7 +150,7 @@ window.NOTIONS = [
     glyph: "B",
     short: "État de satisfaction durable, absence de souffrance.",
     long: "De « bon » + « heur » (chance) : à l'origine, le bonheur dépendait du <i>hasard</i>. Toute la philosophie va chercher à l'arracher à la fortune, à le rendre maîtrisable. Trois grandes voies : l'<b>hédonisme radical</b> (Calliclès, satisfaction maximale de tous les désirs — mais Socrate le compare au tonneau des Danaïdes, percé, qui ne se remplit jamais) ; l'<b>hédonisme modéré</b> (Épicure, ataraxie, absence de troubles, désirs naturels et nécessaires uniquement) ; le <b>stoïcisme</b> (le sage trouve le bonheur dans la connaissance des causes, peu importent les circonstances extérieures). Question contemporaine : le bonheur est-il un droit, un devoir, un produit, ou une illusion vendue par la société de consommation ?",
-    sequences: [6],
+    sequences: [6,7],
     keyAuthors: ["socrate","platon","callicles","epicure"]
   }
 ];

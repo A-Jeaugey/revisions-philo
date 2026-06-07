@@ -14,4 +14,4 @@
 
 ## Apparaît dans
 
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

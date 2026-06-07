@@ -17,4 +17,4 @@
 
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence IV — Comment définir l'art ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

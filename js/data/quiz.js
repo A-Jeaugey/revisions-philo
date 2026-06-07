@@ -97,6 +97,21 @@ window.QUIZZES = [
   },
   {
     id: 7,
+    title: "Travailler, est-ce perdre sa vie en la gagnant ?",
+    description: "Genèse, Rousseau, Marx, Arendt, Descartes, Hegel, Locke…",
+    questions: [
+      { q: "Quelle serait l'origine latine présumée du mot « travail » ?", o: ["Tripalium (un instrument de torture)","Trabajo (un effort)","Travaux (une œuvre)","Tribunus (un chef)"], c: 0, e: "Le <em>tripalium</em> était un instrument de torture : le travail est d'emblée associé à la souffrance (cf. « entrer en travail » pour l'accouchement)." },
+      { q: "Selon la Genèse, le travail est :", o: ["Un don de Dieu","Une punition consécutive au péché originel","Une vocation noble","Un jeu"], c: 1, e: "Après la faute, la nature devient hostile : l'homme mange son pain « à la sueur de son front ». Le travail est une malédiction." },
+      { q: "Pour Rousseau, quels deux arts font naître le travail contraignant et les inégalités ?", o: ["La chasse et la pêche","La métallurgie et l'agriculture","La musique et la peinture","Le commerce et la guerre"], c: 1, e: "« La métallurgie et l'agriculture sont les deux arts dont l'invention produisit cette grande révolution » — fin de l'état de nature." },
+      { q: "Le travail pénible est, selon Rousseau :", o: ["Une nécessité de la nature humaine","Le résultat d'événements contingents","Un châtiment divin","Une fatalité biologique"], c: 1, e: "Les peuples « sauvages » travaillent peu : le travail chronophage n'est pas <em>nécessaire</em> mais <em>contingent</em>." },
+      { q: "Chez Marx, l'aliénation du travail signifie que :", o: ["L'ouvrier est fatigué","Le travail est extérieur à l'ouvrier, qui s'y nie et ne s'appartient plus","L'ouvrier gagne trop peu","Le travail est trop long"], c: 1, e: "Aliéner = rendre étranger. Dans le travail forcé, l'ouvrier « ne s'affirme pas mais se nie » ; son activité appartient à un autre." },
+      { q: "Pourquoi les Anciens méprisaient-ils le travail, selon Arendt ?", o: ["Parce qu'il était réservé aux esclaves","À cause de la nature servile du travail (asservissement à la nécessité)","Parce qu'il était mal payé","Parce qu'il était inutile"], c: 1, e: "Arendt corrige le « préjugé des historiens modernes » : c'est le raisonnement inverse — on avait des esclaves <em>à cause de</em> la nature servile du travail." },
+      { q: "Le paradoxe d'Arendt sur la modernité est que nous formons :", o: ["Une société de loisirs","Une société de travailleurs sans travail","Une société sans classes","Une société d'artistes"], c: 1, e: "L'automatisation devait libérer du travail ; mais la modernité a fait du travail la valeur suprême, privant l'homme de toute autre activité." },
+      { q: "Pour Hegel, en travaillant, l'homme :", o: ["Perd son temps","Marque la matière « du sceau de son intériorité » et se reconnaît dans son œuvre","Se sépare de la nature","Imite les animaux"], c: 1, e: "Le travail est une <em>objectivation de la subjectivité</em> : l'homme s'extériorise dans son œuvre et y prend conscience de lui-même." }
+    ]
+  },
+  {
+    id: 8,
     title: "La technique et la nature",
     description: "Platon, Aristote, Descartes, Marx, Bergson, Rousseau, Jonas…",
     questions: [

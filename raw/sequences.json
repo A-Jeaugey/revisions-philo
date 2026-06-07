@@ -544,6 +544,116 @@
   {
     "id": 7,
     "number": "VII",
+    "slug": "travail",
+    "title": "Travailler, est-ce perdre sa vie en la gagnant ?",
+    "short": "De la malédiction biblique à l'humanisation : le travail, fardeau aliénant ou source de dignité ?",
+    "perspectives": [
+      "L'existence humaine et la culture"
+    ],
+    "notions": [
+      "TRAVAIL",
+      "NATURE",
+      "TECHNIQUE",
+      "Bonheur",
+      "État",
+      "Conscience",
+      "Liberté"
+    ],
+    "reperes": [
+      "nature / culture",
+      "contingent / nécessaire / possible"
+    ],
+    "work": "Rousseau, Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+    "tint": "#cf7048",
+    "essentiel": {
+      "question": "École maternelle, études, métier, tâches domestiques : on passe le plus clair de notre vie éveillée à travailler — souvent dans la peine. Le travail nous vole-t-il la vie qu'il est pourtant censé nous permettre de gagner ?",
+      "enjeu": "Le travail est nécessaire pour vivre, mais il est aussi chronophage, pénible, parfois aliénant : il semble nous éloigner du bonheur. Pourtant, c'est par le travail que l'homme se distingue de l'animal, transforme la nature et devient un être de culture. Toute la question est de savoir si, en gagnant sa vie, on la perd — ou si on la construit.",
+      "tension": "<b>Genèse, Rousseau, Marx</b> : le travail est d'abord vécu comme une malédiction — punition du péché, invention contingente source d'inégalités, aliénation de l'ouvrier moderne. <b>Arendt et Descartes</b> : d'où le vieux rêve de s'en libérer, par l'esclavage hier, par la technique aujourd'hui — un rêve qui s'est retourné en son contraire. <b>Hegel et Locke</b> : mais le travail humanise — il objective notre intériorité, fonde la propriété et les droits, donne sens à l'existence.",
+      "pieges": [
+        "<b>Travail ≠ activité libre.</b> Le travail est par définition contraint : il répond à un besoin. À distinguer de l'œuvre gratuite ou du loisir. C'est cette contrainte qui le rend pénible — mais pas nécessairement aliénant.",
+        "<b>Aliénation ≠ simple fatigue.</b> Chez Marx, être aliéné, ce n'est pas être fatigué : c'est être rendu <em>étranger à soi-même</em>, dépossédé du sens et du produit de son travail, qui appartient à un autre.",
+        "<b>Ce n'est pas le travail en soi qui est mortifère.</b> Si le travail nous fait « perdre notre vie », c'est à cause des <em>conditions culturelles</em> (économiques, politiques, de consommation) dans lesquelles on travaille — pas à cause du travail comme tel."
+      ],
+      "retenir": "On perd sa vie à la gagner quand le travail est aliéné. Mais c'est aussi par le travail que l'homme s'humanise, crée des droits et donne un sens à son existence. Le problème n'est pas le travail, mais ses conditions."
+    },
+    "plan": [
+      {
+        "t": "Le travail est une source de souffrance, donc de malheur",
+        "enjeu": "Contraignant, chronophage et pénible, le travail assure la survie mais se fait au prix d'une violence que l'homme s'inflige à lui-même. L'histoire l'a presque toujours associé à la souffrance.",
+        "sub": [
+          {
+            "t": "Le travail comme marque d'une humanité corrompue",
+            "auteur": "La Genèse",
+            "idee": "Après le péché originel, la nature nourricière devient hostile : le sol est « maudit », l'homme doit manger son pain « à la sueur de son front ». Le travail apparaît comme une punition infligée au genre humain.",
+            "apport": "Dans l'imaginaire mythique, le travail n'est pas une dimension naturelle de l'homme mais une malédiction — le signe d'un paradis (la nature gratuite) perdu."
+          },
+          {
+            "t": "Le travail chronophage est une invention humaine",
+            "auteur": "Rousseau",
+            "idee": "À l'état de nature, les hommes disposent des mêmes savoir-faire techniques modestes et vivent libres, égaux, bons et sains. C'est la métallurgie et l'agriculture qui, en introduisant la propriété et la division du travail, font naître le travail contraignant.",
+            "apport": "Le repère <em>contingent / nécessaire / possible</em> : le travail pénible n'est pas une nécessité de la condition humaine, mais le résultat d'événements contingents."
+          },
+          {
+            "t": "Le travail moderne comme source d'aliénation",
+            "auteur": "Marx",
+            "idee": "La révolution industrielle transforme l'artisan libre en prolétaire. Le travail devient extérieur à l'ouvrier : il ne s'y affirme pas mais s'y nie, il ne s'appartient plus. S'y ajoute l'exploitation économique (la plus-value).",
+            "apport": "Un grand renversement : ce qui était un moyen (le travail) devient une fin. « Au lieu de travailler pour vivre, on vit pour travailler. »"
+          }
+        ]
+      },
+      {
+        "t": "Mépris et rêve de libération du travail contraignant",
+        "enjeu": "Parce qu'il est un fardeau, le travail a longtemps été méprisé par les hommes privilégiés, qui ont rêvé de s'en affranchir — par l'esclavage hier, par la technique aujourd'hui.",
+        "sub": [
+          {
+            "t": "La hiérarchie grecque des activités humaines",
+            "auteur": "Arendt",
+            "idee": "Les Anciens ne méprisaient pas le travail parce qu'il était réservé aux esclaves : ils tenaient des esclaves à cause de la nature servile du travail. Travailler, c'était s'asservir à la nécessité. La <em>skholè</em> (temps libre) était réservée aux activités nobles : politique, science, arts.",
+            "apport": "Le travail a longtemps été assimilé à une vie animale, dont l'homme libre devait s'affranchir pour s'élever au-dessus des besoins vitaux."
+          },
+          {
+            "t": "La libération du travail par la technique",
+            "auteur": "Descartes",
+            "idee": "À l'époque moderne, la science s'allie à la technique pour nous rendre « comme maîtres et possesseurs de la nature ». L'objectif : libérer l'homme de la souffrance — celle du travail pénible et celle de notre nature corporelle (maladie, vieillissement).",
+            "apport": "Le rêve moderne : le progrès technique doit affranchir l'homme du fardeau le plus ancien, le travail."
+          },
+          {
+            "t": "La fétichisation contemporaine du travail",
+            "auteur": "Arendt",
+            "idee": "Paradoxe : l'automatisation devait libérer du travail, mais la modernité a fait du travail la valeur suprême et réduit l'homme au statut de travailleur-consommateur. Le remplacement des hommes par les machines mène à une « société de travailleurs sans travail ».",
+            "apport": "Le rêve cartésien s'est inversé : au lieu de nous libérer, le progrès nous a privés des activités plus hautes pour lesquelles il valait la peine de gagner cette liberté."
+          }
+        ]
+      },
+      {
+        "t": "Le travail revalorisé",
+        "enjeu": "Mais libérer l'homme du travail reviendrait à le déposséder de ce qui fait son humanité. Loin d'être une simple peine, le travail humanise, fonde des droits et donne sens à l'existence.",
+        "sub": [
+          {
+            "t": "Le travail comme processus d'humanisation",
+            "auteur": "Hegel / Marx",
+            "idee": "En transformant la nature, l'homme marque la matière « du sceau de son intériorité » : c'est l'objectivation de la subjectivité. En se contemplant dans son œuvre, il prend conscience de ce qu'il est. Marx ajoute : le travail humain, conscient, préexiste « dans l'imagination du travailleur ».",
+            "apport": "Le travail n'est pas que souffrance : il est le moyen par lequel l'homme se connaît, s'extériorise et se distingue de l'animal."
+          },
+          {
+            "t": "Le travail comme source de droits",
+            "auteur": "Locke",
+            "idee": "Chacun a un droit de propriété sur sa propre personne. En mêlant son travail à la matière, l'homme « y joint un élément personnel » et s'en acquiert la propriété. Marx prolonge : la reconnaissance du travail fonde la conquête des droits politiques et civiques.",
+            "apport": "Le travail est créateur de droit : il fonde la propriété (Locke) et, historiquement, la dignité sociale et la citoyenneté (Marx)."
+          },
+          {
+            "t": "Le travail thérapeutique",
+            "auteur": "Synthèse",
+            "idee": "Le travail donne un sens à l'existence, comble l'ennui et le vide, et tisse du lien social : la division du travail assure la complémentarité des individus et l'épanouissement par la relation aux autres.",
+            "apport": "Loin de n'être qu'un fardeau, le travail structure et valorise l'existence — une vie humaine vécue activement est une vie de travail."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": "VIII",
     "slug": "technique-nature",
     "title": "La technique nous éloigne-t-elle de la nature ?",
     "short": "De Prométhée à Jonas : la technique, prolongement ou rupture avec la nature ?",

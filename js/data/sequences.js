@@ -6,5 +6,6 @@ window.SEQUENCES = [
   window.SEQUENCE_4,
   window.SEQUENCE_5,
   window.SEQUENCE_6,
-  window.SEQUENCE_7
+  window.SEQUENCE_7,
+  window.SEQUENCE_8
 ];

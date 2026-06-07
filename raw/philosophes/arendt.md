@@ -8,9 +8,12 @@
 
 - Gratuité de l'art
 - Durabilité des œuvres
+- Hiérarchie grecque des activités
+- Société de travailleurs sans travail
 
 **Tags.** art, durée.
 
 ## Apparaît dans
 
 - Séquence IV — Comment définir l'art ?
+- Séquence VII — Travailler, est-ce perdre sa vie en la gagnant ?

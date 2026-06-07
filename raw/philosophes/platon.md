@@ -9,6 +9,7 @@
 - Théorie des Idées
 - Pensée = discours intérieur
 - Critique de Calliclès
+- Mythe de Prométhée
 
 **Tags.** langage, pensée, dialogue.
 
@@ -16,4 +17,4 @@
 
 - Séquence III — Y a-t-il adéquation entre le langage et la pensée ?
 - Séquence VI — A-t-on le devoir d'être heureux ?
-- Séquence VII — La technique nous éloigne-t-elle de la nature ?
+- Séquence VIII — La technique nous éloigne-t-elle de la nature ?

@@ -69,9 +69,9 @@ async function buildOne(browser, s, variant) {
 }
 
 (async () => {
-  // Args: optionnel id de séquence (1..6) et/ou variante ('cours'|'fiche')
+  // Args: optionnel id de séquence (1..8) et/ou variante ('cours'|'fiche')
   const args = process.argv.slice(2);
-  const idArg = args.find(a => /^[1-6]$/.test(a));
+  const idArg = args.find(a => /^[1-8]$/.test(a));
   const varArg = args.find(a => ['cours', 'fiche'].includes(a));
 
   const seqs = idArg

@@ -295,8 +295,9 @@ window.App = {
           <section class="help-section">
             <h3>PDFs</h3>
             <p>Sur chaque page de séquence, l'aside « Télécharger »
-            propose deux PDFs prêts à imprimer : <b>Cours complet</b>
-            et <b>Fiche de révision</b>, en mode dark.</p>
+            propose trois PDFs prêts à imprimer : <b>Cours complet</b>,
+            <b>Cours facile</b> (tout le cours, version vulgarisée et
+            simple à apprendre) et <b>Fiche de révision</b>, en mode dark.</p>
           </section>
         </div>
       `;

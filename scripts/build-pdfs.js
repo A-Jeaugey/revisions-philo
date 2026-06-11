@@ -34,6 +34,9 @@ const dataFiles = [
   'seq7.js', 'seq7b.js',
   'seq8.js', 'seq8b.js',
   'sequences.js',
+  // Contenu « cours facile » (vulgarisé), utilisé uniquement pour les PDFs
+  'facile1.js', 'facile2.js', 'facile3.js', 'facile4.js',
+  'facile5.js', 'facile6.js', 'facile7.js', 'facile8.js',
 ];
 dataFiles.forEach(f => require(path.join(DATA_DIR, f)));
 
@@ -69,15 +72,15 @@ async function buildOne(browser, s, variant) {
 }
 
 (async () => {
-  // Args: optionnel id de séquence (1..8) et/ou variante ('cours'|'fiche')
+  // Args: optionnel id de séquence (1..8) et/ou variante ('cours'|'fiche'|'facile')
   const args = process.argv.slice(2);
   const idArg = args.find(a => /^[1-8]$/.test(a));
-  const varArg = args.find(a => ['cours', 'fiche'].includes(a));
+  const varArg = args.find(a => ['cours', 'fiche', 'facile'].includes(a));
 
   const seqs = idArg
     ? SEQUENCES.filter(s => s.id === parseInt(idArg))
     : SEQUENCES;
-  const variants = varArg ? [varArg] : ['cours', 'fiche'];
+  const variants = varArg ? [varArg] : ['cours', 'fiche', 'facile'];
 
   if (!seqs.length) {
     console.error(`Aucune séquence pour id=${idArg}`);

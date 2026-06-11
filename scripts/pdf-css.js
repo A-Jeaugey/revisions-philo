@@ -5,6 +5,9 @@
 
 function renderCSS({ tint, variant }) {
   const isFiche = variant === 'fiche';
+  const footerLabel = isFiche ? 'Fiche de révision'
+    : variant === 'facile' ? 'Cours facile'
+    : 'Cours complet';
   return `
 :root {
   --tint: ${tint};
@@ -42,7 +45,7 @@ function renderCSS({ tint, variant }) {
     color: #6e6856;
   }
   @bottom-left {
-    content: "Cogito · ${isFiche ? 'Fiche de révision' : 'Cours complet'}";
+    content: "Cogito · ${footerLabel}";
     font-family: 'JetBrains Mono', monospace;
     font-size: 8pt;
     color: #6e6856;

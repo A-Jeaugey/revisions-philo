@@ -34,7 +34,12 @@ function essentielHTML(e) {
 
 function renderCover(s, variant) {
   const isFiche = variant === 'fiche';
-  const badge = isFiche ? 'FICHE DE RÉVISION' : 'COURS COMPLET';
+  const badge = isFiche ? 'FICHE DE RÉVISION'
+    : variant === 'facile' ? 'COURS FACILE'
+    : 'COURS COMPLET';
+  const subtitle = variant === 'facile'
+    ? 'Tout le cours, raconté simplement — rien ne manque, tout est plus clair.'
+    : s.short;
   const tags = (s.notions || []).slice(0, 6).map(n =>
     `<span class="cover-tag">#${n.toLowerCase()}</span>`
   ).join('');
@@ -47,7 +52,7 @@ function renderCover(s, variant) {
       <div class="cover-mid">
         <div class="cover-icon">${s.number}</div>
         <h1 class="cover-title">${s.title}<span class="dot">.</span></h1>
-        ${s.short ? `<p class="cover-subtitle">${s.short}</p>` : ''}
+        ${subtitle ? `<p class="cover-subtitle">${subtitle}</p>` : ''}
         <div class="cover-tags">${tags}</div>
       </div>
       <div class="cover-bot">
@@ -163,6 +168,17 @@ function renderCours(s) {
   `;
 }
 
+function renderFacile(s) {
+  return `
+    <main class="doc-wrap">
+      <div class="doc-body read-content">
+        ${renderEncadre(s)}
+        ${s.facile || ''}
+      </div>
+    </main>
+  `;
+}
+
 function renderFiche(s, { philosophers, notions }) {
   const auths = (philosophers || [])
     .filter(p => (p.sequences || []).includes(s.id))
@@ -219,7 +235,9 @@ function renderFiche(s, { philosophers, notions }) {
 
 function renderTemplate(s, variant, ctx = {}) {
   const cover = renderCover(s, variant);
-  const body = variant === 'fiche' ? renderFiche(s, ctx) : renderCours(s);
+  const body = variant === 'fiche' ? renderFiche(s, ctx)
+    : variant === 'facile' ? renderFacile(s)
+    : renderCours(s);
   const css = renderCSS({ tint: s.tint || '#e8a13a', variant });
   const title = `${s.title} — Cogito`;
 
